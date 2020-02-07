@@ -1,0 +1,3071 @@
+100000
+200000
+300000
+400000
+500000
+600000
+700000
+800000
+900000
+1000000
+1100000
+1200000
+1300000
+1400000
+1500000
+1600000
+1700000
+1800000
+1900000
+wordVectorsDic length 1917494
+number of documents is  20000
+self.V=all the words in all documents
+10275
+SampleNo:1
+K0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16
+No timefil!
+before call run_MStream, self.K=0,self.iterNum=5, self.V=10275
+batchNum2tweetID is  {1: 1251, 2: 2502, 3: 3753, 4: 5004, 5: 6255, 6: 7506, 7: 8757, 8: 10008, 9: 11259, 10: 12510, 11: 13761, 12: 15012, 13: 16263, 14: 17514, 15: 18765, 16: -1}
+Batch 1
+20000
+	1250 documents will be analyze. alpha is 37.50.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 2 time diff secs-kdd-gibbsSampling= 3
+maxPredLabel=503
+outlier=39, non-outlier=1211,=maxPredLabel=584
+batch 2 time diff secs-out-Connected= 0
+high_entropy_words=256, total words=1925
+batch 2 time diff secs-out-removeEntropyWords= 0
+outsPerCluster.values(), nonOuts 39 1211
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 2 time diff secs-out-customGibbsSampling= 0
+batch 2 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.235
+batch 2 time diff millisecs-out-dic_semanticSims= 5.529
+batch 2 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.176
+batch 2 time diff millisecs-out-dic_semanticSims= 2.677
+batch 2 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.225
+batch 2 time diff millisecs-out-dic_semanticSims= 5.4
+batch 2 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.229
+batch 2 time diff millisecs-out-dic_semanticSims= 5.42
+batch 2 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.206
+batch 2 time diff millisecs-out-dic_semanticSims= 5.417
+batch 2 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.178
+batch 2 time diff millisecs-out-dic_semanticSims= 5.424
+batch 2 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.206
+batch 2 time diff millisecs-out-dic_semanticSims= 5.414
+oldPredLabel not cluster=old471, cluster=861
+batch 2 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.226
+batch 2 time diff millisecs-out-dic_semanticSims= 5.433
+batch 2 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.194
+batch 2 time diff millisecs-out-dic_semanticSims= 5.487
+batch 2 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.179
+batch 2 time diff millisecs-out-dic_semanticSims= 8.262
+batch 2 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.199
+batch 2 time diff millisecs-out-dic_semanticSims= 5.45
+batch 2 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.189
+batch 2 time diff millisecs-out-dic_semanticSims= 5.432
+batch 2 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.228
+batch 2 time diff millisecs-out-dic_semanticSims= 5.455
+batch 2 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.187
+batch 2 time diff millisecs-out-dic_semanticSims= 5.448
+batch 2 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.224
+batch 2 time diff millisecs-out-dic_semanticSims= 5.443
+oldPredLabel not cluster=old479, cluster=869
+batch 2 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.177
+batch 2 time diff millisecs-out-dic_semanticSims= 5.498
+batch 2 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.188
+batch 2 time diff millisecs-out-dic_semanticSims= 5.488
+batch 2 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.203
+batch 2 time diff millisecs-out-dic_semanticSims= 5.451
+batch 2 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.198
+batch 2 time diff millisecs-out-dic_semanticSims= 5.449
+batch 2 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.22
+batch 2 time diff millisecs-out-dic_semanticSims= 5.471
+oldPredLabel not cluster=old484, cluster=874
+batch 2 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.206
+batch 2 time diff millisecs-out-dic_semanticSims= 5.445
+batch 2 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.174
+batch 2 time diff millisecs-out-dic_semanticSims= 5.452
+batch 2 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.214
+batch 2 time diff millisecs-out-dic_semanticSims= 5.437
+oldPredLabel not cluster=old487, cluster=877
+batch 2 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.205
+batch 2 time diff millisecs-out-dic_semanticSims= 5.47
+batch 2 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.213
+batch 2 time diff millisecs-out-dic_semanticSims= 5.43
+batch 2 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.181
+batch 2 time diff millisecs-out-dic_semanticSims= 7.063
+batch 2 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.301
+batch 2 time diff millisecs-out-dic_semanticSims= 7.316
+batch 2 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.299
+batch 2 time diff millisecs-out-dic_semanticSims= 7.34
+batch 2 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.307
+batch 2 time diff millisecs-out-dic_semanticSims= 6.698
+batch 2 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.199
+batch 2 time diff millisecs-out-dic_semanticSims= 5.488
+batch 2 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.236
+batch 2 time diff millisecs-out-dic_semanticSims= 5.462
+batch 2 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.244
+batch 2 time diff millisecs-out-dic_semanticSims= 5.426
+batch 2 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.215
+batch 2 time diff millisecs-out-dic_semanticSims= 5.464
+batch 2 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.216
+batch 2 time diff millisecs-out-dic_semanticSims= 5.432
+oldPredLabel not cluster=old498, cluster=888
+batch 2 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.205
+batch 2 time diff millisecs-out-dic_semanticSims= 5.489
+batch 2 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.202
+batch 2 time diff millisecs-out-dic_semanticSims= 5.489
+batch 2 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.239
+batch 2 time diff millisecs-out-dic_semanticSims= 5.95
+batch 2 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.175
+batch 2 time diff millisecs-out-dic_semanticSims= 2.695
+batch 2 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.187
+batch 2 time diff millisecs-out-dic_semanticSims= 5.451
+batch 2 time diff secs-out-assignOutlier= 0
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Stackoverflow-mstreamK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch1/
+start doc=0, end doc=1250
+total texts=1250, total clusters=120
+	Saving successful!
+Batch 2
+20000
+	2501 documents will be analyze. alpha is 75.03.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 3 time diff secs-kdd-gibbsSampling= 5
+maxPredLabel=1120
+to delete batch 3 2
+dict_keys([2, 3])
+targetbatchNo 2
+len(docsPerBatch) 1250
+batch 3 time diff secs-out-DeleteDocsUpdateCenter= 0
+outlier=55, non-outlier=1196,=maxPredLabel=1195
+batch 3 time diff secs-out-Connected= 0
+high_entropy_words=269, total words=1940
+batch 3 time diff secs-out-removeEntropyWords= 0
+outsPerCluster.values(), nonOuts 55 2407
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 3 time diff secs-out-customGibbsSampling= 0
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.226
+batch 3 time diff millisecs-out-dic_semanticSims= 5.992
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.23
+batch 3 time diff millisecs-out-dic_semanticSims= 5.922
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.226
+batch 3 time diff millisecs-out-dic_semanticSims= 5.926
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.207
+batch 3 time diff millisecs-out-dic_semanticSims= 5.937
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.198
+batch 3 time diff millisecs-out-dic_semanticSims= 5.88
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.219
+batch 3 time diff millisecs-out-dic_semanticSims= 5.971
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.222
+batch 3 time diff millisecs-out-dic_semanticSims= 5.972
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.25
+batch 3 time diff millisecs-out-dic_semanticSims= 5.948
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.243
+batch 3 time diff millisecs-out-dic_semanticSims= 5.884
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.209
+batch 3 time diff millisecs-out-dic_semanticSims= 5.919
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.214
+batch 3 time diff millisecs-out-dic_semanticSims= 5.965
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.198
+batch 3 time diff millisecs-out-dic_semanticSims= 5.926
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.199
+batch 3 time diff millisecs-out-dic_semanticSims= 5.911
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.249
+batch 3 time diff millisecs-out-dic_semanticSims= 5.961
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.199
+batch 3 time diff millisecs-out-dic_semanticSims= 5.955
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.222
+batch 3 time diff millisecs-out-dic_semanticSims= 5.994
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.21
+batch 3 time diff millisecs-out-dic_semanticSims= 6.003
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.241
+batch 3 time diff millisecs-out-dic_semanticSims= 5.958
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.239
+batch 3 time diff millisecs-out-dic_semanticSims= 5.956
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.225
+batch 3 time diff millisecs-out-dic_semanticSims= 5.928
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.206
+batch 3 time diff millisecs-out-dic_semanticSims= 5.918
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.228
+batch 3 time diff millisecs-out-dic_semanticSims= 5.924
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.224
+batch 3 time diff millisecs-out-dic_semanticSims= 5.922
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.27
+batch 3 time diff millisecs-out-dic_semanticSims= 5.958
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.225
+batch 3 time diff millisecs-out-dic_semanticSims= 5.982
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.228
+batch 3 time diff millisecs-out-dic_semanticSims= 5.94
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.207
+batch 3 time diff millisecs-out-dic_semanticSims= 5.963
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.206
+batch 3 time diff millisecs-out-dic_semanticSims= 5.931
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.205
+batch 3 time diff millisecs-out-dic_semanticSims= 5.954
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.237
+batch 3 time diff millisecs-out-dic_semanticSims= 5.939
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.207
+batch 3 time diff millisecs-out-dic_semanticSims= 5.975
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.225
+batch 3 time diff millisecs-out-dic_semanticSims= 5.947
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.254
+batch 3 time diff millisecs-out-dic_semanticSims= 5.933
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.225
+batch 3 time diff millisecs-out-dic_semanticSims= 5.917
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.24
+batch 3 time diff millisecs-out-dic_semanticSims= 5.927
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.241
+batch 3 time diff millisecs-out-dic_semanticSims= 5.942
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.239
+batch 3 time diff millisecs-out-dic_semanticSims= 5.892
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.218
+batch 3 time diff millisecs-out-dic_semanticSims= 5.939
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.219
+batch 3 time diff millisecs-out-dic_semanticSims= 5.932
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.237
+batch 3 time diff millisecs-out-dic_semanticSims= 5.92
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.221
+batch 3 time diff millisecs-out-dic_semanticSims= 5.924
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.23
+batch 3 time diff millisecs-out-dic_semanticSims= 5.908
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.215
+batch 3 time diff millisecs-out-dic_semanticSims= 5.966
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.206
+batch 3 time diff millisecs-out-dic_semanticSims= 5.918
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.209
+batch 3 time diff millisecs-out-dic_semanticSims= 5.94
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.235
+batch 3 time diff millisecs-out-dic_semanticSims= 5.959
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.217
+batch 3 time diff millisecs-out-dic_semanticSims= 5.99
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.215
+batch 3 time diff millisecs-out-dic_semanticSims= 5.958
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.231
+batch 3 time diff millisecs-out-dic_semanticSims= 5.938
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.216
+batch 3 time diff millisecs-out-dic_semanticSims= 5.939
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.221
+batch 3 time diff millisecs-out-dic_semanticSims= 5.959
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.219
+batch 3 time diff millisecs-out-dic_semanticSims= 5.952
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.188
+batch 3 time diff millisecs-out-dic_semanticSims= 5.947
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.218
+batch 3 time diff millisecs-out-dic_semanticSims= 5.958
+batch 3 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.192
+batch 3 time diff millisecs-out-dic_semanticSims= 5.929
+batch 3 time diff secs-out-assignOutlier= 0
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Stackoverflow-mstreamK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch2/
+start doc=1250, end doc=2501
+total texts=2501, total clusters=161
+	Saving successful!
+Batch 3
+20000
+	3752 documents will be analyze. alpha is 112.56.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 4 time diff secs-kdd-gibbsSampling= 5
+maxPredLabel=1388
+to delete batch 4 3
+dict_keys([2, 3, 4])
+targetbatchNo 3
+len(docsPerBatch) 1251
+batch 4 time diff secs-out-DeleteDocsUpdateCenter= 0
+outlier=68, non-outlier=1183,=maxPredLabel=1452
+batch 4 time diff secs-out-Connected= 0
+high_entropy_words=264, total words=1978
+batch 4 time diff secs-out-removeEntropyWords= 0
+outsPerCluster.values(), nonOuts 68 3590
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 4 time diff secs-out-customGibbsSampling= 0
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.253
+batch 4 time diff millisecs-out-dic_semanticSims= 6.567
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.225
+batch 4 time diff millisecs-out-dic_semanticSims= 6.529
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.24
+batch 4 time diff millisecs-out-dic_semanticSims= 6.581
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.269
+batch 4 time diff millisecs-out-dic_semanticSims= 6.576
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.204
+batch 4 time diff millisecs-out-dic_semanticSims= 6.53
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.251
+batch 4 time diff millisecs-out-dic_semanticSims= 6.453
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.247
+batch 4 time diff millisecs-out-dic_semanticSims= 6.489
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.225
+batch 4 time diff millisecs-out-dic_semanticSims= 6.468
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.229
+batch 4 time diff millisecs-out-dic_semanticSims= 6.479
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.22
+batch 4 time diff millisecs-out-dic_semanticSims= 6.475
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.214
+batch 4 time diff millisecs-out-dic_semanticSims= 6.481
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.215
+batch 4 time diff millisecs-out-dic_semanticSims= 6.467
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.21
+batch 4 time diff millisecs-out-dic_semanticSims= 6.491
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.249
+batch 4 time diff millisecs-out-dic_semanticSims= 6.456
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.224
+batch 4 time diff millisecs-out-dic_semanticSims= 6.487
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.248
+batch 4 time diff millisecs-out-dic_semanticSims= 6.48
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.227
+batch 4 time diff millisecs-out-dic_semanticSims= 6.503
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.234
+batch 4 time diff millisecs-out-dic_semanticSims= 6.503
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.224
+batch 4 time diff millisecs-out-dic_semanticSims= 6.504
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.262
+batch 4 time diff millisecs-out-dic_semanticSims= 6.484
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.258
+batch 4 time diff millisecs-out-dic_semanticSims= 6.513
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.28
+batch 4 time diff millisecs-out-dic_semanticSims= 6.474
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.218
+batch 4 time diff millisecs-out-dic_semanticSims= 6.467
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.237
+batch 4 time diff millisecs-out-dic_semanticSims= 6.477
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.224
+batch 4 time diff millisecs-out-dic_semanticSims= 6.471
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.234
+batch 4 time diff millisecs-out-dic_semanticSims= 6.46
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.235
+batch 4 time diff millisecs-out-dic_semanticSims= 6.488
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.236
+batch 4 time diff millisecs-out-dic_semanticSims= 6.46
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.234
+batch 4 time diff millisecs-out-dic_semanticSims= 6.464
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.258
+batch 4 time diff millisecs-out-dic_semanticSims= 6.505
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.256
+batch 4 time diff millisecs-out-dic_semanticSims= 6.535
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.242
+batch 4 time diff millisecs-out-dic_semanticSims= 6.533
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.227
+batch 4 time diff millisecs-out-dic_semanticSims= 6.498
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.241
+batch 4 time diff millisecs-out-dic_semanticSims= 6.514
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.232
+batch 4 time diff millisecs-out-dic_semanticSims= 6.497
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.227
+batch 4 time diff millisecs-out-dic_semanticSims= 6.458
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.279
+batch 4 time diff millisecs-out-dic_semanticSims= 6.495
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.214
+batch 4 time diff millisecs-out-dic_semanticSims= 6.537
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.267
+batch 4 time diff millisecs-out-dic_semanticSims= 6.499
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.273
+batch 4 time diff millisecs-out-dic_semanticSims= 6.452
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.244
+batch 4 time diff millisecs-out-dic_semanticSims= 6.473
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.216
+batch 4 time diff millisecs-out-dic_semanticSims= 6.449
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.259
+batch 4 time diff millisecs-out-dic_semanticSims= 6.494
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.241
+batch 4 time diff millisecs-out-dic_semanticSims= 6.472
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.224
+batch 4 time diff millisecs-out-dic_semanticSims= 6.47
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.242
+batch 4 time diff millisecs-out-dic_semanticSims= 6.464
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.236
+batch 4 time diff millisecs-out-dic_semanticSims= 6.465
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.224
+batch 4 time diff millisecs-out-dic_semanticSims= 6.478
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.227
+batch 4 time diff millisecs-out-dic_semanticSims= 6.483
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.257
+batch 4 time diff millisecs-out-dic_semanticSims= 6.484
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.239
+batch 4 time diff millisecs-out-dic_semanticSims= 6.504
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.257
+batch 4 time diff millisecs-out-dic_semanticSims= 6.526
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.294
+batch 4 time diff millisecs-out-dic_semanticSims= 6.501
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.213
+batch 4 time diff millisecs-out-dic_semanticSims= 6.495
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.234
+batch 4 time diff millisecs-out-dic_semanticSims= 6.482
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.241
+batch 4 time diff millisecs-out-dic_semanticSims= 6.486
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.226
+batch 4 time diff millisecs-out-dic_semanticSims= 6.523
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.247
+batch 4 time diff millisecs-out-dic_semanticSims= 6.489
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.237
+batch 4 time diff millisecs-out-dic_semanticSims= 6.484
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.234
+batch 4 time diff millisecs-out-dic_semanticSims= 6.497
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.257
+batch 4 time diff millisecs-out-dic_semanticSims= 6.496
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.268
+batch 4 time diff millisecs-out-dic_semanticSims= 6.47
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.225
+batch 4 time diff millisecs-out-dic_semanticSims= 6.471
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.225
+batch 4 time diff millisecs-out-dic_semanticSims= 6.454
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.258
+batch 4 time diff millisecs-out-dic_semanticSims= 6.458
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.233
+batch 4 time diff millisecs-out-dic_semanticSims= 6.469
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.247
+batch 4 time diff millisecs-out-dic_semanticSims= 7.668
+batch 4 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.609
+batch 4 time diff millisecs-out-dic_semanticSims= 7.496
+batch 4 time diff secs-out-assignOutlier= 0
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Stackoverflow-mstreamK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch3/
+start doc=2501, end doc=3752
+total texts=3752, total clusters=204
+	Saving successful!
+Batch 4
+20000
+	5003 documents will be analyze. alpha is 150.09.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 5 time diff secs-kdd-gibbsSampling= 6
+maxPredLabel=1725
+to delete batch 5 4
+dict_keys([2, 3, 4, 5])
+targetbatchNo 4
+len(docsPerBatch) 1251
+batch 5 time diff secs-out-DeleteDocsUpdateCenter= 0
+outlier=73, non-outlier=1178,=maxPredLabel=1772
+batch 5 time diff secs-out-Connected= 0
+high_entropy_words=292, total words=2005
+batch 5 time diff secs-out-removeEntropyWords= 0
+outsPerCluster.values(), nonOuts 73 4768
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 5 time diff secs-out-customGibbsSampling= 0
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.289
+batch 5 time diff millisecs-out-dic_semanticSims= 7.197
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.304
+batch 5 time diff millisecs-out-dic_semanticSims= 7.217
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.26
+batch 5 time diff millisecs-out-dic_semanticSims= 7.194
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.276
+batch 5 time diff millisecs-out-dic_semanticSims= 7.19
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.257
+batch 5 time diff millisecs-out-dic_semanticSims= 7.121
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.26
+batch 5 time diff millisecs-out-dic_semanticSims= 7.137
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.268
+batch 5 time diff millisecs-out-dic_semanticSims= 7.127
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.247
+batch 5 time diff millisecs-out-dic_semanticSims= 7.128
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.27
+batch 5 time diff millisecs-out-dic_semanticSims= 7.142
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.261
+batch 5 time diff millisecs-out-dic_semanticSims= 7.138
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.264
+batch 5 time diff millisecs-out-dic_semanticSims= 7.15
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.274
+batch 5 time diff millisecs-out-dic_semanticSims= 7.157
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.247
+batch 5 time diff millisecs-out-dic_semanticSims= 7.134
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.226
+batch 5 time diff millisecs-out-dic_semanticSims= 7.153
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.233
+batch 5 time diff millisecs-out-dic_semanticSims= 7.157
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.232
+batch 5 time diff millisecs-out-dic_semanticSims= 7.11
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.255
+batch 5 time diff millisecs-out-dic_semanticSims= 7.128
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.259
+batch 5 time diff millisecs-out-dic_semanticSims= 7.145
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.246
+batch 5 time diff millisecs-out-dic_semanticSims= 7.146
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.269
+batch 5 time diff millisecs-out-dic_semanticSims= 7.2
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.27
+batch 5 time diff millisecs-out-dic_semanticSims= 7.136
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.319
+batch 5 time diff millisecs-out-dic_semanticSims= 7.149
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.261
+batch 5 time diff millisecs-out-dic_semanticSims= 7.145
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.243
+batch 5 time diff millisecs-out-dic_semanticSims= 3.526
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.269
+batch 5 time diff millisecs-out-dic_semanticSims= 7.157
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.259
+batch 5 time diff millisecs-out-dic_semanticSims= 7.124
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.223
+batch 5 time diff millisecs-out-dic_semanticSims= 7.154
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.231
+batch 5 time diff millisecs-out-dic_semanticSims= 7.124
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.291
+batch 5 time diff millisecs-out-dic_semanticSims= 7.154
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.258
+batch 5 time diff millisecs-out-dic_semanticSims= 7.138
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.298
+batch 5 time diff millisecs-out-dic_semanticSims= 7.169
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.243
+batch 5 time diff millisecs-out-dic_semanticSims= 7.158
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.266
+batch 5 time diff millisecs-out-dic_semanticSims= 7.187
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.232
+batch 5 time diff millisecs-out-dic_semanticSims= 7.121
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.268
+batch 5 time diff millisecs-out-dic_semanticSims= 7.161
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.246
+batch 5 time diff millisecs-out-dic_semanticSims= 7.223
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.219
+batch 5 time diff millisecs-out-dic_semanticSims= 3.531
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.257
+batch 5 time diff millisecs-out-dic_semanticSims= 7.219
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.28
+batch 5 time diff millisecs-out-dic_semanticSims= 7.154
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.293
+batch 5 time diff millisecs-out-dic_semanticSims= 7.163
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.289
+batch 5 time diff millisecs-out-dic_semanticSims= 7.153
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.257
+batch 5 time diff millisecs-out-dic_semanticSims= 7.158
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.233
+batch 5 time diff millisecs-out-dic_semanticSims= 3.507
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.266
+batch 5 time diff millisecs-out-dic_semanticSims= 7.15
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.269
+batch 5 time diff millisecs-out-dic_semanticSims= 7.158
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.266
+batch 5 time diff millisecs-out-dic_semanticSims= 7.182
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.244
+batch 5 time diff millisecs-out-dic_semanticSims= 7.194
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.257
+batch 5 time diff millisecs-out-dic_semanticSims= 7.163
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.28
+batch 5 time diff millisecs-out-dic_semanticSims= 7.201
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.244
+batch 5 time diff millisecs-out-dic_semanticSims= 7.16
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.238
+batch 5 time diff millisecs-out-dic_semanticSims= 7.171
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.274
+batch 5 time diff millisecs-out-dic_semanticSims= 7.163
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.232
+batch 5 time diff millisecs-out-dic_semanticSims= 7.175
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.255
+batch 5 time diff millisecs-out-dic_semanticSims= 7.158
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.271
+batch 5 time diff millisecs-out-dic_semanticSims= 7.182
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.247
+batch 5 time diff millisecs-out-dic_semanticSims= 7.162
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.286
+batch 5 time diff millisecs-out-dic_semanticSims= 7.155
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.247
+batch 5 time diff millisecs-out-dic_semanticSims= 7.176
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.28
+batch 5 time diff millisecs-out-dic_semanticSims= 7.188
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.235
+batch 5 time diff millisecs-out-dic_semanticSims= 7.188
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.256
+batch 5 time diff millisecs-out-dic_semanticSims= 7.178
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.292
+batch 5 time diff millisecs-out-dic_semanticSims= 7.168
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.268
+batch 5 time diff millisecs-out-dic_semanticSims= 7.152
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.257
+batch 5 time diff millisecs-out-dic_semanticSims= 7.176
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.27
+batch 5 time diff millisecs-out-dic_semanticSims= 7.228
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.255
+batch 5 time diff millisecs-out-dic_semanticSims= 7.153
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.251
+batch 5 time diff millisecs-out-dic_semanticSims= 7.164
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.246
+batch 5 time diff millisecs-out-dic_semanticSims= 7.159
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.246
+batch 5 time diff millisecs-out-dic_semanticSims= 7.14
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.232
+batch 5 time diff millisecs-out-dic_semanticSims= 7.261
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.268
+batch 5 time diff millisecs-out-dic_semanticSims= 7.319
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.222
+batch 5 time diff millisecs-out-dic_semanticSims= 3.59
+batch 5 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.244
+batch 5 time diff millisecs-out-dic_semanticSims= 7.222
+batch 5 time diff secs-out-assignOutlier= 0
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Stackoverflow-mstreamK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch4/
+start doc=3752, end doc=5003
+total texts=5003, total clusters=254
+	Saving successful!
+Batch 5
+20000
+	6254 documents will be analyze. alpha is 187.62.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 6 time diff secs-kdd-gibbsSampling= 7
+maxPredLabel=2015
+to delete batch 6 5
+dict_keys([2, 3, 4, 5, 6])
+targetbatchNo 5
+len(docsPerBatch) 1251
+batch 6 time diff secs-out-DeleteDocsUpdateCenter= 0
+outlier=65, non-outlier=1186,=maxPredLabel=2055
+batch 6 time diff secs-out-Connected= 0
+high_entropy_words=287, total words=1999
+batch 6 time diff secs-out-removeEntropyWords= 0
+outsPerCluster.values(), nonOuts 65 5954
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 6 time diff secs-out-customGibbsSampling= 0
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.293
+batch 6 time diff millisecs-out-dic_semanticSims= 7.383
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.282
+batch 6 time diff millisecs-out-dic_semanticSims= 7.302
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.245
+batch 6 time diff millisecs-out-dic_semanticSims= 7.278
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.271
+batch 6 time diff millisecs-out-dic_semanticSims= 7.342
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.278
+batch 6 time diff millisecs-out-dic_semanticSims= 7.312
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.265
+batch 6 time diff millisecs-out-dic_semanticSims= 7.33
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.28
+batch 6 time diff millisecs-out-dic_semanticSims= 7.338
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.242
+batch 6 time diff millisecs-out-dic_semanticSims= 7.29
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.256
+batch 6 time diff millisecs-out-dic_semanticSims= 7.265
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.253
+batch 6 time diff millisecs-out-dic_semanticSims= 7.274
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.293
+batch 6 time diff millisecs-out-dic_semanticSims= 7.286
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.253
+batch 6 time diff millisecs-out-dic_semanticSims= 7.82
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.27
+batch 6 time diff millisecs-out-dic_semanticSims= 7.415
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.267
+batch 6 time diff millisecs-out-dic_semanticSims= 7.396
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.303
+batch 6 time diff millisecs-out-dic_semanticSims= 7.418
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.256
+batch 6 time diff millisecs-out-dic_semanticSims= 7.49
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.241
+batch 6 time diff millisecs-out-dic_semanticSims= 7.436
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.277
+batch 6 time diff millisecs-out-dic_semanticSims= 7.365
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.253
+batch 6 time diff millisecs-out-dic_semanticSims= 7.302
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.303
+batch 6 time diff millisecs-out-dic_semanticSims= 7.36
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.263
+batch 6 time diff millisecs-out-dic_semanticSims= 7.314
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.291
+batch 6 time diff millisecs-out-dic_semanticSims= 7.289
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.254
+batch 6 time diff millisecs-out-dic_semanticSims= 7.28
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.254
+batch 6 time diff millisecs-out-dic_semanticSims= 7.276
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.274
+batch 6 time diff millisecs-out-dic_semanticSims= 7.301
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.274
+batch 6 time diff millisecs-out-dic_semanticSims= 7.284
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.249
+batch 6 time diff millisecs-out-dic_semanticSims= 7.317
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.248
+batch 6 time diff millisecs-out-dic_semanticSims= 7.345
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.263
+batch 6 time diff millisecs-out-dic_semanticSims= 7.293
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.273
+batch 6 time diff millisecs-out-dic_semanticSims= 7.288
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.239
+batch 6 time diff millisecs-out-dic_semanticSims= 7.295
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.26
+batch 6 time diff millisecs-out-dic_semanticSims= 7.278
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.329
+batch 6 time diff millisecs-out-dic_semanticSims= 7.322
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.277
+batch 6 time diff millisecs-out-dic_semanticSims= 7.29
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.265
+batch 6 time diff millisecs-out-dic_semanticSims= 7.271
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.227
+batch 6 time diff millisecs-out-dic_semanticSims= 3.584
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.31
+batch 6 time diff millisecs-out-dic_semanticSims= 7.282
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.279
+batch 6 time diff millisecs-out-dic_semanticSims= 7.338
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.253
+batch 6 time diff millisecs-out-dic_semanticSims= 7.314
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.254
+batch 6 time diff millisecs-out-dic_semanticSims= 7.341
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.298
+batch 6 time diff millisecs-out-dic_semanticSims= 7.281
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.291
+batch 6 time diff millisecs-out-dic_semanticSims= 7.28
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.274
+batch 6 time diff millisecs-out-dic_semanticSims= 7.301
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.3
+batch 6 time diff millisecs-out-dic_semanticSims= 7.3
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.275
+batch 6 time diff millisecs-out-dic_semanticSims= 7.355
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.249
+batch 6 time diff millisecs-out-dic_semanticSims= 7.303
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.269
+batch 6 time diff millisecs-out-dic_semanticSims= 7.281
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.289
+batch 6 time diff millisecs-out-dic_semanticSims= 7.277
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.247
+batch 6 time diff millisecs-out-dic_semanticSims= 3.61
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.275
+batch 6 time diff millisecs-out-dic_semanticSims= 7.333
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.28
+batch 6 time diff millisecs-out-dic_semanticSims= 7.501
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.229
+batch 6 time diff millisecs-out-dic_semanticSims= 3.674
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.268
+batch 6 time diff millisecs-out-dic_semanticSims= 7.441
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.27
+batch 6 time diff millisecs-out-dic_semanticSims= 7.462
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.258
+batch 6 time diff millisecs-out-dic_semanticSims= 7.452
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.318
+batch 6 time diff millisecs-out-dic_semanticSims= 7.468
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.258
+batch 6 time diff millisecs-out-dic_semanticSims= 7.466
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.246
+batch 6 time diff millisecs-out-dic_semanticSims= 7.468
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.27
+batch 6 time diff millisecs-out-dic_semanticSims= 7.515
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.231
+batch 6 time diff millisecs-out-dic_semanticSims= 3.693
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.281
+batch 6 time diff millisecs-out-dic_semanticSims= 7.453
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.268
+batch 6 time diff millisecs-out-dic_semanticSims= 7.453
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.289
+batch 6 time diff millisecs-out-dic_semanticSims= 7.469
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.283
+batch 6 time diff millisecs-out-dic_semanticSims= 7.442
+batch 6 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.285
+batch 6 time diff millisecs-out-dic_semanticSims= 7.525
+batch 6 time diff secs-out-assignOutlier= 0
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Stackoverflow-mstreamK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch5/
+start doc=5003, end doc=6254
+total texts=6254, total clusters=303
+	Saving successful!
+Batch 6
+20000
+	7505 documents will be analyze. alpha is 225.15.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 7 time diff secs-kdd-gibbsSampling= 7
+maxPredLabel=2412
+to delete batch 7 6
+dict_keys([2, 3, 4, 5, 6, 7])
+targetbatchNo 6
+len(docsPerBatch) 1251
+batch 7 time diff secs-out-DeleteDocsUpdateCenter= 0
+outlier=79, non-outlier=1172,=maxPredLabel=2459
+batch 7 time diff secs-out-Connected= 0
+high_entropy_words=281, total words=1998
+batch 7 time diff secs-out-removeEntropyWords= 0
+outsPerCluster.values(), nonOuts 79 7126
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 7 time diff secs-out-customGibbsSampling= 0
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.279
+batch 7 time diff millisecs-out-dic_semanticSims= 7.737
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.329
+batch 7 time diff millisecs-out-dic_semanticSims= 7.68
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.283
+batch 7 time diff millisecs-out-dic_semanticSims= 7.578
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.294
+batch 7 time diff millisecs-out-dic_semanticSims= 7.609
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.254
+batch 7 time diff millisecs-out-dic_semanticSims= 7.6
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.324
+batch 7 time diff millisecs-out-dic_semanticSims= 7.586
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.296
+batch 7 time diff millisecs-out-dic_semanticSims= 7.616
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.326
+batch 7 time diff millisecs-out-dic_semanticSims= 7.62
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.255
+batch 7 time diff millisecs-out-dic_semanticSims= 3.766
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.276
+batch 7 time diff millisecs-out-dic_semanticSims= 7.633
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.257
+batch 7 time diff millisecs-out-dic_semanticSims= 7.614
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.257
+batch 7 time diff millisecs-out-dic_semanticSims= 7.613
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.293
+batch 7 time diff millisecs-out-dic_semanticSims= 7.587
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.267
+batch 7 time diff millisecs-out-dic_semanticSims= 7.612
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.281
+batch 7 time diff millisecs-out-dic_semanticSims= 7.605
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.255
+batch 7 time diff millisecs-out-dic_semanticSims= 7.649
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.306
+batch 7 time diff millisecs-out-dic_semanticSims= 7.622
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.25
+batch 7 time diff millisecs-out-dic_semanticSims= 7.629
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.271
+batch 7 time diff millisecs-out-dic_semanticSims= 7.641
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.284
+batch 7 time diff millisecs-out-dic_semanticSims= 7.643
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.281
+batch 7 time diff millisecs-out-dic_semanticSims= 7.627
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.28
+batch 7 time diff millisecs-out-dic_semanticSims= 7.623
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.268
+batch 7 time diff millisecs-out-dic_semanticSims= 7.588
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.252
+batch 7 time diff millisecs-out-dic_semanticSims= 3.765
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.266
+batch 7 time diff millisecs-out-dic_semanticSims= 7.619
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.263
+batch 7 time diff millisecs-out-dic_semanticSims= 7.65
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.256
+batch 7 time diff millisecs-out-dic_semanticSims= 7.682
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.28
+batch 7 time diff millisecs-out-dic_semanticSims= 7.712
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.279
+batch 7 time diff millisecs-out-dic_semanticSims= 7.636
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.266
+batch 7 time diff millisecs-out-dic_semanticSims= 7.652
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.269
+batch 7 time diff millisecs-out-dic_semanticSims= 7.609
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.251
+batch 7 time diff millisecs-out-dic_semanticSims= 7.623
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.279
+batch 7 time diff millisecs-out-dic_semanticSims= 7.618
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.311
+batch 7 time diff millisecs-out-dic_semanticSims= 7.634
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.267
+batch 7 time diff millisecs-out-dic_semanticSims= 7.642
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.324
+batch 7 time diff millisecs-out-dic_semanticSims= 7.602
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.334
+batch 7 time diff millisecs-out-dic_semanticSims= 7.598
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.267
+batch 7 time diff millisecs-out-dic_semanticSims= 7.611
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.292
+batch 7 time diff millisecs-out-dic_semanticSims= 7.611
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.294
+batch 7 time diff millisecs-out-dic_semanticSims= 7.638
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.282
+batch 7 time diff millisecs-out-dic_semanticSims= 7.69
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.264
+batch 7 time diff millisecs-out-dic_semanticSims= 7.639
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.281
+batch 7 time diff millisecs-out-dic_semanticSims= 7.642
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.293
+batch 7 time diff millisecs-out-dic_semanticSims= 7.65
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.27
+batch 7 time diff millisecs-out-dic_semanticSims= 7.642
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.297
+batch 7 time diff millisecs-out-dic_semanticSims= 7.621
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.273
+batch 7 time diff millisecs-out-dic_semanticSims= 7.607
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.285
+batch 7 time diff millisecs-out-dic_semanticSims= 7.64
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.274
+batch 7 time diff millisecs-out-dic_semanticSims= 7.633
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.296
+batch 7 time diff millisecs-out-dic_semanticSims= 7.612
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.281
+batch 7 time diff millisecs-out-dic_semanticSims= 7.61
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.282
+batch 7 time diff millisecs-out-dic_semanticSims= 7.606
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.293
+batch 7 time diff millisecs-out-dic_semanticSims= 7.609
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.28
+batch 7 time diff millisecs-out-dic_semanticSims= 7.653
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.269
+batch 7 time diff millisecs-out-dic_semanticSims= 7.628
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.289
+batch 7 time diff millisecs-out-dic_semanticSims= 7.645
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.305
+batch 7 time diff millisecs-out-dic_semanticSims= 7.686
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.28
+batch 7 time diff millisecs-out-dic_semanticSims= 7.671
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.287
+batch 7 time diff millisecs-out-dic_semanticSims= 7.684
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.282
+batch 7 time diff millisecs-out-dic_semanticSims= 7.618
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.304
+batch 7 time diff millisecs-out-dic_semanticSims= 7.683
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.251
+batch 7 time diff millisecs-out-dic_semanticSims= 7.656
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.278
+batch 7 time diff millisecs-out-dic_semanticSims= 7.635
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.279
+batch 7 time diff millisecs-out-dic_semanticSims= 7.648
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.279
+batch 7 time diff millisecs-out-dic_semanticSims= 7.656
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.332
+batch 7 time diff millisecs-out-dic_semanticSims= 7.644
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.278
+batch 7 time diff millisecs-out-dic_semanticSims= 7.625
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.295
+batch 7 time diff millisecs-out-dic_semanticSims= 7.677
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.303
+batch 7 time diff millisecs-out-dic_semanticSims= 7.696
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.295
+batch 7 time diff millisecs-out-dic_semanticSims= 7.635
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.309
+batch 7 time diff millisecs-out-dic_semanticSims= 7.647
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.283
+batch 7 time diff millisecs-out-dic_semanticSims= 7.645
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.288
+batch 7 time diff millisecs-out-dic_semanticSims= 7.641
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.32
+batch 7 time diff millisecs-out-dic_semanticSims= 7.636
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.276
+batch 7 time diff millisecs-out-dic_semanticSims= 7.638
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.256
+batch 7 time diff millisecs-out-dic_semanticSims= 3.774
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.308
+batch 7 time diff millisecs-out-dic_semanticSims= 7.604
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.289
+batch 7 time diff millisecs-out-dic_semanticSims= 7.643
+batch 7 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.323
+batch 7 time diff millisecs-out-dic_semanticSims= 7.63
+batch 7 time diff secs-out-assignOutlier= 0
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Stackoverflow-mstreamK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch6/
+start doc=6254, end doc=7505
+total texts=7505, total clusters=362
+	Saving successful!
+Batch 7
+20000
+	8756 documents will be analyze. alpha is 262.68.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 8 time diff secs-kdd-gibbsSampling= 8
+maxPredLabel=2743
+to delete batch 8 7
+dict_keys([2, 3, 4, 5, 6, 7, 8])
+targetbatchNo 7
+len(docsPerBatch) 1251
+batch 8 time diff secs-out-DeleteDocsUpdateCenter= 0
+outlier=68, non-outlier=1183,=maxPredLabel=2781
+batch 8 time diff secs-out-Connected= 0
+high_entropy_words=268, total words=1935
+batch 8 time diff secs-out-removeEntropyWords= 0
+outsPerCluster.values(), nonOuts 68 8309
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 8 time diff secs-out-customGibbsSampling= 0
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.31
+batch 8 time diff millisecs-out-dic_semanticSims= 8.128
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.277
+batch 8 time diff millisecs-out-dic_semanticSims= 8.036
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.334
+batch 8 time diff millisecs-out-dic_semanticSims= 8.039
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.286
+batch 8 time diff millisecs-out-dic_semanticSims= 8.071
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.272
+batch 8 time diff millisecs-out-dic_semanticSims= 8.044
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.272
+batch 8 time diff millisecs-out-dic_semanticSims= 8.109
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.35
+batch 8 time diff millisecs-out-dic_semanticSims= 8.055
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.282
+batch 8 time diff millisecs-out-dic_semanticSims= 8.061
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.296
+batch 8 time diff millisecs-out-dic_semanticSims= 8.138
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.269
+batch 8 time diff millisecs-out-dic_semanticSims= 8.06
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.269
+batch 8 time diff millisecs-out-dic_semanticSims= 8.032
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.289
+batch 8 time diff millisecs-out-dic_semanticSims= 8.034
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.309
+batch 8 time diff millisecs-out-dic_semanticSims= 8.066
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.317
+batch 8 time diff millisecs-out-dic_semanticSims= 8.149
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.289
+batch 8 time diff millisecs-out-dic_semanticSims= 8.237
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.328
+batch 8 time diff millisecs-out-dic_semanticSims= 8.092
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.299
+batch 8 time diff millisecs-out-dic_semanticSims= 8.103
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.282
+batch 8 time diff millisecs-out-dic_semanticSims= 8.057
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.309
+batch 8 time diff millisecs-out-dic_semanticSims= 8.035
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.279
+batch 8 time diff millisecs-out-dic_semanticSims= 8.079
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.327
+batch 8 time diff millisecs-out-dic_semanticSims= 8.092
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.281
+batch 8 time diff millisecs-out-dic_semanticSims= 8.058
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.281
+batch 8 time diff millisecs-out-dic_semanticSims= 8.057
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.282
+batch 8 time diff millisecs-out-dic_semanticSims= 8.06
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.281
+batch 8 time diff millisecs-out-dic_semanticSims= 8.098
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.306
+batch 8 time diff millisecs-out-dic_semanticSims= 8.075
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.294
+batch 8 time diff millisecs-out-dic_semanticSims= 8.108
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.329
+batch 8 time diff millisecs-out-dic_semanticSims= 8.073
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.282
+batch 8 time diff millisecs-out-dic_semanticSims= 8.075
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.297
+batch 8 time diff millisecs-out-dic_semanticSims= 8.089
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.27
+batch 8 time diff millisecs-out-dic_semanticSims= 8.082
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.351
+batch 8 time diff millisecs-out-dic_semanticSims= 8.068
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.285
+batch 8 time diff millisecs-out-dic_semanticSims= 8.107
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.296
+batch 8 time diff millisecs-out-dic_semanticSims= 8.083
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.28
+batch 8 time diff millisecs-out-dic_semanticSims= 8.058
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.308
+batch 8 time diff millisecs-out-dic_semanticSims= 8.063
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.301
+batch 8 time diff millisecs-out-dic_semanticSims= 8.075
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.309
+batch 8 time diff millisecs-out-dic_semanticSims= 8.085
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.3
+batch 8 time diff millisecs-out-dic_semanticSims= 8.082
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.287
+batch 8 time diff millisecs-out-dic_semanticSims= 8.107
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.293
+batch 8 time diff millisecs-out-dic_semanticSims= 8.098
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.3
+batch 8 time diff millisecs-out-dic_semanticSims= 8.106
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.315
+batch 8 time diff millisecs-out-dic_semanticSims= 8.088
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.327
+batch 8 time diff millisecs-out-dic_semanticSims= 8.085
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.259
+batch 8 time diff millisecs-out-dic_semanticSims= 8.172
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.309
+batch 8 time diff millisecs-out-dic_semanticSims= 8.162
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.282
+batch 8 time diff millisecs-out-dic_semanticSims= 8.142
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.27
+batch 8 time diff millisecs-out-dic_semanticSims= 8.093
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.315
+batch 8 time diff millisecs-out-dic_semanticSims= 8.089
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.283
+batch 8 time diff millisecs-out-dic_semanticSims= 8.159
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.327
+batch 8 time diff millisecs-out-dic_semanticSims= 8.128
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.328
+batch 8 time diff millisecs-out-dic_semanticSims= 8.15
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.279
+batch 8 time diff millisecs-out-dic_semanticSims= 8.095
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.299
+batch 8 time diff millisecs-out-dic_semanticSims= 8.081
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.298
+batch 8 time diff millisecs-out-dic_semanticSims= 8.087
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.296
+batch 8 time diff millisecs-out-dic_semanticSims= 8.112
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.268
+batch 8 time diff millisecs-out-dic_semanticSims= 8.095
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.299
+batch 8 time diff millisecs-out-dic_semanticSims= 8.12
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.323
+batch 8 time diff millisecs-out-dic_semanticSims= 8.075
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.314
+batch 8 time diff millisecs-out-dic_semanticSims= 8.075
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.283
+batch 8 time diff millisecs-out-dic_semanticSims= 8.12
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.313
+batch 8 time diff millisecs-out-dic_semanticSims= 8.083
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.301
+batch 8 time diff millisecs-out-dic_semanticSims= 8.078
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.305
+batch 8 time diff millisecs-out-dic_semanticSims= 8.058
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.327
+batch 8 time diff millisecs-out-dic_semanticSims= 8.078
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.328
+batch 8 time diff millisecs-out-dic_semanticSims= 8.064
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.283
+batch 8 time diff millisecs-out-dic_semanticSims= 8.068
+batch 8 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.284
+batch 8 time diff millisecs-out-dic_semanticSims= 8.093
+batch 8 time diff secs-out-assignOutlier= 0
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Stackoverflow-mstreamK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch7/
+start doc=7505, end doc=8756
+total texts=8756, total clusters=414
+	Saving successful!
+Batch 8
+20000
+	10007 documents will be analyze. alpha is 300.21.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 9 time diff secs-kdd-gibbsSampling= 9
+maxPredLabel=3166
+to delete batch 9 8
+dict_keys([2, 3, 4, 5, 6, 7, 8, 9])
+targetbatchNo 8
+len(docsPerBatch) 1251
+batch 9 time diff secs-out-DeleteDocsUpdateCenter= 0
+outlier=86, non-outlier=1165,=maxPredLabel=3211
+batch 9 time diff secs-out-Connected= 0
+high_entropy_words=261, total words=1893
+batch 9 time diff secs-out-removeEntropyWords= 0
+outsPerCluster.values(), nonOuts 86 9474
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 9 time diff secs-out-customGibbsSampling= 0
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.332
+batch 9 time diff millisecs-out-dic_semanticSims= 8.576
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.318
+batch 9 time diff millisecs-out-dic_semanticSims= 8.522
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.385
+batch 9 time diff millisecs-out-dic_semanticSims= 8.436
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.283
+batch 9 time diff millisecs-out-dic_semanticSims= 8.462
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.284
+batch 9 time diff millisecs-out-dic_semanticSims= 8.478
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.282
+batch 9 time diff millisecs-out-dic_semanticSims= 8.484
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.394
+batch 9 time diff millisecs-out-dic_semanticSims= 8.473
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.311
+batch 9 time diff millisecs-out-dic_semanticSims= 8.498
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.322
+batch 9 time diff millisecs-out-dic_semanticSims= 8.568
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.28
+batch 9 time diff millisecs-out-dic_semanticSims= 8.579
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.303
+batch 9 time diff millisecs-out-dic_semanticSims= 8.527
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.316
+batch 9 time diff millisecs-out-dic_semanticSims= 8.476
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.346
+batch 9 time diff millisecs-out-dic_semanticSims= 8.481
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.309
+batch 9 time diff millisecs-out-dic_semanticSims= 8.5
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.298
+batch 9 time diff millisecs-out-dic_semanticSims= 8.474
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.326
+batch 9 time diff millisecs-out-dic_semanticSims= 8.459
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.325
+batch 9 time diff millisecs-out-dic_semanticSims= 8.499
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.299
+batch 9 time diff millisecs-out-dic_semanticSims= 8.519
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.311
+batch 9 time diff millisecs-out-dic_semanticSims= 8.493
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.313
+batch 9 time diff millisecs-out-dic_semanticSims= 8.47
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.298
+batch 9 time diff millisecs-out-dic_semanticSims= 8.489
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.323
+batch 9 time diff millisecs-out-dic_semanticSims= 8.434
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.286
+batch 9 time diff millisecs-out-dic_semanticSims= 8.468
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.296
+batch 9 time diff millisecs-out-dic_semanticSims= 8.528
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.355
+batch 9 time diff millisecs-out-dic_semanticSims= 8.508
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.313
+batch 9 time diff millisecs-out-dic_semanticSims= 8.511
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.293
+batch 9 time diff millisecs-out-dic_semanticSims= 8.484
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.279
+batch 9 time diff millisecs-out-dic_semanticSims= 8.469
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.302
+batch 9 time diff millisecs-out-dic_semanticSims= 8.469
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.304
+batch 9 time diff millisecs-out-dic_semanticSims= 8.462
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.322
+batch 9 time diff millisecs-out-dic_semanticSims= 8.469
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.301
+batch 9 time diff millisecs-out-dic_semanticSims= 8.482
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.282
+batch 9 time diff millisecs-out-dic_semanticSims= 4.19
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.343
+batch 9 time diff millisecs-out-dic_semanticSims= 8.453
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.311
+batch 9 time diff millisecs-out-dic_semanticSims= 8.5
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.281
+batch 9 time diff millisecs-out-dic_semanticSims= 8.468
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.284
+batch 9 time diff millisecs-out-dic_semanticSims= 8.514
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.312
+batch 9 time diff millisecs-out-dic_semanticSims= 8.542
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.299
+batch 9 time diff millisecs-out-dic_semanticSims= 8.505
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.295
+batch 9 time diff millisecs-out-dic_semanticSims= 8.45
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.298
+batch 9 time diff millisecs-out-dic_semanticSims= 8.468
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.356
+batch 9 time diff millisecs-out-dic_semanticSims= 8.457
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.343
+batch 9 time diff millisecs-out-dic_semanticSims= 8.474
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.3
+batch 9 time diff millisecs-out-dic_semanticSims= 8.471
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.283
+batch 9 time diff millisecs-out-dic_semanticSims= 8.49
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.282
+batch 9 time diff millisecs-out-dic_semanticSims= 8.438
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.323
+batch 9 time diff millisecs-out-dic_semanticSims= 8.487
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.31
+batch 9 time diff millisecs-out-dic_semanticSims= 8.465
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.323
+batch 9 time diff millisecs-out-dic_semanticSims= 8.479
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.301
+batch 9 time diff millisecs-out-dic_semanticSims= 8.526
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.299
+batch 9 time diff millisecs-out-dic_semanticSims= 8.554
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.367
+batch 9 time diff millisecs-out-dic_semanticSims= 8.491
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.31
+batch 9 time diff millisecs-out-dic_semanticSims= 8.53
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.296
+batch 9 time diff millisecs-out-dic_semanticSims= 8.497
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.312
+batch 9 time diff millisecs-out-dic_semanticSims= 8.458
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.304
+batch 9 time diff millisecs-out-dic_semanticSims= 8.494
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.352
+batch 9 time diff millisecs-out-dic_semanticSims= 8.491
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.312
+batch 9 time diff millisecs-out-dic_semanticSims= 8.475
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.348
+batch 9 time diff millisecs-out-dic_semanticSims= 8.516
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.307
+batch 9 time diff millisecs-out-dic_semanticSims= 8.465
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.283
+batch 9 time diff millisecs-out-dic_semanticSims= 8.483
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.309
+batch 9 time diff millisecs-out-dic_semanticSims= 8.497
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.342
+batch 9 time diff millisecs-out-dic_semanticSims= 8.492
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.268
+batch 9 time diff millisecs-out-dic_semanticSims= 4.168
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.294
+batch 9 time diff millisecs-out-dic_semanticSims= 8.486
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.308
+batch 9 time diff millisecs-out-dic_semanticSims= 8.507
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.31
+batch 9 time diff millisecs-out-dic_semanticSims= 8.598
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.278
+batch 9 time diff millisecs-out-dic_semanticSims= 4.226
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.299
+batch 9 time diff millisecs-out-dic_semanticSims= 8.476
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.285
+batch 9 time diff millisecs-out-dic_semanticSims= 8.49
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.31
+batch 9 time diff millisecs-out-dic_semanticSims= 8.476
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.314
+batch 9 time diff millisecs-out-dic_semanticSims= 8.46
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.299
+batch 9 time diff millisecs-out-dic_semanticSims= 8.457
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.311
+batch 9 time diff millisecs-out-dic_semanticSims= 8.473
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.294
+batch 9 time diff millisecs-out-dic_semanticSims= 8.479
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.281
+batch 9 time diff millisecs-out-dic_semanticSims= 8.443
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.297
+batch 9 time diff millisecs-out-dic_semanticSims= 8.447
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.321
+batch 9 time diff millisecs-out-dic_semanticSims= 8.452
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.31
+batch 9 time diff millisecs-out-dic_semanticSims= 8.446
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.352
+batch 9 time diff millisecs-out-dic_semanticSims= 8.479
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.28
+batch 9 time diff millisecs-out-dic_semanticSims= 8.474
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.311
+batch 9 time diff millisecs-out-dic_semanticSims= 8.481
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.294
+batch 9 time diff millisecs-out-dic_semanticSims= 8.47
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.295
+batch 9 time diff millisecs-out-dic_semanticSims= 8.477
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.352
+batch 9 time diff millisecs-out-dic_semanticSims= 8.448
+batch 9 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.325
+batch 9 time diff millisecs-out-dic_semanticSims= 8.464
+batch 9 time diff secs-out-assignOutlier= 0
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Stackoverflow-mstreamK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch8/
+start doc=8756, end doc=10007
+total texts=10007, total clusters=483
+	Saving successful!
+Batch 9
+20000
+	11258 documents will be analyze. alpha is 337.74.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 10 time diff secs-kdd-gibbsSampling= 11
+maxPredLabel=3760
+to delete batch 10 9
+dict_keys([2, 3, 4, 5, 6, 7, 8, 9, 10])
+targetbatchNo 9
+len(docsPerBatch) 1251
+batch 10 time diff secs-out-DeleteDocsUpdateCenter= 0
+outlier=104, non-outlier=1147,=maxPredLabel=3793
+batch 10 time diff secs-out-Connected= 0
+high_entropy_words=253, total words=1877
+batch 10 time diff secs-out-removeEntropyWords= 0
+outsPerCluster.values(), nonOuts 104 10621
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 10 time diff secs-out-customGibbsSampling= 1
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.345
+batch 10 time diff millisecs-out-dic_semanticSims= 9.0
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.329
+batch 10 time diff millisecs-out-dic_semanticSims= 8.921
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.307
+batch 10 time diff millisecs-out-dic_semanticSims= 8.897
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.312
+batch 10 time diff millisecs-out-dic_semanticSims= 8.875
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.295
+batch 10 time diff millisecs-out-dic_semanticSims= 8.891
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.328
+batch 10 time diff millisecs-out-dic_semanticSims= 8.886
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.311
+batch 10 time diff millisecs-out-dic_semanticSims= 8.946
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.31
+batch 10 time diff millisecs-out-dic_semanticSims= 8.897
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.296
+batch 10 time diff millisecs-out-dic_semanticSims= 4.457
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.329
+batch 10 time diff millisecs-out-dic_semanticSims= 8.886
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.331
+batch 10 time diff millisecs-out-dic_semanticSims= 8.871
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.297
+batch 10 time diff millisecs-out-dic_semanticSims= 8.873
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.333
+batch 10 time diff millisecs-out-dic_semanticSims= 8.929
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.345
+batch 10 time diff millisecs-out-dic_semanticSims= 8.866
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.338
+batch 10 time diff millisecs-out-dic_semanticSims= 8.853
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.296
+batch 10 time diff millisecs-out-dic_semanticSims= 8.875
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.294
+batch 10 time diff millisecs-out-dic_semanticSims= 8.909
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.294
+batch 10 time diff millisecs-out-dic_semanticSims= 8.954
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.301
+batch 10 time diff millisecs-out-dic_semanticSims= 9.012
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.323
+batch 10 time diff millisecs-out-dic_semanticSims= 8.935
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.338
+batch 10 time diff millisecs-out-dic_semanticSims= 8.968
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.297
+batch 10 time diff millisecs-out-dic_semanticSims= 8.991
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.339
+batch 10 time diff millisecs-out-dic_semanticSims= 8.954
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.307
+batch 10 time diff millisecs-out-dic_semanticSims= 8.889
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.364
+batch 10 time diff millisecs-out-dic_semanticSims= 8.903
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.34
+batch 10 time diff millisecs-out-dic_semanticSims= 8.921
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.386
+batch 10 time diff millisecs-out-dic_semanticSims= 8.895
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.293
+batch 10 time diff millisecs-out-dic_semanticSims= 8.888
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.298
+batch 10 time diff millisecs-out-dic_semanticSims= 8.909
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.324
+batch 10 time diff millisecs-out-dic_semanticSims= 8.93
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.294
+batch 10 time diff millisecs-out-dic_semanticSims= 8.909
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.324
+batch 10 time diff millisecs-out-dic_semanticSims= 8.905
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.339
+batch 10 time diff millisecs-out-dic_semanticSims= 8.906
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.325
+batch 10 time diff millisecs-out-dic_semanticSims= 8.906
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.325
+batch 10 time diff millisecs-out-dic_semanticSims= 8.941
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.312
+batch 10 time diff millisecs-out-dic_semanticSims= 8.932
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.36
+batch 10 time diff millisecs-out-dic_semanticSims= 8.915
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.297
+batch 10 time diff millisecs-out-dic_semanticSims= 8.939
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.293
+batch 10 time diff millisecs-out-dic_semanticSims= 8.924
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.347
+batch 10 time diff millisecs-out-dic_semanticSims= 8.922
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.319
+batch 10 time diff millisecs-out-dic_semanticSims= 8.909
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.328
+batch 10 time diff millisecs-out-dic_semanticSims= 8.916
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.374
+batch 10 time diff millisecs-out-dic_semanticSims= 8.913
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.33
+batch 10 time diff millisecs-out-dic_semanticSims= 8.944
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.358
+batch 10 time diff millisecs-out-dic_semanticSims= 8.982
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.282
+batch 10 time diff millisecs-out-dic_semanticSims= 9.006
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.339
+batch 10 time diff millisecs-out-dic_semanticSims= 8.964
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.341
+batch 10 time diff millisecs-out-dic_semanticSims= 8.902
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.336
+batch 10 time diff millisecs-out-dic_semanticSims= 8.906
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.326
+batch 10 time diff millisecs-out-dic_semanticSims= 8.907
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.363
+batch 10 time diff millisecs-out-dic_semanticSims= 8.927
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.343
+batch 10 time diff millisecs-out-dic_semanticSims= 8.911
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.36
+batch 10 time diff millisecs-out-dic_semanticSims= 8.909
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.307
+batch 10 time diff millisecs-out-dic_semanticSims= 8.925
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.326
+batch 10 time diff millisecs-out-dic_semanticSims= 8.973
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.278
+batch 10 time diff millisecs-out-dic_semanticSims= 4.428
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.321
+batch 10 time diff millisecs-out-dic_semanticSims= 8.893
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.34
+batch 10 time diff millisecs-out-dic_semanticSims= 8.899
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.329
+batch 10 time diff millisecs-out-dic_semanticSims= 8.91
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.289
+batch 10 time diff millisecs-out-dic_semanticSims= 8.9
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.357
+batch 10 time diff millisecs-out-dic_semanticSims= 8.911
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.398
+batch 10 time diff millisecs-out-dic_semanticSims= 8.921
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.325
+batch 10 time diff millisecs-out-dic_semanticSims= 8.915
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.31
+batch 10 time diff millisecs-out-dic_semanticSims= 8.884
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.324
+batch 10 time diff millisecs-out-dic_semanticSims= 8.94
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.325
+batch 10 time diff millisecs-out-dic_semanticSims= 8.917
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.293
+batch 10 time diff millisecs-out-dic_semanticSims= 8.91
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.367
+batch 10 time diff millisecs-out-dic_semanticSims= 8.89
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.323
+batch 10 time diff millisecs-out-dic_semanticSims= 8.923
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.362
+batch 10 time diff millisecs-out-dic_semanticSims= 8.918
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.325
+batch 10 time diff millisecs-out-dic_semanticSims= 8.924
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.337
+batch 10 time diff millisecs-out-dic_semanticSims= 9.015
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.333
+batch 10 time diff millisecs-out-dic_semanticSims= 9.002
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.295
+batch 10 time diff millisecs-out-dic_semanticSims= 8.952
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.313
+batch 10 time diff millisecs-out-dic_semanticSims= 8.93
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.321
+batch 10 time diff millisecs-out-dic_semanticSims= 8.935
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.329
+batch 10 time diff millisecs-out-dic_semanticSims= 8.964
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.36
+batch 10 time diff millisecs-out-dic_semanticSims= 8.903
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.331
+batch 10 time diff millisecs-out-dic_semanticSims= 8.973
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.315
+batch 10 time diff millisecs-out-dic_semanticSims= 8.96
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.313
+batch 10 time diff millisecs-out-dic_semanticSims= 8.907
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.392
+batch 10 time diff millisecs-out-dic_semanticSims= 8.914
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.321
+batch 10 time diff millisecs-out-dic_semanticSims= 8.947
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.308
+batch 10 time diff millisecs-out-dic_semanticSims= 8.914
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.336
+batch 10 time diff millisecs-out-dic_semanticSims= 8.895
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.353
+batch 10 time diff millisecs-out-dic_semanticSims= 8.922
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.356
+batch 10 time diff millisecs-out-dic_semanticSims= 8.925
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.325
+batch 10 time diff millisecs-out-dic_semanticSims= 8.88
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.313
+batch 10 time diff millisecs-out-dic_semanticSims= 8.907
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.311
+batch 10 time diff millisecs-out-dic_semanticSims= 8.882
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.306
+batch 10 time diff millisecs-out-dic_semanticSims= 8.913
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.309
+batch 10 time diff millisecs-out-dic_semanticSims= 8.922
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.393
+batch 10 time diff millisecs-out-dic_semanticSims= 8.882
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.294
+batch 10 time diff millisecs-out-dic_semanticSims= 8.873
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.295
+batch 10 time diff millisecs-out-dic_semanticSims= 8.901
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.356
+batch 10 time diff millisecs-out-dic_semanticSims= 8.935
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.294
+batch 10 time diff millisecs-out-dic_semanticSims= 8.927
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.31
+batch 10 time diff millisecs-out-dic_semanticSims= 8.987
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.328
+batch 10 time diff millisecs-out-dic_semanticSims= 8.986
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.325
+batch 10 time diff millisecs-out-dic_semanticSims= 8.973
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.328
+batch 10 time diff millisecs-out-dic_semanticSims= 8.934
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.324
+batch 10 time diff millisecs-out-dic_semanticSims= 8.924
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.322
+batch 10 time diff millisecs-out-dic_semanticSims= 8.953
+batch 10 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.347
+batch 10 time diff millisecs-out-dic_semanticSims= 8.916
+batch 10 time diff secs-out-assignOutlier= 0
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Stackoverflow-mstreamK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch9/
+start doc=10007, end doc=11258
+total texts=11258, total clusters=575
+	Saving successful!
+Batch 10
+20000
+	12509 documents will be analyze. alpha is 375.27.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 11 time diff secs-kdd-gibbsSampling= 11
+maxPredLabel=4234
+to delete batch 11 10
+dict_keys([2, 3, 4, 5, 6, 7, 8, 9, 10, 11])
+targetbatchNo 10
+len(docsPerBatch) 1251
+batch 11 time diff secs-out-DeleteDocsUpdateCenter= 0
+outlier=82, non-outlier=1169,=maxPredLabel=4263
+batch 11 time diff secs-out-Connected= 0
+high_entropy_words=271, total words=1959
+batch 11 time diff secs-out-removeEntropyWords= 0
+outsPerCluster.values(), nonOuts 82 11790
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 11 time diff secs-out-customGibbsSampling= 1
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.447
+batch 11 time diff millisecs-out-dic_semanticSims= 9.346
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.343
+batch 11 time diff millisecs-out-dic_semanticSims= 9.166
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.362
+batch 11 time diff millisecs-out-dic_semanticSims= 9.147
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.302
+batch 11 time diff millisecs-out-dic_semanticSims= 9.131
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.345
+batch 11 time diff millisecs-out-dic_semanticSims= 9.143
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.355
+batch 11 time diff millisecs-out-dic_semanticSims= 9.154
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.34
+batch 11 time diff millisecs-out-dic_semanticSims= 9.163
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.333
+batch 11 time diff millisecs-out-dic_semanticSims= 9.181
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.357
+batch 11 time diff millisecs-out-dic_semanticSims= 9.176
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.32
+batch 11 time diff millisecs-out-dic_semanticSims= 9.16
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.32
+batch 11 time diff millisecs-out-dic_semanticSims= 9.173
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.413
+batch 11 time diff millisecs-out-dic_semanticSims= 9.239
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.305
+batch 11 time diff millisecs-out-dic_semanticSims= 9.192
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.35
+batch 11 time diff millisecs-out-dic_semanticSims= 9.138
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.372
+batch 11 time diff millisecs-out-dic_semanticSims= 9.178
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.357
+batch 11 time diff millisecs-out-dic_semanticSims= 9.188
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.337
+batch 11 time diff millisecs-out-dic_semanticSims= 9.195
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.331
+batch 11 time diff millisecs-out-dic_semanticSims= 9.158
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.301
+batch 11 time diff millisecs-out-dic_semanticSims= 9.172
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.307
+batch 11 time diff millisecs-out-dic_semanticSims= 9.153
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.349
+batch 11 time diff millisecs-out-dic_semanticSims= 9.196
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.3
+batch 11 time diff millisecs-out-dic_semanticSims= 9.218
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.407
+batch 11 time diff millisecs-out-dic_semanticSims= 9.319
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.302
+batch 11 time diff millisecs-out-dic_semanticSims= 9.242
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.38
+batch 11 time diff millisecs-out-dic_semanticSims= 9.256
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.318
+batch 11 time diff millisecs-out-dic_semanticSims= 9.15
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.33
+batch 11 time diff millisecs-out-dic_semanticSims= 9.176
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.303
+batch 11 time diff millisecs-out-dic_semanticSims= 4.534
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.298
+batch 11 time diff millisecs-out-dic_semanticSims= 9.125
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.298
+batch 11 time diff millisecs-out-dic_semanticSims= 9.142
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.353
+batch 11 time diff millisecs-out-dic_semanticSims= 9.189
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.324
+batch 11 time diff millisecs-out-dic_semanticSims= 9.211
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.344
+batch 11 time diff millisecs-out-dic_semanticSims= 9.23
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.292
+batch 11 time diff millisecs-out-dic_semanticSims= 4.519
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.299
+batch 11 time diff millisecs-out-dic_semanticSims= 9.178
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.323
+batch 11 time diff millisecs-out-dic_semanticSims= 9.175
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.355
+batch 11 time diff millisecs-out-dic_semanticSims= 9.154
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.317
+batch 11 time diff millisecs-out-dic_semanticSims= 9.176
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.301
+batch 11 time diff millisecs-out-dic_semanticSims= 9.199
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.321
+batch 11 time diff millisecs-out-dic_semanticSims= 9.203
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.349
+batch 11 time diff millisecs-out-dic_semanticSims= 9.199
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.321
+batch 11 time diff millisecs-out-dic_semanticSims= 9.18
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.342
+batch 11 time diff millisecs-out-dic_semanticSims= 9.236
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.338
+batch 11 time diff millisecs-out-dic_semanticSims= 9.194
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.384
+batch 11 time diff millisecs-out-dic_semanticSims= 9.241
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.336
+batch 11 time diff millisecs-out-dic_semanticSims= 9.236
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.351
+batch 11 time diff millisecs-out-dic_semanticSims= 9.228
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.354
+batch 11 time diff millisecs-out-dic_semanticSims= 9.226
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.308
+batch 11 time diff millisecs-out-dic_semanticSims= 9.219
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.333
+batch 11 time diff millisecs-out-dic_semanticSims= 9.322
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.348
+batch 11 time diff millisecs-out-dic_semanticSims= 9.296
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.351
+batch 11 time diff millisecs-out-dic_semanticSims= 9.217
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.345
+batch 11 time diff millisecs-out-dic_semanticSims= 9.206
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.301
+batch 11 time diff millisecs-out-dic_semanticSims= 9.171
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.303
+batch 11 time diff millisecs-out-dic_semanticSims= 9.255
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.395
+batch 11 time diff millisecs-out-dic_semanticSims= 9.279
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.318
+batch 11 time diff millisecs-out-dic_semanticSims= 9.234
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.303
+batch 11 time diff millisecs-out-dic_semanticSims= 9.217
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.371
+batch 11 time diff millisecs-out-dic_semanticSims= 9.251
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.326
+batch 11 time diff millisecs-out-dic_semanticSims= 9.227
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.308
+batch 11 time diff millisecs-out-dic_semanticSims= 9.206
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.367
+batch 11 time diff millisecs-out-dic_semanticSims= 9.197
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.337
+batch 11 time diff millisecs-out-dic_semanticSims= 9.216
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.302
+batch 11 time diff millisecs-out-dic_semanticSims= 9.236
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.352
+batch 11 time diff millisecs-out-dic_semanticSims= 9.23
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.379
+batch 11 time diff millisecs-out-dic_semanticSims= 9.213
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.328
+batch 11 time diff millisecs-out-dic_semanticSims= 9.222
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.343
+batch 11 time diff millisecs-out-dic_semanticSims= 9.231
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.338
+batch 11 time diff millisecs-out-dic_semanticSims= 9.236
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.351
+batch 11 time diff millisecs-out-dic_semanticSims= 9.199
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.333
+batch 11 time diff millisecs-out-dic_semanticSims= 9.209
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.33
+batch 11 time diff millisecs-out-dic_semanticSims= 9.229
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.316
+batch 11 time diff millisecs-out-dic_semanticSims= 9.216
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.303
+batch 11 time diff millisecs-out-dic_semanticSims= 9.214
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.351
+batch 11 time diff millisecs-out-dic_semanticSims= 9.278
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.335
+batch 11 time diff millisecs-out-dic_semanticSims= 9.326
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.32
+batch 11 time diff millisecs-out-dic_semanticSims= 9.281
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.318
+batch 11 time diff millisecs-out-dic_semanticSims= 9.226
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.326
+batch 11 time diff millisecs-out-dic_semanticSims= 9.196
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.306
+batch 11 time diff millisecs-out-dic_semanticSims= 9.22
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.331
+batch 11 time diff millisecs-out-dic_semanticSims= 9.246
+batch 11 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.332
+batch 11 time diff millisecs-out-dic_semanticSims= 9.18
+batch 11 time diff secs-out-assignOutlier= 0
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Stackoverflow-mstreamK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch10/
+start doc=11258, end doc=12509
+total texts=12509, total clusters=646
+	Saving successful!
+Batch 11
+20000
+	13760 documents will be analyze. alpha is 412.80.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 12 time diff secs-kdd-gibbsSampling= 12
+maxPredLabel=4753
+to delete batch 12 11
+dict_keys([2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
+targetbatchNo 11
+len(docsPerBatch) 1251
+batch 12 time diff secs-out-DeleteDocsUpdateCenter= 0
+outlier=90, non-outlier=1161,=maxPredLabel=4779
+batch 12 time diff secs-out-Connected= 0
+high_entropy_words=266, total words=1937
+batch 12 time diff secs-out-removeEntropyWords= 0
+outsPerCluster.values(), nonOuts 90 12951
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 12 time diff secs-out-customGibbsSampling= 1
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.379
+batch 12 time diff millisecs-out-dic_semanticSims= 9.491
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.34
+batch 12 time diff millisecs-out-dic_semanticSims= 9.396
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.33
+batch 12 time diff millisecs-out-dic_semanticSims= 9.377
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.343
+batch 12 time diff millisecs-out-dic_semanticSims= 9.38
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.304
+batch 12 time diff millisecs-out-dic_semanticSims= 9.339
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.341
+batch 12 time diff millisecs-out-dic_semanticSims= 9.369
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.326
+batch 12 time diff millisecs-out-dic_semanticSims= 9.397
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.362
+batch 12 time diff millisecs-out-dic_semanticSims= 9.345
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.338
+batch 12 time diff millisecs-out-dic_semanticSims= 9.404
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.329
+batch 12 time diff millisecs-out-dic_semanticSims= 9.375
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.303
+batch 12 time diff millisecs-out-dic_semanticSims= 9.363
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.331
+batch 12 time diff millisecs-out-dic_semanticSims= 9.401
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.364
+batch 12 time diff millisecs-out-dic_semanticSims= 9.386
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.361
+batch 12 time diff millisecs-out-dic_semanticSims= 9.371
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.309
+batch 12 time diff millisecs-out-dic_semanticSims= 9.366
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.296
+batch 12 time diff millisecs-out-dic_semanticSims= 9.359
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.389
+batch 12 time diff millisecs-out-dic_semanticSims= 9.391
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.355
+batch 12 time diff millisecs-out-dic_semanticSims= 9.338
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.339
+batch 12 time diff millisecs-out-dic_semanticSims= 9.382
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.324
+batch 12 time diff millisecs-out-dic_semanticSims= 9.363
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.357
+batch 12 time diff millisecs-out-dic_semanticSims= 9.364
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.29
+batch 12 time diff millisecs-out-dic_semanticSims= 4.636
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.328
+batch 12 time diff millisecs-out-dic_semanticSims= 9.454
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.337
+batch 12 time diff millisecs-out-dic_semanticSims= 9.41
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.345
+batch 12 time diff millisecs-out-dic_semanticSims= 9.355
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.326
+batch 12 time diff millisecs-out-dic_semanticSims= 9.391
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.386
+batch 12 time diff millisecs-out-dic_semanticSims= 9.367
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.328
+batch 12 time diff millisecs-out-dic_semanticSims= 9.395
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.342
+batch 12 time diff millisecs-out-dic_semanticSims= 9.348
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.376
+batch 12 time diff millisecs-out-dic_semanticSims= 9.337
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.361
+batch 12 time diff millisecs-out-dic_semanticSims= 9.372
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.4
+batch 12 time diff millisecs-out-dic_semanticSims= 9.355
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.383
+batch 12 time diff millisecs-out-dic_semanticSims= 9.388
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.355
+batch 12 time diff millisecs-out-dic_semanticSims= 9.345
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.326
+batch 12 time diff millisecs-out-dic_semanticSims= 9.373
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.344
+batch 12 time diff millisecs-out-dic_semanticSims= 9.329
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.417
+batch 12 time diff millisecs-out-dic_semanticSims= 9.387
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.356
+batch 12 time diff millisecs-out-dic_semanticSims= 9.42
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.324
+batch 12 time diff millisecs-out-dic_semanticSims= 9.365
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.322
+batch 12 time diff millisecs-out-dic_semanticSims= 9.331
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.337
+batch 12 time diff millisecs-out-dic_semanticSims= 9.382
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.349
+batch 12 time diff millisecs-out-dic_semanticSims= 9.375
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.336
+batch 12 time diff millisecs-out-dic_semanticSims= 9.388
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.325
+batch 12 time diff millisecs-out-dic_semanticSims= 9.383
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.339
+batch 12 time diff millisecs-out-dic_semanticSims= 9.355
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.351
+batch 12 time diff millisecs-out-dic_semanticSims= 9.366
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.325
+batch 12 time diff millisecs-out-dic_semanticSims= 9.395
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.41
+batch 12 time diff millisecs-out-dic_semanticSims= 9.471
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.324
+batch 12 time diff millisecs-out-dic_semanticSims= 9.467
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.396
+batch 12 time diff millisecs-out-dic_semanticSims= 9.429
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.328
+batch 12 time diff millisecs-out-dic_semanticSims= 9.332
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.323
+batch 12 time diff millisecs-out-dic_semanticSims= 9.374
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.378
+batch 12 time diff millisecs-out-dic_semanticSims= 9.358
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.386
+batch 12 time diff millisecs-out-dic_semanticSims= 9.354
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.388
+batch 12 time diff millisecs-out-dic_semanticSims= 9.358
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.338
+batch 12 time diff millisecs-out-dic_semanticSims= 9.416
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.322
+batch 12 time diff millisecs-out-dic_semanticSims= 9.379
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.337
+batch 12 time diff millisecs-out-dic_semanticSims= 9.397
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.307
+batch 12 time diff millisecs-out-dic_semanticSims= 4.654
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.369
+batch 12 time diff millisecs-out-dic_semanticSims= 9.359
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.372
+batch 12 time diff millisecs-out-dic_semanticSims= 9.363
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.309
+batch 12 time diff millisecs-out-dic_semanticSims= 9.391
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.351
+batch 12 time diff millisecs-out-dic_semanticSims= 9.394
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.321
+batch 12 time diff millisecs-out-dic_semanticSims= 9.369
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.356
+batch 12 time diff millisecs-out-dic_semanticSims= 9.384
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.354
+batch 12 time diff millisecs-out-dic_semanticSims= 9.387
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.324
+batch 12 time diff millisecs-out-dic_semanticSims= 9.38
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.356
+batch 12 time diff millisecs-out-dic_semanticSims= 9.379
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.338
+batch 12 time diff millisecs-out-dic_semanticSims= 9.407
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.343
+batch 12 time diff millisecs-out-dic_semanticSims= 9.352
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.338
+batch 12 time diff millisecs-out-dic_semanticSims= 9.396
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.357
+batch 12 time diff millisecs-out-dic_semanticSims= 9.398
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.379
+batch 12 time diff millisecs-out-dic_semanticSims= 9.394
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.292
+batch 12 time diff millisecs-out-dic_semanticSims= 9.51
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.359
+batch 12 time diff millisecs-out-dic_semanticSims= 9.487
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.379
+batch 12 time diff millisecs-out-dic_semanticSims= 9.425
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.328
+batch 12 time diff millisecs-out-dic_semanticSims= 9.388
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.325
+batch 12 time diff millisecs-out-dic_semanticSims= 9.401
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.352
+batch 12 time diff millisecs-out-dic_semanticSims= 9.386
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.4
+batch 12 time diff millisecs-out-dic_semanticSims= 9.425
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.325
+batch 12 time diff millisecs-out-dic_semanticSims= 9.395
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.34
+batch 12 time diff millisecs-out-dic_semanticSims= 9.398
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.342
+batch 12 time diff millisecs-out-dic_semanticSims= 9.365
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.42
+batch 12 time diff millisecs-out-dic_semanticSims= 9.431
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.381
+batch 12 time diff millisecs-out-dic_semanticSims= 9.408
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.358
+batch 12 time diff millisecs-out-dic_semanticSims= 9.399
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.326
+batch 12 time diff millisecs-out-dic_semanticSims= 9.411
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.307
+batch 12 time diff millisecs-out-dic_semanticSims= 9.403
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.39
+batch 12 time diff millisecs-out-dic_semanticSims= 9.456
+batch 12 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.322
+batch 12 time diff millisecs-out-dic_semanticSims= 9.421
+batch 12 time diff secs-out-assignOutlier= 0
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Stackoverflow-mstreamK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch11/
+start doc=12509, end doc=13760
+total texts=13760, total clusters=719
+	Saving successful!
+Batch 12
+20000
+	15011 documents will be analyze. alpha is 450.33.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 13 time diff secs-kdd-gibbsSampling= 13
+maxPredLabel=5333
+to delete batch 13 12
+dict_keys([2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13])
+targetbatchNo 12
+len(docsPerBatch) 1251
+batch 13 time diff secs-out-DeleteDocsUpdateCenter= 0
+outlier=99, non-outlier=1152,=maxPredLabel=5360
+batch 13 time diff secs-out-Connected= 0
+high_entropy_words=257, total words=1884
+batch 13 time diff secs-out-removeEntropyWords= 0
+outsPerCluster.values(), nonOuts 99 14103
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 13 time diff secs-out-customGibbsSampling= 1
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.408
+batch 13 time diff millisecs-out-dic_semanticSims= 9.887
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.34
+batch 13 time diff millisecs-out-dic_semanticSims= 4.828
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.341
+batch 13 time diff millisecs-out-dic_semanticSims= 9.733
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.346
+batch 13 time diff millisecs-out-dic_semanticSims= 9.745
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.341
+batch 13 time diff millisecs-out-dic_semanticSims= 9.736
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.4
+batch 13 time diff millisecs-out-dic_semanticSims= 9.792
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.38
+batch 13 time diff millisecs-out-dic_semanticSims= 9.756
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.354
+batch 13 time diff millisecs-out-dic_semanticSims= 9.755
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.317
+batch 13 time diff millisecs-out-dic_semanticSims= 9.78
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.341
+batch 13 time diff millisecs-out-dic_semanticSims= 9.784
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.339
+batch 13 time diff millisecs-out-dic_semanticSims= 9.76
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.323
+batch 13 time diff millisecs-out-dic_semanticSims= 9.859
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.357
+batch 13 time diff millisecs-out-dic_semanticSims= 9.765
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.439
+batch 13 time diff millisecs-out-dic_semanticSims= 9.768
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.412
+batch 13 time diff millisecs-out-dic_semanticSims= 9.828
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.323
+batch 13 time diff millisecs-out-dic_semanticSims= 9.867
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.34
+batch 13 time diff millisecs-out-dic_semanticSims= 9.862
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.351
+batch 13 time diff millisecs-out-dic_semanticSims= 9.807
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.34
+batch 13 time diff millisecs-out-dic_semanticSims= 9.796
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.35
+batch 13 time diff millisecs-out-dic_semanticSims= 9.835
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.399
+batch 13 time diff millisecs-out-dic_semanticSims= 9.754
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.421
+batch 13 time diff millisecs-out-dic_semanticSims= 9.786
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.353
+batch 13 time diff millisecs-out-dic_semanticSims= 9.764
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.336
+batch 13 time diff millisecs-out-dic_semanticSims= 9.742
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.309
+batch 13 time diff millisecs-out-dic_semanticSims= 9.761
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.396
+batch 13 time diff millisecs-out-dic_semanticSims= 9.775
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.369
+batch 13 time diff millisecs-out-dic_semanticSims= 9.749
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.479
+batch 13 time diff millisecs-out-dic_semanticSims= 9.744
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.397
+batch 13 time diff millisecs-out-dic_semanticSims= 9.751
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.405
+batch 13 time diff millisecs-out-dic_semanticSims= 9.777
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.366
+batch 13 time diff millisecs-out-dic_semanticSims= 9.807
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.354
+batch 13 time diff millisecs-out-dic_semanticSims= 9.778
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.398
+batch 13 time diff millisecs-out-dic_semanticSims= 9.78
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.353
+batch 13 time diff millisecs-out-dic_semanticSims= 9.87
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.373
+batch 13 time diff millisecs-out-dic_semanticSims= 9.845
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.338
+batch 13 time diff millisecs-out-dic_semanticSims= 10.011
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.373
+batch 13 time diff millisecs-out-dic_semanticSims= 9.804
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.355
+batch 13 time diff millisecs-out-dic_semanticSims= 9.859
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.339
+batch 13 time diff millisecs-out-dic_semanticSims= 9.804
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.322
+batch 13 time diff millisecs-out-dic_semanticSims= 9.872
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.356
+batch 13 time diff millisecs-out-dic_semanticSims= 9.864
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.338
+batch 13 time diff millisecs-out-dic_semanticSims= 9.785
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.322
+batch 13 time diff millisecs-out-dic_semanticSims= 9.792
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.354
+batch 13 time diff millisecs-out-dic_semanticSims= 9.845
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.339
+batch 13 time diff millisecs-out-dic_semanticSims= 9.894
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.401
+batch 13 time diff millisecs-out-dic_semanticSims= 10.005
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.378
+batch 13 time diff millisecs-out-dic_semanticSims= 9.889
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.364
+batch 13 time diff millisecs-out-dic_semanticSims= 9.967
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.381
+batch 13 time diff millisecs-out-dic_semanticSims= 9.875
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.326
+batch 13 time diff millisecs-out-dic_semanticSims= 4.841
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.353
+batch 13 time diff millisecs-out-dic_semanticSims= 9.772
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.336
+batch 13 time diff millisecs-out-dic_semanticSims= 9.787
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.351
+batch 13 time diff millisecs-out-dic_semanticSims= 9.802
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.401
+batch 13 time diff millisecs-out-dic_semanticSims= 9.804
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.35
+batch 13 time diff millisecs-out-dic_semanticSims= 9.75
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.32
+batch 13 time diff millisecs-out-dic_semanticSims= 9.793
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.42
+batch 13 time diff millisecs-out-dic_semanticSims= 9.773
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.359
+batch 13 time diff millisecs-out-dic_semanticSims= 9.752
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.407
+batch 13 time diff millisecs-out-dic_semanticSims= 9.768
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.337
+batch 13 time diff millisecs-out-dic_semanticSims= 9.756
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.34
+batch 13 time diff millisecs-out-dic_semanticSims= 9.764
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.351
+batch 13 time diff millisecs-out-dic_semanticSims= 9.74
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.321
+batch 13 time diff millisecs-out-dic_semanticSims= 9.772
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.402
+batch 13 time diff millisecs-out-dic_semanticSims= 9.831
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.353
+batch 13 time diff millisecs-out-dic_semanticSims= 9.877
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.303
+batch 13 time diff millisecs-out-dic_semanticSims= 9.886
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.352
+batch 13 time diff millisecs-out-dic_semanticSims= 9.834
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.389
+batch 13 time diff millisecs-out-dic_semanticSims= 9.789
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.356
+batch 13 time diff millisecs-out-dic_semanticSims= 9.746
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.357
+batch 13 time diff millisecs-out-dic_semanticSims= 9.779
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.355
+batch 13 time diff millisecs-out-dic_semanticSims= 9.785
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.335
+batch 13 time diff millisecs-out-dic_semanticSims= 9.793
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.369
+batch 13 time diff millisecs-out-dic_semanticSims= 9.781
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.411
+batch 13 time diff millisecs-out-dic_semanticSims= 9.851
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.369
+batch 13 time diff millisecs-out-dic_semanticSims= 9.785
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.367
+batch 13 time diff millisecs-out-dic_semanticSims= 9.766
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.393
+batch 13 time diff millisecs-out-dic_semanticSims= 9.78
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.322
+batch 13 time diff millisecs-out-dic_semanticSims= 9.823
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.335
+batch 13 time diff millisecs-out-dic_semanticSims= 9.752
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.368
+batch 13 time diff millisecs-out-dic_semanticSims= 9.793
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.349
+batch 13 time diff millisecs-out-dic_semanticSims= 9.776
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.399
+batch 13 time diff millisecs-out-dic_semanticSims= 9.831
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.358
+batch 13 time diff millisecs-out-dic_semanticSims= 9.851
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.394
+batch 13 time diff millisecs-out-dic_semanticSims= 9.829
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.355
+batch 13 time diff millisecs-out-dic_semanticSims= 9.958
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.418
+batch 13 time diff millisecs-out-dic_semanticSims= 9.895
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.425
+batch 13 time diff millisecs-out-dic_semanticSims= 9.879
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.427
+batch 13 time diff millisecs-out-dic_semanticSims= 9.787
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.343
+batch 13 time diff millisecs-out-dic_semanticSims= 9.826
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.333
+batch 13 time diff millisecs-out-dic_semanticSims= 9.823
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.369
+batch 13 time diff millisecs-out-dic_semanticSims= 9.719
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.352
+batch 13 time diff millisecs-out-dic_semanticSims= 9.771
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.353
+batch 13 time diff millisecs-out-dic_semanticSims= 9.739
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.36
+batch 13 time diff millisecs-out-dic_semanticSims= 9.745
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.396
+batch 13 time diff millisecs-out-dic_semanticSims= 9.739
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.338
+batch 13 time diff millisecs-out-dic_semanticSims= 9.82
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.439
+batch 13 time diff millisecs-out-dic_semanticSims= 10.139
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.393
+batch 13 time diff millisecs-out-dic_semanticSims= 9.846
+batch 13 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.386
+batch 13 time diff millisecs-out-dic_semanticSims= 9.849
+batch 13 time diff secs-out-assignOutlier= 1
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Stackoverflow-mstreamK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch12/
+start doc=13760, end doc=15011
+total texts=15011, total clusters=800
+	Saving successful!
+Batch 13
+20000
+	16262 documents will be analyze. alpha is 487.86.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 14 time diff secs-kdd-gibbsSampling= 14
+maxPredLabel=5849
+to delete batch 14 13
+dict_keys([2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14])
+targetbatchNo 13
+len(docsPerBatch) 1251
+batch 14 time diff secs-out-DeleteDocsUpdateCenter= 0
+outlier=92, non-outlier=1159,=maxPredLabel=5876
+batch 14 time diff secs-out-Connected= 0
+high_entropy_words=261, total words=1929
+batch 14 time diff secs-out-removeEntropyWords= 0
+outsPerCluster.values(), nonOuts 92 15262
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 14 time diff secs-out-customGibbsSampling= 1
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.385
+batch 14 time diff millisecs-out-dic_semanticSims= 10.146
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.367
+batch 14 time diff millisecs-out-dic_semanticSims= 9.979
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.358
+batch 14 time diff millisecs-out-dic_semanticSims= 9.951
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.378
+batch 14 time diff millisecs-out-dic_semanticSims= 9.988
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.355
+batch 14 time diff millisecs-out-dic_semanticSims= 9.968
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.356
+batch 14 time diff millisecs-out-dic_semanticSims= 10.027
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.387
+batch 14 time diff millisecs-out-dic_semanticSims= 10.063
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.319
+batch 14 time diff millisecs-out-dic_semanticSims= 10.066
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.369
+batch 14 time diff millisecs-out-dic_semanticSims= 10.057
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.349
+batch 14 time diff millisecs-out-dic_semanticSims= 10.069
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.347
+batch 14 time diff millisecs-out-dic_semanticSims= 10.059
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.353
+batch 14 time diff millisecs-out-dic_semanticSims= 10.018
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.333
+batch 14 time diff millisecs-out-dic_semanticSims= 10.002
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.316
+batch 14 time diff millisecs-out-dic_semanticSims= 10.024
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.446
+batch 14 time diff millisecs-out-dic_semanticSims= 10.047
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.425
+batch 14 time diff millisecs-out-dic_semanticSims= 10.042
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.349
+batch 14 time diff millisecs-out-dic_semanticSims= 10.093
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.371
+batch 14 time diff millisecs-out-dic_semanticSims= 10.062
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.364
+batch 14 time diff millisecs-out-dic_semanticSims= 10.045
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.351
+batch 14 time diff millisecs-out-dic_semanticSims= 10.028
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.388
+batch 14 time diff millisecs-out-dic_semanticSims= 10.077
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.329
+batch 14 time diff millisecs-out-dic_semanticSims= 9.986
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.383
+batch 14 time diff millisecs-out-dic_semanticSims= 10.173
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.376
+batch 14 time diff millisecs-out-dic_semanticSims= 10.082
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.329
+batch 14 time diff millisecs-out-dic_semanticSims= 10.025
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.398
+batch 14 time diff millisecs-out-dic_semanticSims= 10.113
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.4
+batch 14 time diff millisecs-out-dic_semanticSims= 10.037
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.413
+batch 14 time diff millisecs-out-dic_semanticSims= 10.048
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.395
+batch 14 time diff millisecs-out-dic_semanticSims= 10.031
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.343
+batch 14 time diff millisecs-out-dic_semanticSims= 10.045
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.369
+batch 14 time diff millisecs-out-dic_semanticSims= 10.027
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.364
+batch 14 time diff millisecs-out-dic_semanticSims= 10.019
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.347
+batch 14 time diff millisecs-out-dic_semanticSims= 10.026
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.415
+batch 14 time diff millisecs-out-dic_semanticSims= 10.121
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.364
+batch 14 time diff millisecs-out-dic_semanticSims= 10.15
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.328
+batch 14 time diff millisecs-out-dic_semanticSims= 10.058
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.349
+batch 14 time diff millisecs-out-dic_semanticSims= 10.121
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.414
+batch 14 time diff millisecs-out-dic_semanticSims= 10.006
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.333
+batch 14 time diff millisecs-out-dic_semanticSims= 10.002
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.406
+batch 14 time diff millisecs-out-dic_semanticSims= 10.018
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.328
+batch 14 time diff millisecs-out-dic_semanticSims= 10.084
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.403
+batch 14 time diff millisecs-out-dic_semanticSims= 10.123
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.367
+batch 14 time diff millisecs-out-dic_semanticSims= 10.046
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.348
+batch 14 time diff millisecs-out-dic_semanticSims= 10.002
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.315
+batch 14 time diff millisecs-out-dic_semanticSims= 9.996
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.342
+batch 14 time diff millisecs-out-dic_semanticSims= 10.104
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.371
+batch 14 time diff millisecs-out-dic_semanticSims= 10.049
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.363
+batch 14 time diff millisecs-out-dic_semanticSims= 10.046
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.347
+batch 14 time diff millisecs-out-dic_semanticSims= 10.051
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.408
+batch 14 time diff millisecs-out-dic_semanticSims= 10.035
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.35
+batch 14 time diff millisecs-out-dic_semanticSims= 10.06
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.38
+batch 14 time diff millisecs-out-dic_semanticSims= 10.017
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.417
+batch 14 time diff millisecs-out-dic_semanticSims= 10.011
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.314
+batch 14 time diff millisecs-out-dic_semanticSims= 10.046
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.362
+batch 14 time diff millisecs-out-dic_semanticSims= 10.075
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.36
+batch 14 time diff millisecs-out-dic_semanticSims= 10.073
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.328
+batch 14 time diff millisecs-out-dic_semanticSims= 10.027
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.313
+batch 14 time diff millisecs-out-dic_semanticSims= 4.941
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.362
+batch 14 time diff millisecs-out-dic_semanticSims= 10.005
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.412
+batch 14 time diff millisecs-out-dic_semanticSims= 10.004
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.352
+batch 14 time diff millisecs-out-dic_semanticSims= 10.053
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.33
+batch 14 time diff millisecs-out-dic_semanticSims= 10.015
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.325
+batch 14 time diff millisecs-out-dic_semanticSims= 10.034
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.455
+batch 14 time diff millisecs-out-dic_semanticSims= 9.993
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.352
+batch 14 time diff millisecs-out-dic_semanticSims= 10.056
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.38
+batch 14 time diff millisecs-out-dic_semanticSims= 10.046
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.346
+batch 14 time diff millisecs-out-dic_semanticSims= 10.0
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.352
+batch 14 time diff millisecs-out-dic_semanticSims= 10.08
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.406
+batch 14 time diff millisecs-out-dic_semanticSims= 10.052
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.383
+batch 14 time diff millisecs-out-dic_semanticSims= 10.114
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.33
+batch 14 time diff millisecs-out-dic_semanticSims= 10.076
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.402
+batch 14 time diff millisecs-out-dic_semanticSims= 10.082
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.348
+batch 14 time diff millisecs-out-dic_semanticSims= 10.082
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.355
+batch 14 time diff millisecs-out-dic_semanticSims= 10.024
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.375
+batch 14 time diff millisecs-out-dic_semanticSims= 10.114
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.346
+batch 14 time diff millisecs-out-dic_semanticSims= 10.085
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.38
+batch 14 time diff millisecs-out-dic_semanticSims= 10.106
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.397
+batch 14 time diff millisecs-out-dic_semanticSims= 10.046
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.393
+batch 14 time diff millisecs-out-dic_semanticSims= 10.036
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.41
+batch 14 time diff millisecs-out-dic_semanticSims= 10.049
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.326
+batch 14 time diff millisecs-out-dic_semanticSims= 10.043
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.381
+batch 14 time diff millisecs-out-dic_semanticSims= 10.028
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.343
+batch 14 time diff millisecs-out-dic_semanticSims= 10.085
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.329
+batch 14 time diff millisecs-out-dic_semanticSims= 10.11
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.364
+batch 14 time diff millisecs-out-dic_semanticSims= 10.032
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.344
+batch 14 time diff millisecs-out-dic_semanticSims= 10.086
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.4
+batch 14 time diff millisecs-out-dic_semanticSims= 10.023
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.314
+batch 14 time diff millisecs-out-dic_semanticSims= 4.94
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.378
+batch 14 time diff millisecs-out-dic_semanticSims= 10.012
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.398
+batch 14 time diff millisecs-out-dic_semanticSims= 10.019
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.348
+batch 14 time diff millisecs-out-dic_semanticSims= 10.054
+batch 14 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.349
+batch 14 time diff millisecs-out-dic_semanticSims= 10.044
+batch 14 time diff secs-out-assignOutlier= 0
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Stackoverflow-mstreamK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch13/
+start doc=15011, end doc=16262
+total texts=16262, total clusters=871
+	Saving successful!
+Batch 14
+20000
+	17513 documents will be analyze. alpha is 525.39.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 15 time diff secs-kdd-gibbsSampling= 15
+maxPredLabel=6312
+to delete batch 15 14
+dict_keys([2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15])
+targetbatchNo 14
+len(docsPerBatch) 1251
+batch 15 time diff secs-out-DeleteDocsUpdateCenter= 0
+outlier=78, non-outlier=1173,=maxPredLabel=6344
+batch 15 time diff secs-out-Connected= 0
+high_entropy_words=234, total words=1910
+batch 15 time diff secs-out-removeEntropyWords= 0
+outsPerCluster.values(), nonOuts 78 16435
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 15 time diff secs-out-customGibbsSampling= 1
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.407
+batch 15 time diff millisecs-out-dic_semanticSims= 10.875
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.477
+batch 15 time diff millisecs-out-dic_semanticSims= 10.773
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.401
+batch 15 time diff millisecs-out-dic_semanticSims= 10.739
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.4
+batch 15 time diff millisecs-out-dic_semanticSims= 10.703
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.501
+batch 15 time diff millisecs-out-dic_semanticSims= 10.647
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.414
+batch 15 time diff millisecs-out-dic_semanticSims= 10.703
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.41
+batch 15 time diff millisecs-out-dic_semanticSims= 10.723
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.465
+batch 15 time diff millisecs-out-dic_semanticSims= 10.672
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.397
+batch 15 time diff millisecs-out-dic_semanticSims= 10.659
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.444
+batch 15 time diff millisecs-out-dic_semanticSims= 10.707
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.413
+batch 15 time diff millisecs-out-dic_semanticSims= 10.715
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.463
+batch 15 time diff millisecs-out-dic_semanticSims= 10.701
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.463
+batch 15 time diff millisecs-out-dic_semanticSims= 10.7
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.37
+batch 15 time diff millisecs-out-dic_semanticSims= 10.706
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.41
+batch 15 time diff millisecs-out-dic_semanticSims= 10.685
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.41
+batch 15 time diff millisecs-out-dic_semanticSims= 10.729
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.375
+batch 15 time diff millisecs-out-dic_semanticSims= 10.73
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.39
+batch 15 time diff millisecs-out-dic_semanticSims= 10.717
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.386
+batch 15 time diff millisecs-out-dic_semanticSims= 10.688
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.431
+batch 15 time diff millisecs-out-dic_semanticSims= 10.834
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.337
+batch 15 time diff millisecs-out-dic_semanticSims= 10.726
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.436
+batch 15 time diff millisecs-out-dic_semanticSims= 10.829
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.357
+batch 15 time diff millisecs-out-dic_semanticSims= 10.753
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.376
+batch 15 time diff millisecs-out-dic_semanticSims= 10.713
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.372
+batch 15 time diff millisecs-out-dic_semanticSims= 10.702
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.349
+batch 15 time diff millisecs-out-dic_semanticSims= 10.723
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.404
+batch 15 time diff millisecs-out-dic_semanticSims= 10.679
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.409
+batch 15 time diff millisecs-out-dic_semanticSims= 10.715
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.408
+batch 15 time diff millisecs-out-dic_semanticSims= 10.699
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.401
+batch 15 time diff millisecs-out-dic_semanticSims= 10.675
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.406
+batch 15 time diff millisecs-out-dic_semanticSims= 10.719
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.4
+batch 15 time diff millisecs-out-dic_semanticSims= 10.705
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.394
+batch 15 time diff millisecs-out-dic_semanticSims= 10.714
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.407
+batch 15 time diff millisecs-out-dic_semanticSims= 10.736
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.371
+batch 15 time diff millisecs-out-dic_semanticSims= 10.726
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.389
+batch 15 time diff millisecs-out-dic_semanticSims= 10.696
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.364
+batch 15 time diff millisecs-out-dic_semanticSims= 10.701
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.432
+batch 15 time diff millisecs-out-dic_semanticSims= 10.675
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.407
+batch 15 time diff millisecs-out-dic_semanticSims= 10.715
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.4
+batch 15 time diff millisecs-out-dic_semanticSims= 10.726
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.397
+batch 15 time diff millisecs-out-dic_semanticSims= 10.683
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.446
+batch 15 time diff millisecs-out-dic_semanticSims= 10.767
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.35
+batch 15 time diff millisecs-out-dic_semanticSims= 10.772
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.395
+batch 15 time diff millisecs-out-dic_semanticSims= 10.725
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.36
+batch 15 time diff millisecs-out-dic_semanticSims= 10.703
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.387
+batch 15 time diff millisecs-out-dic_semanticSims= 10.696
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.372
+batch 15 time diff millisecs-out-dic_semanticSims= 10.729
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.382
+batch 15 time diff millisecs-out-dic_semanticSims= 10.705
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.462
+batch 15 time diff millisecs-out-dic_semanticSims= 10.711
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.413
+batch 15 time diff millisecs-out-dic_semanticSims= 10.704
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.394
+batch 15 time diff millisecs-out-dic_semanticSims= 10.726
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.353
+batch 15 time diff millisecs-out-dic_semanticSims= 10.717
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.464
+batch 15 time diff millisecs-out-dic_semanticSims= 10.688
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.36
+batch 15 time diff millisecs-out-dic_semanticSims= 10.688
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.349
+batch 15 time diff millisecs-out-dic_semanticSims= 10.696
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.389
+batch 15 time diff millisecs-out-dic_semanticSims= 10.688
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.372
+batch 15 time diff millisecs-out-dic_semanticSims= 10.7
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.332
+batch 15 time diff millisecs-out-dic_semanticSims= 5.289
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.373
+batch 15 time diff millisecs-out-dic_semanticSims= 10.696
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.399
+batch 15 time diff millisecs-out-dic_semanticSims= 10.716
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.477
+batch 15 time diff millisecs-out-dic_semanticSims= 10.689
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.434
+batch 15 time diff millisecs-out-dic_semanticSims= 10.729
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.352
+batch 15 time diff millisecs-out-dic_semanticSims= 10.703
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.37
+batch 15 time diff millisecs-out-dic_semanticSims= 10.729
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.354
+batch 15 time diff millisecs-out-dic_semanticSims= 10.899
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.371
+batch 15 time diff millisecs-out-dic_semanticSims= 10.841
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.391
+batch 15 time diff millisecs-out-dic_semanticSims= 10.734
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.413
+batch 15 time diff millisecs-out-dic_semanticSims= 10.751
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.372
+batch 15 time diff millisecs-out-dic_semanticSims= 10.728
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.369
+batch 15 time diff millisecs-out-dic_semanticSims= 10.769
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.393
+batch 15 time diff millisecs-out-dic_semanticSims= 10.722
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.405
+batch 15 time diff millisecs-out-dic_semanticSims= 10.723
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.388
+batch 15 time diff millisecs-out-dic_semanticSims= 10.708
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.39
+batch 15 time diff millisecs-out-dic_semanticSims= 10.732
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.37
+batch 15 time diff millisecs-out-dic_semanticSims= 10.712
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.374
+batch 15 time diff millisecs-out-dic_semanticSims= 10.729
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.424
+batch 15 time diff millisecs-out-dic_semanticSims= 10.738
+batch 15 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.443
+batch 15 time diff millisecs-out-dic_semanticSims= 10.703
+batch 15 time diff secs-out-assignOutlier= 0
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Stackoverflow-mstreamK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch14/
+start doc=16262, end doc=17513
+total texts=17513, total clusters=939
+	Saving successful!
+Batch 15
+20000
+	18764 documents will be analyze. alpha is 562.92.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 16 time diff secs-kdd-gibbsSampling= 15
+maxPredLabel=6706
+to delete batch 16 15
+dict_keys([2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16])
+targetbatchNo 15
+len(docsPerBatch) 1251
+batch 16 time diff secs-out-DeleteDocsUpdateCenter= 0
+outlier=72, non-outlier=1179,=maxPredLabel=6732
+batch 16 time diff secs-out-Connected= 0
+high_entropy_words=209, total words=1862
+batch 16 time diff secs-out-removeEntropyWords= 0
+outsPerCluster.values(), nonOuts 72 17614
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 16 time diff secs-out-customGibbsSampling= 1
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.418
+batch 16 time diff millisecs-out-dic_semanticSims= 11.068
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.383
+batch 16 time diff millisecs-out-dic_semanticSims= 10.918
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.524
+batch 16 time diff millisecs-out-dic_semanticSims= 10.895
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.41
+batch 16 time diff millisecs-out-dic_semanticSims= 10.898
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.382
+batch 16 time diff millisecs-out-dic_semanticSims= 10.883
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.53
+batch 16 time diff millisecs-out-dic_semanticSims= 10.903
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.402
+batch 16 time diff millisecs-out-dic_semanticSims= 10.889
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.353
+batch 16 time diff millisecs-out-dic_semanticSims= 10.948
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.357
+batch 16 time diff millisecs-out-dic_semanticSims= 10.889
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.412
+batch 16 time diff millisecs-out-dic_semanticSims= 10.898
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.373
+batch 16 time diff millisecs-out-dic_semanticSims= 10.94
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.4
+batch 16 time diff millisecs-out-dic_semanticSims= 10.907
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.374
+batch 16 time diff millisecs-out-dic_semanticSims= 10.858
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.343
+batch 16 time diff millisecs-out-dic_semanticSims= 10.879
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.393
+batch 16 time diff millisecs-out-dic_semanticSims= 10.887
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.465
+batch 16 time diff millisecs-out-dic_semanticSims= 10.901
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.414
+batch 16 time diff millisecs-out-dic_semanticSims= 10.892
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.38
+batch 16 time diff millisecs-out-dic_semanticSims= 10.896
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.405
+batch 16 time diff millisecs-out-dic_semanticSims= 10.922
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.442
+batch 16 time diff millisecs-out-dic_semanticSims= 10.923
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.409
+batch 16 time diff millisecs-out-dic_semanticSims= 10.969
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.45
+batch 16 time diff millisecs-out-dic_semanticSims= 10.976
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.443
+batch 16 time diff millisecs-out-dic_semanticSims= 10.914
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.399
+batch 16 time diff millisecs-out-dic_semanticSims= 10.871
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.384
+batch 16 time diff millisecs-out-dic_semanticSims= 10.856
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.419
+batch 16 time diff millisecs-out-dic_semanticSims= 10.856
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.381
+batch 16 time diff millisecs-out-dic_semanticSims= 10.853
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.413
+batch 16 time diff millisecs-out-dic_semanticSims= 10.905
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.444
+batch 16 time diff millisecs-out-dic_semanticSims= 10.899
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.396
+batch 16 time diff millisecs-out-dic_semanticSims= 10.903
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.414
+batch 16 time diff millisecs-out-dic_semanticSims= 10.967
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.442
+batch 16 time diff millisecs-out-dic_semanticSims= 10.921
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.363
+batch 16 time diff millisecs-out-dic_semanticSims= 10.911
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.439
+batch 16 time diff millisecs-out-dic_semanticSims= 10.909
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.363
+batch 16 time diff millisecs-out-dic_semanticSims= 10.933
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.396
+batch 16 time diff millisecs-out-dic_semanticSims= 10.916
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.396
+batch 16 time diff millisecs-out-dic_semanticSims= 10.904
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.413
+batch 16 time diff millisecs-out-dic_semanticSims= 10.976
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.372
+batch 16 time diff millisecs-out-dic_semanticSims= 10.934
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.402
+batch 16 time diff millisecs-out-dic_semanticSims= 10.939
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.406
+batch 16 time diff millisecs-out-dic_semanticSims= 10.955
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.35
+batch 16 time diff millisecs-out-dic_semanticSims= 10.933
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.413
+batch 16 time diff millisecs-out-dic_semanticSims= 11.036
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.382
+batch 16 time diff millisecs-out-dic_semanticSims= 11.017
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.375
+batch 16 time diff millisecs-out-dic_semanticSims= 10.962
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.483
+batch 16 time diff millisecs-out-dic_semanticSims= 10.975
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.392
+batch 16 time diff millisecs-out-dic_semanticSims= 10.93
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.365
+batch 16 time diff millisecs-out-dic_semanticSims= 10.951
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.403
+batch 16 time diff millisecs-out-dic_semanticSims= 10.934
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.401
+batch 16 time diff millisecs-out-dic_semanticSims= 10.936
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.376
+batch 16 time diff millisecs-out-dic_semanticSims= 10.931
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.398
+batch 16 time diff millisecs-out-dic_semanticSims= 10.9
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.474
+batch 16 time diff millisecs-out-dic_semanticSims= 10.918
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.358
+batch 16 time diff millisecs-out-dic_semanticSims= 10.929
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.453
+batch 16 time diff millisecs-out-dic_semanticSims= 10.958
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.399
+batch 16 time diff millisecs-out-dic_semanticSims= 10.947
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.418
+batch 16 time diff millisecs-out-dic_semanticSims= 10.96
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.436
+batch 16 time diff millisecs-out-dic_semanticSims= 10.954
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.383
+batch 16 time diff millisecs-out-dic_semanticSims= 10.92
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.401
+batch 16 time diff millisecs-out-dic_semanticSims= 10.931
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.383
+batch 16 time diff millisecs-out-dic_semanticSims= 10.906
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.399
+batch 16 time diff millisecs-out-dic_semanticSims= 10.895
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.42
+batch 16 time diff millisecs-out-dic_semanticSims= 10.923
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.439
+batch 16 time diff millisecs-out-dic_semanticSims= 10.919
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.393
+batch 16 time diff millisecs-out-dic_semanticSims= 11.063
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.418
+batch 16 time diff millisecs-out-dic_semanticSims= 11.116
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.413
+batch 16 time diff millisecs-out-dic_semanticSims= 10.98
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.397
+batch 16 time diff millisecs-out-dic_semanticSims= 10.927
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.403
+batch 16 time diff millisecs-out-dic_semanticSims= 10.907
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.374
+batch 16 time diff millisecs-out-dic_semanticSims= 10.919
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.413
+batch 16 time diff millisecs-out-dic_semanticSims= 10.912
+batch 16 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.386
+batch 16 time diff millisecs-out-dic_semanticSims= 10.937
+batch 16 time diff secs-out-assignOutlier= 0
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Stackoverflow-mstreamK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch15/
+start doc=17513, end doc=18764
+total texts=18764, total clusters=999
+	Saving successful!
+Batch 16
+20000
+	20000 documents will be analyze. alpha is 600.00.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 17 time diff secs-kdd-gibbsSampling= 16
+maxPredLabel=7144
+to delete batch 17 16
+dict_keys([2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])
+targetbatchNo 16
+len(docsPerBatch) 1251
+batch 17 time diff secs-out-DeleteDocsUpdateCenter= 0
+outlier=60, non-outlier=1176,=maxPredLabel=7166
+batch 17 time diff secs-out-Connected= 0
+high_entropy_words=145, total words=1665
+batch 17 time diff secs-out-removeEntropyWords= 0
+outsPerCluster.values(), nonOuts 60 18790
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 17 time diff secs-out-customGibbsSampling= 1
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.426
+batch 17 time diff millisecs-out-dic_semanticSims= 11.213
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.451
+batch 17 time diff millisecs-out-dic_semanticSims= 11.124
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.413
+batch 17 time diff millisecs-out-dic_semanticSims= 11.109
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.393
+batch 17 time diff millisecs-out-dic_semanticSims= 11.112
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.43
+batch 17 time diff millisecs-out-dic_semanticSims= 11.101
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.409
+batch 17 time diff millisecs-out-dic_semanticSims= 11.108
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.397
+batch 17 time diff millisecs-out-dic_semanticSims= 11.131
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.458
+batch 17 time diff millisecs-out-dic_semanticSims= 11.158
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.401
+batch 17 time diff millisecs-out-dic_semanticSims= 11.245
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.407
+batch 17 time diff millisecs-out-dic_semanticSims= 11.205
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.427
+batch 17 time diff millisecs-out-dic_semanticSims= 11.151
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.366
+batch 17 time diff millisecs-out-dic_semanticSims= 11.104
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.461
+batch 17 time diff millisecs-out-dic_semanticSims= 11.167
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.466
+batch 17 time diff millisecs-out-dic_semanticSims= 11.169
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.389
+batch 17 time diff millisecs-out-dic_semanticSims= 11.183
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.431
+batch 17 time diff millisecs-out-dic_semanticSims= 11.12
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.387
+batch 17 time diff millisecs-out-dic_semanticSims= 11.158
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.448
+batch 17 time diff millisecs-out-dic_semanticSims= 11.158
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.362
+batch 17 time diff millisecs-out-dic_semanticSims= 11.148
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.411
+batch 17 time diff millisecs-out-dic_semanticSims= 11.12
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.402
+batch 17 time diff millisecs-out-dic_semanticSims= 11.165
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.402
+batch 17 time diff millisecs-out-dic_semanticSims= 11.141
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.404
+batch 17 time diff millisecs-out-dic_semanticSims= 11.159
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.378
+batch 17 time diff millisecs-out-dic_semanticSims= 11.098
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.422
+batch 17 time diff millisecs-out-dic_semanticSims= 11.139
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.38
+batch 17 time diff millisecs-out-dic_semanticSims= 11.074
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.449
+batch 17 time diff millisecs-out-dic_semanticSims= 11.151
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.444
+batch 17 time diff millisecs-out-dic_semanticSims= 11.107
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.385
+batch 17 time diff millisecs-out-dic_semanticSims= 11.164
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.37
+batch 17 time diff millisecs-out-dic_semanticSims= 11.153
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.406
+batch 17 time diff millisecs-out-dic_semanticSims= 11.273
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.411
+batch 17 time diff millisecs-out-dic_semanticSims= 11.213
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.347
+batch 17 time diff millisecs-out-dic_semanticSims= 11.153
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.418
+batch 17 time diff millisecs-out-dic_semanticSims= 11.127
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.375
+batch 17 time diff millisecs-out-dic_semanticSims= 11.102
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.446
+batch 17 time diff millisecs-out-dic_semanticSims= 11.142
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.422
+batch 17 time diff millisecs-out-dic_semanticSims= 11.105
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.447
+batch 17 time diff millisecs-out-dic_semanticSims= 11.069
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.406
+batch 17 time diff millisecs-out-dic_semanticSims= 11.058
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.381
+batch 17 time diff millisecs-out-dic_semanticSims= 11.104
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.442
+batch 17 time diff millisecs-out-dic_semanticSims= 11.089
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.389
+batch 17 time diff millisecs-out-dic_semanticSims= 11.098
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.425
+batch 17 time diff millisecs-out-dic_semanticSims= 11.131
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.425
+batch 17 time diff millisecs-out-dic_semanticSims= 11.17
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.443
+batch 17 time diff millisecs-out-dic_semanticSims= 11.129
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.46
+batch 17 time diff millisecs-out-dic_semanticSims= 11.141
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.388
+batch 17 time diff millisecs-out-dic_semanticSims= 11.065
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.4
+batch 17 time diff millisecs-out-dic_semanticSims= 11.099
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.404
+batch 17 time diff millisecs-out-dic_semanticSims= 11.118
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.39
+batch 17 time diff millisecs-out-dic_semanticSims= 11.083
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.391
+batch 17 time diff millisecs-out-dic_semanticSims= 11.051
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.448
+batch 17 time diff millisecs-out-dic_semanticSims= 11.241
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.468
+batch 17 time diff millisecs-out-dic_semanticSims= 11.206
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.385
+batch 17 time diff millisecs-out-dic_semanticSims= 11.094
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.386
+batch 17 time diff millisecs-out-dic_semanticSims= 11.179
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.403
+batch 17 time diff millisecs-out-dic_semanticSims= 11.099
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.365
+batch 17 time diff millisecs-out-dic_semanticSims= 11.099
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.42
+batch 17 time diff millisecs-out-dic_semanticSims= 11.141
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.403
+batch 17 time diff millisecs-out-dic_semanticSims= 11.121
+batch 17 time diff millisecs-out-dic_lex_Sim_CommonWords= 0.404
+batch 17 time diff millisecs-out-dic_semanticSims= 11.178
+batch 17 time diff secs-out-assignOutlier= 0
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Stackoverflow-mstreamK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch16/
+start doc=18764, end doc=20000
+total texts=20000, total clusters=1053
+	Saving successful!
+time diff secs= 224
+pred_true_text_file name=result/mstr-enh
+evaluate total texts=20000
+homogeneity_score-whole-data:   0.49759361
+completeness_score-whole-data:   0.37577918
+nmi_score-whole-data:   0.42819131
+pred clusters=1252, true clusters=20
+purity majority whole data=0.5312
+pred_true_text_file name=result/NewsPredTueTextMStream_WordArr.txt
+evaluate total texts=20000
+homogeneity_score-whole-data:   0.48525725
+completeness_score-whole-data:   0.37335981
+nmi_score-whole-data:   0.42201713
+pred clusters=1013, true clusters=20
+purity majority whole data=0.5214

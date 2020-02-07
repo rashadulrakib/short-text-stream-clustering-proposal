@@ -1,0 +1,610 @@
+100000
+200000
+300000
+400000
+500000
+600000
+700000
+800000
+900000
+1000000
+1100000
+1200000
+1300000
+1400000
+1500000
+1600000
+1700000
+1800000
+1900000
+wordVectorsDic length 1917494
+number of documents is  30322
+self.V=all the words in all documents
+12301
+SampleNo:1
+result/
+
+---------RUN-------- 0
+K0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16
+No timefil!
+before call run_MStream, self.K=0,self.iterNum=5, self.V=12301
+batchNum2tweetID is  {1: 1897, 2: 3794, 3: 5691, 4: 7588, 5: 9485, 6: 11382, 7: 13279, 8: 15176, 9: 17073, 10: 18970, 11: 20867, 12: 22764, 13: 24661, 14: 26558, 15: 28455, 16: -1}
+Batch 1
+30322
+	1896 documents will be analyze. alpha is 56.88.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+maxPredLabel=308
+outlier=27, non-outlier=1869,=maxPredLabel=392
+high_entropy_words=406, total words=3228
+outsPerCluster.values(), nonOuts 27 1869
+[31, 4, 16, 39, 17, 40, 45, 16, 23, 136, 73, 75, 44, 9, 4, 46, 25, 21, 106, 141, 18, 14, 49, 51, 34, 6, 2, 25, 7, 28, 4, 8, 10, 62, 5, 19, 2, 35, 15, 4, 37, 12, 26, 2, 25, 22, 12, 23, 53, 5, 15, 23, 3, 40, 12, 8, 10, 40, 14, 2, 8, 7, 26, 3, 3, 2, 25, 6, 19, 3, 10, 5, 2, 7, 3, 6, 10, 3, 6, 4, 3, 3, 8, 4]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+oldPredLabel not cluster=old285, cluster=555
+oldPredLabel not cluster=old294, cluster=564
+oldPredLabel not cluster=old298, cluster=568
+oldPredLabel not cluster=old306, cluster=576
+Evaluate 2
+evaluate total texts=1896
+homogeneity_score-whole-data:   0.96443504
+completeness_score-whole-data:   0.76153952
+nmi_score-whole-data:   0.85106167
+pred clusters=107, true clusters=33
+purity majority whole data=0.9694092827004219
+	Gibbs sampling successful! Start to saving results.
+start doc=0, end doc=1896
+total texts=1896, total clusters=111
+	Saving successful!
+Batch 2
+30322
+	3793 documents will be analyze. alpha is 113.79.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+maxPredLabel=716
+outlier=33, non-outlier=1864,=maxPredLabel=789
+high_entropy_words=444, total words=3381
+outsPerCluster.values(), nonOuts 33 3733
+[31, 6, 21, 39, 37, 87, 52, 45, 23, 136, 73, 79, 44, 9, 4, 63, 29, 50, 107, 142, 18, 14, 54, 51, 36, 6, 2, 33, 17, 31, 4, 10, 145, 62, 8, 40, 2, 63, 15, 9, 41, 12, 284, 2, 25, 22, 12, 23, 53, 8, 17, 32, 3, 40, 12, 10, 10, 42, 14, 2, 8, 9, 56, 3, 3, 2, 25, 6, 19, 3, 21, 7, 2, 50, 3, 6, 13, 3, 8, 4, 3, 3, 8, 4, 21, 130, 3, 8, 153, 25, 9, 73, 29, 89, 49, 70, 40, 119, 33, 8, 11, 19, 23, 60, 20, 3, 6, 9, 32, 9, 3, 17, 5, 2, 7, 2, 6, 10]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+Evaluate 3
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.92560143
+completeness_score-whole-data:   0.72147940
+nmi_score-whole-data:   0.81089204
+pred clusters=101, true clusters=34
+purity majority whole data=0.9372693726937269
+	Gibbs sampling successful! Start to saving results.
+start doc=1896, end doc=3793
+total texts=3793, total clusters=154
+	Saving successful!
+Batch 3
+30322
+	5690 documents will be analyze. alpha is 170.70.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+maxPredLabel=793
+outlier=20, non-outlier=1877,=maxPredLabel=846
+high_entropy_words=411, total words=3180
+outsPerCluster.values(), nonOuts 20 5610
+[31, 128, 21, 39, 39, 212, 52, 45, 25, 138, 74, 79, 44, 9, 6, 63, 33, 63, 107, 142, 27, 16, 54, 51, 40, 6, 2, 33, 63, 34, 4, 10, 145, 62, 8, 55, 38, 66, 15, 20, 49, 12, 284, 2, 29, 22, 12, 48, 53, 8, 17, 33, 3, 40, 12, 27, 182, 42, 14, 2, 8, 17, 60, 3, 3, 2, 26, 27, 19, 3, 23, 163, 2, 50, 3, 6, 13, 3, 8, 156, 3, 3, 36, 4, 230, 130, 3, 8, 153, 34, 9, 101, 29, 89, 49, 70, 40, 126, 42, 8, 11, 19, 93, 65, 164, 3, 6, 30, 32, 13, 3, 17, 5, 2, 7, 2, 6, 10, 71, 4, 41, 154, 50, 25, 3, 3, 3, 3, 9, 2, 2]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+Evaluate 4
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.94617461
+completeness_score-whole-data:   0.75500045
+nmi_score-whole-data:   0.83984567
+pred clusters=71, true clusters=22
+purity majority whole data=0.9625724828676858
+	Gibbs sampling successful! Start to saving results.
+start doc=3793, end doc=5690
+total texts=5690, total clusters=167
+	Saving successful!
+Batch 4
+30322
+	7587 documents will be analyze. alpha is 227.61.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+maxPredLabel=888
+outlier=40, non-outlier=1857,=maxPredLabel=965
+high_entropy_words=411, total words=3261
+outsPerCluster.values(), nonOuts 40 7467
+[31, 131, 87, 39, 49, 213, 52, 45, 25, 140, 88, 82, 47, 12, 6, 65, 33, 65, 124, 156, 56, 41, 54, 51, 60, 6, 2, 46, 68, 48, 4, 10, 145, 72, 8, 57, 38, 121, 15, 39, 49, 17, 317, 2, 71, 22, 12, 48, 53, 88, 32, 33, 8, 80, 12, 27, 222, 42, 16, 2, 8, 19, 60, 3, 3, 2, 94, 28, 19, 3, 23, 164, 2, 50, 3, 6, 13, 3, 285, 156, 3, 3, 36, 4, 231, 130, 3, 8, 155, 49, 9, 114, 29, 89, 88, 70, 40, 131, 54, 8, 11, 39, 95, 65, 164, 3, 6, 34, 48, 13, 3, 24, 8, 2, 7, 2, 27, 10, 80, 4, 59, 157, 50, 30, 3, 3, 3, 3, 173, 2, 2, 257, 31, 22, 2, 27, 102, 4, 2, 3, 24, 3, 34, 7, 15, 4, 3, 4, 4, 3, 2, 2]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+Evaluate 5
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.90966151
+completeness_score-whole-data:   0.72058829
+nmi_score-whole-data:   0.80416072
+pred clusters=111, true clusters=25
+purity majority whole data=0.9177648919346336
+	Gibbs sampling successful! Start to saving results.
+start doc=5690, end doc=7587
+total texts=7587, total clusters=196
+	Saving successful!
+Batch 5
+30322
+	9484 documents will be analyze. alpha is 284.52.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+maxPredLabel=1012
+outlier=38, non-outlier=1859,=maxPredLabel=1087
+high_entropy_words=418, total words=3372
+outsPerCluster.values(), nonOuts 38 9326
+[31, 135, 247, 39, 49, 225, 52, 48, 25, 140, 88, 82, 47, 160, 6, 69, 33, 68, 124, 158, 56, 57, 58, 51, 60, 6, 2, 62, 163, 48, 4, 63, 145, 72, 8, 60, 47, 151, 15, 39, 49, 17, 320, 2, 82, 22, 12, 48, 53, 95, 45, 57, 8, 81, 12, 30, 222, 42, 16, 2, 8, 19, 60, 3, 3, 2, 104, 94, 162, 3, 56, 169, 2, 59, 3, 6, 13, 3, 285, 156, 3, 3, 43, 4, 231, 130, 3, 8, 163, 49, 9, 118, 29, 89, 88, 70, 40, 133, 54, 8, 11, 49, 95, 65, 166, 3, 13, 36, 48, 13, 3, 100, 10, 2, 7, 2, 27, 10, 80, 4, 69, 157, 56, 30, 50, 3, 3, 3, 173, 2, 2, 263, 33, 22, 2, 27, 105, 4, 36, 3, 24, 3, 36, 7, 20, 4, 3, 4, 4, 3, 2, 2, 9, 74, 104, 3, 43, 172, 87, 14, 12, 22, 26, 16, 22, 50, 18, 4, 18, 4, 2, 2, 4, 2, 2, 14, 3, 3, 2, 2]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+Evaluate 6
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.95931336
+completeness_score-whole-data:   0.74817985
+nmi_score-whole-data:   0.84069315
+pred clusters=112, true clusters=31
+purity majority whole data=0.9694254085397996
+	Gibbs sampling successful! Start to saving results.
+start doc=7587, end doc=9484
+total texts=9484, total clusters=232
+	Saving successful!
+Batch 6
+30322
+	11381 documents will be analyze. alpha is 341.43.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+maxPredLabel=1080
+outlier=22, non-outlier=1875,=maxPredLabel=1114
+high_entropy_words=401, total words=2610
+outsPerCluster.values(), nonOuts 22 11201
+[483, 135, 247, 39, 49, 225, 52, 48, 25, 140, 88, 82, 47, 160, 6, 69, 33, 68, 143, 158, 56, 57, 60, 51, 60, 6, 2, 62, 173, 48, 4, 63, 225, 72, 8, 60, 47, 165, 15, 41, 49, 17, 321, 2, 82, 22, 12, 48, 276, 95, 61, 57, 8, 81, 12, 30, 224, 42, 16, 2, 8, 19, 60, 3, 3, 2, 104, 96, 162, 3, 56, 171, 2, 59, 3, 6, 13, 3, 287, 167, 3, 3, 43, 4, 231, 130, 3, 8, 163, 49, 9, 118, 31, 89, 88, 70, 40, 133, 54, 8, 111, 49, 105, 65, 166, 3, 13, 38, 48, 13, 3, 100, 10, 2, 7, 2, 27, 10, 80, 4, 69, 157, 56, 84, 50, 3, 3, 3, 173, 2, 2, 364, 33, 22, 2, 27, 105, 4, 36, 3, 24, 3, 36, 7, 20, 4, 3, 4, 4, 3, 2, 2, 9, 170, 104, 3, 43, 172, 90, 14, 12, 22, 76, 16, 22, 50, 18, 4, 18, 4, 2, 2, 4, 2, 2, 14, 3, 3, 2, 2, 104, 63, 135, 290, 5, 3, 12, 3, 2, 2]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+Evaluate 7
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.99144222
+completeness_score-whole-data:   0.76777583
+nmi_score-whole-data:   0.86539059
+pred clusters=55, true clusters=18
+purity majority whole data=0.9968371112282551
+	Gibbs sampling successful! Start to saving results.
+start doc=9484, end doc=11381
+total texts=11381, total clusters=249
+	Saving successful!
+Batch 7
+30322
+	13278 documents will be analyze. alpha is 398.34.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+maxPredLabel=1123
+outlier=29, non-outlier=1868,=maxPredLabel=1158
+high_entropy_words=284, total words=2864
+outsPerCluster.values(), nonOuts 29 13069
+[483, 135, 247, 39, 49, 225, 52, 48, 25, 140, 194, 82, 47, 160, 6, 101, 33, 90, 143, 158, 56, 57, 60, 51, 64, 6, 2, 62, 235, 48, 4, 63, 225, 72, 8, 60, 47, 165, 15, 41, 49, 17, 321, 2, 82, 22, 12, 48, 276, 95, 61, 57, 8, 81, 12, 30, 224, 42, 48, 2, 8, 19, 72, 3, 3, 2, 104, 96, 162, 3, 56, 171, 2, 59, 3, 6, 13, 3, 287, 167, 3, 3, 44, 4, 233, 130, 3, 8, 163, 49, 9, 118, 31, 89, 88, 70, 40, 133, 56, 8, 111, 109, 129, 65, 217, 3, 16, 250, 48, 13, 3, 100, 10, 2, 7, 2, 27, 10, 80, 4, 77, 157, 56, 84, 50, 3, 3, 3, 173, 2, 2, 364, 33, 22, 2, 27, 108, 4, 36, 3, 24, 3, 36, 7, 24, 4, 3, 4, 4, 3, 2, 2, 9, 170, 104, 3, 43, 172, 90, 14, 12, 22, 76, 16, 22, 50, 18, 4, 42, 4, 2, 2, 4, 2, 2, 14, 3, 3, 223, 2, 104, 386, 135, 290, 5, 3, 12, 3, 2, 108, 125, 238, 89, 22, 12, 8, 2, 3, 31, 17, 2, 2, 3]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+Evaluate 8
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.98533710
+completeness_score-whole-data:   0.88127385
+nmi_score-whole-data:   0.93040472
+pred clusters=62, true clusters=23
+purity majority whole data=0.9878755930416447
+	Gibbs sampling successful! Start to saving results.
+start doc=11381, end doc=13278
+total texts=13278, total clusters=263
+	Saving successful!
+Batch 8
+30322
+	15175 documents will be analyze. alpha is 455.25.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+maxPredLabel=1186
+outlier=26, non-outlier=1871,=maxPredLabel=1241
+high_entropy_words=318, total words=3004
+outsPerCluster.values(), nonOuts 26 14940
+[483, 135, 253, 39, 49, 225, 52, 49, 25, 140, 214, 82, 47, 187, 6, 107, 33, 149, 143, 158, 56, 57, 60, 51, 64, 6, 2, 64, 235, 125, 4, 63, 225, 72, 11, 63, 47, 165, 15, 41, 63, 35, 321, 2, 82, 22, 12, 48, 276, 95, 61, 57, 8, 81, 12, 30, 224, 42, 80, 2, 8, 19, 72, 3, 3, 2, 104, 96, 162, 3, 62, 171, 2, 59, 3, 6, 13, 3, 287, 167, 3, 3, 44, 4, 243, 130, 3, 8, 163, 49, 9, 142, 31, 92, 88, 70, 40, 133, 58, 8, 111, 113, 147, 65, 233, 3, 25, 278, 48, 13, 3, 100, 10, 2, 7, 2, 27, 10, 80, 4, 77, 157, 56, 84, 50, 3, 3, 3, 173, 2, 2, 364, 35, 22, 2, 27, 156, 4, 40, 3, 24, 3, 36, 7, 28, 4, 3, 4, 4, 3, 2, 2, 9, 170, 104, 3, 43, 183, 90, 14, 12, 22, 76, 18, 97, 50, 23, 4, 46, 4, 2, 2, 4, 2, 2, 14, 3, 3, 223, 2, 104, 386, 135, 291, 5, 3, 12, 3, 2, 108, 125, 238, 89, 95, 12, 8, 2, 3, 31, 17, 7, 2, 197, 277, 23, 10, 178, 107, 86, 89, 185, 25, 23, 28, 2, 3, 4, 8, 2, 5]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+Evaluate 9
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.95951324
+completeness_score-whole-data:   0.81875883
+nmi_score-whole-data:   0.88356552
+pred clusters=77, true clusters=28
+purity majority whole data=0.9641539272535582
+	Gibbs sampling successful! Start to saving results.
+start doc=13278, end doc=15175
+total texts=15175, total clusters=281
+	Saving successful!
+Batch 9
+30322
+	17072 documents will be analyze. alpha is 512.16.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+maxPredLabel=1257
+outlier=24, non-outlier=1873,=maxPredLabel=1294
+high_entropy_words=250, total words=2634
+outsPerCluster.values(), nonOuts 24 16813
+[483, 137, 253, 39, 53, 225, 52, 108, 25, 140, 214, 82, 47, 187, 6, 107, 33, 149, 143, 158, 56, 57, 89, 51, 64, 221, 2, 64, 250, 125, 4, 63, 225, 72, 11, 63, 47, 165, 15, 41, 63, 35, 321, 2, 82, 22, 12, 48, 278, 95, 61, 57, 8, 81, 12, 56, 224, 42, 80, 2, 8, 19, 72, 3, 3, 2, 106, 96, 164, 81, 62, 171, 2, 59, 3, 6, 13, 3, 287, 167, 3, 3, 44, 4, 243, 130, 10, 8, 163, 49, 9, 142, 31, 343, 88, 70, 40, 133, 62, 8, 111, 141, 147, 65, 233, 3, 25, 278, 48, 13, 3, 100, 10, 2, 11, 2, 27, 10, 80, 4, 77, 157, 56, 84, 50, 3, 3, 3, 173, 2, 2, 374, 35, 22, 2, 27, 156, 4, 43, 3, 24, 3, 38, 7, 28, 4, 3, 4, 4, 3, 2, 2, 9, 170, 109, 3, 43, 183, 90, 14, 12, 22, 76, 18, 97, 50, 23, 4, 96, 4, 2, 2, 4, 2, 2, 14, 5, 3, 223, 2, 104, 388, 135, 291, 5, 3, 12, 3, 2, 114, 125, 238, 89, 99, 12, 8, 2, 3, 31, 17, 7, 2, 197, 277, 23, 12, 178, 107, 118, 97, 185, 25, 23, 34, 2, 3, 4, 8, 2, 287, 532, 48, 2, 114, 11, 13, 7, 2, 2]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+Evaluate 10
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.98905900
+completeness_score-whole-data:   0.88426601
+nmi_score-whole-data:   0.93373147
+pred clusters=62, true clusters=23
+purity majority whole data=0.9931470743278862
+	Gibbs sampling successful! Start to saving results.
+start doc=15175, end doc=17072
+total texts=17072, total clusters=295
+	Saving successful!
+Batch 10
+30322
+	18969 documents will be analyze. alpha is 569.07.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+maxPredLabel=1315
+outlier=25, non-outlier=1872,=maxPredLabel=1348
+high_entropy_words=361, total words=2467
+outsPerCluster.values(), nonOuts 25 18685
+[483, 137, 255, 39, 53, 225, 52, 261, 25, 140, 214, 82, 47, 187, 6, 107, 33, 149, 143, 158, 56, 91, 110, 51, 66, 221, 2, 64, 320, 125, 4, 281, 257, 72, 11, 63, 47, 165, 15, 41, 63, 35, 321, 2, 82, 22, 12, 48, 278, 95, 61, 57, 8, 81, 15, 542, 224, 42, 80, 2, 8, 19, 72, 3, 3, 2, 106, 96, 164, 81, 62, 171, 2, 59, 3, 6, 13, 3, 287, 167, 3, 3, 44, 4, 243, 130, 10, 8, 163, 49, 9, 212, 53, 343, 88, 70, 40, 133, 67, 10, 111, 141, 147, 65, 233, 3, 25, 278, 48, 13, 3, 100, 10, 2, 11, 2, 27, 10, 80, 6, 77, 157, 56, 84, 50, 3, 3, 3, 173, 2, 2, 721, 35, 22, 2, 27, 156, 4, 43, 3, 24, 3, 91, 7, 28, 4, 3, 4, 4, 3, 2, 2, 9, 170, 116, 3, 43, 183, 90, 14, 12, 22, 76, 18, 97, 50, 23, 4, 96, 4, 2, 2, 4, 2, 2, 14, 5, 3, 223, 2, 104, 388, 135, 291, 5, 3, 12, 3, 2, 114, 125, 238, 89, 99, 12, 8, 2, 3, 31, 17, 7, 2, 197, 277, 25, 12, 182, 107, 123, 97, 185, 25, 23, 34, 2, 3, 4, 8, 2, 287, 532, 48, 20, 114, 11, 13, 9, 2, 2, 20, 102, 16, 55, 95, 7, 3, 10, 2, 2]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+Evaluate 11
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.99805178
+completeness_score-whole-data:   0.91969544
+nmi_score-whole-data:   0.95727285
+pred clusters=57, true clusters=24
+purity majority whole data=0.9984185556141276
+	Gibbs sampling successful! Start to saving results.
+start doc=17072, end doc=18969
+total texts=18969, total clusters=313
+	Saving successful!
+Batch 11
+30322
+	20866 documents will be analyze. alpha is 625.98.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+maxPredLabel=1394
+outlier=25, non-outlier=1872,=maxPredLabel=1429
+high_entropy_words=246, total words=2696
+outsPerCluster.values(), nonOuts 25 20557
+[483, 137, 255, 39, 53, 381, 52, 263, 25, 140, 214, 82, 47, 187, 6, 107, 33, 149, 143, 158, 56, 91, 110, 140, 66, 221, 2, 64, 323, 125, 4, 281, 262, 72, 11, 66, 47, 167, 15, 41, 63, 35, 321, 2, 82, 22, 12, 48, 278, 95, 63, 57, 8, 81, 15, 544, 224, 42, 83, 2, 8, 19, 72, 3, 3, 2, 125, 96, 164, 81, 62, 171, 2, 59, 3, 6, 13, 3, 287, 167, 3, 3, 44, 4, 247, 130, 10, 8, 163, 50, 9, 212, 56, 344, 88, 70, 40, 133, 305, 10, 129, 141, 147, 65, 233, 3, 25, 278, 48, 13, 5, 100, 15, 2, 11, 2, 27, 10, 80, 6, 77, 157, 56, 84, 50, 3, 3, 3, 173, 2, 2, 721, 35, 26, 2, 57, 156, 4, 54, 3, 383, 3, 105, 7, 28, 4, 3, 4, 4, 3, 2, 2, 9, 170, 116, 3, 43, 183, 90, 14, 12, 35, 76, 18, 97, 50, 23, 4, 96, 4, 2, 2, 4, 2, 2, 14, 9, 3, 223, 2, 104, 388, 135, 291, 5, 3, 12, 3, 2, 114, 125, 265, 89, 99, 12, 8, 2, 3, 31, 17, 7, 2, 197, 279, 25, 12, 182, 107, 123, 97, 185, 25, 23, 34, 2, 3, 4, 8, 2, 287, 532, 48, 20, 260, 11, 13, 9, 2, 2, 20, 102, 16, 55, 95, 7, 3, 10, 2, 324, 269, 53, 56, 2, 2]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+Evaluate 12
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.98821701
+completeness_score-whole-data:   0.88765182
+nmi_score-whole-data:   0.93523877
+pred clusters=55, true clusters=20
+purity majority whole data=0.9920927780706379
+	Gibbs sampling successful! Start to saving results.
+start doc=18969, end doc=20866
+total texts=20866, total clusters=327
+	Saving successful!
+Batch 12
+30322
+	22763 documents will be analyze. alpha is 682.89.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+maxPredLabel=1456
+outlier=16, non-outlier=1881,=maxPredLabel=1491
+high_entropy_words=264, total words=2831
+outsPerCluster.values(), nonOuts 16 22438
+[483, 137, 255, 39, 53, 381, 52, 263, 25, 140, 214, 82, 47, 187, 6, 107, 33, 149, 143, 158, 56, 91, 110, 140, 66, 221, 2, 66, 323, 125, 4, 281, 534, 72, 11, 66, 47, 167, 15, 41, 63, 35, 321, 2, 82, 22, 12, 48, 278, 95, 63, 58, 8, 81, 15, 544, 224, 42, 83, 2, 8, 19, 77, 3, 3, 2, 127, 96, 164, 81, 62, 171, 2, 61, 3, 6, 13, 3, 287, 167, 3, 3, 44, 4, 247, 132, 12, 8, 163, 50, 9, 212, 56, 540, 88, 70, 40, 137, 305, 10, 636, 141, 147, 65, 233, 3, 25, 278, 48, 13, 5, 100, 15, 2, 11, 2, 27, 10, 80, 6, 77, 157, 56, 84, 50, 3, 3, 3, 173, 2, 2, 721, 35, 26, 2, 57, 156, 4, 54, 3, 383, 3, 105, 7, 28, 4, 3, 4, 4, 3, 2, 2, 9, 170, 116, 3, 45, 185, 90, 14, 12, 169, 76, 18, 97, 50, 23, 4, 96, 4, 2, 2, 4, 2, 2, 97, 9, 3, 225, 2, 104, 388, 135, 291, 5, 3, 12, 3, 2, 130, 125, 265, 89, 99, 12, 8, 2, 3, 31, 17, 7, 2, 197, 317, 25, 12, 182, 107, 123, 97, 185, 25, 23, 34, 2, 112, 4, 8, 2, 287, 532, 48, 31, 260, 11, 13, 9, 2, 2, 27, 102, 16, 114, 95, 7, 3, 10, 2, 324, 269, 53, 56, 97, 2, 3, 33, 140, 5, 22, 87, 6, 20, 7, 3, 2]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+Evaluate 13
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.96720677
+completeness_score-whole-data:   0.77439889
+nmi_score-whole-data:   0.86013024
+pred clusters=50, true clusters=15
+purity majority whole data=0.9762783342119136
+	Gibbs sampling successful! Start to saving results.
+start doc=20866, end doc=22763
+total texts=22763, total clusters=344
+	Saving successful!
+Batch 13
+30322
+	24660 documents will be analyze. alpha is 739.80.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+maxPredLabel=1544
+outlier=28, non-outlier=1869,=maxPredLabel=1591
+high_entropy_words=251, total words=2474
+outsPerCluster.values(), nonOuts 28 24307
+[483, 137, 257, 39, 53, 381, 52, 263, 25, 140, 214, 82, 47, 187, 6, 107, 33, 149, 143, 158, 56, 91, 110, 142, 66, 221, 2, 129, 323, 125, 4, 281, 541, 72, 14, 71, 52, 167, 15, 49, 68, 35, 321, 2, 82, 22, 12, 48, 278, 95, 63, 277, 8, 91, 15, 544, 224, 42, 218, 2, 8, 19, 77, 3, 3, 2, 139, 96, 164, 81, 62, 171, 2, 61, 3, 6, 74, 3, 287, 167, 3, 3, 44, 4, 249, 132, 12, 8, 163, 50, 9, 212, 56, 543, 88, 70, 40, 137, 305, 10, 655, 146, 147, 65, 256, 3, 25, 278, 48, 13, 5, 100, 22, 2, 11, 2, 27, 10, 82, 6, 87, 157, 56, 84, 50, 3, 3, 3, 173, 2, 2, 721, 35, 26, 2, 57, 156, 4, 54, 3, 383, 3, 105, 7, 28, 4, 3, 4, 4, 3, 2, 2, 9, 170, 116, 3, 48, 185, 90, 14, 12, 169, 76, 18, 97, 52, 23, 29, 96, 4, 2, 2, 4, 2, 2, 97, 9, 3, 367, 2, 104, 388, 135, 291, 5, 3, 12, 3, 2, 130, 125, 265, 89, 104, 12, 8, 2, 3, 31, 17, 7, 2, 199, 317, 25, 12, 182, 107, 144, 97, 185, 25, 42, 34, 2, 112, 4, 8, 2, 287, 535, 48, 31, 260, 11, 13, 27, 2, 2, 27, 102, 16, 114, 95, 7, 3, 10, 2, 324, 269, 53, 56, 304, 2, 3, 33, 140, 5, 512, 87, 6, 20, 7, 3, 148, 2, 9, 106, 33, 3, 8, 3, 5, 2, 3, 2, 2]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+Evaluate 14
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.99470803
+completeness_score-whole-data:   0.74422684
+nmi_score-whole-data:   0.85142742
+pred clusters=71, true clusters=18
+purity majority whole data=0.996309963099631
+	Gibbs sampling successful! Start to saving results.
+start doc=22763, end doc=24660
+total texts=24660, total clusters=363
+	Saving successful!
+Batch 14
+30322
+	26557 documents will be analyze. alpha is 796.71.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+maxPredLabel=1759
+outlier=79, non-outlier=1818,=maxPredLabel=1834
+high_entropy_words=308, total words=3002
+outsPerCluster.values(), nonOuts 79 26125
+[483, 139, 260, 39, 53, 381, 52, 263, 27, 140, 214, 82, 47, 187, 6, 107, 33, 158, 145, 158, 56, 213, 116, 142, 69, 221, 2, 129, 326, 125, 4, 281, 546, 73, 14, 71, 52, 167, 15, 49, 68, 35, 321, 2, 84, 22, 12, 50, 278, 97, 65, 277, 8, 91, 15, 544, 224, 42, 224, 2, 8, 19, 77, 3, 3, 2, 139, 103, 169, 81, 62, 184, 2, 61, 3, 6, 81, 3, 289, 167, 3, 3, 44, 4, 249, 132, 12, 8, 165, 50, 9, 213, 56, 564, 88, 70, 42, 137, 305, 10, 655, 148, 147, 67, 256, 3, 25, 278, 48, 21, 5, 106, 26, 2, 14, 2, 28, 10, 82, 6, 696, 157, 56, 84, 50, 3, 3, 3, 173, 2, 2, 721, 37, 26, 2, 57, 156, 4, 54, 3, 383, 3, 105, 7, 28, 4, 3, 4, 4, 3, 2, 2, 9, 170, 116, 3, 153, 197, 90, 14, 12, 169, 76, 18, 97, 166, 23, 29, 96, 4, 2, 2, 4, 2, 2, 109, 9, 3, 368, 2, 106, 433, 135, 291, 5, 3, 12, 3, 2, 130, 125, 265, 89, 104, 12, 8, 2, 3, 31, 17, 7, 2, 265, 317, 25, 12, 182, 107, 151, 97, 185, 131, 42, 34, 2, 112, 4, 8, 2, 287, 556, 48, 33, 260, 19, 13, 27, 2, 2, 30, 102, 18, 114, 95, 7, 3, 12, 2, 347, 269, 53, 56, 304, 2, 3, 33, 140, 5, 512, 87, 6, 20, 7, 3, 152, 23, 9, 117, 33, 3, 8, 3, 5, 2, 3, 2, 129, 52, 2, 3, 43, 65, 25, 4, 5, 10, 9, 8, 5, 2, 11, 2, 2, 7]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+Evaluate 15
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.97569340
+completeness_score-whole-data:   0.67504118
+nmi_score-whole-data:   0.79798804
+pred clusters=146, true clusters=29
+purity majority whole data=0.9831312598840274
+	Gibbs sampling successful! Start to saving results.
+start doc=24660, end doc=26557
+total texts=26557, total clusters=406
+	Saving successful!
+Batch 15
+30322
+	28454 documents will be analyze. alpha is 853.62.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+maxPredLabel=1961
+outlier=75, non-outlier=1822,=maxPredLabel=2048
+high_entropy_words=274, total words=2840
+outsPerCluster.values(), nonOuts 75 27947
+[483, 141, 263, 47, 53, 381, 60, 263, 27, 140, 214, 82, 47, 189, 6, 107, 33, 158, 145, 158, 58, 215, 119, 142, 69, 221, 2, 129, 378, 125, 7, 281, 546, 73, 14, 84, 55, 167, 15, 49, 68, 35, 321, 2, 84, 22, 12, 50, 278, 97, 65, 292, 8, 91, 15, 544, 224, 42, 224, 2, 8, 19, 77, 3, 3, 2, 158, 103, 169, 81, 64, 184, 2, 65, 3, 6, 81, 3, 291, 167, 60, 3, 44, 4, 250, 138, 12, 8, 165, 50, 9, 213, 56, 567, 90, 70, 42, 138, 305, 10, 655, 153, 152, 67, 256, 3, 25, 278, 48, 25, 5, 106, 86, 2, 14, 2, 30, 10, 83, 6, 1233, 157, 56, 84, 50, 3, 3, 3, 173, 2, 2, 721, 37, 26, 2, 57, 167, 4, 54, 3, 383, 3, 105, 7, 28, 4, 3, 4, 4, 3, 2, 2, 9, 170, 292, 3, 153, 207, 91, 14, 12, 169, 76, 25, 97, 166, 23, 29, 111, 4, 2, 2, 4, 2, 2, 109, 9, 3, 370, 2, 106, 433, 135, 296, 5, 3, 12, 3, 2, 130, 125, 265, 89, 104, 27, 8, 2, 3, 33, 17, 7, 2, 298, 317, 79, 12, 182, 107, 151, 108, 185, 136, 42, 38, 2, 112, 4, 10, 2, 287, 556, 48, 33, 260, 19, 13, 27, 2, 2, 45, 106, 18, 117, 95, 24, 3, 12, 2, 490, 269, 53, 61, 304, 2, 3, 33, 140, 5, 512, 87, 6, 20, 7, 3, 152, 24, 9, 117, 33, 3, 8, 3, 5, 2, 3, 2, 129, 52, 2, 3, 43, 65, 25, 4, 5, 10, 9, 8, 5, 7, 11, 2, 2, 7, 2, 49, 111, 61, 10, 11, 2, 59, 16, 14, 33, 11, 2, 2, 2, 7, 7, 5, 3, 3, 3, 4, 3, 3, 3, 4, 2, 2, 3, 2, 2, 2, 2, 4]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+Evaluate 16
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.96732869
+completeness_score-whole-data:   0.65753842
+nmi_score-whole-data:   0.78290191
+pred clusters=160, true clusters=21
+purity majority whole data=0.9783869267264101
+	Gibbs sampling successful! Start to saving results.
+start doc=26557, end doc=28454
+total texts=28454, total clusters=453
+	Saving successful!
+Batch 16
+30322
+	30322 documents will be analyze. alpha is 909.66.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+maxPredLabel=2085
+outlier=47, non-outlier=1821,=maxPredLabel=2119
+high_entropy_words=176, total words=1206
+outsPerCluster.values(), nonOuts 47 29768
+[483, 141, 265, 47, 53, 381, 60, 263, 29, 140, 214, 82, 47, 189, 6, 107, 33, 158, 145, 158, 60, 512, 119, 142, 69, 221, 2, 129, 914, 125, 7, 281, 546, 75, 14, 84, 55, 167, 15, 49, 68, 35, 321, 2, 84, 22, 12, 50, 278, 97, 65, 292, 8, 91, 15, 544, 224, 59, 224, 2, 8, 19, 77, 3, 3, 2, 158, 103, 169, 87, 64, 184, 2, 65, 3, 6, 81, 3, 291, 167, 60, 3, 44, 9, 252, 138, 12, 8, 165, 50, 9, 213, 58, 569, 90, 70, 42, 144, 305, 10, 655, 166, 152, 67, 256, 3, 25, 278, 48, 25, 5, 106, 86, 2, 14, 2, 30, 10, 88, 6, 1233, 157, 56, 84, 50, 3, 3, 3, 173, 5, 2, 721, 37, 26, 2, 57, 167, 4, 54, 3, 383, 3, 105, 7, 28, 4, 3, 4, 4, 3, 2, 2, 9, 170, 292, 3, 153, 207, 91, 14, 12, 169, 76, 25, 97, 166, 23, 29, 114, 4, 2, 2, 4, 2, 2, 109, 9, 3, 370, 2, 106, 433, 135, 296, 5, 3, 12, 3, 2, 130, 125, 265, 93, 104, 27, 8, 2, 3, 33, 17, 7, 2, 298, 317, 79, 12, 182, 107, 151, 108, 185, 136, 42, 38, 2, 112, 4, 10, 2, 287, 556, 48, 33, 260, 19, 13, 27, 2, 2, 45, 106, 30, 117, 95, 26, 3, 12, 2, 840, 269, 53, 137, 304, 2, 3, 33, 140, 5, 512, 87, 6, 20, 7, 3, 152, 24, 9, 117, 33, 3, 8, 3, 5, 2, 3, 2, 129, 52, 2, 3, 43, 65, 25, 4, 5, 10, 9, 8, 5, 7, 11, 2, 2, 7, 2, 49, 111, 64, 10, 13, 2, 198, 16, 14, 33, 299, 2, 2, 2, 7, 7, 5, 3, 3, 3, 4, 3, 3, 3, 4, 2, 2, 3, 2, 2, 2, 2, 4, 2, 16, 3, 12, 5, 2]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+Evaluate 17
+evaluate total texts=1868
+homogeneity_score-whole-data:   0.97180853
+completeness_score-whole-data:   0.45349780
+nmi_score-whole-data:   0.61841167
+pred clusters=75, true clusters=8
+purity majority whole data=0.9935760171306209
+	Gibbs sampling successful! Start to saving results.
+start doc=28454, end doc=30322
+total texts=30322, total clusters=474
+	Saving successful!
+time diff secs= 883
+pred_true_text_file name=result/mstr-enh
+evaluate total texts=30321
+homogeneity_score-whole-data:   0.85605582
+completeness_score-whole-data:   0.85275311
+nmi_score-whole-data:   0.85440127
+pred clusters=773, true clusters=269
+purity majority whole data=0.7528115827314402
+pred_true_text_file name=result/NewsPredTueTextMStream_WordArr.txt
+evaluate total texts=30322
+homogeneity_score-whole-data:   0.84572837
+completeness_score-whole-data:   0.85249708
+nmi_score-whole-data:   0.84909924
+pred clusters=466, true clusters=269
+purity majority whole data=0.743486577402546

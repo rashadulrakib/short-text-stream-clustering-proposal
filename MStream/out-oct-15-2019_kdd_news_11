@@ -1,0 +1,1165 @@
+100000
+200000
+300000
+400000
+500000
+600000
+700000
+800000
+900000
+1000000
+1100000
+1200000
+1300000
+1400000
+1500000
+1600000
+1700000
+1800000
+1900000
+wordVectorsDic length 1917494
+number of documents is  11109
+self.V=all the words in all documents
+8110
+SampleNo:1
+result/
+
+---------RUN-------- 0
+K0iterNum1SampleNum1alpha0.03beta0.03BatchNum11BatchSaved11
+No timefil!
+before call run_MStream, self.K=0,self.iterNum=1, self.V=8110
+batchNum2tweetID is  {1: 1011, 2: 2022, 3: 3033, 4: 4044, 5: 5055, 6: 6066, 7: 7077, 8: 8088, 9: 9099, 10: 10110, 11: -1}
+Batch 1
+11109
+	1010 documents will be analyze. alpha is 30.30.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=0, end doc=1010
+total texts=0, total clusters=0
+	Saving successful!
+Batch 2
+11109
+	2021 documents will be analyze. alpha is 60.63.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=1010, end doc=2021
+total texts=0, total clusters=0
+	Saving successful!
+Batch 3
+11109
+	3032 documents will be analyze. alpha is 90.96.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=2021, end doc=3032
+total texts=0, total clusters=0
+	Saving successful!
+Batch 4
+11109
+	4043 documents will be analyze. alpha is 121.29.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=3032, end doc=4043
+total texts=0, total clusters=0
+	Saving successful!
+Batch 5
+11109
+	5054 documents will be analyze. alpha is 151.62.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=4043, end doc=5054
+total texts=0, total clusters=0
+	Saving successful!
+Batch 6
+11109
+	6065 documents will be analyze. alpha is 181.95.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=5054, end doc=6065
+total texts=0, total clusters=0
+	Saving successful!
+Batch 7
+11109
+	7076 documents will be analyze. alpha is 212.28.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=6065, end doc=7076
+total texts=0, total clusters=0
+	Saving successful!
+Batch 8
+11109
+	8087 documents will be analyze. alpha is 242.61.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=7076, end doc=8087
+total texts=0, total clusters=0
+	Saving successful!
+Batch 9
+11109
+	9098 documents will be analyze. alpha is 272.94.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=8087, end doc=9098
+total texts=0, total clusters=0
+	Saving successful!
+Batch 10
+11109
+	10109 documents will be analyze. alpha is 303.27.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=9098, end doc=10109
+total texts=0, total clusters=0
+	Saving successful!
+Batch 11
+11109
+	11109 documents will be analyze. alpha is 333.27.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=10109, end doc=11109
+total texts=0, total clusters=0
+	Saving successful!
+time diff secs= 25
+pred_true_text_file name=result/NewsPredTueTextMStream_WordArr.txt
+evaluate total texts=11109
+homogeneity_score-whole-data:   0.83120193
+completeness_score-whole-data:   0.84882431
+nmi_score-whole-data:   0.83992070
+pred clusters=275, true clusters=152
+purity majority whole data=0.7271581600504096
+final dic len=0
+
+---------RUN-------- 1
+K0iterNum1SampleNum1alpha0.03beta0.03BatchNum11BatchSaved11
+No timefil!
+before call run_MStream, self.K=0,self.iterNum=1, self.V=8110
+batchNum2tweetID is  {1: 1011, 2: 2022, 3: 3033, 4: 4044, 5: 5055, 6: 6066, 7: 7077, 8: 8088, 9: 9099, 10: 10110, 11: -1}
+Batch 1
+11109
+	1010 documents will be analyze. alpha is 30.30.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=0, end doc=1010
+total texts=0, total clusters=0
+	Saving successful!
+Batch 2
+11109
+	2021 documents will be analyze. alpha is 60.63.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=1010, end doc=2021
+total texts=0, total clusters=0
+	Saving successful!
+Batch 3
+11109
+	3032 documents will be analyze. alpha is 90.96.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=2021, end doc=3032
+total texts=0, total clusters=0
+	Saving successful!
+Batch 4
+11109
+	4043 documents will be analyze. alpha is 121.29.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=3032, end doc=4043
+total texts=0, total clusters=0
+	Saving successful!
+Batch 5
+11109
+	5054 documents will be analyze. alpha is 151.62.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=4043, end doc=5054
+total texts=0, total clusters=0
+	Saving successful!
+Batch 6
+11109
+	6065 documents will be analyze. alpha is 181.95.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=5054, end doc=6065
+total texts=0, total clusters=0
+	Saving successful!
+Batch 7
+11109
+	7076 documents will be analyze. alpha is 212.28.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=6065, end doc=7076
+total texts=0, total clusters=0
+	Saving successful!
+Batch 8
+11109
+	8087 documents will be analyze. alpha is 242.61.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=7076, end doc=8087
+total texts=0, total clusters=0
+	Saving successful!
+Batch 9
+11109
+	9098 documents will be analyze. alpha is 272.94.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=8087, end doc=9098
+total texts=0, total clusters=0
+	Saving successful!
+Batch 10
+11109
+	10109 documents will be analyze. alpha is 303.27.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=9098, end doc=10109
+total texts=0, total clusters=0
+	Saving successful!
+Batch 11
+11109
+	11109 documents will be analyze. alpha is 333.27.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=10109, end doc=11109
+total texts=0, total clusters=0
+	Saving successful!
+time diff secs= 25
+pred_true_text_file name=result/NewsPredTueTextMStream_WordArr.txt
+evaluate total texts=11109
+homogeneity_score-whole-data:   0.83756844
+completeness_score-whole-data:   0.86150727
+nmi_score-whole-data:   0.84936922
+pred clusters=275, true clusters=152
+purity majority whole data=0.7491223332433162
+final dic len=0
+
+---------RUN-------- 2
+K0iterNum1SampleNum1alpha0.03beta0.03BatchNum11BatchSaved11
+No timefil!
+before call run_MStream, self.K=0,self.iterNum=1, self.V=8110
+batchNum2tweetID is  {1: 1011, 2: 2022, 3: 3033, 4: 4044, 5: 5055, 6: 6066, 7: 7077, 8: 8088, 9: 9099, 10: 10110, 11: -1}
+Batch 1
+11109
+	1010 documents will be analyze. alpha is 30.30.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=0, end doc=1010
+total texts=0, total clusters=0
+	Saving successful!
+Batch 2
+11109
+	2021 documents will be analyze. alpha is 60.63.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=1010, end doc=2021
+total texts=0, total clusters=0
+	Saving successful!
+Batch 3
+11109
+	3032 documents will be analyze. alpha is 90.96.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=2021, end doc=3032
+total texts=0, total clusters=0
+	Saving successful!
+Batch 4
+11109
+	4043 documents will be analyze. alpha is 121.29.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=3032, end doc=4043
+total texts=0, total clusters=0
+	Saving successful!
+Batch 5
+11109
+	5054 documents will be analyze. alpha is 151.62.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=4043, end doc=5054
+total texts=0, total clusters=0
+	Saving successful!
+Batch 6
+11109
+	6065 documents will be analyze. alpha is 181.95.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=5054, end doc=6065
+total texts=0, total clusters=0
+	Saving successful!
+Batch 7
+11109
+	7076 documents will be analyze. alpha is 212.28.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=6065, end doc=7076
+total texts=0, total clusters=0
+	Saving successful!
+Batch 8
+11109
+	8087 documents will be analyze. alpha is 242.61.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=7076, end doc=8087
+total texts=0, total clusters=0
+	Saving successful!
+Batch 9
+11109
+	9098 documents will be analyze. alpha is 272.94.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=8087, end doc=9098
+total texts=0, total clusters=0
+	Saving successful!
+Batch 10
+11109
+	10109 documents will be analyze. alpha is 303.27.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=9098, end doc=10109
+total texts=0, total clusters=0
+	Saving successful!
+Batch 11
+11109
+	11109 documents will be analyze. alpha is 333.27.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=10109, end doc=11109
+total texts=0, total clusters=0
+	Saving successful!
+time diff secs= 25
+pred_true_text_file name=result/NewsPredTueTextMStream_WordArr.txt
+evaluate total texts=11109
+homogeneity_score-whole-data:   0.84591151
+completeness_score-whole-data:   0.86080782
+nmi_score-whole-data:   0.85329466
+pred clusters=276, true clusters=152
+purity majority whole data=0.7634350526600054
+final dic len=0
+
+---------RUN-------- 3
+K0iterNum1SampleNum1alpha0.03beta0.03BatchNum11BatchSaved11
+No timefil!
+before call run_MStream, self.K=0,self.iterNum=1, self.V=8110
+batchNum2tweetID is  {1: 1011, 2: 2022, 3: 3033, 4: 4044, 5: 5055, 6: 6066, 7: 7077, 8: 8088, 9: 9099, 10: 10110, 11: -1}
+Batch 1
+11109
+	1010 documents will be analyze. alpha is 30.30.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=0, end doc=1010
+total texts=0, total clusters=0
+	Saving successful!
+Batch 2
+11109
+	2021 documents will be analyze. alpha is 60.63.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=1010, end doc=2021
+total texts=0, total clusters=0
+	Saving successful!
+Batch 3
+11109
+	3032 documents will be analyze. alpha is 90.96.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=2021, end doc=3032
+total texts=0, total clusters=0
+	Saving successful!
+Batch 4
+11109
+	4043 documents will be analyze. alpha is 121.29.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=3032, end doc=4043
+total texts=0, total clusters=0
+	Saving successful!
+Batch 5
+11109
+	5054 documents will be analyze. alpha is 151.62.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=4043, end doc=5054
+total texts=0, total clusters=0
+	Saving successful!
+Batch 6
+11109
+	6065 documents will be analyze. alpha is 181.95.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=5054, end doc=6065
+total texts=0, total clusters=0
+	Saving successful!
+Batch 7
+11109
+	7076 documents will be analyze. alpha is 212.28.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=6065, end doc=7076
+total texts=0, total clusters=0
+	Saving successful!
+Batch 8
+11109
+	8087 documents will be analyze. alpha is 242.61.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=7076, end doc=8087
+total texts=0, total clusters=0
+	Saving successful!
+Batch 9
+11109
+	9098 documents will be analyze. alpha is 272.94.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=8087, end doc=9098
+total texts=0, total clusters=0
+	Saving successful!
+Batch 10
+11109
+	10109 documents will be analyze. alpha is 303.27.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=9098, end doc=10109
+total texts=0, total clusters=0
+	Saving successful!
+Batch 11
+11109
+	11109 documents will be analyze. alpha is 333.27.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=10109, end doc=11109
+total texts=0, total clusters=0
+	Saving successful!
+time diff secs= 25
+pred_true_text_file name=result/NewsPredTueTextMStream_WordArr.txt
+evaluate total texts=11109
+homogeneity_score-whole-data:   0.84596421
+completeness_score-whole-data:   0.86439515
+nmi_score-whole-data:   0.85508037
+pred clusters=279, true clusters=152
+purity majority whole data=0.7544333423350437
+final dic len=0
+
+---------RUN-------- 4
+K0iterNum1SampleNum1alpha0.03beta0.03BatchNum11BatchSaved11
+No timefil!
+before call run_MStream, self.K=0,self.iterNum=1, self.V=8110
+batchNum2tweetID is  {1: 1011, 2: 2022, 3: 3033, 4: 4044, 5: 5055, 6: 6066, 7: 7077, 8: 8088, 9: 9099, 10: 10110, 11: -1}
+Batch 1
+11109
+	1010 documents will be analyze. alpha is 30.30.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=0, end doc=1010
+total texts=0, total clusters=0
+	Saving successful!
+Batch 2
+11109
+	2021 documents will be analyze. alpha is 60.63.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=1010, end doc=2021
+total texts=0, total clusters=0
+	Saving successful!
+Batch 3
+11109
+	3032 documents will be analyze. alpha is 90.96.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=2021, end doc=3032
+total texts=0, total clusters=0
+	Saving successful!
+Batch 4
+11109
+	4043 documents will be analyze. alpha is 121.29.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=3032, end doc=4043
+total texts=0, total clusters=0
+	Saving successful!
+Batch 5
+11109
+	5054 documents will be analyze. alpha is 151.62.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=4043, end doc=5054
+total texts=0, total clusters=0
+	Saving successful!
+Batch 6
+11109
+	6065 documents will be analyze. alpha is 181.95.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=5054, end doc=6065
+total texts=0, total clusters=0
+	Saving successful!
+Batch 7
+11109
+	7076 documents will be analyze. alpha is 212.28.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=6065, end doc=7076
+total texts=0, total clusters=0
+	Saving successful!
+Batch 8
+11109
+	8087 documents will be analyze. alpha is 242.61.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=7076, end doc=8087
+total texts=0, total clusters=0
+	Saving successful!
+Batch 9
+11109
+	9098 documents will be analyze. alpha is 272.94.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=8087, end doc=9098
+total texts=0, total clusters=0
+	Saving successful!
+Batch 10
+11109
+	10109 documents will be analyze. alpha is 303.27.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=9098, end doc=10109
+total texts=0, total clusters=0
+	Saving successful!
+Batch 11
+11109
+	11109 documents will be analyze. alpha is 333.27.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=10109, end doc=11109
+total texts=0, total clusters=0
+	Saving successful!
+time diff secs= 25
+pred_true_text_file name=result/NewsPredTueTextMStream_WordArr.txt
+evaluate total texts=11109
+homogeneity_score-whole-data:   0.82794339
+completeness_score-whole-data:   0.84982082
+nmi_score-whole-data:   0.83873947
+pred clusters=279, true clusters=152
+purity majority whole data=0.7138356287694662
+final dic len=0
+
+---------RUN-------- 5
+K0iterNum1SampleNum1alpha0.03beta0.03BatchNum11BatchSaved11
+No timefil!
+before call run_MStream, self.K=0,self.iterNum=1, self.V=8110
+batchNum2tweetID is  {1: 1011, 2: 2022, 3: 3033, 4: 4044, 5: 5055, 6: 6066, 7: 7077, 8: 8088, 9: 9099, 10: 10110, 11: -1}
+Batch 1
+11109
+	1010 documents will be analyze. alpha is 30.30.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=0, end doc=1010
+total texts=0, total clusters=0
+	Saving successful!
+Batch 2
+11109
+	2021 documents will be analyze. alpha is 60.63.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=1010, end doc=2021
+total texts=0, total clusters=0
+	Saving successful!
+Batch 3
+11109
+	3032 documents will be analyze. alpha is 90.96.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=2021, end doc=3032
+total texts=0, total clusters=0
+	Saving successful!
+Batch 4
+11109
+	4043 documents will be analyze. alpha is 121.29.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=3032, end doc=4043
+total texts=0, total clusters=0
+	Saving successful!
+Batch 5
+11109
+	5054 documents will be analyze. alpha is 151.62.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=4043, end doc=5054
+total texts=0, total clusters=0
+	Saving successful!
+Batch 6
+11109
+	6065 documents will be analyze. alpha is 181.95.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=5054, end doc=6065
+total texts=0, total clusters=0
+	Saving successful!
+Batch 7
+11109
+	7076 documents will be analyze. alpha is 212.28.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=6065, end doc=7076
+total texts=0, total clusters=0
+	Saving successful!
+Batch 8
+11109
+	8087 documents will be analyze. alpha is 242.61.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=7076, end doc=8087
+total texts=0, total clusters=0
+	Saving successful!
+Batch 9
+11109
+	9098 documents will be analyze. alpha is 272.94.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=8087, end doc=9098
+total texts=0, total clusters=0
+	Saving successful!
+Batch 10
+11109
+	10109 documents will be analyze. alpha is 303.27.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=9098, end doc=10109
+total texts=0, total clusters=0
+	Saving successful!
+Batch 11
+11109
+	11109 documents will be analyze. alpha is 333.27.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=10109, end doc=11109
+total texts=0, total clusters=0
+	Saving successful!
+time diff secs= 25
+pred_true_text_file name=result/NewsPredTueTextMStream_WordArr.txt
+evaluate total texts=11109
+homogeneity_score-whole-data:   0.85055246
+completeness_score-whole-data:   0.86775148
+nmi_score-whole-data:   0.85906589
+pred clusters=256, true clusters=152
+purity majority whole data=0.7717166261589702
+final dic len=0
+
+---------RUN-------- 6
+K0iterNum1SampleNum1alpha0.03beta0.03BatchNum11BatchSaved11
+No timefil!
+before call run_MStream, self.K=0,self.iterNum=1, self.V=8110
+batchNum2tweetID is  {1: 1011, 2: 2022, 3: 3033, 4: 4044, 5: 5055, 6: 6066, 7: 7077, 8: 8088, 9: 9099, 10: 10110, 11: -1}
+Batch 1
+11109
+	1010 documents will be analyze. alpha is 30.30.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=0, end doc=1010
+total texts=0, total clusters=0
+	Saving successful!
+Batch 2
+11109
+	2021 documents will be analyze. alpha is 60.63.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=1010, end doc=2021
+total texts=0, total clusters=0
+	Saving successful!
+Batch 3
+11109
+	3032 documents will be analyze. alpha is 90.96.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=2021, end doc=3032
+total texts=0, total clusters=0
+	Saving successful!
+Batch 4
+11109
+	4043 documents will be analyze. alpha is 121.29.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=3032, end doc=4043
+total texts=0, total clusters=0
+	Saving successful!
+Batch 5
+11109
+	5054 documents will be analyze. alpha is 151.62.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=4043, end doc=5054
+total texts=0, total clusters=0
+	Saving successful!
+Batch 6
+11109
+	6065 documents will be analyze. alpha is 181.95.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=5054, end doc=6065
+total texts=0, total clusters=0
+	Saving successful!
+Batch 7
+11109
+	7076 documents will be analyze. alpha is 212.28.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=6065, end doc=7076
+total texts=0, total clusters=0
+	Saving successful!
+Batch 8
+11109
+	8087 documents will be analyze. alpha is 242.61.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=7076, end doc=8087
+total texts=0, total clusters=0
+	Saving successful!
+Batch 9
+11109
+	9098 documents will be analyze. alpha is 272.94.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=8087, end doc=9098
+total texts=0, total clusters=0
+	Saving successful!
+Batch 10
+11109
+	10109 documents will be analyze. alpha is 303.27.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=9098, end doc=10109
+total texts=0, total clusters=0
+	Saving successful!
+Batch 11
+11109
+	11109 documents will be analyze. alpha is 333.27.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=10109, end doc=11109
+total texts=0, total clusters=0
+	Saving successful!
+time diff secs= 25
+pred_true_text_file name=result/NewsPredTueTextMStream_WordArr.txt
+evaluate total texts=11109
+homogeneity_score-whole-data:   0.83601251
+completeness_score-whole-data:   0.85558144
+nmi_score-whole-data:   0.84568379
+pred clusters=279, true clusters=152
+purity majority whole data=0.7578539922585291
+final dic len=0
+
+---------RUN-------- 7
+K0iterNum1SampleNum1alpha0.03beta0.03BatchNum11BatchSaved11
+No timefil!
+before call run_MStream, self.K=0,self.iterNum=1, self.V=8110
+batchNum2tweetID is  {1: 1011, 2: 2022, 3: 3033, 4: 4044, 5: 5055, 6: 6066, 7: 7077, 8: 8088, 9: 9099, 10: 10110, 11: -1}
+Batch 1
+11109
+	1010 documents will be analyze. alpha is 30.30.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=0, end doc=1010
+total texts=0, total clusters=0
+	Saving successful!
+Batch 2
+11109
+	2021 documents will be analyze. alpha is 60.63.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=1010, end doc=2021
+total texts=0, total clusters=0
+	Saving successful!
+Batch 3
+11109
+	3032 documents will be analyze. alpha is 90.96.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=2021, end doc=3032
+total texts=0, total clusters=0
+	Saving successful!
+Batch 4
+11109
+	4043 documents will be analyze. alpha is 121.29.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=3032, end doc=4043
+total texts=0, total clusters=0
+	Saving successful!
+Batch 5
+11109
+	5054 documents will be analyze. alpha is 151.62.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=4043, end doc=5054
+total texts=0, total clusters=0
+	Saving successful!
+Batch 6
+11109
+	6065 documents will be analyze. alpha is 181.95.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=5054, end doc=6065
+total texts=0, total clusters=0
+	Saving successful!
+Batch 7
+11109
+	7076 documents will be analyze. alpha is 212.28.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=6065, end doc=7076
+total texts=0, total clusters=0
+	Saving successful!
+Batch 8
+11109
+	8087 documents will be analyze. alpha is 242.61.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=7076, end doc=8087
+total texts=0, total clusters=0
+	Saving successful!
+Batch 9
+11109
+	9098 documents will be analyze. alpha is 272.94.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=8087, end doc=9098
+total texts=0, total clusters=0
+	Saving successful!
+Batch 10
+11109
+	10109 documents will be analyze. alpha is 303.27.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=9098, end doc=10109
+total texts=0, total clusters=0
+	Saving successful!
+Batch 11
+11109
+	11109 documents will be analyze. alpha is 333.27.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=10109, end doc=11109
+total texts=0, total clusters=0
+	Saving successful!
+time diff secs= 24
+pred_true_text_file name=result/NewsPredTueTextMStream_WordArr.txt
+evaluate total texts=11109
+homogeneity_score-whole-data:   0.83162271
+completeness_score-whole-data:   0.86139070
+nmi_score-whole-data:   0.84624500
+pred clusters=261, true clusters=152
+purity majority whole data=0.7269781258439103
+final dic len=0
+
+---------RUN-------- 8
+K0iterNum1SampleNum1alpha0.03beta0.03BatchNum11BatchSaved11
+No timefil!
+before call run_MStream, self.K=0,self.iterNum=1, self.V=8110
+batchNum2tweetID is  {1: 1011, 2: 2022, 3: 3033, 4: 4044, 5: 5055, 6: 6066, 7: 7077, 8: 8088, 9: 9099, 10: 10110, 11: -1}
+Batch 1
+11109
+	1010 documents will be analyze. alpha is 30.30.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=0, end doc=1010
+total texts=0, total clusters=0
+	Saving successful!
+Batch 2
+11109
+	2021 documents will be analyze. alpha is 60.63.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=1010, end doc=2021
+total texts=0, total clusters=0
+	Saving successful!
+Batch 3
+11109
+	3032 documents will be analyze. alpha is 90.96.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=2021, end doc=3032
+total texts=0, total clusters=0
+	Saving successful!
+Batch 4
+11109
+	4043 documents will be analyze. alpha is 121.29.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=3032, end doc=4043
+total texts=0, total clusters=0
+	Saving successful!
+Batch 5
+11109
+	5054 documents will be analyze. alpha is 151.62.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=4043, end doc=5054
+total texts=0, total clusters=0
+	Saving successful!
+Batch 6
+11109
+	6065 documents will be analyze. alpha is 181.95.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=5054, end doc=6065
+total texts=0, total clusters=0
+	Saving successful!
+Batch 7
+11109
+	7076 documents will be analyze. alpha is 212.28.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=6065, end doc=7076
+total texts=0, total clusters=0
+	Saving successful!
+Batch 8
+11109
+	8087 documents will be analyze. alpha is 242.61.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=7076, end doc=8087
+total texts=0, total clusters=0
+	Saving successful!
+Batch 9
+11109
+	9098 documents will be analyze. alpha is 272.94.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=8087, end doc=9098
+total texts=0, total clusters=0
+	Saving successful!
+Batch 10
+11109
+	10109 documents will be analyze. alpha is 303.27.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=9098, end doc=10109
+total texts=0, total clusters=0
+	Saving successful!
+Batch 11
+11109
+	11109 documents will be analyze. alpha is 333.27.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=10109, end doc=11109
+total texts=0, total clusters=0
+	Saving successful!
+time diff secs= 25
+pred_true_text_file name=result/NewsPredTueTextMStream_WordArr.txt
+evaluate total texts=11109
+homogeneity_score-whole-data:   0.84079292
+completeness_score-whole-data:   0.85216187
+nmi_score-whole-data:   0.84643922
+pred clusters=269, true clusters=152
+purity majority whole data=0.7500225042758124
+final dic len=0
+
+---------RUN-------- 9
+K0iterNum1SampleNum1alpha0.03beta0.03BatchNum11BatchSaved11
+No timefil!
+before call run_MStream, self.K=0,self.iterNum=1, self.V=8110
+batchNum2tweetID is  {1: 1011, 2: 2022, 3: 3033, 4: 4044, 5: 5055, 6: 6066, 7: 7077, 8: 8088, 9: 9099, 10: 10110, 11: -1}
+Batch 1
+11109
+	1010 documents will be analyze. alpha is 30.30.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=0, end doc=1010
+total texts=0, total clusters=0
+	Saving successful!
+Batch 2
+11109
+	2021 documents will be analyze. alpha is 60.63.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=1010, end doc=2021
+total texts=0, total clusters=0
+	Saving successful!
+Batch 3
+11109
+	3032 documents will be analyze. alpha is 90.96.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=2021, end doc=3032
+total texts=0, total clusters=0
+	Saving successful!
+Batch 4
+11109
+	4043 documents will be analyze. alpha is 121.29.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=3032, end doc=4043
+total texts=0, total clusters=0
+	Saving successful!
+Batch 5
+11109
+	5054 documents will be analyze. alpha is 151.62.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=4043, end doc=5054
+total texts=0, total clusters=0
+	Saving successful!
+Batch 6
+11109
+	6065 documents will be analyze. alpha is 181.95.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=5054, end doc=6065
+total texts=0, total clusters=0
+	Saving successful!
+Batch 7
+11109
+	7076 documents will be analyze. alpha is 212.28.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=6065, end doc=7076
+total texts=0, total clusters=0
+	Saving successful!
+Batch 8
+11109
+	8087 documents will be analyze. alpha is 242.61.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=7076, end doc=8087
+total texts=0, total clusters=0
+	Saving successful!
+Batch 9
+11109
+	9098 documents will be analyze. alpha is 272.94.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=8087, end doc=9098
+total texts=0, total clusters=0
+	Saving successful!
+Batch 10
+11109
+	10109 documents will be analyze. alpha is 303.27.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=9098, end doc=10109
+total texts=0, total clusters=0
+	Saving successful!
+Batch 11
+11109
+	11109 documents will be analyze. alpha is 333.27.
+	Initialization.
+	iter is  1
+	Gibbs sampling successful! Start to saving results.
+start doc=10109, end doc=11109
+total texts=0, total clusters=0
+	Saving successful!
+time diff secs= 25
+pred_true_text_file name=result/NewsPredTueTextMStream_WordArr.txt
+evaluate total texts=11109
+homogeneity_score-whole-data:   0.84198817
+completeness_score-whole-data:   0.86349485
+nmi_score-whole-data:   0.85260591
+pred clusters=270, true clusters=152
+purity majority whole data=0.7549734449545413
+final dic len=0

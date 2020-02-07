@@ -1,0 +1,716 @@
+100000
+200000
+300000
+400000
+500000
+600000
+700000
+800000
+900000
+1000000
+1100000
+1200000
+1300000
+1400000
+1500000
+1600000
+1700000
+1800000
+1900000
+wordVectorsDic length 1917494
+number of documents is  20000
+self.V=all the words in all documents
+10275
+SampleNo:1
+K0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16
+No timefil!
+before call run_MStream, self.K=0,self.iterNum=5, self.V=10275
+batchNum2tweetID is  {1: 1251, 2: 2502, 3: 3753, 4: 5004, 5: 6255, 6: 7506, 7: 8757, 8: 10008, 9: 11259, 10: 12510, 11: 13761, 12: 15012, 13: 16263, 14: 17514, 15: 18765, 16: -1}
+Batch 1
+20000
+	1250 documents will be analyze. alpha is 37.50.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 2 time diff secs-kdd-gibbsSampling= 3
+maxPredLabel=503
+batch 2 time diff secs-out-connected= 0
+outlier=39, non-outlier=1211,=maxPredLabel=584
+high_entropy_words=256, total words=1925
+batch 2 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 39 1211
+[9, 24, 20, 45, 28, 25, 14, 9, 57, 11, 20, 34, 7, 13, 2, 6, 27, 20, 24, 15, 16, 19, 57, 12, 17, 22, 19, 22, 18, 13, 2, 7, 47, 34, 15, 21, 6, 51, 24, 15, 12, 15, 4, 8, 47, 18, 27, 9, 2, 8, 6, 5, 2, 4, 28, 24, 5, 37, 6, 3, 6, 9, 14, 4, 5, 2, 2, 2, 2, 3, 4, 2, 3, 14, 6, 2, 2, 5, 3, 2, 2]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 2 time diff secs-customGibbsSampling= 0
+oldPredLabel not cluster=old496, cluster=886
+batch 2 time diff secs-assign outlier= 0
+Evaluate-enhance 2
+evaluate total texts=1250
+homogeneity_score-whole-data:   0.66858126
+completeness_score-whole-data:   0.39308146
+nmi_score-whole-data:   0.49508548
+pred clusters=119, true clusters=20
+purity majority whole data=0.7192
+batch 2 time diff secs-whole detect= 1
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Stackoverflow-mstreamK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch1/
+start doc=0, end doc=1250
+total texts=1250, total clusters=120
+	Saving successful!
+Batch 2
+20000
+	2501 documents will be analyze. alpha is 75.03.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 3 time diff secs-kdd-gibbsSampling= 5
+maxPredLabel=1121
+batch 3 time diff secs-out-connected= 0
+outlier=55, non-outlier=1196,=maxPredLabel=1194
+high_entropy_words=211, total words=1940
+batch 3 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 55 2407
+[22, 60, 28, 65, 54, 58, 30, 15, 108, 14, 39, 63, 14, 29, 2, 8, 41, 60, 40, 17, 39, 43, 88, 15, 35, 39, 34, 51, 31, 33, 2, 8, 81, 98, 42, 31, 14, 118, 65, 50, 24, 26, 5, 21, 77, 32, 64, 14, 2, 29, 7, 15, 2, 6, 49, 53, 5, 50, 7, 8, 12, 21, 23, 9, 11, 2, 2, 2, 2, 3, 6, 2, 3, 30, 17, 2, 2, 13, 24, 2, 2, 2, 2, 4, 2, 2, 2, 12, 2, 2, 2, 2, 3]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 3 time diff secs-customGibbsSampling= 0
+batch 3 time diff secs-assign outlier= 1
+Evaluate-enhance 3
+evaluate total texts=1251
+homogeneity_score-whole-data:   0.69034184
+completeness_score-whole-data:   0.44132436
+nmi_score-whole-data:   0.53843558
+pred clusters=131, true clusters=20
+purity majority whole data=0.7082334132693845
+batch 3 time diff secs-whole detect= 2
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Stackoverflow-mstreamK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch2/
+start doc=1250, end doc=2501
+total texts=2501, total clusters=160
+	Saving successful!
+Batch 3
+20000
+	3752 documents will be analyze. alpha is 112.56.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 4 time diff secs-kdd-gibbsSampling= 6
+maxPredLabel=1340
+batch 4 time diff secs-out-connected= 0
+outlier=85, non-outlier=1166,=maxPredLabel=1409
+high_entropy_words=201, total words=1950
+batch 4 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 85 3573
+[35, 83, 48, 99, 76, 101, 45, 18, 155, 16, 58, 99, 25, 37, 2, 8, 53, 95, 57, 26, 47, 75, 135, 18, 51, 60, 38, 79, 38, 39, 2, 10, 118, 144, 60, 40, 24, 197, 86, 72, 30, 38, 5, 23, 100, 52, 119, 23, 2, 50, 7, 17, 2, 18, 86, 76, 5, 65, 7, 8, 20, 33, 33, 10, 13, 2, 2, 2, 2, 3, 9, 2, 3, 56, 34, 2, 2, 26, 36, 2, 2, 2, 4, 4, 2, 4, 2, 26, 2, 2, 2, 2, 3, 2, 3, 3, 2, 2, 2, 2, 2, 2, 2]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 4 time diff secs-customGibbsSampling= 0
+batch 4 time diff secs-assign outlier= 3
+Evaluate-enhance 4
+evaluate total texts=1251
+homogeneity_score-whole-data:   0.65653328
+completeness_score-whole-data:   0.43096426
+nmi_score-whole-data:   0.52035498
+pred clusters=152, true clusters=20
+purity majority whole data=0.6674660271782574
+batch 4 time diff secs-whole detect= 5
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Stackoverflow-mstreamK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch3/
+start doc=2501, end doc=3752
+total texts=3752, total clusters=201
+	Saving successful!
+Batch 4
+20000
+	5003 documents will be analyze. alpha is 150.09.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 5 time diff secs-kdd-gibbsSampling= 7
+maxPredLabel=1554
+batch 5 time diff secs-out-connected= 0
+outlier=88, non-outlier=1163,=maxPredLabel=1636
+high_entropy_words=225, total words=1974
+batch 5 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 88 4736
+[55, 116, 60, 128, 94, 145, 54, 19, 201, 27, 77, 130, 44, 52, 2, 13, 60, 133, 74, 31, 57, 101, 201, 20, 56, 77, 39, 104, 48, 54, 4, 12, 142, 209, 87, 53, 37, 287, 113, 97, 38, 47, 5, 30, 119, 56, 162, 26, 2, 75, 9, 19, 2, 21, 109, 94, 5, 74, 7, 10, 24, 47, 38, 12, 19, 2, 2, 2, 2, 3, 12, 2, 3, 65, 41, 2, 2, 43, 54, 2, 2, 2, 6, 4, 2, 4, 2, 33, 2, 2, 2, 2, 3, 2, 3, 3, 2, 2, 2, 2, 2, 4, 2, 2, 2, 3, 6, 2, 2, 4, 2, 2, 2, 2, 3, 6, 2, 2, 4]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 5 time diff secs-customGibbsSampling= 0
+batch 5 time diff secs-assign outlier= 4
+Evaluate-enhance 5
+evaluate total texts=1251
+homogeneity_score-whole-data:   0.68652048
+completeness_score-whole-data:   0.44315134
+nmi_score-whole-data:   0.53862098
+pred clusters=164, true clusters=20
+purity majority whole data=0.709832134292566
+batch 5 time diff secs-whole detect= 6
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Stackoverflow-mstreamK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch4/
+start doc=3752, end doc=5003
+total texts=5003, total clusters=235
+	Saving successful!
+Batch 5
+20000
+	6254 documents will be analyze. alpha is 187.62.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 6 time diff secs-kdd-gibbsSampling= 9
+maxPredLabel=1768
+batch 6 time diff secs-out-connected= 0
+outlier=108, non-outlier=1143,=maxPredLabel=1839
+high_entropy_words=267, total words=1925
+batch 6 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 108 5879
+[88, 138, 71, 144, 127, 206, 69, 24, 249, 33, 91, 158, 49, 61, 2, 16, 69, 170, 94, 35, 60, 138, 251, 23, 70, 90, 44, 133, 64, 59, 4, 13, 171, 267, 101, 68, 51, 384, 136, 123, 43, 49, 5, 34, 139, 60, 216, 33, 2, 91, 9, 23, 2, 24, 139, 110, 5, 86, 7, 10, 29, 51, 39, 12, 20, 2, 2, 2, 2, 3, 17, 2, 3, 84, 56, 2, 2, 58, 80, 2, 2, 2, 8, 4, 2, 4, 2, 41, 2, 2, 2, 2, 3, 2, 3, 3, 2, 2, 2, 2, 2, 4, 2, 2, 2, 6, 6, 2, 2, 6, 2, 2, 2, 2, 3, 6, 2, 2, 4, 2, 2, 2, 2, 2, 2, 3, 2, 2, 2, 4, 2, 2]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 6 time diff secs-customGibbsSampling= 1
+batch 6 time diff secs-assign outlier= 7
+Evaluate-enhance 6
+evaluate total texts=1251
+homogeneity_score-whole-data:   0.67627557
+completeness_score-whole-data:   0.45259770
+nmi_score-whole-data:   0.54227658
+pred clusters=174, true clusters=20
+purity majority whole data=0.6786570743405276
+batch 6 time diff secs-whole detect= 9
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Stackoverflow-mstreamK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch5/
+start doc=5003, end doc=6254
+total texts=6254, total clusters=271
+	Saving successful!
+Batch 6
+20000
+	7505 documents will be analyze. alpha is 225.15.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 7 time diff secs-kdd-gibbsSampling= 10
+maxPredLabel=1992
+batch 7 time diff secs-out-connected= 0
+outlier=105, non-outlier=1146,=maxPredLabel=2073
+high_entropy_words=284, total words=1981
+batch 7 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 105 7025
+[108, 166, 76, 160, 144, 291, 82, 26, 283, 37, 104, 201, 52, 72, 2, 16, 74, 209, 123, 40, 68, 170, 301, 24, 79, 99, 47, 160, 68, 65, 4, 13, 193, 326, 131, 84, 61, 483, 158, 146, 48, 51, 5, 35, 149, 76, 268, 34, 2, 122, 9, 32, 2, 27, 159, 123, 5, 98, 7, 12, 35, 73, 42, 18, 25, 2, 2, 2, 2, 3, 22, 2, 3, 110, 69, 2, 2, 63, 95, 2, 4, 2, 14, 4, 2, 4, 2, 54, 2, 2, 2, 2, 3, 2, 3, 3, 2, 2, 2, 2, 2, 4, 2, 2, 2, 6, 6, 2, 2, 6, 2, 2, 2, 2, 3, 6, 2, 2, 4, 2, 2, 2, 2, 2, 2, 3, 2, 2, 2, 4, 2, 2, 2, 5, 7, 2, 2, 3, 2, 2, 2, 2, 2, 6, 1, 2]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 7 time diff secs-customGibbsSampling= 1
+batch 7 time diff secs-assign outlier= 8
+Evaluate-enhance 7
+evaluate total texts=1251
+homogeneity_score-whole-data:   0.67931469
+completeness_score-whole-data:   0.45201394
+nmi_score-whole-data:   0.54283026
+pred clusters=181, true clusters=20
+purity majority whole data=0.6850519584332534
+batch 7 time diff secs-whole detect= 10
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Stackoverflow-mstreamK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch6/
+start doc=6254, end doc=7505
+total texts=7505, total clusters=310
+	Saving successful!
+Batch 7
+20000
+	8756 documents will be analyze. alpha is 262.68.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 8 time diff secs-kdd-gibbsSampling= 12
+maxPredLabel=2192
+batch 8 time diff secs-out-connected= 0
+outlier=121, non-outlier=1130,=maxPredLabel=2275
+high_entropy_words=245, total words=1856
+batch 8 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 121 8155
+[124, 206, 83, 170, 158, 355, 90, 29, 288, 44, 120, 246, 56, 80, 2, 20, 76, 231, 148, 45, 70, 214, 346, 24, 94, 111, 51, 198, 76, 75, 4, 13, 195, 401, 154, 103, 85, 599, 178, 177, 49, 53, 5, 39, 155, 84, 337, 36, 2, 145, 9, 34, 2, 28, 193, 130, 5, 117, 7, 13, 44, 84, 44, 20, 28, 2, 2, 4, 2, 3, 25, 2, 3, 131, 96, 2, 2, 74, 109, 2, 4, 2, 17, 4, 2, 4, 2, 60, 2, 2, 2, 2, 3, 2, 3, 3, 7, 2, 2, 2, 2, 4, 2, 2, 2, 6, 6, 2, 2, 11, 2, 2, 2, 2, 3, 6, 2, 2, 4, 2, 2, 2, 2, 2, 2, 3, 2, 2, 2, 4, 2, 2, 2, 5, 9, 2, 2, 3, 2, 2, 2, 2, 2, 6, 1, 2, 2, 2, 7, 2, 5, 2, 4, 2, 2, 2, 2]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 8 time diff secs-customGibbsSampling= 1
+batch 8 time diff secs-assign outlier= 10
+Evaluate-enhance 8
+evaluate total texts=1251
+homogeneity_score-whole-data:   0.67957023
+completeness_score-whole-data:   0.46039939
+nmi_score-whole-data:   0.54891589
+pred clusters=193, true clusters=19
+purity majority whole data=0.7034372501998402
+batch 8 time diff secs-whole detect= 13
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Stackoverflow-mstreamK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch7/
+start doc=7505, end doc=8756
+total texts=8756, total clusters=344
+	Saving successful!
+Batch 8
+20000
+	10007 documents will be analyze. alpha is 300.21.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 9 time diff secs-kdd-gibbsSampling= 13
+maxPredLabel=2407
+batch 9 time diff secs-out-connected= 0
+outlier=117, non-outlier=1134,=maxPredLabel=2498
+high_entropy_words=258, total words=1844
+batch 9 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 117 9289
+[147, 226, 92, 175, 173, 419, 92, 30, 292, 46, 137, 292, 64, 84, 2, 23, 77, 266, 175, 47, 74, 254, 411, 24, 99, 111, 54, 200, 81, 85, 4, 14, 196, 442, 195, 120, 108, 718, 204, 213, 49, 55, 5, 40, 162, 90, 400, 40, 2, 182, 9, 38, 2, 28, 228, 152, 5, 126, 8, 13, 54, 95, 44, 23, 45, 2, 2, 4, 2, 3, 31, 2, 3, 149, 140, 2, 2, 89, 128, 2, 4, 2, 23, 4, 2, 4, 2, 67, 2, 2, 2, 2, 3, 2, 3, 3, 7, 2, 2, 2, 2, 4, 2, 2, 2, 6, 6, 2, 2, 18, 2, 2, 2, 2, 3, 6, 2, 2, 4, 2, 2, 2, 2, 2, 2, 3, 2, 2, 2, 4, 2, 2, 2, 7, 13, 2, 2, 3, 2, 2, 2, 2, 2, 6, 1, 2, 2, 2, 7, 2, 5, 2, 4, 2, 2, 2, 2, 2, 2, 2, 2, 4, 4, 2, 2, 2, 2, 4, 3, 2, 4, 2, 2, 2, 2, 2]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 9 time diff secs-customGibbsSampling= 2
+batch 9 time diff secs-assign outlier= 11
+Evaluate-enhance 9
+evaluate total texts=1251
+homogeneity_score-whole-data:   0.66843776
+completeness_score-whole-data:   0.45425213
+nmi_score-whole-data:   0.54091389
+pred clusters=190, true clusters=18
+purity majority whole data=0.6786570743405276
+batch 9 time diff secs-whole detect= 15
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Stackoverflow-mstreamK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch8/
+start doc=8756, end doc=10007
+total texts=10007, total clusters=383
+	Saving successful!
+Batch 9
+20000
+	11258 documents will be analyze. alpha is 337.74.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 10 time diff secs-kdd-gibbsSampling= 15
+maxPredLabel=2791
+batch 10 time diff secs-out-connected= 0
+outlier=146, non-outlier=1105,=maxPredLabel=2868
+high_entropy_words=252, total words=1826
+batch 10 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 146 10394
+[182, 234, 106, 175, 185, 473, 94, 31, 294, 51, 139, 355, 65, 89, 2, 29, 77, 296, 192, 51, 82, 319, 426, 24, 105, 112, 58, 206, 87, 89, 4, 16, 201, 485, 244, 160, 143, 763, 232, 248, 49, 58, 5, 40, 165, 93, 472, 49, 2, 215, 9, 38, 5, 28, 251, 154, 5, 132, 8, 13, 62, 101, 52, 31, 64, 2, 2, 4, 2, 3, 34, 2, 7, 171, 226, 2, 2, 112, 145, 2, 4, 2, 29, 5, 2, 5, 2, 81, 2, 2, 2, 2, 3, 2, 3, 3, 9, 2, 2, 2, 2, 4, 2, 2, 2, 6, 7, 2, 2, 33, 2, 2, 2, 2, 3, 6, 2, 2, 4, 2, 2, 2, 2, 2, 2, 3, 2, 2, 2, 4, 2, 2, 2, 7, 13, 2, 2, 3, 2, 2, 2, 2, 2, 6, 3, 2, 2, 2, 9, 2, 5, 2, 4, 2, 2, 2, 2, 2, 2, 2, 2, 4, 4, 2, 2, 2, 2, 4, 3, 2, 4, 2, 2, 2, 2, 2, 3, 2, 2, 2, 3, 2, 2, 2, 4, 3, 2, 3, 2, 6, 2, 2]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 10 time diff secs-customGibbsSampling= 3
+batch 10 time diff secs-assign outlier= 15
+Evaluate-enhance 10
+evaluate total texts=1251
+homogeneity_score-whole-data:   0.64414704
+completeness_score-whole-data:   0.41486455
+nmi_score-whole-data:   0.50468526
+pred clusters=221, true clusters=17
+purity majority whole data=0.6498800959232613
+batch 10 time diff secs-whole detect= 20
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Stackoverflow-mstreamK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch9/
+start doc=10007, end doc=11258
+total texts=11258, total clusters=445
+	Saving successful!
+Batch 10
+20000
+	12509 documents will be analyze. alpha is 375.27.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 11 time diff secs-kdd-gibbsSampling= 17
+maxPredLabel=3068
+batch 11 time diff secs-out-connected= 0
+outlier=132, non-outlier=1119,=maxPredLabel=3150
+high_entropy_words=250, total words=1874
+batch 11 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 132 11513
+[200, 239, 121, 177, 205, 503, 100, 39, 296, 56, 139, 413, 70, 95, 2, 37, 79, 316, 210, 54, 87, 387, 427, 24, 108, 113, 63, 216, 88, 90, 4, 16, 205, 532, 278, 185, 191, 800, 270, 290, 51, 58, 5, 40, 170, 99, 585, 59, 2, 265, 9, 38, 5, 29, 289, 154, 5, 152, 9, 13, 73, 104, 54, 34, 85, 2, 2, 4, 2, 3, 36, 2, 13, 215, 297, 2, 2, 137, 176, 2, 4, 2, 34, 5, 2, 5, 2, 83, 2, 2, 2, 2, 3, 2, 3, 3, 13, 2, 2, 2, 2, 4, 2, 2, 2, 6, 7, 2, 2, 47, 2, 2, 2, 2, 3, 6, 2, 2, 4, 2, 2, 2, 2, 2, 2, 3, 2, 2, 2, 4, 2, 2, 2, 7, 14, 2, 2, 3, 2, 2, 2, 2, 2, 6, 5, 2, 2, 2, 9, 2, 5, 2, 4, 2, 2, 2, 2, 2, 2, 2, 2, 4, 4, 2, 2, 2, 2, 4, 3, 2, 4, 2, 2, 2, 2, 2, 3, 2, 2, 2, 3, 2, 2, 2, 4, 3, 2, 3, 2, 6, 2, 2, 2, 2, 3, 2, 2, 2, 2, 4, 2, 2, 2]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 11 time diff secs-customGibbsSampling= 2
+batch 11 time diff secs-assign outlier= 15
+Evaluate-enhance 11
+evaluate total texts=1251
+homogeneity_score-whole-data:   0.66340657
+completeness_score-whole-data:   0.43592882
+nmi_score-whole-data:   0.52613251
+pred clusters=196, true clusters=15
+purity majority whole data=0.6914468425259792
+batch 11 time diff secs-whole detect= 20
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Stackoverflow-mstreamK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch10/
+start doc=11258, end doc=12509
+total texts=12509, total clusters=490
+	Saving successful!
+Batch 11
+20000
+	13760 documents will be analyze. alpha is 412.80.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 12 time diff secs-kdd-gibbsSampling= 19
+maxPredLabel=3353
+batch 12 time diff secs-out-connected= 0
+outlier=132, non-outlier=1119,=maxPredLabel=3429
+high_entropy_words=259, total words=1876
+batch 12 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 132 12632
+[219, 244, 123, 181, 211, 521, 104, 42, 298, 59, 139, 458, 80, 99, 2, 46, 79, 336, 230, 65, 89, 457, 429, 24, 112, 115, 70, 218, 92, 92, 4, 16, 206, 579, 326, 212, 236, 842, 319, 325, 51, 59, 5, 40, 177, 101, 677, 61, 2, 328, 9, 39, 5, 30, 318, 157, 5, 163, 9, 16, 91, 108, 56, 47, 101, 2, 2, 4, 2, 3, 42, 2, 22, 263, 390, 2, 2, 164, 209, 2, 4, 2, 42, 5, 2, 5, 2, 83, 4, 2, 2, 2, 3, 2, 3, 3, 13, 2, 2, 2, 2, 4, 2, 2, 2, 6, 7, 2, 2, 64, 2, 2, 2, 2, 3, 6, 2, 2, 4, 2, 2, 2, 2, 2, 2, 3, 2, 2, 2, 4, 2, 2, 2, 7, 16, 2, 2, 3, 2, 2, 2, 2, 2, 6, 5, 2, 2, 2, 9, 2, 5, 2, 6, 2, 2, 2, 2, 2, 2, 2, 2, 4, 4, 2, 2, 2, 2, 4, 3, 2, 4, 2, 2, 2, 2, 2, 3, 2, 2, 2, 3, 2, 2, 2, 4, 3, 2, 3, 2, 6, 2, 2, 2, 2, 3, 2, 2, 2, 2, 4, 2, 2, 2, 2, 2, 2, 2, 4, 3, 6, 2, 5, 2]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 12 time diff secs-customGibbsSampling= 3
+batch 12 time diff secs-assign outlier= 16
+Evaluate-enhance 12
+evaluate total texts=1251
+homogeneity_score-whole-data:   0.68679649
+completeness_score-whole-data:   0.44470943
+nmi_score-whole-data:   0.53985555
+pred clusters=198, true clusters=14
+purity majority whole data=0.689048760991207
+batch 12 time diff secs-whole detect= 22
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Stackoverflow-mstreamK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch11/
+start doc=12509, end doc=13760
+total texts=13760, total clusters=541
+	Saving successful!
+Batch 12
+20000
+	15011 documents will be analyze. alpha is 450.33.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 13 time diff secs-kdd-gibbsSampling= 21
+maxPredLabel=3679
+batch 13 time diff secs-out-connected= 0
+outlier=128, non-outlier=1123,=maxPredLabel=3753
+high_entropy_words=258, total words=1845
+batch 13 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 128 13755
+[237, 246, 130, 183, 232, 544, 107, 43, 300, 68, 139, 496, 90, 102, 2, 49, 82, 365, 249, 68, 94, 523, 436, 24, 116, 117, 73, 227, 92, 92, 4, 16, 212, 625, 367, 241, 285, 873, 369, 364, 51, 60, 5, 40, 186, 103, 784, 68, 2, 386, 9, 39, 6, 32, 352, 158, 5, 177, 9, 16, 106, 109, 57, 65, 109, 2, 2, 4, 2, 3, 45, 2, 34, 308, 490, 2, 2, 184, 230, 2, 4, 2, 50, 5, 2, 5, 2, 85, 4, 2, 2, 2, 3, 2, 3, 3, 14, 2, 2, 2, 2, 4, 2, 2, 2, 6, 7, 2, 2, 83, 2, 2, 2, 2, 3, 6, 2, 2, 4, 2, 2, 2, 2, 2, 2, 3, 2, 2, 2, 4, 2, 2, 2, 7, 20, 2, 2, 3, 2, 2, 2, 2, 2, 8, 7, 2, 2, 2, 9, 2, 5, 2, 6, 2, 2, 2, 2, 2, 2, 2, 2, 4, 4, 2, 2, 2, 2, 4, 3, 2, 4, 2, 2, 2, 2, 2, 3, 2, 2, 2, 3, 2, 2, 2, 4, 3, 2, 3, 2, 6, 2, 2, 2, 2, 3, 2, 2, 2, 2, 4, 2, 2, 2, 2, 2, 2, 2, 4, 3, 6, 2, 5, 2, 4, 2, 2, 2, 2, 2, 2, 3, 3]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 13 time diff secs-customGibbsSampling= 3
+batch 13 time diff secs-assign outlier= 17
+Evaluate-enhance 13
+evaluate total texts=1251
+homogeneity_score-whole-data:   0.67099009
+completeness_score-whole-data:   0.43622294
+nmi_score-whole-data:   0.52871717
+pred clusters=194, true clusters=14
+purity majority whole data=0.6962430055955235
+batch 13 time diff secs-whole detect= 23
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Stackoverflow-mstreamK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch12/
+start doc=13760, end doc=15011
+total texts=15011, total clusters=592
+	Saving successful!
+Batch 13
+20000
+	16262 documents will be analyze. alpha is 487.86.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 14 time diff secs-kdd-gibbsSampling= 23
+maxPredLabel=3960
+batch 14 time diff secs-out-connected= 0
+outlier=133, non-outlier=1118,=maxPredLabel=4049
+high_entropy_words=201, total words=1871
+batch 14 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 133 14873
+[252, 253, 132, 190, 249, 569, 110, 44, 302, 72, 139, 549, 102, 109, 2, 62, 86, 389, 258, 75, 97, 578, 438, 24, 119, 117, 80, 234, 93, 92, 4, 19, 219, 670, 405, 262, 340, 881, 400, 408, 52, 62, 5, 42, 186, 107, 869, 70, 2, 442, 9, 40, 6, 35, 403, 159, 5, 190, 9, 16, 114, 111, 58, 69, 122, 2, 2, 4, 2, 3, 45, 2, 43, 360, 607, 2, 2, 204, 262, 2, 4, 2, 53, 5, 2, 5, 2, 85, 9, 2, 2, 2, 3, 2, 3, 5, 25, 2, 2, 2, 2, 4, 2, 2, 2, 6, 9, 2, 2, 113, 2, 2, 2, 2, 3, 6, 2, 2, 4, 2, 2, 2, 2, 2, 2, 3, 2, 2, 2, 4, 2, 2, 2, 7, 24, 2, 2, 3, 2, 2, 2, 2, 2, 8, 7, 2, 2, 2, 11, 2, 7, 2, 8, 2, 2, 2, 2, 2, 2, 2, 2, 4, 4, 2, 2, 2, 2, 4, 3, 2, 4, 2, 2, 2, 2, 2, 3, 2, 2, 2, 3, 2, 2, 2, 4, 3, 2, 3, 2, 6, 2, 2, 2, 2, 3, 2, 6, 2, 2, 4, 2, 2, 2, 2, 2, 2, 2, 4, 3, 6, 2, 7, 2, 4, 2, 2, 2, 2, 2, 2, 3, 3, 2, 3, 3, 2, 4, 4, 2, 2, 2, 2, 2]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 14 time diff secs-customGibbsSampling= 4
+batch 14 time diff secs-assign outlier= 19
+Evaluate-enhance 14
+evaluate total texts=1251
+homogeneity_score-whole-data:   0.69887862
+completeness_score-whole-data:   0.44614188
+nmi_score-whole-data:   0.54461736
+pred clusters=205, true clusters=14
+purity majority whole data=0.7106314948041567
+batch 14 time diff secs-whole detect= 26
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Stackoverflow-mstreamK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch13/
+start doc=15011, end doc=16262
+total texts=16262, total clusters=637
+	Saving successful!
+Batch 14
+20000
+	17513 documents will be analyze. alpha is 525.39.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 15 time diff secs-kdd-gibbsSampling= 24
+maxPredLabel=4205
+batch 15 time diff secs-out-connected= 0
+outlier=129, non-outlier=1122,=maxPredLabel=4282
+high_entropy_words=255, total words=1819
+batch 15 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 129 15995
+[283, 254, 136, 193, 254, 595, 113, 46, 303, 75, 139, 564, 104, 111, 2, 68, 90, 398, 259, 84, 102, 596, 440, 24, 119, 118, 81, 240, 95, 92, 4, 21, 226, 728, 474, 271, 415, 915, 440, 459, 52, 63, 5, 42, 189, 108, 968, 70, 2, 527, 9, 43, 6, 37, 433, 161, 5, 205, 9, 18, 129, 114, 59, 78, 128, 2, 2, 4, 2, 3, 45, 2, 60, 392, 753, 2, 2, 230, 287, 2, 4, 2, 57, 5, 2, 5, 2, 87, 13, 2, 2, 2, 3, 2, 3, 5, 27, 2, 2, 2, 2, 4, 2, 2, 2, 10, 9, 2, 2, 156, 2, 2, 2, 2, 3, 6, 2, 2, 4, 2, 2, 2, 2, 2, 2, 3, 2, 2, 2, 4, 2, 2, 2, 7, 29, 2, 2, 3, 2, 2, 2, 2, 2, 8, 7, 2, 2, 2, 11, 2, 7, 2, 8, 2, 2, 2, 2, 2, 2, 2, 2, 4, 4, 2, 2, 2, 2, 4, 3, 2, 4, 2, 2, 2, 2, 2, 3, 2, 2, 2, 3, 2, 2, 2, 4, 3, 2, 3, 2, 6, 2, 2, 2, 2, 3, 2, 8, 2, 2, 4, 2, 2, 2, 2, 2, 2, 2, 4, 3, 6, 2, 9, 2, 4, 2, 2, 2, 2, 2, 2, 6, 3, 2, 3, 4, 2, 4, 4, 2, 2, 2, 2, 2, 5, 2, 2, 2, 2, 2, 3, 2]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 15 time diff secs-customGibbsSampling= 4
+batch 15 time diff secs-assign outlier= 20
+Evaluate-enhance 15
+evaluate total texts=1251
+homogeneity_score-whole-data:   0.69827348
+completeness_score-whole-data:   0.45040013
+nmi_score-whole-data:   0.54759240
+pred clusters=196, true clusters=13
+purity majority whole data=0.7194244604316546
+batch 15 time diff secs-whole detect= 26
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Stackoverflow-mstreamK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch14/
+start doc=16262, end doc=17513
+total texts=17513, total clusters=678
+	Saving successful!
+Batch 15
+20000
+	18764 documents will be analyze. alpha is 562.92.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 16 time diff secs-kdd-gibbsSampling= 26
+maxPredLabel=4438
+batch 16 time diff secs-out-connected= 0
+outlier=112, non-outlier=1139,=maxPredLabel=4517
+high_entropy_words=255, total words=1805
+batch 16 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 112 17134
+[331, 262, 141, 198, 265, 605, 116, 46, 306, 76, 139, 571, 106, 112, 2, 88, 93, 399, 260, 91, 106, 615, 440, 24, 121, 120, 84, 249, 96, 92, 4, 25, 226, 777, 509, 274, 521, 929, 467, 466, 52, 63, 5, 42, 204, 110, 1109, 72, 2, 620, 9, 45, 6, 37, 442, 161, 5, 215, 10, 18, 141, 117, 62, 99, 128, 2, 2, 4, 2, 3, 52, 2, 100, 423, 913, 2, 2, 247, 304, 2, 4, 2, 71, 5, 2, 5, 2, 87, 13, 2, 2, 2, 3, 2, 3, 5, 37, 2, 2, 2, 2, 4, 2, 2, 2, 10, 9, 2, 2, 208, 2, 2, 2, 2, 3, 6, 2, 2, 4, 2, 2, 2, 2, 2, 2, 3, 2, 2, 2, 4, 2, 2, 2, 7, 42, 2, 2, 3, 2, 2, 2, 2, 2, 8, 7, 2, 2, 2, 11, 2, 7, 2, 8, 2, 2, 2, 2, 2, 2, 2, 2, 4, 7, 2, 2, 2, 2, 4, 3, 2, 4, 2, 2, 2, 2, 2, 5, 2, 2, 2, 3, 2, 2, 2, 4, 3, 2, 3, 2, 6, 2, 2, 2, 2, 3, 2, 10, 2, 2, 4, 2, 2, 2, 2, 2, 2, 2, 4, 3, 6, 2, 12, 2, 4, 2, 2, 2, 2, 2, 2, 15, 3, 2, 3, 4, 2, 4, 4, 2, 2, 2, 2, 2, 5, 2, 2, 2, 2, 2, 3, 2, 2, 2, 3, 3, 2, 3, 2, 3, 2, 2]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 16 time diff secs-customGibbsSampling= 3
+batch 16 time diff secs-assign outlier= 18
+Evaluate-enhance 16
+evaluate total texts=1251
+homogeneity_score-whole-data:   0.72289158
+completeness_score-whole-data:   0.41954935
+nmi_score-whole-data:   0.53094858
+pred clusters=176, true clusters=10
+purity majority whole data=0.7266187050359713
+batch 16 time diff secs-whole detect= 25
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Stackoverflow-mstreamK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch15/
+start doc=17513, end doc=18764
+total texts=18764, total clusters=717
+	Saving successful!
+Batch 16
+20000
+	20000 documents will be analyze. alpha is 600.00.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 17 time diff secs-kdd-gibbsSampling= 26
+maxPredLabel=4646
+batch 17 time diff secs-out-connected= 0
+outlier=95, non-outlier=1141,=maxPredLabel=4708
+high_entropy_words=212, total words=1629
+batch 17 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 95 18275
+[369, 275, 141, 204, 270, 614, 119, 46, 307, 76, 139, 573, 106, 114, 2, 102, 93, 405, 264, 118, 117, 623, 440, 24, 121, 120, 84, 251, 96, 92, 4, 26, 226, 828, 519, 277, 577, 931, 499, 466, 52, 65, 5, 42, 208, 110, 1194, 72, 2, 659, 9, 47, 6, 37, 448, 168, 5, 217, 10, 18, 150, 118, 62, 129, 128, 2, 2, 4, 2, 3, 53, 2, 405, 435, 1063, 2, 2, 267, 308, 2, 4, 2, 105, 5, 2, 5, 2, 88, 13, 2, 2, 2, 3, 2, 3, 5, 103, 2, 2, 2, 2, 4, 2, 2, 2, 10, 9, 2, 2, 216, 2, 2, 2, 2, 3, 6, 2, 2, 4, 2, 2, 2, 2, 2, 2, 3, 2, 2, 2, 4, 2, 2, 2, 7, 44, 2, 2, 3, 2, 2, 2, 2, 2, 8, 7, 2, 2, 2, 11, 2, 7, 2, 8, 2, 2, 2, 2, 2, 2, 2, 2, 4, 11, 2, 2, 2, 2, 4, 3, 2, 4, 2, 2, 2, 2, 2, 5, 2, 2, 2, 3, 2, 2, 2, 4, 3, 2, 3, 2, 6, 2, 2, 2, 2, 3, 2, 14, 2, 2, 4, 2, 2, 2, 2, 2, 2, 2, 4, 3, 6, 2, 15, 2, 4, 2, 2, 2, 2, 2, 2, 21, 3, 2, 3, 4, 2, 11, 4, 2, 2, 2, 2, 2, 5, 2, 2, 2, 2, 2, 3, 2, 2, 2, 3, 3, 2, 3, 2, 3, 2, 2, 2, 5, 2, 2, 2, 2, 6]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 17 time diff secs-customGibbsSampling= 3
+batch 17 time diff secs-assign outlier= 16
+Evaluate-enhance 17
+evaluate total texts=1236
+homogeneity_score-whole-data:   0.78599186
+completeness_score-whole-data:   0.31111230
+nmi_score-whole-data:   0.44577670
+pred clusters=147, true clusters=6
+purity majority whole data=0.883495145631068
+batch 17 time diff secs-whole detect= 23
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Stackoverflow-mstreamK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch16/
+start doc=18764, end doc=20000
+total texts=20000, total clusters=751
+	Saving successful!
+time diff secs= 504
+pred_true_text_file name=result/mstr-enh
+evaluate total texts=20000
+homogeneity_score-whole-data:   0.60068760
+completeness_score-whole-data:   0.39374133
+nmi_score-whole-data:   0.47568112
+pred clusters=1888, true clusters=20
+purity majority whole data=0.6221
+pred_true_text_file name=result/NewsPredTueTextMStream_WordArr.txt
+evaluate total texts=20000
+homogeneity_score-whole-data:   0.54822536
+completeness_score-whole-data:   0.38468551
+nmi_score-whole-data:   0.45212112
+pred clusters=833, true clusters=20
+purity majority whole data=0.57945

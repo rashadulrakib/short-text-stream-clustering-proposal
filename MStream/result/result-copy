@@ -1,0 +1,179 @@
+     +--------------------------------------------------------------------+
+     ¦                • MobaXterm Personal Edition v7.3 •                 ¦
+     ¦            (X server, SSH client and GNU/Cygwin tools)             ¦
+     ¦                                                                    ¦
+     ¦ ? Your computer drives are accessible through the /drives path     ¦
+     ¦ ? Your DISPLAY is set to 192.168.0.145:0.0                         ¦
+     ¦ ? When using SSH, your remote DISPLAY is automatically forwarded   ¦
+     ¦ ? Each command status is specified by a special symbol (? or ?)    ¦
+     ¦                                                                    ¦
+     ¦ • Important:                                                       ¦
+     ¦ This is MobaXterm Personal Edition. The Professional edition       ¦
+     ¦ allows you to customize MobaXterm for your company: you can add    ¦
+     ¦ your own logo, your parameters, your welcome message and generate  ¦
+     ¦ either an MSI installation package or a portable executable.       ¦
+     ¦ We can also modify MobaXterm or develop the plugins you need.      ¦
+     ¦ For more information: http://mobaxterm.mobatek.net/versions.php    ¦
+     +--------------------------------------------------------------------+
+Welcome to Ubuntu 18.04.1 LTS (GNU/Linux 4.15.0-58-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+348 packages can be updated.
+3 updates are security updates.
+
+*** System restart required ***
+Last login: Thu Sep  5 15:49:29 2019 from 170.10.225.46
+owner@owner-system-product-name:~$ cd /home/owner/PhD/evaluation/
+owner@owner-system-product-name:~/PhD/evaluation$
+owner@owner-system-product-name:~/PhD/evaluation$ python evaluation.py
+pred_true_text=/home/owner/PhD/MStream-master/MStream/result/NewsPredTueTextMStrea
+Initial---------
+homogeneity_score-whole-data:   0.8783
+nmi_score-whole-data:   0.8560
+clusters=487
+purity majority whole data=0.7958412098298677
+owner@owner-system-product-name:~/PhD/evaluation$
+owner@owner-system-product-name:~/PhD/evaluation$
+owner@owner-system-product-name:~/PhD/evaluation$
+owner@owner-system-product-name:~/PhD/evaluation$ python evaluation.py
+pred_true_text=/home/owner/PhD/MStream-master/MStream/result/NewsPredTueTextMStream_WordArr.txt
+Initial---------
+homogeneity_score-whole-data:   0.8716
+nmi_score-whole-data:   0.8502
+clusters=489
+purity majority whole data=0.7918804572868845
+owner@owner-system-product-name:~/PhD/evaluation$ python evaluation.py
+pred_true_text=/home/owner/PhD/MStream-master/MStream/result/NewsPredTueTextMStream_WordArr.txt
+Initial---------
+homogeneity_score-whole-data:   0.8429
+nmi_score-whole-data:   0.8528
+clusters=317
+purity majority whole data=0.7457016833198308
+owner@owner-system-product-name:~/PhD/evaluation$ python evaluation.py
+pred_true_text=/home/owner/PhD/MStream-master/MStream/result/NewsPredTueTextMStream_WordArr.txt
+Initial---------
+homogeneity_score-whole-data:   0.8737
+nmi_score-whole-data:   0.8481
+clusters=463
+purity majority whole data=0.7905302007381403
+owner@owner-system-product-name:~/PhD/evaluation$
+owner@owner-system-product-name:~/PhD/evaluation$
+owner@owner-system-product-name:~/PhD/evaluation$
+owner@owner-system-product-name:~/PhD/evaluation$ python evaluation.py
+pred_true_text=/home/owner/PhD/MStream-master/MStream/result/NewsPredTueTextMStream_WordArr.txt
+Initial---------
+homogeneity_score-whole-data:   0.8798
+nmi_score-whole-data:   0.8563
+clusters=482
+purity majority whole data=0.8097038437303088
+owner@owner-system-product-name:~/PhD/evaluation$ python evaluation.py
+pred_true_text=/home/owner/PhD/MStream-master/MStream/result/NewsPredTueTextMStream_WordArr.txt
+Initial---------
+homogeneity_score-whole-data:   0.8798
+nmi_score-whole-data:   0.8563
+clusters=482
+purity majority whole data=0.8097038437303088
+owner@owner-system-product-name:~/PhD/evaluation$ python evaluation.py
+pred_true_text=/home/owner/PhD/MStream-master/MStream/result/NewsPredTueTextMStream_WordArr.txt
+Initial---------
+homogeneity_score-whole-data:   0.8633
+nmi_score-whole-data:   0.8442
+clusters=459
+purity majority whole data=0.7859393284724098
+owner@owner-system-product-name:~/PhD/evaluation$ python evaluation.py
+pred_true_text=/home/owner/PhD/MStream-master/MStream/result/NewsPredTueTextMStream_WordArr.txt
+Initial---------
+homogeneity_score-whole-data:   0.8723
+nmi_score-whole-data:   0.8486
+clusters=477
+purity majority whole data=0.7930506796291296
+owner@owner-system-product-name:~/PhD/evaluation$
+owner@owner-system-product-name:~/PhD/evaluation$
+owner@owner-system-product-name:~/PhD/evaluation$
+owner@owner-system-product-name:~/PhD/evaluation$
+owner@owner-system-product-name:~/PhD/evaluation$
+owner@owner-system-product-name:~/PhD/evaluation$
+owner@owner-system-product-name:~/PhD/evaluation$
+owner@owner-system-product-name:~/PhD/evaluation$ python evaluation.py
+pred_true_text=/home/owner/PhD/MStream-master/MStream/result/NewsPredTueTextMStream_WordArr.txt
+Initial---------
+homogeneity_score-whole-data:   0.8787
+nmi_score-whole-data:   0.8578
+clusters=464
+purity majority whole data=0.8075434332523179
+owner@owner-system-product-name:~/PhD/evaluation$
+owner@owner-system-product-name:~/PhD/evaluation$
+owner@owner-system-product-name:~/PhD/evaluation$
+owner@owner-system-product-name:~/PhD/evaluation$ python evaluation.py
+pred_true_text=/home/owner/PhD/MStream-master/MStream/result/NewsPredTueTextMStream_WordArr.txt
+Initial---------
+homogeneity_score-whole-data:   0.9076
+nmi_score-whole-data:   0.8759
+clusters=416
+purity majority whole data=0.8525519848771267
+owner@owner-system-product-name:~/PhD/evaluation$ python evaluation.py
+pred_true_text=/home/owner/PhD/MStream-master/MStream/result/NewsPredTueTextMStream_WordArr.txt
+Initial---------
+homogeneity_score-whole-data:   0.8958
+nmi_score-whole-data:   0.8632
+clusters=422
+purity majority whole data=0.8270771446574849
+owner@owner-system-product-name:~/PhD/evaluation$ python evaluation.py
+pred_true_text=/home/owner/PhD/MStream-master/MStream/result/NewsPredTueTextMStream_WordArr.txt
+Initial---------
+homogeneity_score-whole-data:   0.8804
+nmi_score-whole-data:   0.8377
+clusters=608
+purity majority whole data=0.7912503375641372
+owner@owner-system-product-name:~/PhD/evaluation$ python evaluation.py
+pred_true_text=/home/owner/PhD/MStream-master/MStream/result/NewsPredTueTextMStream_WordArr.txt
+Initial---------
+homogeneity_score-whole-data:   0.8798
+nmi_score-whole-data:   0.8643
+clusters=400
+purity majority whole data=0.8120442884147988
+owner@owner-system-product-name:~/PhD/evaluation$ python evaluation.py
+pred_true_text=/home/owner/PhD/MStream-master/MStream/result/NewsPredTueTextMStream_WordArr.txt
+Initial---------
+homogeneity_score-whole-data:   0.8849
+nmi_score-whole-data:   0.8717
+clusters=382
+purity majority whole data=0.8316680169232155
+owner@owner-system-product-name:~/PhD/evaluation$
+owner@owner-system-product-name:~/PhD/evaluation$ python evaluation.py
+pred_true_text=/home/owner/PhD/MStream-master/MStream/result/NewsPredTueTextMStream_WordArr.txt
+Initial---------
+homogeneity_score-whole-data:   0.8530
+nmi_score-whole-data:   0.8598
+clusters=242
+purity majority whole data=0.7712665406427222
+owner@owner-system-product-name:~/PhD/evaluation$ python evaluation.py
+pred_true_text=/home/owner/PhD/MStream-master/MStream/result/NewsPredTueTextMStream_WordArr.txt
+Initial---------
+homogeneity_score-whole-data:   0.8504
+nmi_score-whole-data:   0.8428
+clusters=279
+purity majority whole data=0.7468719056620758
+owner@owner-system-product-name:~/PhD/evaluation$ python evaluation.py
+pred_true_text=/home/owner/PhD/MStream-master/MStream/result/NewsPredTueTextMStream_WordArr.txt
+Initial---------
+homogeneity_score-whole-data:   0.8616
+nmi_score-whole-data:   0.8480
+clusters=319
+purity majority whole data=0.7640651723827527
+owner@owner-system-product-name:~/PhD/evaluation$ python evaluation.py
+pred_true_text=/home/owner/PhD/MStream-master/MStream/result/NewsPredTueTextMStream_WordArr.txt
+Initial---------
+homogeneity_score-whole-data:   0.8598
+nmi_score-whole-data:   0.8459
+clusters=300
+purity majority whole data=0.7622648303177604
+owner@owner-system-product-name:~/PhD/evaluation$

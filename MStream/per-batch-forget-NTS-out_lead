@@ -1,0 +1,1493 @@
+100000
+200000
+300000
+400000
+500000
+600000
+700000
+800000
+900000
+1000000
+1100000
+1200000
+1300000
+1400000
+1500000
+1600000
+1700000
+1800000
+1900000
+wordVectorsDic length 1917494
+number of documents is  15356
+self.V=all the words in all documents
+13153
+SampleNo:1
+K0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16
+No timefil!
+before call run_MStream, self.K=0,self.iterNum=5, self.V=13153
+batchNum2tweetID is  {1: 961, 2: 1922, 3: 2883, 4: 3844, 5: 4805, 6: 5766, 7: 6727, 8: 7688, 9: 8649, 10: 9610, 11: 10571, 12: 11532, 13: 12493, 14: 13454, 15: 14415, 16: -1}
+Batch 1
+15356
+        960 documents will be analyze. alpha is 28.80.
+        Initialization.
+        iter is  1
+        iter is  2
+        iter is  3
+        iter is  4
+        iter is  5
+maxPredLabel=183
+clusterByLeadingOnOverlappingWords 14
+len(clusterLabels) 14 13
+clusterByLeadingOnOverlappingWords 12
+len(clusterLabels) 12 12
+clusterByLeadingOnOverlappingWords 33
+len(clusterLabels) 33 31
+clusterByLeadingOnOverlappingWords 8
+len(clusterLabels) 8 8
+clusterByLeadingOnOverlappingWords 74
+len(clusterLabels) 74 71
+clusterByLeadingOnOverlappingWords 18
+len(clusterLabels) 18 18
+clusterByLeadingOnOverlappingWords 24
+len(clusterLabels) 24 24
+clusterByLeadingOnOverlappingWords 9
+len(clusterLabels) 9 9
+clusterByLeadingOnOverlappingWords 13
+len(clusterLabels) 13 13
+clusterByLeadingOnOverlappingWords 8
+len(clusterLabels) 8 8
+clusterByLeadingOnOverlappingWords 11
+len(clusterLabels) 11 11
+clusterByLeadingOnOverlappingWords 7
+len(clusterLabels) 7 7
+clusterByLeadingOnOverlappingWords 34
+len(clusterLabels) 34 34
+clusterByLeadingOnOverlappingWords 11
+len(clusterLabels) 11 11
+clusterByLeadingOnOverlappingWords 10
+len(clusterLabels) 10 10
+clusterByLeadingOnOverlappingWords 15
+len(clusterLabels) 15 15
+clusterByLeadingOnOverlappingWords 51
+len(clusterLabels) 51 51
+clusterByLeadingOnOverlappingWords 9
+len(clusterLabels) 9 8
+clusterByLeadingOnOverlappingWords 20
+len(clusterLabels) 20 20
+clusterByLeadingOnOverlappingWords 16
+len(clusterLabels) 16 16
+clusterByLeadingOnOverlappingWords 6
+len(clusterLabels) 6 6
+clusterByLeadingOnOverlappingWords 9
+len(clusterLabels) 9 9
+clusterByLeadingOnOverlappingWords 19
+len(clusterLabels) 19 19
+clusterByLeadingOnOverlappingWords 28
+len(clusterLabels) 28 27
+clusterByLeadingOnOverlappingWords 29
+len(clusterLabels) 29 29
+clusterByLeadingOnOverlappingWords 11
+len(clusterLabels) 11 11
+clusterByLeadingOnOverlappingWords 18
+len(clusterLabels) 18 18
+clusterByLeadingOnOverlappingWords 21
+len(clusterLabels) 21 21
+clusterByLeadingOnOverlappingWords 14
+len(clusterLabels) 14 14
+clusterByLeadingOnOverlappingWords 16
+len(clusterLabels) 16 16
+clusterByLeadingOnOverlappingWords 18
+len(clusterLabels) 18 18
+clusterByLeadingOnOverlappingWords 7
+len(clusterLabels) 7 7
+clusterByLeadingOnOverlappingWords 7
+len(clusterLabels) 7 7
+clusterByLeadingOnOverlappingWords 18
+len(clusterLabels) 18 18
+clusterByLeadingOnOverlappingWords 10
+len(clusterLabels) 10 10
+clusterByLeadingOnOverlappingWords 14
+len(clusterLabels) 14 14
+clusterByLeadingOnOverlappingWords 11
+len(clusterLabels) 11 10
+clusterByLeadingOnOverlappingWords 41
+len(clusterLabels) 41 39
+clusterByLeadingOnOverlappingWords 8
+len(clusterLabels) 8 8
+clusterByLeadingOnOverlappingWords 27
+len(clusterLabels) 27 27
+clusterByLeadingOnOverlappingWords 11
+len(clusterLabels) 11 11
+clusterByLeadingOnOverlappingWords 39
+len(clusterLabels) 39 39
+clusterByLeadingOnOverlappingWords 42
+len(clusterLabels) 42 38
+clusterByLeadingOnOverlappingWords 23
+len(clusterLabels) 23 23
+clusterByLeadingOnOverlappingWords 7
+len(clusterLabels) 7 7
+clusterByLeadingOnOverlappingWords 12
+len(clusterLabels) 12 12
+outlier=101, non-outlier=859,=maxPredLabel=493
+high_entropy_words=167, total words=1568
+outsPerCluster.values(), nonOuts 101 859
+[13, 2, 6, 2, 2, 3, 22, 2, 6, 5, 4, 5, 2, 2, 2, 51, 4, 2, 2, 3, 4, 5, 18, 21, 7, 12, 5, 3, 11, 7, 3, 29, 2, 3, 8, 10, 14, 2, 45, 2, 5, 3, 4, 3, 6, 20, 2, 15, 5, 9, 17, 2, 3, 19, 2, 2, 3, 16, 9, 6, 2, 2, 2, 13, 2, 2, 17, 12, 11, 2, 3, 18, 6, 6, 2, 2, 11, 8, 13, 8, 2, 33, 2, 2, 2, 4, 3, 6, 3, 16, 2, 7, 3, 39, 31, 4, 4, 5, 4, 23, 2, 6, 12]
+        iter is  1
+        iter is  2
+        iter is  3
+        iter is  4
+        iter is  5
+        iter is  6
+        iter is  7
+        iter is  8
+        iter is  9
+        iter is  10
+oldPredLabel not cluster=old4, cluster=184
+oldPredLabel not cluster=old4, cluster=12
+oldPredLabel not cluster=old4, cluster=12
+oldPredLabel not cluster=old29, cluster=184
+oldPredLabel not cluster=old41, cluster=22
+oldPredLabel not cluster=old63, cluster=101
+oldPredLabel not cluster=old53, cluster=12
+oldPredLabel not cluster=old56, cluster=184
+oldPredLabel not cluster=old71, cluster=85
+oldPredLabel not cluster=old77, cluster=184
+oldPredLabel not cluster=old35, cluster=80
+oldPredLabel not cluster=old90, cluster=184
+oldPredLabel not cluster=old180, cluster=184
+Evaluate-enhance-forget 2
+evaluate total texts=960
+homogeneity_score-whole-data:   0.98539830
+completeness_score-whole-data:   0.65611339
+nmi_score-whole-data:   0.78772880
+pred clusters=183, true clusters=23
+purity majority whole data=0.978125
+        Gibbs sampling successful! Start to saving results.
+start doc=0, end doc=960
+total texts=960, total clusters=85
+        Saving successful!
+Batch 2
+15356
+        1921 documents will be analyze. alpha is 57.63.
+        Initialization.
+        iter is  1
+        iter is  2
+        iter is  3
+        iter is  4
+        iter is  5
+maxPredLabel=331
+to delete batch 3 2
+dict_keys([2, 3])
+targetbatchNo 2
+len(docsPerBatch) 960
+clusterByLeadingOnOverlappingWords 67
+len(clusterLabels) 67 67
+clusterByLeadingOnOverlappingWords 58
+len(clusterLabels) 58 57
+clusterByLeadingOnOverlappingWords 28
+len(clusterLabels) 28 28
+clusterByLeadingOnOverlappingWords 17
+len(clusterLabels) 17 16
+clusterByLeadingOnOverlappingWords 10
+len(clusterLabels) 10 10
+clusterByLeadingOnOverlappingWords 48
+len(clusterLabels) 48 48
+clusterByLeadingOnOverlappingWords 53
+len(clusterLabels) 53 53
+clusterByLeadingOnOverlappingWords 29
+len(clusterLabels) 29 29
+clusterByLeadingOnOverlappingWords 16
+len(clusterLabels) 16 16
+clusterByLeadingOnOverlappingWords 27
+len(clusterLabels) 27 27
+clusterByLeadingOnOverlappingWords 28
+len(clusterLabels) 28 28
+clusterByLeadingOnOverlappingWords 30
+len(clusterLabels) 30 30
+clusterByLeadingOnOverlappingWords 13
+len(clusterLabels) 13 13
+clusterByLeadingOnOverlappingWords 11
+len(clusterLabels) 11 11
+clusterByLeadingOnOverlappingWords 11
+len(clusterLabels) 11 11
+clusterByLeadingOnOverlappingWords 36
+len(clusterLabels) 36 35
+clusterByLeadingOnOverlappingWords 34
+len(clusterLabels) 34 33
+clusterByLeadingOnOverlappingWords 29
+len(clusterLabels) 29 29
+clusterByLeadingOnOverlappingWords 18
+len(clusterLabels) 18 18
+clusterByLeadingOnOverlappingWords 58
+len(clusterLabels) 58 58
+clusterByLeadingOnOverlappingWords 36
+len(clusterLabels) 36 36
+clusterByLeadingOnOverlappingWords 19
+len(clusterLabels) 19 19
+clusterByLeadingOnOverlappingWords 12
+len(clusterLabels) 12 12
+clusterByLeadingOnOverlappingWords 41
+len(clusterLabels) 41 41
+clusterByLeadingOnOverlappingWords 8
+len(clusterLabels) 8 8
+clusterByLeadingOnOverlappingWords 11
+len(clusterLabels) 11 11
+clusterByLeadingOnOverlappingWords 9
+len(clusterLabels) 9 9
+clusterByLeadingOnOverlappingWords 9
+len(clusterLabels) 9 9
+clusterByLeadingOnOverlappingWords 11
+len(clusterLabels) 11 11
+clusterByLeadingOnOverlappingWords 32
+len(clusterLabels) 32 32
+clusterByLeadingOnOverlappingWords 9
+len(clusterLabels) 9 9
+outlier=99, non-outlier=862,=maxPredLabel=591
+high_entropy_words=131, total words=1564
+outsPerCluster.values(), nonOuts 99 1721
+[13, 2, 6, 2, 7, 3, 22, 2, 6, 9, 4, 9, 2, 4, 2, 51, 4, 2, 2, 3, 4, 5, 18, 21, 7, 17, 5, 8, 11, 7, 3, 29, 2, 3, 8, 10, 14, 2, 50, 2, 8, 3, 7, 5, 6, 20, 2, 15, 5, 9, 17, 2, 3, 76, 10, 2, 7, 41, 27, 6, 2, 2, 27, 13, 2, 15, 17, 14, 38, 13, 3, 18, 45, 6, 2, 2, 11, 8, 19, 8, 2, 33, 4, 2, 2, 4, 5, 6, 3, 16, 13, 7, 3, 39, 57, 8, 4, 9, 7, 26, 2, 6, 12, 4, 2, 2, 2, 9, 2, 2, 3, 2, 3, 7, 2, 2, 2, 26, 7, 2, 2, 23, 2, 4, 20, 30, 5, 2, 2, 2, 7, 3, 4, 5, 18, 3, 2, 2, 2, 2, 22, 2, 2, 2, 5, 15, 2, 3, 8, 45, 32, 4, 2, 10, 9, 3, 12, 2, 2, 30, 4, 7, 2, 9, 2, 9, 4, 7, 2, 2, 11, 24, 8, 4, 5, 3]
+        iter is  1
+        iter is  2
+        iter is  3
+        iter is  4
+        iter is  5
+        iter is  6
+        iter is  7
+        iter is  8
+        iter is  9
+        iter is  10
+Evaluate-enhance-forget 3
+evaluate total texts=961
+homogeneity_score-whole-data:   0.96131703
+completeness_score-whole-data:   0.76937747
+nmi_score-whole-data:   0.85470389
+pred clusters=168, true clusters=41
+purity majority whole data=0.9406867845993756
+        Gibbs sampling successful! Start to saving results.
+start doc=960, end doc=1921
+total texts=1921, total clusters=148
+        Saving successful!
+Batch 3
+15356
+        2882 documents will be analyze. alpha is 86.46.
+        Initialization.
+        iter is  1
+        iter is  2
+        iter is  3
+        iter is  4
+        iter is  5
+maxPredLabel=476
+to delete batch 4 3
+dict_keys([2, 3, 4])
+targetbatchNo 3
+len(docsPerBatch) 961
+clusterByLeadingOnOverlappingWords 34
+len(clusterLabels) 34 34
+clusterByLeadingOnOverlappingWords 6
+len(clusterLabels) 6 6
+clusterByLeadingOnOverlappingWords 34
+len(clusterLabels) 34 33
+clusterByLeadingOnOverlappingWords 13
+len(clusterLabels) 13 13
+clusterByLeadingOnOverlappingWords 20
+len(clusterLabels) 20 18
+clusterByLeadingOnOverlappingWords 36
+len(clusterLabels) 36 36
+clusterByLeadingOnOverlappingWords 9
+len(clusterLabels) 9 9
+clusterByLeadingOnOverlappingWords 8
+len(clusterLabels) 8 8
+clusterByLeadingOnOverlappingWords 7
+len(clusterLabels) 7 7
+clusterByLeadingOnOverlappingWords 24
+len(clusterLabels) 24 24
+clusterByLeadingOnOverlappingWords 12
+len(clusterLabels) 12 12
+clusterByLeadingOnOverlappingWords 12
+len(clusterLabels) 12 12
+clusterByLeadingOnOverlappingWords 32
+len(clusterLabels) 32 32
+clusterByLeadingOnOverlappingWords 11
+len(clusterLabels) 11 11
+clusterByLeadingOnOverlappingWords 6
+len(clusterLabels) 6 6
+clusterByLeadingOnOverlappingWords 12
+len(clusterLabels) 12 12
+clusterByLeadingOnOverlappingWords 24
+len(clusterLabels) 24 23
+clusterByLeadingOnOverlappingWords 19
+len(clusterLabels) 19 18
+clusterByLeadingOnOverlappingWords 9
+len(clusterLabels) 9 9
+clusterByLeadingOnOverlappingWords 22
+len(clusterLabels) 22 22
+clusterByLeadingOnOverlappingWords 47
+len(clusterLabels) 47 46
+clusterByLeadingOnOverlappingWords 8
+len(clusterLabels) 8 8
+clusterByLeadingOnOverlappingWords 11
+len(clusterLabels) 11 10
+clusterByLeadingOnOverlappingWords 13
+len(clusterLabels) 13 13
+clusterByLeadingOnOverlappingWords 6
+len(clusterLabels) 6 6
+clusterByLeadingOnOverlappingWords 11
+len(clusterLabels) 11 11
+clusterByLeadingOnOverlappingWords 11
+len(clusterLabels) 11 11
+clusterByLeadingOnOverlappingWords 51
+len(clusterLabels) 51 50
+clusterByLeadingOnOverlappingWords 11
+len(clusterLabels) 11 11
+clusterByLeadingOnOverlappingWords 14
+len(clusterLabels) 14 14
+clusterByLeadingOnOverlappingWords 7
+len(clusterLabels) 7 7
+clusterByLeadingOnOverlappingWords 12
+len(clusterLabels) 12 12
+clusterByLeadingOnOverlappingWords 10
+len(clusterLabels) 10 10
+clusterByLeadingOnOverlappingWords 13
+len(clusterLabels) 13 11
+clusterByLeadingOnOverlappingWords 10
+len(clusterLabels) 10 10
+clusterByLeadingOnOverlappingWords 23
+len(clusterLabels) 23 23
+clusterByLeadingOnOverlappingWords 7
+len(clusterLabels) 7 7
+clusterByLeadingOnOverlappingWords 29
+len(clusterLabels) 29 29
+clusterByLeadingOnOverlappingWords 57
+len(clusterLabels) 57 57
+clusterByLeadingOnOverlappingWords 24
+len(clusterLabels) 24 24
+clusterByLeadingOnOverlappingWords 8
+len(clusterLabels) 8 8
+clusterByLeadingOnOverlappingWords 8
+len(clusterLabels) 8 8
+clusterByLeadingOnOverlappingWords 7
+len(clusterLabels) 7 7
+clusterByLeadingOnOverlappingWords 47
+len(clusterLabels) 47 47
+outlier=106, non-outlier=855,=maxPredLabel=788
+high_entropy_words=161, total words=1764
+outsPerCluster.values(), nonOuts 106 2576
+[13, 2, 6, 4, 7, 3, 22, 2, 10, 9, 4, 9, 2, 4, 2, 51, 4, 2, 2, 3, 4, 5, 18, 21, 7, 17, 5, 8, 11, 7, 3, 29, 2, 3, 8, 10, 14, 2, 50, 2, 8, 3, 7, 5, 6, 20, 2, 15, 5, 9, 17, 2, 3, 76, 13, 6, 7, 41, 27, 6, 2, 2, 27, 13, 2, 15, 17, 14, 38, 13, 3, 18, 49, 6, 2, 2, 11, 8, 22, 8, 2, 33, 4, 2, 2, 4, 5, 6, 3, 16, 14, 7, 3, 39, 57, 8, 4, 9, 7, 29, 2, 6, 18, 4, 2, 4, 2, 11, 2, 2, 3, 2, 3, 11, 2, 2, 2, 27, 7, 2, 7, 24, 2, 4, 22, 30, 6, 2, 2, 2, 7, 3, 4, 5, 24, 7, 5, 4, 5, 2, 22, 2, 2, 2, 5, 23, 6, 3, 8, 47, 37, 4, 2, 10, 9, 3, 12, 2, 2, 30, 4, 18, 2, 9, 2, 21, 4, 7, 2, 2, 11, 24, 8, 4, 5, 12, 14, 8, 20, 2, 2, 2, 2, 2, 4, 16, 4, 5, 18, 13, 8, 7, 2, 6, 20, 2, 11, 2, 3, 6, 5, 9, 9, 4, 2, 2, 2, 18, 2, 14, 7, 19, 18, 25, 2, 5, 2, 5, 10, 9, 2, 4, 6, 3, 2, 2, 8, 2, 2, 2, 39, 3, 2, 4, 6, 14, 7, 3, 3, 10, 3, 5, 5, 10, 2, 9, 13, 3, 3, 2, 2, 6, 24, 4, 5, 55, 18, 2, 4, 5, 8, 8, 7, 5, 4, 2, 3, 3, 2, 42, 2]
+        iter is  1
+        iter is  2
+        iter is  3
+        iter is  4
+        iter is  5
+        iter is  6
+        iter is  7
+        iter is  8
+        iter is  9
+        iter is  10
+Evaluate-enhance-forget 4
+evaluate total texts=961
+homogeneity_score-whole-data:   0.97309667
+completeness_score-whole-data:   0.85627565
+nmi_score-whole-data:   0.91095615
+pred clusters=203, true clusters=90
+purity majority whole data=0.9469302809573361
+        Gibbs sampling successful! Start to saving results.
+start doc=1921, end doc=2882
+total texts=2882, total clusters=218
+        Saving successful!
+Batch 4
+15356
+        3843 documents will be analyze. alpha is 115.29.
+        Initialization.
+        iter is  1
+        iter is  2
+        iter is  3
+        iter is  4
+        iter is  5
+maxPredLabel=541
+to delete batch 5 4
+dict_keys([2, 3, 4, 5])
+targetbatchNo 4
+len(docsPerBatch) 961
+clusterByLeadingOnOverlappingWords 79
+len(clusterLabels) 79 79
+clusterByLeadingOnOverlappingWords 27
+len(clusterLabels) 27 27
+clusterByLeadingOnOverlappingWords 63
+len(clusterLabels) 63 63
+clusterByLeadingOnOverlappingWords 9
+len(clusterLabels) 9 9
+clusterByLeadingOnOverlappingWords 7
+len(clusterLabels) 7 7
+clusterByLeadingOnOverlappingWords 14
+len(clusterLabels) 14 14
+clusterByLeadingOnOverlappingWords 31
+len(clusterLabels) 31 30
+clusterByLeadingOnOverlappingWords 56
+len(clusterLabels) 56 56
+clusterByLeadingOnOverlappingWords 49
+len(clusterLabels) 49 49
+clusterByLeadingOnOverlappingWords 62
+len(clusterLabels) 62 62
+clusterByLeadingOnOverlappingWords 26
+len(clusterLabels) 26 25
+clusterByLeadingOnOverlappingWords 18
+len(clusterLabels) 18 18
+clusterByLeadingOnOverlappingWords 50
+len(clusterLabels) 50 50
+clusterByLeadingOnOverlappingWords 10
+len(clusterLabels) 10 10
+clusterByLeadingOnOverlappingWords 12
+len(clusterLabels) 12 12
+clusterByLeadingOnOverlappingWords 6
+len(clusterLabels) 6 6
+clusterByLeadingOnOverlappingWords 6
+len(clusterLabels) 6 6
+clusterByLeadingOnOverlappingWords 13
+len(clusterLabels) 13 13
+clusterByLeadingOnOverlappingWords 92
+len(clusterLabels) 92 92
+clusterByLeadingOnOverlappingWords 6
+len(clusterLabels) 6 6
+clusterByLeadingOnOverlappingWords 27
+len(clusterLabels) 27 27
+clusterByLeadingOnOverlappingWords 58
+len(clusterLabels) 58 57
+clusterByLeadingOnOverlappingWords 77
+len(clusterLabels) 77 77
+clusterByLeadingOnOverlappingWords 6
+len(clusterLabels) 6 6
+clusterByLeadingOnOverlappingWords 10
+len(clusterLabels) 10 10
+clusterByLeadingOnOverlappingWords 16
+len(clusterLabels) 16 15
+clusterByLeadingOnOverlappingWords 61
+len(clusterLabels) 61 61
+outlier=64, non-outlier=897,=maxPredLabel=745
+high_entropy_words=173, total words=2014
+outsPerCluster.values(), nonOuts 64 3473
+[13, 2, 6, 4, 7, 3, 22, 2, 10, 14, 4, 9, 2, 4, 2, 51, 4, 2, 2, 3, 4, 5, 18, 21, 7, 17, 5, 10, 11, 7, 3, 29, 2, 3, 8, 10, 14, 2, 50, 2, 8, 3, 7, 5, 6, 20, 2, 15, 5, 11, 17, 2, 3, 76, 13, 6, 7, 41, 27, 6, 2, 2, 27, 13, 2, 15, 17, 14, 38, 13, 3, 18, 49, 6, 2, 2, 11, 8, 22, 8, 2, 33, 4, 2, 2, 4, 5, 6, 3, 16, 14, 7, 3, 39, 57, 8, 4, 9, 7, 29, 2, 10, 18, 4, 2, 4, 2, 11, 2, 2, 3, 2, 3, 11, 2, 2, 2, 27, 7, 2, 7, 24, 2, 4, 22, 30, 6, 2, 2, 2, 7, 3, 4, 5, 24, 7, 5, 8, 8, 7, 22, 2, 2, 5, 5, 23, 8, 3, 8, 47, 37, 4, 7, 10, 9, 3, 12, 2, 2, 30, 82, 18, 2, 9, 2, 21, 4, 7, 2, 2, 11, 26, 8, 4, 8, 14, 16, 8, 20, 2, 2, 2, 2, 6, 4, 16, 4, 5, 18, 13, 8, 7, 2, 6, 20, 2, 11, 10, 3, 6, 5, 9, 16, 4, 13, 2, 2, 18, 54, 63, 7, 19, 30, 25, 7, 7, 2, 5, 10, 20, 4, 8, 6, 3, 2, 2, 14, 8, 2, 2, 42, 5, 4, 4, 6, 14, 7, 6, 5, 10, 3, 5, 5, 10, 2, 9, 13, 3, 3, 2, 2, 6, 24, 4, 5, 55, 18, 2, 4, 10, 8, 8, 7, 5, 4, 2, 3, 3, 2, 42, 2, 3, 23, 53, 7, 2, 3, 5, 5, 2, 59, 17, 3, 3, 2, 47, 8, 2, 2, 4, 2, 83, 3, 3, 2, 27, 54, 3, 61, 2, 6, 7, 2, 12, 2, 55, 3, 2]
+        iter is  1
+        iter is  2
+        iter is  3
+        iter is  4
+        iter is  5
+        iter is  6
+        iter is  7
+        iter is  8
+        iter is  9
+        iter is  10
+Evaluate-enhance-forget 5
+evaluate total texts=961
+homogeneity_score-whole-data:   0.98913633
+completeness_score-whole-data:   0.70697722
+nmi_score-whole-data:   0.82458731
+pred clusters=116, true clusters=16
+purity majority whole data=0.9906347554630593
+        Gibbs sampling successful! Start to saving results.
+start doc=2882, end doc=3843
+total texts=3843, total clusters=245
+        Saving successful!
+Batch 5
+15356
+        4804 documents will be analyze. alpha is 144.12.
+        Initialization.
+        iter is  1
+        iter is  2
+        iter is  3
+        iter is  4
+        iter is  5
+maxPredLabel=575
+to delete batch 6 5
+dict_keys([2, 3, 4, 5, 6])
+targetbatchNo 5
+len(docsPerBatch) 961
+clusterByLeadingOnOverlappingWords 162
+len(clusterLabels) 162 152
+clusterByLeadingOnOverlappingWords 8
+len(clusterLabels) 8 8
+clusterByLeadingOnOverlappingWords 17
+len(clusterLabels) 17 17
+clusterByLeadingOnOverlappingWords 84
+len(clusterLabels) 84 84
+clusterByLeadingOnOverlappingWords 117
+len(clusterLabels) 117 117
+clusterByLeadingOnOverlappingWords 144
+len(clusterLabels) 144 141
+clusterByLeadingOnOverlappingWords 126
+len(clusterLabels) 126 126
+clusterByLeadingOnOverlappingWords 16
+len(clusterLabels) 16 16
+clusterByLeadingOnOverlappingWords 61
+len(clusterLabels) 61 61
+clusterByLeadingOnOverlappingWords 192
+len(clusterLabels) 192 192
+clusterByLeadingOnOverlappingWords 17
+len(clusterLabels) 17 17
+outlier=38, non-outlier=923,=maxPredLabel=669
+high_entropy_words=220, total words=1420
+outsPerCluster.values(), nonOuts 38 4396
+[13, 2, 6, 4, 7, 3, 22, 2, 10, 14, 4, 9, 2, 4, 2, 51, 4, 2, 2, 3, 4, 5, 18, 21, 7, 17, 5, 10, 11, 7, 3, 29, 2, 3, 8, 10, 14, 2, 50, 2, 8, 3, 7, 5, 6, 20, 2, 15, 5, 11, 17, 2, 3, 76, 13, 6, 7, 41, 27, 6, 2, 2, 27, 13, 2, 15, 17, 14, 38, 13, 3, 18, 49, 6, 2, 2, 11, 8, 22, 8, 2, 33, 4, 2, 2, 4, 5, 6, 3, 16, 14, 7, 3, 39, 57, 8, 4, 9, 7, 29, 2, 10, 18, 4, 2, 4, 2, 11, 2, 2, 3, 2, 3, 11, 2, 2, 2, 27, 7, 2, 7, 24, 2, 4, 22, 30, 6, 2, 2, 2, 7, 3, 4, 5, 24, 7, 5, 8, 8, 7, 22, 2, 2, 5, 5, 23, 8, 3, 8, 47, 37, 4, 9, 10, 9, 3, 12, 2, 2, 30, 82, 18, 2, 9, 2, 21, 4, 7, 2, 2, 11, 47, 13, 4, 10, 16, 16, 8, 20, 2, 2, 2, 2, 6, 4, 16, 4, 5, 18, 13, 8, 7, 2, 10, 20, 2, 11, 10, 3, 6, 5, 9, 16, 6, 15, 4, 2, 18, 54, 65, 7, 19, 30, 25, 7, 7, 2, 5, 10, 20, 4, 8, 6, 3, 2, 2, 14, 8, 2, 2, 42, 5, 4, 4, 6, 14, 7, 6, 5, 10, 3, 5, 5, 10, 2, 9, 13, 3, 3, 2, 2, 6, 24, 4, 5, 55, 18, 2, 4, 10, 8, 8, 7, 5, 4, 2, 3, 3, 2, 42, 2, 8, 23, 53, 7, 101, 13, 7, 7, 2, 59, 17, 3, 6, 120, 47, 134, 2, 2, 4, 2, 83, 3, 3, 2, 27, 54, 3, 61, 2, 6, 7, 2, 12, 2, 55, 3, 2, 3, 6, 14, 79, 117, 2, 13, 2, 15, 59, 185, 2, 17]
+        iter is  1
+        iter is  2
+        iter is  3
+        iter is  4
+        iter is  5
+        iter is  6
+        iter is  7
+        iter is  8
+        iter is  9
+        iter is  10
+Evaluate-enhance-forget 6
+evaluate total texts=961
+homogeneity_score-whole-data:   0.98196061
+completeness_score-whole-data:   0.63249901
+nmi_score-whole-data:   0.76940805
+pred clusters=54, true clusters=9
+purity majority whole data=0.9906347554630593
+        Gibbs sampling successful! Start to saving results.
+start doc=3843, end doc=4804
+total texts=4804, total clusters=259
+        Saving successful!
+Batch 6
+15356
+        5765 documents will be analyze. alpha is 172.95.
+        Initialization.
+        iter is  1
+        iter is  2
+        iter is  3
+        iter is  4
+        iter is  5
+maxPredLabel=645
+to delete batch 7 6
+dict_keys([2, 3, 4, 5, 6, 7])
+targetbatchNo 6
+len(docsPerBatch) 961
+clusterByLeadingOnOverlappingWords 94
+len(clusterLabels) 94 94
+clusterByLeadingOnOverlappingWords 10
+len(clusterLabels) 10 10
+clusterByLeadingOnOverlappingWords 30
+len(clusterLabels) 30 30
+clusterByLeadingOnOverlappingWords 104
+len(clusterLabels) 104 104
+clusterByLeadingOnOverlappingWords 27
+len(clusterLabels) 27 27
+clusterByLeadingOnOverlappingWords 19
+len(clusterLabels) 19 19
+clusterByLeadingOnOverlappingWords 48
+len(clusterLabels) 48 47
+clusterByLeadingOnOverlappingWords 56
+len(clusterLabels) 56 56
+clusterByLeadingOnOverlappingWords 11
+len(clusterLabels) 11 11
+clusterByLeadingOnOverlappingWords 44
+len(clusterLabels) 44 44
+clusterByLeadingOnOverlappingWords 69
+len(clusterLabels) 69 68
+clusterByLeadingOnOverlappingWords 8
+len(clusterLabels) 8 8
+clusterByLeadingOnOverlappingWords 125
+len(clusterLabels) 125 125
+clusterByLeadingOnOverlappingWords 21
+len(clusterLabels) 21 20
+clusterByLeadingOnOverlappingWords 71
+len(clusterLabels) 71 70
+clusterByLeadingOnOverlappingWords 40
+len(clusterLabels) 40 40
+clusterByLeadingOnOverlappingWords 35
+len(clusterLabels) 35 35
+clusterByLeadingOnOverlappingWords 73
+len(clusterLabels) 73 73
+clusterByLeadingOnOverlappingWords 10
+len(clusterLabels) 10 10
+outlier=49, non-outlier=912,=maxPredLabel=774
+high_entropy_words=280, total words=2002
+outsPerCluster.values(), nonOuts 49 5308
+[13, 2, 6, 4, 7, 3, 22, 2, 10, 14, 4, 9, 2, 4, 2, 51, 4, 2, 2, 3, 4, 5, 18, 21, 7, 17, 5, 13, 11, 7, 3, 29, 2, 3, 8, 10, 14, 2, 50, 2, 8, 3, 7, 5, 6, 20, 2, 15, 5, 11, 17, 2, 3, 76, 13, 6, 7, 41, 27, 6, 2, 2, 27, 13, 2, 15, 17, 14, 38, 13, 3, 18, 49, 6, 2, 2, 11, 8, 22, 8, 2, 33, 4, 2, 2, 4, 5, 6, 3, 16, 14, 7, 3, 39, 57, 8, 4, 9, 7, 29, 2, 10, 18, 4, 2, 4, 2, 11, 2, 2, 3, 2, 3, 11, 2, 2, 2, 27, 7, 2, 7, 24, 2, 4, 22, 30, 6, 2, 2, 2, 7, 3, 4, 5, 24, 7, 5, 8, 8, 7, 22, 2, 2, 5, 5, 23, 8, 3, 8, 47, 37, 4, 9, 10, 9, 3, 12, 2, 2, 30, 82, 18, 2, 9, 2, 21, 4, 7, 2, 2, 11, 47, 13, 7, 10, 16, 16, 8, 20, 2, 2, 2, 2, 6, 4, 16, 4, 5, 18, 13, 8, 7, 2, 10, 20, 2, 11, 10, 3, 6, 5, 9, 16, 6, 15, 4, 2, 18, 54, 65, 7, 19, 30, 25, 7, 7, 2, 5, 10, 105, 4, 8, 6, 3, 2, 2, 14, 112, 2, 2, 42, 5, 4, 4, 6, 14, 7, 6, 8, 10, 3, 48, 5, 13, 2, 9, 13, 3, 3, 2, 6, 6, 24, 4, 5, 55, 39, 2, 20, 10, 43, 8, 7, 5, 4, 2, 3, 3, 2, 42, 2, 8, 23, 53, 7, 101, 13, 7, 9, 2, 59, 17, 3, 6, 120, 47, 134, 2, 2, 4, 30, 110, 3, 42, 2, 27, 54, 3, 61, 2, 6, 7, 2, 12, 2, 55, 21, 2, 3, 6, 17, 81, 117, 2, 13, 2, 15, 59, 185, 12, 17, 3, 4, 2, 2, 5, 17, 54, 3, 11, 67, 3, 4, 7, 2, 124, 5, 2, 63, 2, 2, 71, 10]
+        iter is  1
+        iter is  2
+        iter is  3
+        iter is  4
+        iter is  5
+        iter is  6
+        iter is  7
+        iter is  8
+        iter is  9
+        iter is  10
+Evaluate-enhance-forget 7
+evaluate total texts=961
+homogeneity_score-whole-data:   0.99798836
+completeness_score-whole-data:   0.83087369
+nmi_score-whole-data:   0.90679586
+pred clusters=81, true clusters=18
+purity majority whole data=0.9979188345473465
+        Gibbs sampling successful! Start to saving results                       .
+start doc=4804, end doc=5765
+total texts=5765, total clusters=290
+        Saving successful!
+Batch 7
+15356
+        6726 documents will be analyze. alpha is 201.78.
+        Initialization.
+        iter is  1
+        iter is  2
+        iter is  3
+        iter is  4
+        iter is  5
+maxPredLabel=749
+to delete batch 8 7
+dict_keys([2, 3, 4, 5, 6, 7, 8])
+targetbatchNo 7
+len(docsPerBatch) 961
+clusterByLeadingOnOverlappingWords 28
+len(clusterLabels) 28 28
+clusterByLeadingOnOverlappingWords 51
+len(clusterLabels) 51 49
+clusterByLeadingOnOverlappingWords 9
+len(clusterLabels) 9 9
+clusterByLeadingOnOverlappingWords 20
+len(clusterLabels) 20 19
+clusterByLeadingOnOverlappingWords 22
+len(clusterLabels) 22 22
+clusterByLeadingOnOverlappingWords 41
+len(clusterLabels) 41 41
+clusterByLeadingOnOverlappingWords 12
+len(clusterLabels) 12 12
+clusterByLeadingOnOverlappingWords 79
+len(clusterLabels) 79 75
+clusterByLeadingOnOverlappingWords 55
+len(clusterLabels) 55 55
+clusterByLeadingOnOverlappingWords 17
+len(clusterLabels) 17 17
+clusterByLeadingOnOverlappingWords 72
+len(clusterLabels) 72 71
+clusterByLeadingOnOverlappingWords 21
+len(clusterLabels) 21 21
+clusterByLeadingOnOverlappingWords 38
+len(clusterLabels) 38 38
+clusterByLeadingOnOverlappingWords 30
+len(clusterLabels) 30 30
+clusterByLeadingOnOverlappingWords 6
+len(clusterLabels) 6 6
+clusterByLeadingOnOverlappingWords 6
+len(clusterLabels) 6 6
+clusterByLeadingOnOverlappingWords 75
+len(clusterLabels) 75 75
+clusterByLeadingOnOverlappingWords 11
+len(clusterLabels) 11 11
+clusterByLeadingOnOverlappingWords 21
+len(clusterLabels) 21 21
+clusterByLeadingOnOverlappingWords 26
+len(clusterLabels) 26 26
+clusterByLeadingOnOverlappingWords 23
+len(clusterLabels) 23 23
+clusterByLeadingOnOverlappingWords 53
+len(clusterLabels) 53 53
+clusterByLeadingOnOverlappingWords 15
+len(clusterLabels) 15 15
+clusterByLeadingOnOverlappingWords 12
+len(clusterLabels) 12 12
+clusterByLeadingOnOverlappingWords 16
+len(clusterLabels) 16 16
+clusterByLeadingOnOverlappingWords 15
+len(clusterLabels) 15 15
+clusterByLeadingOnOverlappingWords 36
+len(clusterLabels) 36 36
+clusterByLeadingOnOverlappingWords 79
+len(clusterLabels) 79 78
+outlier=77, non-outlier=884,=maxPredLabel=974
+high_entropy_words=196, total words=2053
+outsPerCluster.values(), nonOuts 77 6192
+[13, 2, 6, 4, 7, 3, 22, 2, 10, 14, 4, 9, 2, 4, 2, 51, 4, 2                       , 2, 3, 4, 5, 18, 21, 7, 17, 5, 13, 11, 7, 3, 29, 2, 3, 8,                        10, 14, 2, 50, 2, 8, 3, 7, 5, 6, 20, 2, 15, 5, 13, 17, 2,                        3, 76, 13, 6, 7, 41, 27, 6, 2, 2, 27, 13, 2, 15, 17, 14,                        38, 13, 3, 18, 49, 6, 2, 2, 11, 8, 22, 8, 2, 33, 4, 2, 2,                        4, 5, 6, 3, 16, 14, 7, 3, 39, 57, 8, 4, 9, 9, 29, 2, 10, 1                       8, 4, 2, 4, 2, 11, 2, 2, 3, 2, 3, 11, 2, 2, 2, 31, 7, 2, 7                       , 24, 2, 4, 22, 30, 6, 2, 2, 2, 7, 3, 4, 5, 24, 7, 5, 8, 8                       , 7, 22, 2, 2, 5, 5, 23, 8, 3, 8, 47, 37, 4, 9, 10, 9, 3,                        12, 2, 2, 30, 82, 18, 2, 9, 2, 21, 4, 7, 2, 2, 11, 47, 13,                        7, 10, 16, 16, 8, 20, 2, 2, 2, 2, 6, 4, 16, 4, 5, 18, 13,                        8, 7, 2, 10, 20, 2, 11, 10, 3, 6, 5, 9, 16, 6, 15, 4, 2,                        18, 54, 65, 7, 19, 30, 25, 7, 7, 2, 5, 13, 109, 4, 8, 6, 3                       , 2, 2, 17, 112, 2, 2, 42, 5, 4, 4, 6, 14, 7, 6, 8, 10, 3,                        48, 5, 13, 2, 9, 13, 3, 3, 2, 8, 6, 24, 4, 5, 55, 41, 2,                        20, 12, 45, 8, 7, 5, 4, 2, 3, 3, 2, 42, 2, 8, 23, 53, 7, 1                       01, 13, 7, 9, 2, 59, 17, 3, 6, 120, 47, 134, 2, 2, 4, 30,                        110, 3, 42, 2, 27, 54, 3, 61, 2, 6, 7, 2, 12, 2, 55, 21, 2                       , 3, 6, 19, 81, 117, 2, 13, 2, 17, 59, 188, 12, 17, 3, 4,                        2, 2, 7, 17, 55, 3, 11, 67, 5, 4, 10, 2, 124, 5, 2, 63, 2,                        2, 71, 10, 18, 6, 37, 2, 2, 8, 7, 16, 3, 2, 20, 19, 2, 3,                        2, 5, 6, 12, 2, 2, 4, 58, 3, 2, 2, 51, 2, 2, 6, 11, 69, 2                       , 21, 26, 3, 6, 2, 20, 3, 2, 2, 6, 6, 40, 14, 21, 2, 11, 5                       , 16, 2, 23, 2, 22, 37, 2, 6, 9, 2, 12, 16, 14, 35, 44, 2,                        6, 2, 3, 5, 3, 2, 2]
+        iter is  1
+        iter is  2
+        iter is  3
+        iter is  4
+        iter is  5
+        iter is  6
+        iter is  7
+        iter is  8
+        iter is  9
+        iter is  10
+Evaluate-enhance-forget 8
+evaluate total texts=961
+homogeneity_score-whole-data:   0.99428873
+completeness_score-whole-data:   0.69595395
+nmi_score-whole-data:   0.81879268
+pred clusters=146, true clusters=22
+purity majority whole data=0.9927159209157128
+        Gibbs sampling successful! Start to saving results.
+start doc=5765, end doc=6726
+total texts=6726, total clusters=328
+        Saving successful!
+Batch 8
+15356
+        7687 documents will be analyze. alpha is 230.61.
+        Initialization.
+        iter is  1
+        iter is  2
+        iter is  3
+        iter is  4
+        iter is  5
+maxPredLabel=883
+to delete batch 9 8
+dict_keys([2, 3, 4, 5, 6, 7, 8, 9])
+targetbatchNo 8
+len(docsPerBatch) 961
+clusterByLeadingOnOverlappingWords 68
+len(clusterLabels) 68 68
+clusterByLeadingOnOverlappingWords 47
+len(clusterLabels) 47 47
+clusterByLeadingOnOverlappingWords 9
+len(clusterLabels) 9 9
+clusterByLeadingOnOverlappingWords 55
+len(clusterLabels) 55 55
+clusterByLeadingOnOverlappingWords 37
+len(clusterLabels) 37 37
+clusterByLeadingOnOverlappingWords 40
+len(clusterLabels) 40 40
+clusterByLeadingOnOverlappingWords 6
+len(clusterLabels) 6 6
+clusterByLeadingOnOverlappingWords 17
+len(clusterLabels) 17 17
+clusterByLeadingOnOverlappingWords 11
+len(clusterLabels) 11 11
+clusterByLeadingOnOverlappingWords 44
+len(clusterLabels) 44 42
+clusterByLeadingOnOverlappingWords 6
+len(clusterLabels) 6 6
+clusterByLeadingOnOverlappingWords 41
+len(clusterLabels) 41 40
+clusterByLeadingOnOverlappingWords 31
+len(clusterLabels) 31 31
+clusterByLeadingOnOverlappingWords 30
+len(clusterLabels) 30 29
+clusterByLeadingOnOverlappingWords 23
+len(clusterLabels) 23 23
+clusterByLeadingOnOverlappingWords 10
+len(clusterLabels) 10 10
+clusterByLeadingOnOverlappingWords 28
+len(clusterLabels) 28 27
+clusterByLeadingOnOverlappingWords 39
+len(clusterLabels) 39 37
+clusterByLeadingOnOverlappingWords 152
+len(clusterLabels) 152 145
+clusterByLeadingOnOverlappingWords 14
+len(clusterLabels) 14 14
+clusterByLeadingOnOverlappingWords 9
+len(clusterLabels) 9 9
+clusterByLeadingOnOverlappingWords 7
+len(clusterLabels) 7 7
+clusterByLeadingOnOverlappingWords 14
+len(clusterLabels) 14 14
+clusterByLeadingOnOverlappingWords 42
+len(clusterLabels) 42 41
+clusterByLeadingOnOverlappingWords 47
+len(clusterLabels) 47 47
+clusterByLeadingOnOverlappingWords 20
+len(clusterLabels) 20 20
+clusterByLeadingOnOverlappingWords 27
+len(clusterLabels) 27 27
+outlier=95, non-outlier=866,=maxPredLabel=1116
+high_entropy_words=203, total words=1954
+outsPerCluster.values(), nonOuts 95 7058
+[13, 2, 6, 4, 7, 3, 22, 2, 10, 14, 4, 9, 2, 4, 2, 51, 4, 2, 2, 3, 4, 5, 18, 21, 7, 17, 5, 13, 11, 7, 3, 29, 2, 3, 8, 10, 14, 2, 50, 2, 8, 3, 7, 5, 6, 20, 2, 15, 5, 13, 17, 2, 3, 76, 13, 6, 7, 41, 27, 6, 2, 2, 27, 13, 2, 15, 17, 14, 38, 13, 3, 18, 49, 6, 2, 2, 11, 8, 22, 8, 2, 33, 4, 2, 2, 4, 5, 6, 3, 16, 14, 7, 3, 39, 57, 8, 4, 9, 9, 29, 2, 10, 18, 4, 2, 4, 2, 11, 2, 2, 3, 2, 3, 11, 2, 2, 2, 31, 7, 2, 7, 24, 2, 4, 22, 30, 6, 2, 2, 2, 7, 3, 4, 5, 24, 7, 5, 8, 8, 7, 22, 2, 2, 5, 5, 23, 8, 3, 8, 47, 37, 4, 9, 10, 9, 3, 12, 2, 2, 30, 82, 18, 2, 9, 2, 21, 4, 7, 2, 2, 11, 47, 13, 10, 10, 16, 16, 8, 20, 2, 2, 2, 2, 6, 4, 16, 4, 5, 18, 13, 8, 7, 2, 10, 20, 2, 11, 10, 3, 6, 5, 9, 16, 6, 15, 4, 2, 18, 54, 65, 7, 19, 30, 25, 7, 7, 2, 5, 13, 113, 4, 8, 6, 3, 2, 2, 17, 112, 2, 2, 42, 5, 4, 4, 6, 14, 7, 6, 8, 10, 3, 48, 5, 13, 2, 9, 13, 3, 3, 2, 8, 6, 24, 4, 5, 55, 41, 2, 20, 12, 45, 8, 7, 5, 4, 2, 3, 3, 2, 42, 2, 8, 23, 53, 7, 101, 13, 7, 9, 2, 59, 17, 3, 6, 120, 47, 134, 2, 2, 4, 30, 110, 3, 42, 2, 27, 54, 3, 61, 2, 6, 7, 2, 12, 2, 55, 21, 2, 3, 6, 19, 81, 117, 2, 13, 2, 17, 59, 188, 12, 17, 8, 4, 2, 2, 7, 17, 55, 3, 11, 67, 5, 4, 10, 2, 126, 5, 2, 63, 2, 2, 71, 10, 18, 6, 37, 2, 2, 8, 9, 16, 3, 2, 20, 19, 2, 3, 2, 5, 9, 12, 2, 2, 4, 58, 3, 2, 2, 51, 2, 2, 6, 11, 69, 2, 21, 26, 3, 6, 2, 20, 3, 2, 2, 6, 6, 40, 14, 21, 2, 15, 5, 16, 11, 57, 2, 22, 80, 4, 8, 35, 9, 14, 16, 14, 35, 44, 2, 6, 2, 3, 5, 3, 2, 13, 56, 2, 3, 2, 7, 2, 3, 2, 28, 2, 3, 3, 2, 10, 2, 37, 2, 2, 2, 6, 31, 9, 2, 9, 20, 6, 15, 2, 2, 3, 2, 20, 3, 2, 10, 10, 24, 2, 31, 2, 2, 103, 4, 7, 2, 2, 2, 2, 5, 6, 2, 2, 2, 12, 2, 9, 6, 10, 2, 2, 2, 25, 3, 3, 2, 2, 41, 3, 2, 3, 18, 2, 5, 26, 2, 3]
+        iter is  1
+        iter is  2
+        iter is  3
+        iter is  4
+        iter is  5
+        iter is  6
+        iter is  7
+        iter is  8
+        iter is  9
+        iter is  10
+Evaluate-enhance-forget 9
+evaluate total texts=961
+homogeneity_score-whole-data:   0.96331603
+completeness_score-whole-data:   0.68914858
+nmi_score-whole-data:   0.80348816
+pred clusters=173, true clusters=26
+purity majority whole data=0.9521331945889698
+        Gibbs sampling successful! Start to saving results.
+start doc=6726, end doc=7687
+total texts=7687, total clusters=377
+        Saving successful!
+Batch 9
+15356
+        8648 documents will be analyze. alpha is 259.44.
+        Initialization.
+        iter is  1
+        iter is  2
+        iter is  3
+        iter is  4
+        iter is  5
+maxPredLabel=979
+to delete batch 10 9
+dict_keys([2, 3, 4, 5, 6, 7, 8, 9, 10])
+targetbatchNo 9
+len(docsPerBatch) 961
+clusterByLeadingOnOverlappingWords 11
+len(clusterLabels) 11 11
+clusterByLeadingOnOverlappingWords 29
+len(clusterLabels) 29 29
+clusterByLeadingOnOverlappingWords 23
+len(clusterLabels) 23 23
+clusterByLeadingOnOverlappingWords 66
+len(clusterLabels) 66 66
+clusterByLeadingOnOverlappingWords 77
+len(clusterLabels) 77 77
+clusterByLeadingOnOverlappingWords 40
+len(clusterLabels) 40 40
+clusterByLeadingOnOverlappingWords 6
+len(clusterLabels) 6 6
+clusterByLeadingOnOverlappingWords 15
+len(clusterLabels) 15 15
+clusterByLeadingOnOverlappingWords 11
+len(clusterLabels) 11 11
+clusterByLeadingOnOverlappingWords 88
+len(clusterLabels) 88 88
+clusterByLeadingOnOverlappingWords 18
+len(clusterLabels) 18 18
+clusterByLeadingOnOverlappingWords 10
+len(clusterLabels) 10 10
+clusterByLeadingOnOverlappingWords 23
+len(clusterLabels) 23 23
+clusterByLeadingOnOverlappingWords 8
+len(clusterLabels) 8 8
+clusterByLeadingOnOverlappingWords 14
+len(clusterLabels) 14 14
+clusterByLeadingOnOverlappingWords 8
+len(clusterLabels) 8 8
+clusterByLeadingOnOverlappingWords 39
+len(clusterLabels) 39 38
+clusterByLeadingOnOverlappingWords 43
+len(clusterLabels) 43 43
+clusterByLeadingOnOverlappingWords 8
+len(clusterLabels) 8 8
+clusterByLeadingOnOverlappingWords 7
+len(clusterLabels) 7 7
+clusterByLeadingOnOverlappingWords 42
+len(clusterLabels) 42 41
+clusterByLeadingOnOverlappingWords 14
+len(clusterLabels) 14 14
+clusterByLeadingOnOverlappingWords 102
+len(clusterLabels) 102 102
+clusterByLeadingOnOverlappingWords 119
+len(clusterLabels) 119 111
+clusterByLeadingOnOverlappingWords 14
+len(clusterLabels) 14 14
+clusterByLeadingOnOverlappingWords 36
+len(clusterLabels) 36 36
+clusterByLeadingOnOverlappingWords 12
+len(clusterLabels) 12 12
+clusterByLeadingOnOverlappingWords 12
+len(clusterLabels) 12 12
+outlier=67, non-outlier=894,=maxPredLabel=1187
+high_entropy_words=195, total words=1937
+outsPerCluster.values(), nonOuts 67 7952
+[13, 2, 6, 4, 7, 3, 22, 2, 10, 14, 4, 9, 2, 4, 2, 51, 4, 2, 2, 3, 4, 5, 18, 21, 7, 17, 5, 13, 11, 7, 3, 29, 2, 3, 8, 10, 14, 2, 50, 2, 8, 3, 7, 5, 6, 20, 2, 15, 5, 17, 17, 2, 3, 76, 13, 6, 7, 41, 27, 6, 2, 2, 27, 13, 2, 15, 17, 14, 38, 13, 3, 18, 49, 6, 2, 2, 11, 8, 22, 8, 2, 33, 4, 2, 2, 4, 5, 6, 3, 16, 14, 7, 3, 39, 57, 8, 4, 9, 9, 29, 7, 10, 18, 4, 2, 4, 2, 11, 2, 2, 3, 2, 3, 11, 2, 2, 2, 31, 7, 2, 7, 24, 2, 4, 22, 30, 6, 2, 2, 2, 7, 3, 4, 5, 24, 7, 5, 8, 8, 7, 22, 2, 2, 5, 5, 23, 8, 3, 8, 47, 37, 4, 9, 10, 9, 3, 12, 2, 2, 30, 82, 18, 2, 9, 2, 21, 4, 7, 2, 2, 11, 47, 13, 12, 10, 16, 16, 8, 20, 2, 2, 2, 2, 6, 4, 16, 4, 5, 18, 13, 8, 7, 2, 10, 20, 2, 11, 10, 3, 6, 5, 9, 16, 6, 15, 4, 2, 18, 54, 65, 7, 19, 30, 25, 7, 7, 2, 5, 13, 113, 4, 8, 6, 3, 2, 2, 17, 112, 2, 2, 42, 5, 4, 4, 6, 14, 7, 6, 8, 10, 3, 48, 5, 13, 2, 9, 13, 3, 3, 2, 8, 6, 24, 4, 5, 55, 41, 2, 20, 12, 45, 8, 7, 5, 4, 2, 3, 3, 2, 42, 2, 8, 23, 53, 7, 101, 13, 7, 9, 2, 59, 17, 3, 6, 120, 47, 134, 2, 2, 4, 30, 110, 3, 42, 2, 27, 54, 3, 61, 2, 6, 7, 2, 12, 2, 55, 21, 2, 3, 6, 19, 81, 117, 2, 13, 2, 17, 59, 188, 12, 17, 10, 9, 2, 2, 7, 17, 55, 3, 11, 67, 5, 4, 10, 2, 126, 5, 2, 63, 2, 2, 71, 10, 18, 6, 37, 2, 2, 8, 9, 16, 3, 2, 20, 19, 2, 3, 2, 5, 9, 12, 2, 2, 4, 58, 3, 2, 2, 51, 2, 2, 6, 11, 69, 2, 21, 26, 3, 6, 2, 20, 3, 2, 2, 6, 6, 40, 14, 21, 2, 15, 5, 16, 13, 59, 2, 22, 83, 4, 8, 36, 9, 14, 16, 14, 35, 44, 2, 6, 2, 3, 5, 3, 2, 13, 56, 4, 3, 2, 7, 2, 3, 2, 28, 2, 3, 3, 2, 10, 2, 38, 2, 2, 2, 6, 31, 9, 2, 9, 20, 6, 15, 2, 19, 3, 9, 76, 3, 2, 12, 10, 24, 2, 31, 2, 4, 105, 4, 11, 2, 12, 5, 4, 5, 6, 2, 2, 2, 19, 2, 25, 6, 12, 2, 2, 2, 39, 3, 3, 2, 2, 41, 3, 2, 7, 18, 2, 5, 26, 2, 5, 11, 3, 23, 6, 2, 73, 2, 2, 28, 2, 7, 4, 86, 2, 15, 2, 2, 3, 2, 6, 3, 2, 8, 2, 18, 3, 10, 36, 3, 8, 2, 5, 2, 28, 2, 2, 8, 3, 2, 95, 2, 106, 8, 3, 13, 2, 26, 2, 3, 4, 11, 2, 10]
+        iter is  1
+        iter is  2
+        iter is  3
+        iter is  4
+        iter is  5
+        iter is  6
+        iter is  7
+        iter is  8
+        iter is  9
+        iter is  10
+Evaluate-enhance-forget 10
+evaluate total texts=961
+homogeneity_score-whole-data:   0.99007729
+completeness_score-whole-data:   0.78950811
+nmi_score-whole-data:   0.87849006
+pred clusters=133, true clusters=28
+purity majority whole data=0.9864724245577523
+        Gibbs sampling successful! Start to saving results.
+start doc=7687, end doc=8648
+total texts=8648, total clusters=410
+        Saving successful!
+Batch 10
+15356
+        9609 documents will be analyze. alpha is 288.27.
+        Initialization.
+        iter is  1
+        iter is  2
+        iter is  3
+        iter is  4
+        iter is  5
+maxPredLabel=1149
+to delete batch 11 10
+dict_keys([2, 3, 4, 5, 6, 7, 8, 9, 10, 11])
+targetbatchNo 10
+len(docsPerBatch) 961
+clusterByLeadingOnOverlappingWords 32
+len(clusterLabels) 32 31
+clusterByLeadingOnOverlappingWords 23
+len(clusterLabels) 23 23
+clusterByLeadingOnOverlappingWords 57
+len(clusterLabels) 57 57
+clusterByLeadingOnOverlappingWords 16
+len(clusterLabels) 16 16
+clusterByLeadingOnOverlappingWords 24
+len(clusterLabels) 24 24
+clusterByLeadingOnOverlappingWords 43
+len(clusterLabels) 43 42
+clusterByLeadingOnOverlappingWords 15
+len(clusterLabels) 15 15
+clusterByLeadingOnOverlappingWords 20
+len(clusterLabels) 20 20
+clusterByLeadingOnOverlappingWords 12
+len(clusterLabels) 12 12
+clusterByLeadingOnOverlappingWords 29
+len(clusterLabels) 29 29
+clusterByLeadingOnOverlappingWords 7
+len(clusterLabels) 7 7
+clusterByLeadingOnOverlappingWords 8
+len(clusterLabels) 8 8
+clusterByLeadingOnOverlappingWords 47
+len(clusterLabels) 47 46
+clusterByLeadingOnOverlappingWords 37
+len(clusterLabels) 37 36
+clusterByLeadingOnOverlappingWords 25
+len(clusterLabels) 25 25
+clusterByLeadingOnOverlappingWords 8
+len(clusterLabels) 8 8
+clusterByLeadingOnOverlappingWords 14
+len(clusterLabels) 14 14
+clusterByLeadingOnOverlappingWords 34
+len(clusterLabels) 34 34
+clusterByLeadingOnOverlappingWords 19
+len(clusterLabels) 19 19
+clusterByLeadingOnOverlappingWords 10
+len(clusterLabels) 10 10
+clusterByLeadingOnOverlappingWords 14
+len(clusterLabels) 14 14
+clusterByLeadingOnOverlappingWords 34
+len(clusterLabels) 34 34
+clusterByLeadingOnOverlappingWords 23
+len(clusterLabels) 23 21
+clusterByLeadingOnOverlappingWords 30
+len(clusterLabels) 30 30
+clusterByLeadingOnOverlappingWords 9
+len(clusterLabels) 9 9
+clusterByLeadingOnOverlappingWords 18
+len(clusterLabels) 18 18
+clusterByLeadingOnOverlappingWords 28
+len(clusterLabels) 28 28
+clusterByLeadingOnOverlappingWords 11
+len(clusterLabels) 11 11
+clusterByLeadingOnOverlappingWords 21
+len(clusterLabels) 21 21
+clusterByLeadingOnOverlappingWords 16
+len(clusterLabels) 16 15
+clusterByLeadingOnOverlappingWords 43
+len(clusterLabels) 43 43
+clusterByLeadingOnOverlappingWords 16
+len(clusterLabels) 16 16
+clusterByLeadingOnOverlappingWords 37
+len(clusterLabels) 37 37
+clusterByLeadingOnOverlappingWords 15
+len(clusterLabels) 15 15
+clusterByLeadingOnOverlappingWords 15
+len(clusterLabels) 15 15
+clusterByLeadingOnOverlappingWords 10
+len(clusterLabels) 10 10
+outlier=91, non-outlier=870,=maxPredLabel=1430
+high_entropy_words=243, total words=2232
+outsPerCluster.values(), nonOuts 91 8822
+[13, 2, 6, 4, 7, 3, 22, 2, 10, 17, 4, 9, 2, 4, 2, 51, 4, 2, 2, 3, 4, 5, 18, 21, 7, 17, 5, 16, 11, 7, 3, 29, 2, 3, 8, 10, 14, 2, 50, 2, 8, 3, 7, 8, 6, 20, 2, 15, 5, 17, 17, 2, 3, 76, 13, 6, 7, 41, 27, 6, 2, 2, 27, 13, 2, 15, 17, 14, 38, 13, 3, 18, 49, 6, 2, 2, 11, 8, 22, 8, 2, 33, 4, 2, 2, 4, 5, 6, 3, 16, 14, 7, 3, 39, 57, 8, 4, 9, 9, 29, 7, 10, 18, 4, 2, 4, 2, 11, 2, 2, 3, 2, 3, 11, 2, 2, 2, 31, 7, 2, 7, 24, 2, 4, 22, 30, 6, 2, 2, 2, 7, 3, 4, 5, 24, 7, 5, 8, 8, 7, 22, 2, 2, 5, 5, 23, 8, 3, 8, 47, 37, 4, 9, 10, 9, 3, 12, 2, 2, 30, 82, 18, 2, 9, 2, 21, 4, 7, 2, 2, 11, 47, 13, 15, 10, 16, 16, 8, 20, 2, 2, 2, 2, 6, 4, 16, 4, 7, 18, 13, 8, 7, 2, 10, 20, 2, 11, 10, 3, 6, 5, 9, 16, 6, 15, 4, 2, 18, 54, 65, 7, 19, 30, 25, 7, 7, 2, 5, 13, 113, 4, 8, 6, 3, 2, 2, 17, 112, 2, 2, 42, 5, 4, 4, 6, 14, 7, 6, 8, 10, 3, 48, 5, 13, 2, 9, 13, 3, 3, 2, 8, 6, 24, 4, 5, 55, 41, 2, 20, 12, 45, 8, 7, 5, 4, 2, 3, 3, 2, 42, 2, 8, 23, 53, 7, 101, 13, 7, 9, 2, 59, 17, 3, 6, 120, 47, 134, 2, 2, 4, 30, 110, 3, 42, 2, 27, 54, 3, 61, 2, 6, 7, 2, 12, 2, 55, 21, 2, 3, 6, 19, 81, 117, 2, 13, 2, 21, 59, 188, 12, 17, 10, 9, 2, 2, 7, 17, 55, 3, 11, 67, 5, 4, 10, 2, 126, 5, 2, 63, 2, 2, 71, 10, 18, 6, 37, 2, 2, 8, 9, 16, 3, 2, 20, 19, 2, 3, 2, 5, 9, 12, 2, 2, 4, 58, 3, 2, 2, 51, 2, 2, 6, 11, 69, 2, 21, 26, 3, 6, 2, 20, 3, 2, 2, 6, 6, 40, 14, 21, 2, 15, 5, 16, 13, 59, 2, 22, 88, 4, 8, 36, 9, 14, 16, 14, 35, 44, 2, 6, 2, 3, 5, 3, 2, 13, 56, 6, 3, 7, 7, 2, 3, 2, 28, 2, 3, 3, 2, 10, 2, 38, 2, 2, 2, 6, 31, 9, 2, 9, 20, 6, 15, 2, 19, 3, 9, 76, 3, 2, 12, 13, 29, 2, 31, 2, 4, 105, 4, 11, 4, 17, 5, 4, 5, 6, 2, 2, 7, 19, 2, 25, 6, 12, 2, 2, 2, 39, 3, 3, 2, 2, 41, 3, 2, 7, 18, 2, 5, 26, 2, 5, 11, 3, 23, 6, 4, 73, 2, 2, 30, 2, 10, 4, 86, 7, 15, 4, 2, 3, 2, 6, 6, 2, 8, 2, 18, 3, 11, 38, 3, 8, 2, 5, 2, 28, 2, 2, 10, 3, 2, 95, 2, 108, 10, 5, 13, 2, 26, 2, 3, 4, 11, 2, 10, 2, 16, 2, 23, 3, 35, 2, 7, 2, 11, 3, 2, 3, 13, 9, 4, 36, 15, 4, 16, 3, 7, 2, 2, 2, 8, 15, 2, 2, 2, 2, 5, 30, 2, 3, 3, 2, 2, 2, 6, 2, 24, 9, 2, 10, 4, 2, 7, 14, 12, 2, 16, 2, 9, 8, 2, 4, 2, 7, 2, 14, 7, 23, 3, 2, 21, 2, 28, 8, 2, 14, 28, 2, 10, 16, 3, 2, 2, 14, 41, 14, 2, 23, 14, 13, 2, 15, 10, 5, 2]
+        iter is  1
+        iter is  2
+        iter is  3
+        iter is  4
+        iter is  5
+        iter is  6
+        iter is  7
+        iter is  8
+        iter is  9
+        iter is  10
+Evaluate-enhance-forget 11
+evaluate total texts=961
+homogeneity_score-whole-data:   0.97815707
+completeness_score-whole-data:   0.80932145
+nmi_score-whole-data:   0.88576561
+pred clusters=192, true clusters=53
+purity majority whole data=0.9604578563995838
+        Gibbs sampling successful! Start to saving results.
+start doc=8648, end doc=9609
+total texts=9609, total clusters=474
+        Saving successful!
+Batch 11
+15356
+        10570 documents will be analyze. alpha is 317.10.
+        Initialization.
+        iter is  1
+        iter is  2
+        iter is  3
+        iter is  4
+        iter is  5
+maxPredLabel=1407
+to delete batch 12 11
+dict_keys([2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
+targetbatchNo 11
+len(docsPerBatch) 961
+clusterByLeadingOnOverlappingWords 40
+len(clusterLabels) 40 40
+clusterByLeadingOnOverlappingWords 6
+len(clusterLabels) 6 6
+clusterByLeadingOnOverlappingWords 18
+len(clusterLabels) 18 18
+clusterByLeadingOnOverlappingWords 39
+len(clusterLabels) 39 38
+clusterByLeadingOnOverlappingWords 9
+len(clusterLabels) 9 9
+clusterByLeadingOnOverlappingWords 23
+len(clusterLabels) 23 23
+clusterByLeadingOnOverlappingWords 13
+len(clusterLabels) 13 13
+clusterByLeadingOnOverlappingWords 10
+len(clusterLabels) 10 10
+clusterByLeadingOnOverlappingWords 8
+len(clusterLabels) 8 8
+clusterByLeadingOnOverlappingWords 14
+len(clusterLabels) 14 14
+clusterByLeadingOnOverlappingWords 20
+len(clusterLabels) 20 20
+clusterByLeadingOnOverlappingWords 12
+len(clusterLabels) 12 12
+clusterByLeadingOnOverlappingWords 13
+len(clusterLabels) 13 13
+clusterByLeadingOnOverlappingWords 18
+len(clusterLabels) 18 18
+clusterByLeadingOnOverlappingWords 10
+len(clusterLabels) 10 10
+clusterByLeadingOnOverlappingWords 12
+len(clusterLabels) 12 12
+clusterByLeadingOnOverlappingWords 13
+len(clusterLabels) 13 13
+clusterByLeadingOnOverlappingWords 11
+len(clusterLabels) 11 11
+clusterByLeadingOnOverlappingWords 13
+len(clusterLabels) 13 12
+clusterByLeadingOnOverlappingWords 21
+len(clusterLabels) 21 21
+clusterByLeadingOnOverlappingWords 22
+len(clusterLabels) 22 21
+clusterByLeadingOnOverlappingWords 13
+len(clusterLabels) 13 13
+clusterByLeadingOnOverlappingWords 12
+len(clusterLabels) 12 12
+clusterByLeadingOnOverlappingWords 19
+len(clusterLabels) 19 19
+clusterByLeadingOnOverlappingWords 6
+len(clusterLabels) 6 6
+clusterByLeadingOnOverlappingWords 6
+len(clusterLabels) 6 5
+clusterByLeadingOnOverlappingWords 32
+len(clusterLabels) 32 32
+clusterByLeadingOnOverlappingWords 17
+len(clusterLabels) 17 17
+clusterByLeadingOnOverlappingWords 23
+len(clusterLabels) 23 23
+clusterByLeadingOnOverlappingWords 10
+len(clusterLabels) 10 10
+clusterByLeadingOnOverlappingWords 10
+len(clusterLabels) 10 10
+clusterByLeadingOnOverlappingWords 6
+len(clusterLabels) 6 6
+clusterByLeadingOnOverlappingWords 14
+len(clusterLabels) 14 14
+clusterByLeadingOnOverlappingWords 21
+len(clusterLabels) 21 21
+clusterByLeadingOnOverlappingWords 16
+len(clusterLabels) 16 16
+clusterByLeadingOnOverlappingWords 6
+len(clusterLabels) 6 6
+clusterByLeadingOnOverlappingWords 135
+len(clusterLabels) 135 132
+clusterByLeadingOnOverlappingWords 7
+len(clusterLabels) 7 7
+clusterByLeadingOnOverlappingWords 41
+len(clusterLabels) 41 40
+outlier=147, non-outlier=814,=maxPredLabel=1725
+high_entropy_words=306, total words=2196
+outsPerCluster.values(), nonOuts 147 9636
+[13, 2, 6, 4, 7, 3, 22, 2, 10, 17, 4, 9, 2, 4, 2, 51, 4, 2, 2, 3, 4, 5, 18, 21, 7, 17, 5, 16, 11, 7, 3, 29, 2, 3, 8, 10, 14, 2, 50, 2, 8, 3, 7, 8, 6, 20, 2, 15, 5, 17, 17, 2, 3, 76, 13, 6, 7, 41, 27, 6, 2, 2, 27, 13, 2, 15, 17, 14, 38, 13, 3, 18, 52, 6, 2, 2, 11, 8, 22, 8, 2, 33, 4, 2, 2, 4, 5, 6, 3, 16, 14, 7, 3, 39, 57, 8, 4, 9, 11, 29, 12, 10, 18, 4, 2, 4, 2, 11, 2, 2, 3, 2, 3, 11, 2, 2, 2, 31, 7, 2, 7, 24, 2, 4, 22, 30, 6, 2, 2, 2, 7, 3, 4, 5, 24, 7, 5, 8, 8, 7, 22, 2, 2, 5, 5, 23, 8, 3, 8, 47, 37, 4, 14, 10, 9, 3, 12, 2, 2, 30, 82, 18, 2, 9, 2, 21, 4, 7, 2, 2, 11, 47, 13, 15, 10, 16, 16, 8, 20, 2, 2, 2, 2, 6, 4, 16, 4, 7, 18, 13, 8, 7, 2, 10, 20, 2, 11, 10, 3, 6, 5, 9, 16, 6, 15, 4, 2, 18, 54, 65, 7, 19, 30, 25, 7, 7, 2, 5, 13, 115, 4, 8, 6, 3, 2, 2, 17, 112, 2, 2, 42, 5, 4, 4, 6, 14, 7, 6, 8, 10, 3, 48, 5, 13, 2, 9, 13, 3, 3, 2, 8, 6, 24, 4, 5, 55, 41, 2, 20, 12, 45, 8, 7, 5, 4, 2, 3, 3, 2, 42, 2, 8, 23, 53, 7, 101, 13, 7, 9, 2, 59, 17, 3, 6, 120, 47, 134, 2, 2, 4, 30, 110, 3, 42, 2, 27, 54, 3, 61, 2, 6, 7, 2, 12, 2, 55, 21, 2, 3, 6, 19, 81, 117, 2, 13, 2, 21, 59, 188, 12, 17, 10, 9, 2, 2, 7, 17, 55, 5, 11, 67, 5, 4, 10, 2, 126, 5, 2, 63, 2, 2, 71, 10, 18, 6, 37, 2, 2, 8, 9, 16, 3, 2, 20, 19, 2, 3, 2, 5, 11, 12, 2, 2, 4, 58, 3, 2, 2, 51, 2, 2, 6, 11, 69, 2, 21, 26, 3, 6, 2, 20, 3, 2, 2, 6, 6, 40, 14, 21, 2, 15, 5, 16, 13, 59, 2, 22, 88, 4, 8, 36, 9, 14, 16, 14, 35, 44, 2, 6, 2, 3, 5, 3, 2, 13, 56, 6, 3, 7, 7, 2, 3, 2, 28, 2, 3, 3, 2, 10, 2, 38, 2, 2, 2, 6, 31, 9, 2, 9, 20, 6, 15, 2, 19, 3, 9, 76, 3, 2, 16, 15, 29, 2, 31, 2, 4, 105, 4, 11, 4, 21, 8, 4, 5, 6, 2, 2, 7, 19, 2, 25, 6, 12, 2, 2, 2, 39, 3, 3, 2, 2, 41, 3, 5, 7, 18, 2, 5, 26, 2, 5, 11, 3, 23, 6, 4, 73, 2, 2, 30, 2, 10, 4, 86, 12, 15, 4, 2, 3, 2, 6, 6, 2, 10, 2, 18, 3, 11, 41, 3, 8, 2, 5, 2, 28, 2, 2, 10, 3, 2, 95, 2, 108, 10, 5, 13, 2, 26, 2, 3, 8, 11, 2, 10, 4, 16, 2, 25, 3, 35, 2, 7, 2, 11, 5, 2, 3, 13, 12, 4, 41, 15, 4, 16, 3, 7, 2, 2, 2, 10, 15, 6, 2, 2, 2, 5, 30, 2, 3, 3, 2, 2, 2, 8, 2, 24, 9, 2, 10, 4, 2, 7, 19, 12, 2, 16, 2, 9, 8, 6, 8, 2, 7, 2, 14, 7, 23, 3, 2, 23, 2, 28, 8, 2, 15, 29, 2, 10, 16, 3, 4, 2, 14, 41, 14, 2, 23, 14, 13, 2, 15, 10, 5, 2, 35, 3, 6, 6, 13, 14, 13, 3, 4, 2, 9, 2, 4, 11, 2, 2, 3, 5, 3, 5, 4, 5, 2, 2, 4, 4, 14, 16, 2, 2, 8, 2, 2, 2, 9, 2, 13, 4, 3, 2, 6, 2, 2, 9, 3, 2, 2, 9, 2, 9, 2, 2, 7, 2, 15, 4, 21, 11, 7, 4, 2, 12, 2, 6, 2, 5, 15, 4, 9, 2, 5, 14, 20, 9, 10, 9, 2, 6, 2, 8, 2, 3, 8, 9, 2, 2, 9, 5, 2, 5, 2, 114, 3, 7, 2, 35]
+        iter is  1
+        iter is  2
+        iter is  3
+        iter is  4
+        iter is  5
+        iter is  6
+        iter is  7
+        iter is  8
+        iter is  9
+        iter is  10
+Evaluate-enhance-forget 12
+evaluate total texts=961
+homogeneity_score-whole-data:   0.97674658
+completeness_score-whole-data:   0.77994996
+nmi_score-whole-data:   0.86732505
+pred clusters=255, true clusters=91
+purity majority whole data=0.9604578563995838
+        Gibbs sampling successful! Start to saving results.
+start doc=9609, end doc=10570
+total texts=10570, total clusters=564
+        Saving successful!
+Batch 12
+15356
+        11531 documents will be analyze. alpha is 345.93.
+        Initialization.
+        iter is  1
+        iter is  2
+        iter is  3
+        iter is  4
+        iter is  5
+maxPredLabel=1639
+to delete batch 13 12
+dict_keys([2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13])
+targetbatchNo 12
+len(docsPerBatch) 961
+clusterByLeadingOnOverlappingWords 31
+len(clusterLabels) 31 31
+clusterByLeadingOnOverlappingWords 106
+len(clusterLabels) 106 106
+clusterByLeadingOnOverlappingWords 383
+len(clusterLabels) 383 362
+clusterByLeadingOnOverlappingWords 69
+len(clusterLabels) 69 68
+clusterByLeadingOnOverlappingWords 175
+len(clusterLabels) 175 174
+clusterByLeadingOnOverlappingWords 9
+len(clusterLabels) 9 9
+clusterByLeadingOnOverlappingWords 31
+len(clusterLabels) 31 31
+clusterByLeadingOnOverlappingWords 11
+len(clusterLabels) 11 11
+clusterByLeadingOnOverlappingWords 22
+len(clusterLabels) 22 21
+clusterByLeadingOnOverlappingWords 6
+len(clusterLabels) 6 6
+outlier=183, non-outlier=778,=maxPredLabel=1888
+high_entropy_words=163, total words=1280
+outsPerCluster.values(), nonOuts 183 10414
+[13, 2, 6, 4, 7, 3, 22, 2, 10, 17, 4, 9, 2, 4, 2, 51, 4, 2, 2, 3, 4, 5, 18, 21, 7, 17, 5, 16, 11, 7, 3, 29, 2, 3, 8, 10, 14, 2, 50, 2, 8, 3, 7, 8, 6, 20, 2, 15, 5, 17, 17, 2, 3, 76, 13, 6, 7, 41, 27, 6, 2, 2, 27, 13, 2, 15, 17, 14, 38, 13, 3, 18, 52, 6, 2, 2, 11, 8, 22, 8, 2, 33, 4, 2, 2, 4, 5, 6, 3, 16, 14, 7, 3, 39, 57, 8, 4, 9, 11, 29, 15, 10, 18, 4, 2, 4, 2, 11, 2, 2, 3, 2, 3, 11, 2, 2, 2, 31, 7, 2, 7, 24, 2, 4, 22, 30, 6, 2, 2, 2, 7, 3, 4, 5, 24, 7, 5, 8, 8, 7, 22, 2, 2, 5, 5, 23, 8, 3, 8, 47, 37, 4, 19, 10, 9, 3, 12, 2, 2, 30, 82, 18, 2, 9, 2, 21, 4, 7, 2, 2, 11, 47, 13, 15, 10, 16, 16, 8, 20, 2, 2, 2, 2, 6, 4, 16, 4, 7, 18, 13, 8, 7, 2, 10, 20, 2, 11, 10, 3, 6, 5, 9, 16, 6, 15, 4, 2, 18, 54, 65, 7, 19, 30, 25, 7, 7, 2, 5, 13, 115, 4, 8, 6, 3, 2, 2, 17, 112, 2, 2, 42, 5, 4, 4, 6, 14, 7, 6, 8, 10, 3, 48, 5, 13, 2, 9, 13, 3, 3, 2, 8, 6, 24, 4, 5, 55, 41, 2, 20, 12, 45, 8, 7, 5, 4, 2, 3, 3, 2, 42, 2, 8, 23, 53, 7, 101, 13, 7, 9, 2, 59, 17, 3, 6, 120, 47, 134, 2, 2, 4, 30, 112, 3, 42, 2, 27, 54, 3, 61, 2, 6, 7, 2, 12, 2, 55, 21, 2, 3, 6, 19, 81, 117, 2, 13, 2, 21, 59, 188, 12, 17, 10, 9, 2, 2, 7, 17, 55, 5, 11, 67, 5, 4, 10, 2, 126, 5, 2, 63, 2, 2, 71, 10, 18, 6, 37, 2, 2, 8, 9, 16, 3, 2, 20, 19, 2, 3, 2, 5, 11, 12, 2, 2, 4, 58, 3, 2, 2, 51, 2, 2, 6, 11, 69, 2, 21, 26, 3, 6, 2, 20, 3, 2, 2, 6, 6, 40, 14, 21, 2, 15, 5, 16, 13, 59, 2, 22, 88, 4, 8, 36, 9, 14, 16, 14, 35, 44, 2, 6, 2, 3, 5, 3, 2, 13, 56, 6, 3, 7, 7, 2, 3, 2, 28, 2, 3, 3, 2, 10, 2, 38, 2, 2, 2, 6, 31, 9, 2, 9, 20, 6, 15, 2, 19, 3, 9, 76, 3, 2, 16, 15, 29, 2, 33, 2, 4, 105, 4, 11, 4, 21, 8, 4, 5, 6, 2, 2, 7, 19, 2, 25, 6, 12, 2, 2, 2, 39, 3, 3, 2, 2, 41, 3, 5, 7, 18, 2, 5, 26, 2, 5, 11, 3, 23, 6, 4, 73, 2, 2, 30, 2, 10, 4, 86, 12, 15, 4, 2, 3, 2, 6, 6, 2, 10, 2, 18, 3, 11, 41, 3, 8, 2, 5, 2, 28, 2, 2, 10, 3, 2, 95, 2, 108, 10, 5, 13, 2, 26, 2, 3, 8, 11, 2, 15, 4, 16, 2, 25, 3, 35, 2, 7, 2, 11, 5, 2, 3, 13, 12, 4, 44, 15, 4, 16, 3, 7, 2, 2, 2, 12, 17, 6, 2, 2, 2, 5, 30, 2, 3, 3, 2, 2, 2, 8, 2, 24, 9, 2, 10, 7, 2, 7, 19, 12, 2, 16, 2, 9, 8, 6, 8, 2, 7, 2, 14, 7, 23, 3, 2, 23, 2, 28, 8, 2, 15, 29, 2, 10, 16, 3, 4, 2, 14, 41, 14, 2, 23, 14, 13, 2, 17, 10, 5, 2, 37, 3, 6, 6, 15, 16, 13, 6, 4, 2, 11, 2, 7, 11, 4, 2, 6, 5, 3, 5, 4, 5, 2, 2, 4, 4, 14, 16, 4, 2, 8, 2, 2, 2, 9, 2, 13, 4, 3, 2, 6, 2, 2, 9, 3, 2, 2, 9, 2, 9, 2, 2, 7, 2, 15, 4, 21, 11, 7, 6, 2, 12, 2, 6, 2, 5, 15, 4, 9, 2, 5, 14, 20, 9, 10, 9, 2, 6, 2, 8, 2, 11, 39, 57, 2, 2, 9, 13, 5, 5, 2, 117, 6, 7, 2, 35, 9, 3, 11, 2, 2, 8, 2, 21, 3, 3, 5, 15, 3, 2, 2, 2, 5, 2, 2, 2, 191, 2, 2, 2, 2, 2, 2, 2, 29, 3, 2, 16, 35, 98, 3, 2, 3, 2, 2, 2, 2, 22, 7, 17, 4, 7, 5, 2, 4, 2, 2, 2, 2, 18, 6, 3, 3, 3, 2, 3]
+        iter is  1
+        iter is  2
+        iter is  3
+        iter is  4
+        iter is  5
+        iter is  6
+        iter is  7
+        iter is  8
+        iter is  9
+        iter is  10
+Evaluate-enhance-forget 13
+evaluate total texts=961
+homogeneity_score-whole-data:   0.95883853
+completeness_score-whole-data:   0.35022940
+nmi_score-whole-data:   0.51305732
+pred clusters=253, true clusters=5
+purity majority whole data=0.9760665972944849
+        Gibbs sampling successful! Start to saving results.
+start doc=10570, end doc=11531
+total texts=11531, total clusters=625
+        Saving successful!
+Batch 13
+15356
+        12492 documents will be analyze. alpha is 374.76.
+        Initialization.
+        iter is  1
+        iter is  2
+        iter is  3
+        iter is  4
+        iter is  5
+maxPredLabel=1820
+to delete batch 14 13
+dict_keys([2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14])
+targetbatchNo 13
+len(docsPerBatch) 961
+clusterByLeadingOnOverlappingWords 108
+len(clusterLabels) 108 105
+clusterByLeadingOnOverlappingWords 37
+len(clusterLabels) 37 35
+clusterByLeadingOnOverlappingWords 128
+len(clusterLabels) 128 124
+clusterByLeadingOnOverlappingWords 36
+len(clusterLabels) 36 36
+clusterByLeadingOnOverlappingWords 12
+len(clusterLabels) 12 12
+clusterByLeadingOnOverlappingWords 23
+len(clusterLabels) 23 23
+clusterByLeadingOnOverlappingWords 168
+len(clusterLabels) 168 162
+clusterByLeadingOnOverlappingWords 33
+len(clusterLabels) 33 33
+clusterByLeadingOnOverlappingWords 18
+len(clusterLabels) 18 18
+clusterByLeadingOnOverlappingWords 160
+len(clusterLabels) 160 151
+clusterByLeadingOnOverlappingWords 16
+len(clusterLabels) 16 16
+clusterByLeadingOnOverlappingWords 44
+len(clusterLabels) 44 44
+clusterByLeadingOnOverlappingWords 72
+len(clusterLabels) 72 69
+outlier=179, non-outlier=782,=maxPredLabel=2070
+high_entropy_words=153, total words=1191
+outsPerCluster.values(), nonOuts 179 11196
+[13, 2, 6, 4, 7, 3, 22, 2, 10, 19, 4, 9, 2, 4, 2, 51, 4, 2, 2, 3, 4, 5, 18, 21, 7, 17, 5, 16, 11, 7, 3, 29, 2, 3, 8, 10, 14, 2, 50, 2, 8, 3, 7, 8, 6, 20, 2, 15, 5, 17, 17, 2, 3, 76, 13, 6, 7, 41, 27, 6, 2, 2, 27, 13, 2, 15, 17, 14, 38, 13, 3, 18, 52, 6, 2, 2, 11, 8, 22, 8, 2, 33, 4, 2, 2, 4, 5, 6, 3, 16, 14, 7, 3, 39, 57, 8, 4, 9, 11, 29, 15, 10, 18, 4, 2, 4, 2, 11, 2, 2, 3, 2, 3, 11, 2, 2, 2, 31, 7, 2, 7, 24, 2, 4, 22, 30, 6, 2, 2, 2, 7, 3, 4, 5, 24, 7, 5, 8, 8, 7, 22, 2, 2, 5, 5, 23, 8, 3, 8, 47, 37, 4, 19, 10, 9, 3, 12, 2, 2, 30, 82, 18, 2, 9, 2, 21, 4, 7, 2, 2, 11, 47, 13, 15, 10, 16, 16, 8, 20, 2, 2, 2, 2, 6, 4, 16, 4, 7, 18, 13, 8, 7, 2, 10, 20, 2, 11, 10, 3, 6, 5, 9, 16, 6, 15, 4, 2, 18, 54, 65, 7, 19, 30, 25, 9, 7, 2, 5, 13, 115, 4, 8, 6, 3, 2, 2, 17, 112, 2, 2, 42, 5, 4, 4, 6, 14, 7, 6, 8, 10, 3, 48, 5, 13, 2, 9, 13, 3, 3, 2, 8, 6, 24, 4, 5, 55, 41, 2, 20, 14, 45, 8, 7, 5, 4, 2, 3, 3, 2, 42, 2, 8, 23, 53, 7, 101, 13, 7, 9, 2, 59, 17, 3, 6, 120, 47, 134, 2, 2, 4, 30, 112, 3, 42, 2, 27, 54, 3, 61, 2, 6, 7, 2, 12, 2, 55, 21, 2, 3, 6, 19, 81, 117, 2, 13, 2, 21, 59, 188, 12, 17, 10, 9, 2, 2, 7, 17, 55, 5, 11, 67, 5, 4, 10, 2, 126, 5, 2, 63, 2, 2, 71, 10, 18, 6, 37, 2, 2, 8, 9, 16, 3, 2, 20, 19, 2, 3, 2, 5, 11, 12, 2, 2, 4, 58, 3, 2, 2, 51, 2, 2, 6, 11, 69, 2, 21, 26, 3, 6, 2, 20, 3, 2, 2, 6, 6, 40, 14, 21, 2, 15, 5, 16, 13, 59, 2, 22, 88, 4, 8, 36, 9, 14, 16, 14, 35, 44, 2, 6, 2, 3, 5, 3, 2, 13, 56, 6, 3, 7, 7, 2, 3, 2, 28, 2, 3, 3, 2, 10, 2, 38, 2, 2, 2, 6, 31, 9, 2, 9, 20, 6, 15, 2, 21, 3, 9, 76, 3, 2, 16, 15, 29, 2, 33, 2, 4, 105, 4, 11, 4, 21, 8, 4, 5, 6, 2, 2, 7, 19, 2, 25, 6, 12, 2, 2, 2, 39, 3, 3, 2, 2, 41, 3, 5, 7, 18, 2, 5, 26, 2, 5, 11, 3, 23, 6, 4, 73, 2, 2, 30, 2, 10, 4, 86, 12, 15, 4, 2, 3, 2, 6, 6, 2, 10, 2, 18, 3, 11, 41, 3, 8, 2, 5, 2, 28, 2, 2, 10, 3, 2, 95, 2, 108, 10, 5, 13, 2, 26, 2, 3, 8, 11, 2, 15, 4, 16, 2, 25, 3, 35, 2, 7, 2, 11, 5, 2, 3, 13, 12, 4, 44, 15, 4, 16, 3, 7, 2, 2, 2, 12, 17, 6, 2, 2, 2, 5, 30, 2, 3, 3, 2, 2, 2, 8, 2, 24, 9, 2, 10, 7, 2, 7, 19, 12, 2, 16, 2, 9, 8, 6, 10, 2, 7, 2, 14, 7, 23, 3, 2, 23, 2, 28, 8, 2, 15, 29, 2, 10, 16, 3, 4, 2, 14, 41, 14, 2, 23, 14, 13, 2, 17, 10, 5, 2, 37, 3, 6, 6, 15, 16, 13, 8, 4, 2, 11, 2, 7, 11, 4, 2, 6, 5, 3, 5, 4, 5, 2, 2, 4, 4, 14, 16, 4, 2, 8, 2, 2, 2, 9, 2, 13, 4, 3, 2, 6, 2, 2, 9, 3, 2, 2, 9, 2, 9, 2, 2, 7, 2, 15, 4, 21, 11, 7, 6, 2, 12, 2, 6, 2, 5, 15, 4, 9, 2, 5, 14, 20, 9, 10, 9, 2, 6, 2, 8, 2, 11, 41, 60, 2, 2, 11, 13, 5, 5, 2, 117, 6, 7, 2, 35, 9, 3, 11, 2, 4, 8, 2, 21, 5, 3, 5, 17, 3, 2, 2, 2, 5, 2, 2, 2, 191, 2, 2, 2, 2, 2, 2, 2, 29, 3, 2, 16, 35, 101, 3, 2, 3, 2, 2, 2, 2, 22, 7, 17, 4, 7, 10, 2, 4, 2, 2, 67, 19, 20, 6, 3, 3, 3, 2, 6, 10, 3, 30, 18, 17, 10, 25, 2, 2, 2, 3, 4, 3, 2, 2, 2, 10, 24, 2, 2, 4, 2, 12, 2, 4, 14, 6, 120, 2, 3, 2, 20, 2, 26, 2, 2, 14, 2, 72, 9, 2, 2, 2, 2, 2, 2, 2, 27, 2, 2, 2, 2, 4, 2, 8, 3, 36, 2, 4, 2, 2, 2, 3, 3, 38, 2, 5, 2, 2]
+        iter is  1
+        iter is  2
+        iter is  3
+        iter is  4
+        iter is  5
+        iter is  6
+        iter is  7
+        iter is  8
+        iter is  9
+        iter is  10
+Evaluate-enhance-forget 14
+evaluate total texts=961
+homogeneity_score-whole-data:   0.97235953
+completeness_score-whole-data:   0.34526071
+nmi_score-whole-data:   0.50958164
+pred clusters=242, true clusters=5
+purity majority whole data=0.9823100936524454
+        Gibbs sampling successful! Start to saving results.
+start doc=11531, end doc=12492
+total texts=12492, total clusters=682
+        Saving successful!
+Batch 14
+15356
+        13453 documents will be analyze. alpha is 403.59.
+        Initialization.
+        iter is  1
+        iter is  2
+        iter is  3
+        iter is  4
+        iter is  5
+maxPredLabel=2163
+to delete batch 15 14
+dict_keys([2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15])
+targetbatchNo 14
+len(docsPerBatch) 961
+clusterByLeadingOnOverlappingWords 95
+len(clusterLabels) 95 93
+clusterByLeadingOnOverlappingWords 83
+len(clusterLabels) 83 81
+clusterByLeadingOnOverlappingWords 10
+len(clusterLabels) 10 10
+clusterByLeadingOnOverlappingWords 9
+len(clusterLabels) 9 9
+clusterByLeadingOnOverlappingWords 22
+len(clusterLabels) 22 22
+clusterByLeadingOnOverlappingWords 33
+len(clusterLabels) 33 33
+clusterByLeadingOnOverlappingWords 12
+len(clusterLabels) 12 12
+clusterByLeadingOnOverlappingWords 27
+len(clusterLabels) 27 27
+clusterByLeadingOnOverlappingWords 35
+len(clusterLabels) 35 35
+clusterByLeadingOnOverlappingWords 119
+len(clusterLabels) 119 119
+clusterByLeadingOnOverlappingWords 108
+len(clusterLabels) 108 106
+clusterByLeadingOnOverlappingWords 134
+len(clusterLabels) 134 129
+clusterByLeadingOnOverlappingWords 21
+len(clusterLabels) 21 21
+clusterByLeadingOnOverlappingWords 19
+len(clusterLabels) 19 19
+clusterByLeadingOnOverlappingWords 6
+len(clusterLabels) 6 6
+clusterByLeadingOnOverlappingWords 11
+len(clusterLabels) 11 11
+clusterByLeadingOnOverlappingWords 6
+len(clusterLabels) 6 6
+outlier=199, non-outlier=762,=maxPredLabel=2427
+high_entropy_words=170, total words=1298
+outsPerCluster.values(), nonOuts 199 11958
+[13, 2, 6, 4, 7, 3, 22, 2, 10, 19, 4, 9, 2, 4, 2, 51, 4, 2, 2, 3, 4, 5, 18, 21, 7, 17, 5, 18, 11, 7, 3, 29, 2, 3, 8, 10, 14, 2, 50, 2, 8, 3, 7, 8, 6, 20, 2, 15, 5, 19, 17, 2, 3, 76, 13, 6, 7, 41, 27, 6, 2, 2, 27, 13, 2, 15, 17, 14, 38, 13, 3, 18, 52, 6, 2, 2, 11, 8, 22, 8, 2, 33, 4, 2, 2, 4, 5, 6, 3, 16, 14, 7, 3, 39, 57, 8, 4, 9, 13, 29, 16, 10, 18, 4, 2, 4, 2, 11, 2, 2, 3, 2, 3, 11, 2, 2, 2, 31, 7, 2, 7, 24, 2, 4, 22, 30, 6, 2, 2, 2, 7, 3, 4, 5, 24, 7, 5, 8, 8, 7, 22, 2, 2, 5, 5, 23, 8, 3, 8, 47, 37, 4, 19, 10, 9, 3, 12, 2, 2, 30, 82, 18, 2, 9, 2, 21, 4, 7, 2, 2, 11, 47, 13, 15, 10, 16, 16, 8, 20, 2, 2, 2, 2, 6, 4, 16, 4, 7, 18, 13, 8, 7, 2, 10, 20, 2, 11, 10, 3, 6, 5, 9, 16, 6, 15, 4, 2, 18, 54, 65, 7, 19, 30, 25, 9, 7, 2, 5, 13, 115, 4, 8, 6, 3, 2, 2, 17, 112, 2, 2, 42, 5, 4, 4, 6, 14, 7, 6, 8, 10, 3, 48, 5, 13, 2, 9, 13, 3, 3, 2, 8, 6, 24, 4, 5, 55, 41, 2, 20, 14, 45, 8, 7, 5, 4, 2, 3, 3, 2, 42, 2, 8, 23, 53, 7, 101, 13, 7, 9, 2, 59, 17, 3, 6, 120, 47, 134, 2, 2, 4, 30, 112, 3, 42, 2, 27, 54, 3, 61, 2, 6, 7, 2, 12, 2, 55, 21, 2, 3, 6, 19, 81, 117, 2, 13, 2, 21, 59, 188, 12, 17, 10, 9, 2, 2, 7, 17, 55, 5, 11, 67, 5, 4, 10, 2, 126, 5, 2, 63, 2, 2, 71, 10, 18, 6, 37, 2, 2, 8, 9, 16, 3, 2, 20, 19, 2, 3, 2, 5, 11, 12, 2, 2, 4, 58, 3, 2, 2, 51, 2, 2, 6, 11, 69, 2, 21, 26, 3, 6, 2, 20, 3, 2, 2, 6, 6, 40, 14, 21, 2, 15, 5, 16, 13, 59, 2, 22, 88, 4, 8, 36, 9, 14, 16, 14, 35, 44, 2, 6, 2, 3, 5, 3, 2, 13, 56, 6, 3, 7, 7, 2, 3, 2, 28, 2, 3, 3, 2, 10, 2, 38, 2, 2, 2, 6, 31, 9, 2, 9, 20, 6, 15, 2, 21, 3, 9, 76, 3, 2, 16, 15, 29, 2, 33, 2, 4, 105, 4, 11, 4, 21, 8, 4, 5, 6, 2, 2, 7, 19, 2, 25, 6, 12, 2, 2, 2, 39, 3, 3, 2, 2, 41, 3, 5, 7, 18, 2, 5, 26, 2, 5, 11, 3, 23, 6, 4, 73, 4, 2, 30, 2, 10, 4, 86, 12, 15, 4, 2, 3, 2, 6, 6, 2, 10, 2, 18, 3, 11, 41, 3, 8, 2, 5, 2, 28, 2, 2, 10, 3, 2, 95, 2, 108, 10, 5, 13, 2, 26, 2, 3, 8, 11, 2, 15, 4, 16, 2, 25, 3, 35, 2, 7, 2, 11, 5, 2, 3, 13, 12, 4, 44, 15, 4, 16, 3, 7, 2, 2, 2, 12, 17, 6, 2, 2, 2, 5, 30, 2, 3, 3, 2, 2, 2, 8, 2, 24, 9, 2, 10, 11, 2, 7, 19, 12, 2, 16, 2, 9, 8, 6, 11, 2, 7, 2, 14, 7, 23, 3, 2, 23, 2, 28, 8, 2, 15, 29, 2, 10, 16, 3, 4, 2, 14, 41, 14, 2, 23, 14, 13, 2, 19, 10, 5, 2, 37, 3, 6, 6, 15, 16, 13, 8, 4, 2, 11, 2, 7, 11, 4, 2, 6, 5, 3, 5, 4, 5, 2, 2, 4, 4, 14, 16, 4, 2, 8, 2, 2, 2, 9, 2, 13, 4, 3, 2, 6, 2, 2, 9, 3, 2, 2, 9, 2, 9, 2, 2, 7, 2, 15, 4, 21, 11, 7, 6, 2, 12, 2, 6, 2, 5, 15, 4, 9, 2, 5, 14, 20, 9, 10, 9, 2, 6, 2, 8, 2, 11, 41, 60, 2, 2, 11, 13, 5, 5, 2, 117, 6, 7, 2, 35, 9, 3, 11, 4, 4, 8, 2, 21, 5, 3, 5, 17, 3, 2, 2, 2, 5, 2, 2, 2, 191, 2, 2, 2, 2, 2, 2, 2, 29, 3, 2, 16, 35, 103, 3, 2, 3, 2, 2, 2, 2, 22, 7, 17, 4, 7, 10, 2, 4, 2, 2, 71, 19, 20, 6, 3, 3, 3, 2, 6, 10, 3, 30, 18, 21, 13, 25, 2, 4, 6, 3, 4, 3, 2, 2, 2, 10, 28, 2, 7, 4, 4, 16, 2, 4, 14, 6, 120, 2, 3, 2, 22, 2, 26, 2, 2, 14, 2, 74, 9, 2, 2, 2, 2, 2, 2, 2, 29, 2, 2, 2, 5, 4, 2, 8, 3, 40, 2, 4, 2, 2, 2, 3, 3, 38, 2, 5, 2, 2, 60, 3, 2, 2, 8, 2, 2, 10, 4, 25, 5, 10, 3, 21, 5, 2, 6, 7, 3, 3, 3, 19, 2, 4, 6, 4, 2, 2, 3, 8, 6, 2, 24, 5, 3, 16, 2, 2, 2, 4, 88, 2, 9, 3, 2, 5, 50, 5, 4, 2, 25, 3, 2, 3, 4, 4, 3, 3, 3, 4, 3, 60, 3, 9, 5, 2, 2, 2, 2, 2, 5, 3, 3, 3, 2, 6, 2, 2, 3, 12, 2, 2, 5, 2, 3, 3, 7, 2, 6, 2, 2, 2, 2]
+        iter is  1
+        iter is  2
+        iter is  3
+        iter is  4
+        iter is  5
+        iter is  6
+        iter is  7
+        iter is  8
+        iter is  9
+        iter is  10
+Evaluate-enhance-forget 15
+evaluate total texts=961
+homogeneity_score-whole-data:   0.91613500
+completeness_score-whole-data:   0.28637444
+nmi_score-whole-data:   0.43635025
+pred clusters=311, true clusters=5
+purity majority whole data=0.9427679500520292
+        Gibbs sampling successful! Start to saving results.
+start doc=12492, end doc=13453
+total texts=13453, total clusters=792
+        Saving successful!
+Batch 15
+15356
+        14414 documents will be analyze. alpha is 432.42.
+        Initialization.
+        iter is  1
+        iter is  2
+        iter is  3
+        iter is  4
+        iter is  5
+maxPredLabel=2312
+to delete batch 16 15
+dict_keys([2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16])
+targetbatchNo 15
+len(docsPerBatch) 961
+clusterByLeadingOnOverlappingWords 113
+len(clusterLabels) 113 113
+clusterByLeadingOnOverlappingWords 184
+len(clusterLabels) 184 178
+clusterByLeadingOnOverlappingWords 16
+len(clusterLabels) 16 16
+clusterByLeadingOnOverlappingWords 89
+len(clusterLabels) 89 89
+clusterByLeadingOnOverlappingWords 7
+len(clusterLabels) 7 7
+clusterByLeadingOnOverlappingWords 8
+len(clusterLabels) 8 8
+clusterByLeadingOnOverlappingWords 265
+len(clusterLabels) 265 238
+clusterByLeadingOnOverlappingWords 31
+len(clusterLabels) 31 31
+clusterByLeadingOnOverlappingWords 8
+len(clusterLabels) 8 8
+clusterByLeadingOnOverlappingWords 76
+len(clusterLabels) 76 76
+clusterByLeadingOnOverlappingWords 47
+len(clusterLabels) 47 45
+clusterByLeadingOnOverlappingWords 12
+len(clusterLabels) 12 12
+clusterByLeadingOnOverlappingWords 8
+len(clusterLabels) 8 8
+outlier=143, non-outlier=818,=maxPredLabel=2520
+high_entropy_words=171, total words=1213
+outsPerCluster.values(), nonOuts 143 12776
+[13, 2, 6, 4, 7, 3, 22, 2, 10, 19, 4, 9, 2, 4, 2, 51, 4, 2, 2, 3, 4, 5, 18, 21, 7, 17, 5, 20, 11, 7, 3, 29, 2, 3, 8, 10, 14, 2, 50, 2, 8, 3, 7, 8, 6, 20, 2, 15, 5, 19, 17, 2, 3, 76, 13, 6, 7, 41, 27, 6, 2, 2, 27, 13, 2, 15, 17, 14, 38, 13, 3, 18, 52, 6, 2, 2, 11, 8, 22, 8, 2, 33, 4, 2, 2, 4, 5, 6, 3, 16, 14, 7, 3, 39, 57, 8, 4, 9, 13, 29, 19, 10, 18, 4, 2, 4, 2, 11, 2, 2, 3, 2, 3, 11, 2, 2, 2, 31, 7, 2, 7, 24, 2, 4, 22, 30, 6, 2, 2, 2, 7, 3, 4, 5, 24, 7, 5, 8, 8, 7, 22, 2, 2, 5, 5, 23, 8, 3, 8, 47, 37, 4, 19, 10, 9, 3, 12, 2, 2, 30, 82, 18, 2, 9, 2, 21, 4, 7, 2, 2, 11, 47, 13, 15, 10, 16, 16, 8, 20, 2, 2, 2, 2, 6, 4, 16, 4, 7, 18, 13, 8, 7, 2, 10, 20, 2, 11, 10, 3, 6, 5, 9, 16, 6, 15, 4, 2, 18, 54, 65, 7, 19, 30, 25, 9, 7, 2, 5, 13, 115, 4, 8, 6, 3, 2, 2, 17, 112, 2, 2, 42, 5, 4, 4, 6, 14, 7, 6, 8, 10, 3, 48, 5, 13, 2, 9, 13, 3, 3, 2, 8, 6, 24, 4, 5, 55, 41, 2, 20, 14, 45, 8, 7, 5, 4, 2, 3, 3, 2, 42, 2, 8, 23, 53, 7, 101, 13, 7, 9, 2, 59, 17, 3, 6, 120, 47, 134, 2, 2, 4, 30, 112, 3, 42, 2, 27, 54, 3, 61, 2, 6, 7, 2, 12, 2, 55, 21, 2, 3, 6, 19, 81, 117, 2, 13, 2, 21, 59, 188, 12, 17, 10, 9, 2, 2, 7, 17, 55, 5, 11, 67, 5, 4, 10, 2, 126, 5, 2, 63, 2, 2, 71, 10, 18, 6, 37, 2, 2, 8, 9, 16, 3, 2, 20, 19, 2, 3, 2, 5, 11, 12, 2, 2, 4, 58, 3, 2, 2, 51, 2, 2, 6, 11, 69, 2, 21, 26, 3, 6, 2, 20, 3, 2, 2, 6, 6, 40, 14, 21, 2, 15, 5, 16, 13, 59, 2, 22, 88, 4, 8, 36, 9, 14, 16, 14, 35, 44, 2, 6, 2, 3, 5, 3, 2, 13, 56, 6, 3, 7, 7, 2, 3, 2, 28, 2, 3, 3, 2, 10, 2, 38, 2, 2, 2, 6, 31, 9, 2, 9, 20, 6, 15, 2, 21, 3, 9, 76, 3, 2, 16, 15, 29, 2, 33, 2, 4, 105, 4, 11, 4, 21, 8, 4, 5, 6, 2, 2, 7, 19, 2, 25, 6, 12, 2, 2, 2, 39, 3, 3, 2, 2, 41, 3, 5, 7, 18, 2, 5, 26, 2, 5, 11, 3, 23, 6, 4, 73, 4, 2, 30, 2, 10, 4, 86, 12, 15, 4, 2, 3, 2, 6, 6, 2, 10, 2, 18, 3, 11, 41, 3, 8, 2, 5, 2, 28, 2, 2, 10, 3, 2, 95, 2, 108, 10, 5, 13, 2, 26, 2, 3, 8, 11, 2, 15, 4, 16, 2, 25, 3, 35, 2, 7, 2, 11, 5, 2, 3, 13, 12, 4, 44, 15, 4, 16, 3, 7, 2, 2, 2, 12, 17, 6, 2, 2, 2, 5, 30, 2, 3, 3, 2, 2, 2, 8, 2, 24, 9, 2, 10, 13, 2, 7, 19, 12, 2, 16, 2, 9, 8, 6, 11, 2, 7, 2, 14, 7, 23, 3, 2, 23, 2, 28, 8, 2, 15, 29, 2, 10, 16, 3, 4, 2, 14, 41, 14, 2, 23, 14, 13, 2, 19, 10, 5, 2, 37, 3, 6, 6, 15, 16, 13, 8, 4, 2, 11, 2, 7, 11, 4, 2, 6, 5, 3, 5, 4, 5, 2, 2, 4, 4, 14, 16, 4, 2, 8, 2, 2, 2, 9, 2, 13, 4, 3, 2, 6, 2, 2, 9, 3, 2, 2, 9, 2, 9, 2, 2, 7, 2, 15, 4, 21, 11, 7, 6, 2, 12, 2, 6, 2, 5, 15, 4, 9, 2, 5, 14, 20, 9, 10, 9, 2, 6, 2, 8, 2, 11, 41, 60, 2, 2, 11, 13, 5, 5, 2, 117, 6, 7, 2, 35, 9, 3, 11, 4, 4, 8, 2, 21, 5, 3, 5, 17, 3, 2, 2, 2, 5, 2, 2, 2, 191, 2, 2, 2, 2, 2, 2, 2, 29, 3, 2, 16, 35, 107, 3, 2, 3, 2, 2, 2, 2, 22, 7, 17, 4, 7, 10, 2, 4, 2, 2, 71, 19, 20, 6, 3, 3, 3, 2, 6, 10, 3, 30, 18, 21, 13, 25, 2, 4, 6, 3, 4, 3, 2, 2, 2, 12, 31, 2, 7, 4, 4, 16, 2, 4, 14, 6, 120, 2, 3, 2, 22, 2, 26, 2, 2, 14, 2, 74, 9, 2, 2, 2, 2, 2, 2, 2, 34, 2, 2, 2, 5, 4, 2, 8, 3, 40, 2, 4, 2, 2, 2, 3, 3, 40, 2, 7, 2, 2, 60, 3, 2, 2, 8, 4, 2, 10, 4, 25, 5, 14, 8, 21, 5, 2, 6, 7, 3, 3, 6, 19, 2, 4, 6, 4, 2, 2, 3, 8, 6, 2, 24, 5, 3, 16, 2, 2, 2, 4, 90, 2, 9, 3, 4, 5, 51, 5, 4, 2, 25, 3, 2, 3, 4, 4, 3, 3, 3, 4, 9, 60, 86, 9, 5, 59, 6, 5, 4, 4, 5, 3, 3, 3, 41, 6, 2, 2, 5, 12, 2, 5, 5, 2, 3, 108, 68, 8, 8, 2, 2, 2, 2, 87, 11, 3, 2, 2, 2, 2, 15, 2, 26, 13, 2, 3, 2, 3, 3, 2, 27, 4, 3, 2, 2, 3, 2, 2, 3, 2, 2, 20, 2, 5, 2, 8, 65, 2, 41, 2, 2, 6, 3, 2, 5, 2]
+        iter is  1
+        iter is  2
+        iter is  3
+        iter is  4
+        iter is  5
+        iter is  6
+        iter is  7
+        iter is  8
+        iter is  9
+        iter is  10
+Evaluate-enhance-forget 16
+evaluate total texts=961
+homogeneity_score-whole-data:   0.93623373
+completeness_score-whole-data:   0.34759098
+nmi_score-whole-data:   0.50696392
+pred clusters=202, true clusters=5
+purity majority whole data=0.9583766909469302
+        Gibbs sampling successful! Start to saving results.
+start doc=13453, end doc=14414
+total texts=14414, total clusters=840
+        Saving successful!
+Batch 16
+15356
+        15356 documents will be analyze. alpha is 460.68.
+        Initialization.
+        iter is  1
+        iter is  2
+        iter is  3
+        iter is  4
+        iter is  5
+maxPredLabel=2455
+to delete batch 17 16
+dict_keys([2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])
+targetbatchNo 16
+len(docsPerBatch) 961
+clusterByLeadingOnOverlappingWords 45
+len(clusterLabels) 45 45
+clusterByLeadingOnOverlappingWords 61
+len(clusterLabels) 61 60
+clusterByLeadingOnOverlappingWords 74
+len(clusterLabels) 74 74
+clusterByLeadingOnOverlappingWords 21
+len(clusterLabels) 21 21
+clusterByLeadingOnOverlappingWords 49
+len(clusterLabels) 49 47
+clusterByLeadingOnOverlappingWords 22
+len(clusterLabels) 22 22
+clusterByLeadingOnOverlappingWords 33
+len(clusterLabels) 33 31
+clusterByLeadingOnOverlappingWords 19
+len(clusterLabels) 19 19
+clusterByLeadingOnOverlappingWords 49
+len(clusterLabels) 49 49
+clusterByLeadingOnOverlappingWords 129
+len(clusterLabels) 129 128
+clusterByLeadingOnOverlappingWords 31
+len(clusterLabels) 31 31
+clusterByLeadingOnOverlappingWords 76
+len(clusterLabels) 76 75
+clusterByLeadingOnOverlappingWords 103
+len(clusterLabels) 103 96
+clusterByLeadingOnOverlappingWords 51
+len(clusterLabels) 51 51
+clusterByLeadingOnOverlappingWords 30
+len(clusterLabels) 30 29
+clusterByLeadingOnOverlappingWords 6
+len(clusterLabels) 6 6
+clusterByLeadingOnOverlappingWords 17
+len(clusterLabels) 17 17
+clusterByLeadingOnOverlappingWords 12
+len(clusterLabels) 12 12
+clusterByLeadingOnOverlappingWords 9
+len(clusterLabels) 9 9
+outlier=111, non-outlier=831,=maxPredLabel=2670
+high_entropy_words=169, total words=1200
+outsPerCluster.values(), nonOuts 111 13607
+[13, 2, 6, 4, 7, 3, 22, 2, 10, 19, 4, 9, 2, 4, 2, 51, 4, 2, 2, 3, 4, 5, 18, 21, 7, 17, 5, 20, 11, 7, 3, 29, 2, 3, 8, 10, 14, 2, 50, 2, 8, 3, 7, 8, 6, 20, 2, 15, 5, 19, 17, 2, 3, 76, 13, 6, 7, 41, 27, 6, 2, 2, 27, 13, 2, 15, 17, 14, 38, 13, 3, 18, 52, 6, 2, 2, 11, 8, 22, 8, 2, 33, 4, 2, 2, 4, 5, 6, 3, 16, 14, 7, 3, 39, 57, 8, 4, 9, 13, 29, 19, 10, 18, 4, 2, 4, 2, 11, 2, 2, 3, 2, 3, 11, 2, 2, 2, 31, 7, 2, 7, 24, 2, 4, 22, 30, 6, 2, 2, 2, 7, 3, 4, 5, 24, 7, 5, 8, 8, 7, 22, 2, 2, 5, 5, 23, 8, 3, 8, 47, 37, 4, 19, 10, 9, 3, 12, 2, 2, 30, 82, 18, 2, 9, 2, 21, 4, 7, 2, 2, 11, 47, 13, 15, 10, 16, 16, 8, 20, 2, 2, 2, 2, 6, 4, 16, 4, 7, 18, 13, 8, 7, 2, 10, 20, 2, 11, 10, 3, 6, 5, 9, 16, 6, 15, 4, 2, 18, 54, 65, 7, 19, 30, 25, 9, 7, 2, 5, 13, 115, 4, 8, 6, 3, 2, 2, 17, 112, 2, 2, 42, 5, 4, 4, 6, 14, 7, 6, 8, 10, 3, 48, 5, 13, 2, 9, 13, 3, 3, 2, 8, 6, 24, 4, 5, 55, 41, 2, 20, 14, 45, 8, 7, 5, 4, 2, 3, 3, 2, 42, 2, 8, 23, 53, 7, 101, 13, 7, 9, 2, 59, 17, 3, 6, 120, 47, 134, 2, 2, 4, 30, 112, 3, 42, 2, 27, 54, 3, 61, 2, 6, 7, 2, 12, 2, 55, 21, 2, 3, 6, 19, 81, 117, 2, 13, 2, 21, 59, 188, 12, 17, 10, 9, 2, 2, 7, 17, 55, 5, 11, 67, 5, 4, 10, 2, 126, 5, 2, 63, 2, 2, 71, 10, 18, 6, 37, 2, 2, 8, 9, 16, 3, 2, 20, 19, 2, 3, 2, 5, 11, 12, 2, 2, 4, 58, 3, 2, 2, 51, 2, 2, 6, 11, 69, 2, 21, 26, 3, 6, 2, 20, 3, 2, 2, 6, 6, 40, 14, 21, 2, 15, 5, 16, 13, 59, 2, 22, 88, 4, 8, 36, 9, 14, 16, 14, 35, 44, 2, 6, 2, 3, 5, 3, 2, 13, 56, 6, 3, 7, 7, 2, 3, 2, 28, 2, 3, 3, 2, 10, 2, 38, 2, 2, 2, 6, 31, 9, 2, 9, 20, 6, 15, 2, 21, 3, 9, 76, 3, 2, 16, 15, 29, 2, 33, 2, 4, 105, 4, 11, 4, 21, 8, 4, 5, 6, 2, 2, 7, 19, 2, 25, 6, 12, 2, 2, 2, 39, 3, 3, 2, 2, 41, 3, 5, 7, 18, 2, 5, 26, 2, 5, 11, 3, 23, 6, 4, 73, 4, 2, 30, 2, 10, 4, 86, 12, 15, 4, 2, 3, 2, 6, 6, 2, 10, 2, 18, 3, 11, 41, 3, 8, 2, 5, 2, 28, 2, 2, 10, 3, 2, 95, 2, 108, 10, 5, 13, 2, 26, 2, 3, 12, 11, 2, 15, 4, 16, 2, 25, 3, 35, 2, 7, 2, 11, 5, 2, 3, 13, 12, 4, 44, 15, 4, 16, 3, 7, 2, 2, 2, 12, 17, 6, 2, 2, 2, 5, 30, 2, 3, 3, 2, 2, 2, 8, 2, 24, 9, 2, 10, 13, 2, 7, 19, 12, 2, 16, 2, 9, 8, 6, 11, 2, 7, 2, 14, 7, 23, 3, 2, 23, 2, 28, 8, 2, 15, 29, 2, 10, 16, 3, 4, 2, 14, 41, 14, 2, 23, 14, 13, 2, 19, 10, 5, 2, 37, 3, 6, 6, 15, 16, 13, 8, 4, 2, 11, 2, 7, 11, 4, 2, 6, 5, 3, 5, 4, 5, 2, 2, 4, 4, 14, 16, 4, 2, 8, 2, 2, 2, 9, 2, 13, 4, 3, 2, 6, 2, 2, 9, 3, 2, 2, 9, 2, 9, 2, 2, 7, 2, 15, 4, 21, 11, 7, 6, 2, 12, 2, 6, 2, 5, 15, 4, 9, 2, 5, 14, 20, 9, 10, 9, 2, 6, 2, 8, 2, 11, 41, 60, 2, 2, 11, 13, 5, 5, 2, 117, 6, 7, 2, 35, 9, 3, 11, 4, 4, 8, 2, 21, 5, 3, 5, 17, 3, 2, 2, 2, 5, 2, 2, 2, 191, 2, 2, 2, 2, 2, 2, 2, 29, 3, 2, 16, 35, 107, 3, 2, 3, 2, 2, 2, 2, 22, 7, 17, 4, 7, 10, 2, 4, 2, 2, 71, 19, 20, 6, 3, 3, 3, 2, 6, 10, 3, 30, 18, 21, 13, 25, 2, 4, 6, 3, 4, 3, 2, 2, 2, 12, 31, 2, 7, 4, 4, 16, 2, 4, 14, 6, 120, 2, 3, 2, 22, 2, 26, 2, 2, 14, 2, 74, 9, 2, 2, 2, 2, 2, 2, 2, 34, 2, 2, 2, 5, 4, 2, 8, 3, 40, 2, 4, 2, 2, 2, 3, 3, 42, 2, 7, 2, 2, 60, 3, 2, 2, 8, 4, 2, 10, 4, 25, 5, 14, 8, 21, 5, 2, 6, 7, 3, 3, 6, 19, 2, 4, 6, 4, 2, 2, 3, 8, 6, 2, 24, 5, 3, 16, 2, 2, 2, 4, 90, 2, 9, 3, 9, 5, 51, 5, 4, 2, 25, 3, 2, 3, 4, 4, 3, 3, 3, 4, 9, 60, 86, 9, 5, 64, 6, 8, 4, 4, 5, 3, 3, 3, 41, 6, 2, 2, 5, 12, 2, 5, 5, 2, 3, 110, 68, 8, 8, 2, 2, 2, 2, 87, 14, 5, 4, 4, 7, 4, 20, 2, 30, 13, 2, 3, 2, 3, 3, 2, 30, 4, 3, 2, 2, 3, 2, 2, 3, 2, 8, 20, 2, 5, 2, 10, 65, 2, 41, 2, 74, 6, 3, 4, 5, 2, 9, 25, 3, 3, 2, 2, 29, 2, 2, 2, 3, 2, 19, 2, 37, 2, 3, 17, 20, 2, 7, 2, 4, 15, 2, 2, 2, 5, 2, 13, 26, 2, 44, 73, 5, 24, 5, 56, 10, 60, 2, 7, 2, 2, 2, 2, 2, 2, 40, 2, 5, 25, 2, 2, 2, 2, 2, 2, 2, 3, 6, 17, 12, 8, 2]
+        iter is  1
+        iter is  2
+        iter is  3
+        iter is  4
+        iter is  5
+        iter is  6
+        iter is  7
+        iter is  8
+        iter is  9
+        iter is  10
+Evaluate-enhance-forget 17
+evaluate total texts=942
+homogeneity_score-whole-data:   0.98612677
+completeness_score-whole-data:   0.33458468
+nmi_score-whole-data:   0.49964420
+pred clusters=181, true clusters=4
+purity majority whole data=0.9904458598726115
+        Gibbs sampling successful! Start to saving results.
+start doc=14414, end doc=15356
+total texts=15356, total clusters=891
+        Output Phi Words Wrong!
+        Saving successful!
+time diff secs= 560
+pred_true_text_file name=result/mstr-enh
+evaluate total texts=15356
+homogeneity_score-whole-data:   0.92923806
+completeness_score-whole-data:   0.75018204
+nmi_score-whole-data:   0.83016477
+pred clusters=1914, true clusters=428
+purity majority whole data=0.8536077103412347
+pred_true_text_file name=result/NewsPredTueTextMStream_WordArr.txt
+evaluate total texts=15356
+homogeneity_score-whole-data:   0.91279049
+completeness_score-whole-data:   0.75723031
+nmi_score-whole-data:   0.82776529
+pred clusters=1357, true clusters=428
+purity majority whole data=0.8302292263610315

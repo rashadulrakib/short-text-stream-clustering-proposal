@@ -1,0 +1,461 @@
+100000
+200000
+300000
+400000
+500000
+600000
+700000
+800000
+900000
+1000000
+1100000
+1200000
+1300000
+1400000
+1500000
+1600000
+1700000
+1800000
+1900000
+wordVectorsDic length 1917494
+number of documents is  11109
+self.V=all the words in all documents
+8110
+SampleNo:1
+result/
+K0iterNum1SampleNum1alpha0.03beta0.03BatchNum1BatchSaved1
+No timefil!
+before call run_MStream, self.K=0,self.iterNum=1, self.V=8110
+batchNum2tweetID is  {1: -1}
+Batch 1
+11109
+	11109 documents will be analyze. alpha is 333.27.
+	Initialization.
+	iter is  1
+maxPredLabel=476
+before remove outlier
+evaluate total texts=11109
+homogeneity_score-whole-data:   0.8889
+nmi_score-whole-data:   0.8725
+pred clusters=249, true clusters=152
+purity majority whole data=0.8303177603744711
+high_entropy_words=576, total words=8106
+#m-stream-cleaned
+evaluate total texts=11102
+homogeneity_score-whole-data:   0.8923
+nmi_score-whole-data:   0.8746
+pred clusters=263, true clusters=152
+purity majority whole data=0.8356152044676635
+minPred, maxPred, minTrue, maxTrue=(pred_true_texts_to_cluster)
+4 185 1 152
+minPred, maxPred, minTrue, maxTrue=(pred_true_texts_to_not_cluster)
+2 678 1 151
+#clusters=17
+#not clusters=246
+this clustering with embedding DCT
+#update clusters=229
+Start generating sentence DCT vecs for multiple sentences...
+3765
+len(wordVecs)==0
+thanksgivukkah 0
+len(wordVecs)==0
+thanksgivukkah 0
+len(wordVecs)==0
+thanksgivukkah 0
+len(wordVecs)==0
+thanksgivukkah 0
+#hr-ward
+0 228
+evaluate total texts=3761
+homogeneity_score-whole-data:   0.9081
+nmi_score-whole-data:   0.6822
+pred clusters=229, true clusters=67
+purity majority whole data=0.9098643977665515
+evaluate total texts=11098
+homogeneity_score-whole-data:   0.9059
+nmi_score-whole-data:   0.8169
+pred clusters=475, true clusters=152
+purity majority whole data=0.8590737069742296
+Start generating sentence vecs for multiple sentences...
+3765
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=1, original len=5
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=5
+missing Word Count=1, original len=6
+missing Word Count=1, original len=5
+missing Word Count=1, original len=6
+missing Word Count=1, original len=5
+missing Word Count=1, original len=6
+missing Word Count=1, original len=5
+missing Word Count=1, original len=6
+missing Word Count=1, original len=3
+missing Word Count=1, original len=5
+missing Word Count=1, original len=5
+missing Word Count=1, original len=5
+missing Word Count=1, original len=6
+missing Word Count=1, original len=5
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=1, original len=3
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=6
+missing Word Count=1, original len=7
+missing Word Count=1, original len=6
+missing Word Count=1, original len=4
+missing Word Count=1, original len=2
+missing Word Count=1, original len=4
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=1, original len=2
+missing Word Count=1, original len=2
+missing Word Count=1, original len=3
+missing Word Count=1, original len=2
+missing Word Count=1, original len=3
+missing Word Count=2, original len=4
+missing Word Count=1, original len=6
+missing Word Count=1, original len=3
+missing Word Count=1, original len=2
+missing Word Count=1, original len=4
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=1, original len=3
+missing Word Count=1, original len=1
+missing Word Count=1, original len=2
+missing Word Count=1, original len=5
+missing Word Count=1, original len=2
+missing Word Count=1, original len=1
+missing Word Count=1, original len=4
+missing Word Count=1, original len=2
+missing Word Count=1, original len=4
+missing Word Count=1, original len=3
+missing Word Count=1, original len=2
+missing Word Count=1, original len=3
+missing Word Count=1, original len=3
+missing Word Count=1, original len=2
+missing Word Count=1, original len=3
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=1, original len=2
+missing Word Count=1, original len=3
+missing Word Count=1, original len=5
+missing Word Count=1, original len=2
+missing Word Count=1, original len=3
+missing Word Count=2, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=1, original len=1
+missing Word Count=1, original len=3
+missing Word Count=1, original len=3
+missing Word Count=1, original len=2
+missing Word Count=1, original len=2
+missing Word Count=1, original len=5
+missing Word Count=1, original len=2
+missing Word Count=1, original len=2
+missing Word Count=1, original len=4
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=1, original len=3
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=2
+missing Word Count=1, original len=2
+missing Word Count=1, original len=2
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=1, original len=6
+missing Word Count=2, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=1, original len=1
+missing Word Count=1, original len=2
+missing Word Count=1, original len=5
+missing Word Count=1, original len=3
+missing Word Count=1, original len=6
+missing Word Count=1, original len=4
+missing Word Count=1, original len=2
+missing Word Count=1, original len=2
+missing Word Count=1, original len=6
+missing Word Count=1, original len=2
+missing Word Count=1, original len=2
+missing Word Count=2, original len=4
+missing Word Count=1, original len=3
+#hr-ward
+0 228
+evaluate total texts=3765
+homogeneity_score-whole-data:   0.9427
+nmi_score-whole-data:   0.7065
+pred clusters=229, true clusters=67
+purity majority whole data=0.9343957503320053
+evaluate total texts=11102
+homogeneity_score-whole-data:   0.9139
+nmi_score-whole-data:   0.8235
+pred clusters=475, true clusters=152
+purity majority whole data=0.8674112772473428
+
+	Gibbs sampling successful! Start to saving results.
+start doc=0, end doc=11109
+total texts=11109, total clusters=249
+	Saving successful!
+final dic len=249
+cluster id=31, items=203
+cluster id=33, items=144
+cluster id=2, items=33
+cluster id=185, items=165
+cluster id=4, items=170
+cluster id=5, items=108
+cluster id=8, items=315
+cluster id=305, items=29
+cluster id=9, items=90
+cluster id=10, items=107
+cluster id=11, items=77
+cluster id=12, items=20
+cluster id=13, items=416
+cluster id=70, items=196
+cluster id=15, items=80
+cluster id=16, items=79
+cluster id=44, items=110
+cluster id=359, items=10
+cluster id=90, items=231
+cluster id=114, items=72
+cluster id=21, items=125
+cluster id=22, items=32
+cluster id=23, items=144
+cluster id=24, items=62
+cluster id=100, items=124
+cluster id=26, items=50
+cluster id=27, items=157
+cluster id=28, items=14
+cluster id=29, items=14
+cluster id=129, items=34
+cluster id=32, items=85
+cluster id=34, items=120
+cluster id=184, items=4
+cluster id=36, items=80
+cluster id=37, items=72
+cluster id=163, items=42
+cluster id=39, items=108
+cluster id=134, items=38
+cluster id=41, items=134
+cluster id=50, items=162
+cluster id=230, items=18
+cluster id=51, items=82
+cluster id=253, items=65
+cluster id=47, items=18
+cluster id=48, items=108
+cluster id=434, items=1
+cluster id=177, items=117
+cluster id=53, items=21
+cluster id=219, items=27
+cluster id=55, items=20
+cluster id=109, items=102
+cluster id=58, items=88
+cluster id=59, items=34
+cluster id=171, items=11
+cluster id=61, items=1
+cluster id=62, items=17
+cluster id=63, items=2
+cluster id=64, items=20
+cluster id=223, items=69
+cluster id=67, items=62
+cluster id=188, items=49
+cluster id=143, items=177
+cluster id=71, items=8
+cluster id=117, items=100
+cluster id=105, items=57
+cluster id=52, items=77
+cluster id=198, items=36
+cluster id=76, items=101
+cluster id=77, items=44
+cluster id=78, items=36
+cluster id=79, items=196
+cluster id=80, items=22
+cluster id=81, items=105
+cluster id=82, items=119
+cluster id=83, items=45
+cluster id=103, items=94
+cluster id=85, items=162
+cluster id=86, items=3
+cluster id=88, items=8
+cluster id=89, items=118
+cluster id=121, items=68
+cluster id=93, items=1
+cluster id=73, items=53
+cluster id=199, items=91
+cluster id=97, items=22
+cluster id=213, items=38
+cluster id=99, items=41
+cluster id=102, items=36
+cluster id=108, items=306
+cluster id=106, items=86
+cluster id=132, items=438
+cluster id=257, items=53
+cluster id=111, items=97
+cluster id=112, items=5
+cluster id=227, items=41
+cluster id=155, items=73
+cluster id=87, items=183
+cluster id=119, items=46
+cluster id=123, items=7
+cluster id=124, items=95
+cluster id=126, items=26
+cluster id=127, items=123
+cluster id=54, items=103
+cluster id=60, items=27
+cluster id=135, items=73
+cluster id=136, items=19
+cluster id=137, items=16
+cluster id=138, items=111
+cluster id=150, items=23
+cluster id=144, items=24
+cluster id=145, items=22
+cluster id=146, items=101
+cluster id=164, items=46
+cluster id=147, items=15
+cluster id=435, items=1
+cluster id=46, items=72
+cluster id=162, items=85
+cluster id=107, items=34
+cluster id=151, items=38
+cluster id=152, items=9
+cluster id=131, items=61
+cluster id=156, items=1
+cluster id=158, items=49
+cluster id=218, items=112
+cluster id=25, items=13
+cluster id=161, items=27
+cluster id=165, items=2
+cluster id=74, items=36
+cluster id=174, items=2
+cluster id=179, items=10
+cluster id=248, items=73
+cluster id=180, items=22
+cluster id=181, items=3
+cluster id=182, items=58
+cluster id=189, items=23
+cluster id=192, items=15
+cluster id=193, items=2
+cluster id=195, items=3
+cluster id=196, items=36
+cluster id=211, items=17
+cluster id=235, items=51
+cluster id=202, items=19
+cluster id=115, items=83
+cluster id=204, items=9
+cluster id=206, items=10
+cluster id=232, items=25
+cluster id=245, items=30
+cluster id=130, items=68
+cluster id=65, items=2
+cluster id=220, items=12
+cluster id=222, items=51
+cluster id=226, items=3
+cluster id=228, items=24
+cluster id=98, items=15
+cluster id=225, items=60
+cluster id=294, items=19
+cluster id=231, items=3
+cluster id=237, items=57
+cluster id=328, items=13
+cluster id=241, items=23
+cluster id=244, items=65
+cluster id=56, items=22
+cluster id=176, items=34
+cluster id=436, items=1
+cluster id=250, items=17
+cluster id=251, items=41
+cluster id=252, items=3
+cluster id=214, items=38
+cluster id=139, items=11
+cluster id=270, items=1
+cluster id=323, items=3
+cluster id=208, items=19
+cluster id=437, items=1
+cluster id=284, items=10
+cluster id=287, items=3
+cluster id=288, items=1
+cluster id=438, items=1
+cluster id=297, items=2
+cluster id=299, items=4
+cluster id=302, items=2
+cluster id=304, items=2
+cluster id=439, items=1
+cluster id=440, items=1
+cluster id=441, items=1
+cluster id=321, items=39
+cluster id=258, items=6
+cluster id=316, items=17
+cluster id=200, items=5
+cluster id=224, items=17
+cluster id=329, items=1
+cluster id=113, items=6
+cluster id=260, items=2
+cluster id=332, items=17
+cluster id=334, items=21
+cluster id=42, items=1
+cluster id=337, items=2
+cluster id=340, items=3
+cluster id=40, items=4
+cluster id=140, items=5
+cluster id=423, items=2
+cluster id=183, items=2
+cluster id=322, items=6
+cluster id=442, items=1
+cluster id=414, items=3
+cluster id=338, items=9
+cluster id=443, items=1
+cluster id=362, items=6
+cluster id=346, items=3
+cluster id=256, items=5
+cluster id=444, items=1
+cluster id=169, items=8
+cluster id=445, items=1
+cluster id=446, items=1
+cluster id=447, items=1
+cluster id=377, items=2
+cluster id=234, items=3
+cluster id=448, items=1
+cluster id=399, items=2
+cluster id=449, items=1
+cluster id=289, items=3
+cluster id=450, items=1
+cluster id=451, items=1
+cluster id=402, items=2
+cluster id=452, items=1
+cluster id=453, items=1
+cluster id=454, items=1
+cluster id=306, items=2
+cluster id=455, items=1
+cluster id=456, items=1
+cluster id=457, items=1
+cluster id=458, items=1
+cluster id=459, items=1
+cluster id=460, items=1
+cluster id=461, items=1
+cluster id=462, items=1
+cluster id=463, items=1
+cluster id=464, items=1
+cluster id=465, items=1
+cluster id=466, items=1
+cluster id=467, items=1
+cluster id=468, items=1
+cluster id=469, items=1
+cluster id=470, items=1
+cluster id=471, items=1
+cluster id=472, items=1
+cluster id=473, items=1
+cluster id=474, items=1
+cluster id=475, items=1
+cluster id=476, items=1

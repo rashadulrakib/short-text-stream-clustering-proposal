@@ -1,0 +1,59 @@
+100000
+200000
+300000
+400000
+500000
+600000
+700000
+800000
+900000
+1000000
+1100000
+1200000
+1300000
+1400000
+1500000
+1600000
+1700000
+1800000
+1900000
+wordVectorsDic length 1917494
+number of documents is  11109
+self.V=all the words in all documents
+8110
+SampleNo:1
+result/
+K0iterNum1SampleNum1alpha0.03beta0.03BatchNum8BatchSaved8
+No timefil!
+before call run_MStream, self.K=0,self.iterNum=1, self.V=8110
+batchNum2tweetID is  {1: 2401, 2: 494, 3: 8692, 4: 3838, 5: 2896, 6: 3322, 7: 9611, 8: -1}
+Batch 1
+11109
+	1389 documents will be analyze. alpha is 41.67.
+	Initialization.
+	iter is  1
+maxPredLabel=136
+before remove outlier
+evaluate total texts=1389
+homogeneity_score-whole-data:   0.9661
+nmi_score-whole-data:   0.7669
+pred clusters=95, true clusters=15
+purity majority whole data=0.9719222462203023
+after remove outlier
+evaluate total texts=1389
+homogeneity_score-whole-data:   0.9661
+nmi_score-whole-data:   0.7669
+pred clusters=95, true clusters=15
+purity majority whole data=0.9719222462203023
+high_entropy_words=120, total words=1806
+m-stream-cleaned
+evaluate total texts=1389
+homogeneity_score-whole-data:   0.9661
+nmi_score-whole-data:   0.7669
+pred clusters=95, true clusters=15
+purity majority whole data=0.9719222462203023
+#clusters=95
+this clustering with embedding DCT
+Start generating sentence DCT vecs for multiple sentences...
+1389
+[-18.112998779999998, 3.8364037465715235, -9.282324144854908, -0.8435254034118067, 5.396745396600487, -29.25553450184567, -7.059487896143197, 2.9592822400000003, 20.847772491599155, -8.387855270737962, -6.151328382496594, 6.396830247338762, 8.812773481469076, 2.3913221425182023, -36.2514218, -3.0712451357966524, -3.029157354353357, 8.779832562102701, -0.696372953557181, -1.4724667176994437, -10.961601332174578, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]

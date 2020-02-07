@@ -1,0 +1,1158 @@
+100000
+200000
+300000
+400000
+500000
+600000
+700000
+800000
+900000
+1000000
+1100000
+1200000
+1300000
+1400000
+1500000
+1600000
+1700000
+1800000
+1900000
+wordVectorsDic length 1917494
+number of documents is  30322
+self.V=all the words in all documents
+12301
+SampleNo:1
+K0iterNum7SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16
+No timefil!
+before call run_MStream, self.K=0,self.iterNum=7, self.V=12301
+batchNum2tweetID is  {1: 1897, 2: 3794, 3: 5691, 4: 7588, 5: 9485, 6: 11382, 7: 13279, 8: 15176, 9: 17073, 10: 18970, 11: 20867, 12: 22764, 13: 24661, 14: 26558, 15: 28455, 16: -1}
+Batch 1
+30322
+	1896 documents will be analyze. alpha is 56.88.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+batch 2 time diff secs-kdd-gibbsSampling= 8
+maxPredLabel=362
+outlier=27, non-outlier=1869,=maxPredLabel=446
+high_entropy_words=405, total words=3228
+batch 2 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 27 1869
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 2 time diff secs-customGibbsSampling= 0
+batch 2 time diff millisecs-out-dic_semanticSims= 5.463
+batch 2 time diff millisecs-out-dic_semanticSims= 5.416
+batch 2 time diff millisecs-out-dic_semanticSims= 5.397
+batch 2 time diff millisecs-out-dic_semanticSims= 5.432
+batch 2 time diff millisecs-out-dic_semanticSims= 5.482
+oldPredLabel not cluster=old340, cluster=610
+batch 2 time diff millisecs-out-dic_semanticSims= 5.496
+batch 2 time diff millisecs-out-dic_semanticSims= 5.443
+batch 2 time diff millisecs-out-dic_semanticSims= 5.46
+batch 2 time diff millisecs-out-dic_semanticSims= 5.436
+oldPredLabel not cluster=old344, cluster=614
+batch 2 time diff millisecs-out-dic_semanticSims= 5.437
+batch 2 time diff millisecs-out-dic_semanticSims= 5.429
+oldPredLabel not cluster=old346, cluster=616
+batch 2 time diff millisecs-out-dic_semanticSims= 5.417
+batch 2 time diff millisecs-out-dic_semanticSims= 5.418
+batch 2 time diff millisecs-out-dic_semanticSims= 5.414
+batch 2 time diff millisecs-out-dic_semanticSims= 5.471
+batch 2 time diff millisecs-out-dic_semanticSims= 5.512
+batch 2 time diff millisecs-out-dic_semanticSims= 5.439
+batch 2 time diff millisecs-out-dic_semanticSims= 5.437
+batch 2 time diff millisecs-out-dic_semanticSims= 5.442
+batch 2 time diff millisecs-out-dic_semanticSims= 5.426
+batch 2 time diff millisecs-out-dic_semanticSims= 5.421
+batch 2 time diff millisecs-out-dic_semanticSims= 5.424
+batch 2 time diff millisecs-out-dic_semanticSims= 5.435
+batch 2 time diff millisecs-out-dic_semanticSims= 5.435
+batch 2 time diff millisecs-out-dic_semanticSims= 5.455
+batch 2 time diff millisecs-out-dic_semanticSims= 5.454
+batch 2 time diff millisecs-out-dic_semanticSims= 5.436
+batch 2 time diff secs-assign outlier= 0
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Tweets-TK0iterNum7SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch1/
+start doc=0, end doc=1896
+total texts=1896, total clusters=111
+	Saving successful!
+Batch 2
+30322
+	3793 documents will be analyze. alpha is 113.79.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+batch 3 time diff secs-kdd-gibbsSampling= 13
+maxPredLabel=792
+outlier=29, non-outlier=1868,=maxPredLabel=862
+high_entropy_words=452, total words=3389
+batch 3 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 29 3737
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 3 time diff secs-customGibbsSampling= 0
+batch 3 time diff millisecs-out-dic_semanticSims= 7.683
+batch 3 time diff millisecs-out-dic_semanticSims= 7.571
+batch 3 time diff millisecs-out-dic_semanticSims= 7.534
+batch 3 time diff millisecs-out-dic_semanticSims= 7.634
+batch 3 time diff millisecs-out-dic_semanticSims= 7.598
+batch 3 time diff millisecs-out-dic_semanticSims= 7.598
+batch 3 time diff millisecs-out-dic_semanticSims= 7.574
+batch 3 time diff millisecs-out-dic_semanticSims= 7.6
+batch 3 time diff millisecs-out-dic_semanticSims= 7.705
+batch 3 time diff millisecs-out-dic_semanticSims= 7.758
+batch 3 time diff millisecs-out-dic_semanticSims= 7.578
+batch 3 time diff millisecs-out-dic_semanticSims= 7.621
+batch 3 time diff millisecs-out-dic_semanticSims= 7.61
+batch 3 time diff millisecs-out-dic_semanticSims= 7.598
+batch 3 time diff millisecs-out-dic_semanticSims= 7.623
+batch 3 time diff millisecs-out-dic_semanticSims= 7.605
+batch 3 time diff millisecs-out-dic_semanticSims= 7.599
+batch 3 time diff millisecs-out-dic_semanticSims= 7.603
+batch 3 time diff millisecs-out-dic_semanticSims= 7.676
+batch 3 time diff millisecs-out-dic_semanticSims= 7.701
+batch 3 time diff millisecs-out-dic_semanticSims= 7.691
+batch 3 time diff millisecs-out-dic_semanticSims= 7.689
+batch 3 time diff millisecs-out-dic_semanticSims= 7.671
+batch 3 time diff millisecs-out-dic_semanticSims= 7.621
+batch 3 time diff millisecs-out-dic_semanticSims= 7.603
+batch 3 time diff millisecs-out-dic_semanticSims= 7.608
+batch 3 time diff millisecs-out-dic_semanticSims= 7.592
+batch 3 time diff millisecs-out-dic_semanticSims= 7.628
+batch 3 time diff millisecs-out-dic_semanticSims= 7.593
+batch 3 time diff secs-assign outlier= 0
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Tweets-TK0iterNum7SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch2/
+start doc=1896, end doc=3793
+total texts=3793, total clusters=153
+	Saving successful!
+Batch 3
+30322
+	5690 documents will be analyze. alpha is 170.70.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+batch 4 time diff secs-kdd-gibbsSampling= 14
+maxPredLabel=886
+outlier=22, non-outlier=1875,=maxPredLabel=940
+high_entropy_words=411, total words=3177
+batch 4 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 22 5612
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 4 time diff secs-customGibbsSampling= 0
+batch 4 time diff millisecs-out-dic_semanticSims= 11.473
+batch 4 time diff millisecs-out-dic_semanticSims= 11.363
+batch 4 time diff millisecs-out-dic_semanticSims= 11.323
+batch 4 time diff millisecs-out-dic_semanticSims= 11.344
+batch 4 time diff millisecs-out-dic_semanticSims= 11.343
+batch 4 time diff millisecs-out-dic_semanticSims= 11.382
+batch 4 time diff millisecs-out-dic_semanticSims= 11.341
+batch 4 time diff millisecs-out-dic_semanticSims= 11.499
+batch 4 time diff millisecs-out-dic_semanticSims= 11.446
+batch 4 time diff millisecs-out-dic_semanticSims= 11.477
+batch 4 time diff millisecs-out-dic_semanticSims= 11.323
+batch 4 time diff millisecs-out-dic_semanticSims= 11.374
+batch 4 time diff millisecs-out-dic_semanticSims= 11.378
+batch 4 time diff millisecs-out-dic_semanticSims= 11.464
+batch 4 time diff millisecs-out-dic_semanticSims= 11.423
+batch 4 time diff millisecs-out-dic_semanticSims= 11.345
+batch 4 time diff millisecs-out-dic_semanticSims= 11.377
+batch 4 time diff millisecs-out-dic_semanticSims= 11.369
+batch 4 time diff millisecs-out-dic_semanticSims= 11.358
+batch 4 time diff millisecs-out-dic_semanticSims= 11.372
+batch 4 time diff millisecs-out-dic_semanticSims= 11.361
+batch 4 time diff millisecs-out-dic_semanticSims= 11.418
+batch 4 time diff secs-assign outlier= 0
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Tweets-TK0iterNum7SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch3/
+start doc=3793, end doc=5690
+total texts=5690, total clusters=167
+	Saving successful!
+Batch 4
+30322
+	7587 documents will be analyze. alpha is 227.61.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+batch 5 time diff secs-kdd-gibbsSampling= 17
+maxPredLabel=982
+outlier=40, non-outlier=1857,=maxPredLabel=1053
+high_entropy_words=411, total words=3265
+batch 5 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 40 7469
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 5 time diff secs-customGibbsSampling= 0
+batch 5 time diff millisecs-out-dic_semanticSims= 9.945
+batch 5 time diff millisecs-out-dic_semanticSims= 9.826
+batch 5 time diff millisecs-out-dic_semanticSims= 9.819
+batch 5 time diff millisecs-out-dic_semanticSims= 9.775
+batch 5 time diff millisecs-out-dic_semanticSims= 9.776
+batch 5 time diff millisecs-out-dic_semanticSims= 9.783
+batch 5 time diff millisecs-out-dic_semanticSims= 9.87
+batch 5 time diff millisecs-out-dic_semanticSims= 9.912
+batch 5 time diff millisecs-out-dic_semanticSims= 9.833
+batch 5 time diff millisecs-out-dic_semanticSims= 9.826
+batch 5 time diff millisecs-out-dic_semanticSims= 9.783
+batch 5 time diff millisecs-out-dic_semanticSims= 9.827
+batch 5 time diff millisecs-out-dic_semanticSims= 9.796
+batch 5 time diff millisecs-out-dic_semanticSims= 9.85
+batch 5 time diff millisecs-out-dic_semanticSims= 9.842
+batch 5 time diff millisecs-out-dic_semanticSims= 9.857
+batch 5 time diff millisecs-out-dic_semanticSims= 9.897
+batch 5 time diff millisecs-out-dic_semanticSims= 9.971
+batch 5 time diff millisecs-out-dic_semanticSims= 9.855
+batch 5 time diff millisecs-out-dic_semanticSims= 9.9
+batch 5 time diff millisecs-out-dic_semanticSims= 9.927
+batch 5 time diff millisecs-out-dic_semanticSims= 9.834
+batch 5 time diff millisecs-out-dic_semanticSims= 9.824
+batch 5 time diff millisecs-out-dic_semanticSims= 9.793
+batch 5 time diff millisecs-out-dic_semanticSims= 9.784
+batch 5 time diff millisecs-out-dic_semanticSims= 9.79
+batch 5 time diff millisecs-out-dic_semanticSims= 9.834
+batch 5 time diff millisecs-out-dic_semanticSims= 9.807
+batch 5 time diff millisecs-out-dic_semanticSims= 9.822
+batch 5 time diff millisecs-out-dic_semanticSims= 9.824
+batch 5 time diff millisecs-out-dic_semanticSims= 9.781
+batch 5 time diff millisecs-out-dic_semanticSims= 9.789
+batch 5 time diff millisecs-out-dic_semanticSims= 9.8
+batch 5 time diff millisecs-out-dic_semanticSims= 9.775
+batch 5 time diff millisecs-out-dic_semanticSims= 9.771
+batch 5 time diff millisecs-out-dic_semanticSims= 9.773
+batch 5 time diff millisecs-out-dic_semanticSims= 9.813
+batch 5 time diff millisecs-out-dic_semanticSims= 9.757
+batch 5 time diff millisecs-out-dic_semanticSims= 9.786
+batch 5 time diff millisecs-out-dic_semanticSims= 9.741
+batch 5 time diff secs-assign outlier= 0
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Tweets-TK0iterNum7SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch4/
+start doc=5690, end doc=7587
+total texts=7587, total clusters=191
+	Saving successful!
+Batch 5
+30322
+	9484 documents will be analyze. alpha is 284.52.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+batch 6 time diff secs-kdd-gibbsSampling= 20
+maxPredLabel=1122
+outlier=39, non-outlier=1858,=maxPredLabel=1212
+high_entropy_words=422, total words=3381
+batch 6 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 39 9327
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 6 time diff secs-customGibbsSampling= 0
+batch 6 time diff millisecs-out-dic_semanticSims= 11.834
+batch 6 time diff millisecs-out-dic_semanticSims= 11.674
+batch 6 time diff millisecs-out-dic_semanticSims= 11.671
+batch 6 time diff millisecs-out-dic_semanticSims= 11.825
+batch 6 time diff millisecs-out-dic_semanticSims= 11.612
+batch 6 time diff millisecs-out-dic_semanticSims= 11.613
+batch 6 time diff millisecs-out-dic_semanticSims= 11.607
+batch 6 time diff millisecs-out-dic_semanticSims= 11.6
+batch 6 time diff millisecs-out-dic_semanticSims= 11.632
+batch 6 time diff millisecs-out-dic_semanticSims= 11.598
+batch 6 time diff millisecs-out-dic_semanticSims= 11.579
+batch 6 time diff millisecs-out-dic_semanticSims= 11.65
+batch 6 time diff millisecs-out-dic_semanticSims= 11.702
+batch 6 time diff millisecs-out-dic_semanticSims= 11.668
+batch 6 time diff millisecs-out-dic_semanticSims= 11.621
+batch 6 time diff millisecs-out-dic_semanticSims= 11.597
+batch 6 time diff millisecs-out-dic_semanticSims= 11.597
+batch 6 time diff millisecs-out-dic_semanticSims= 11.596
+batch 6 time diff millisecs-out-dic_semanticSims= 11.658
+batch 6 time diff millisecs-out-dic_semanticSims= 11.544
+batch 6 time diff millisecs-out-dic_semanticSims= 11.613
+batch 6 time diff millisecs-out-dic_semanticSims= 11.605
+batch 6 time diff millisecs-out-dic_semanticSims= 11.624
+batch 6 time diff millisecs-out-dic_semanticSims= 11.608
+batch 6 time diff millisecs-out-dic_semanticSims= 11.615
+batch 6 time diff millisecs-out-dic_semanticSims= 11.631
+batch 6 time diff millisecs-out-dic_semanticSims= 11.655
+batch 6 time diff millisecs-out-dic_semanticSims= 11.717
+batch 6 time diff millisecs-out-dic_semanticSims= 11.666
+batch 6 time diff millisecs-out-dic_semanticSims= 11.565
+batch 6 time diff millisecs-out-dic_semanticSims= 11.61
+batch 6 time diff millisecs-out-dic_semanticSims= 11.573
+batch 6 time diff millisecs-out-dic_semanticSims= 11.541
+batch 6 time diff millisecs-out-dic_semanticSims= 11.694
+batch 6 time diff millisecs-out-dic_semanticSims= 11.651
+batch 6 time diff millisecs-out-dic_semanticSims= 11.57
+batch 6 time diff millisecs-out-dic_semanticSims= 11.554
+batch 6 time diff millisecs-out-dic_semanticSims= 11.575
+batch 6 time diff millisecs-out-dic_semanticSims= 11.549
+batch 6 time diff secs-assign outlier= 0
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Tweets-TK0iterNum7SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch5/
+start doc=7587, end doc=9484
+total texts=9484, total clusters=227
+	Saving successful!
+Batch 6
+30322
+	11381 documents will be analyze. alpha is 341.43.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+batch 7 time diff secs-kdd-gibbsSampling= 21
+maxPredLabel=1208
+outlier=21, non-outlier=1876,=maxPredLabel=1243
+high_entropy_words=222, total words=2616
+batch 7 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 21 11203
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 7 time diff secs-customGibbsSampling= 0
+batch 7 time diff millisecs-out-dic_semanticSims= 12.541
+batch 7 time diff millisecs-out-dic_semanticSims= 12.389
+batch 7 time diff millisecs-out-dic_semanticSims= 12.398
+batch 7 time diff millisecs-out-dic_semanticSims= 12.402
+batch 7 time diff millisecs-out-dic_semanticSims= 12.364
+batch 7 time diff millisecs-out-dic_semanticSims= 12.378
+batch 7 time diff millisecs-out-dic_semanticSims= 12.381
+batch 7 time diff millisecs-out-dic_semanticSims= 12.385
+batch 7 time diff millisecs-out-dic_semanticSims= 12.425
+batch 7 time diff millisecs-out-dic_semanticSims= 12.425
+batch 7 time diff millisecs-out-dic_semanticSims= 12.396
+batch 7 time diff millisecs-out-dic_semanticSims= 12.441
+batch 7 time diff millisecs-out-dic_semanticSims= 12.396
+batch 7 time diff millisecs-out-dic_semanticSims= 12.402
+batch 7 time diff millisecs-out-dic_semanticSims= 12.405
+batch 7 time diff millisecs-out-dic_semanticSims= 12.425
+batch 7 time diff millisecs-out-dic_semanticSims= 12.4
+batch 7 time diff millisecs-out-dic_semanticSims= 12.372
+batch 7 time diff millisecs-out-dic_semanticSims= 12.38
+batch 7 time diff millisecs-out-dic_semanticSims= 12.37
+batch 7 time diff millisecs-out-dic_semanticSims= 12.358
+batch 7 time diff secs-assign outlier= 0
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Tweets-TK0iterNum7SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch6/
+start doc=9484, end doc=11381
+total texts=11381, total clusters=243
+	Saving successful!
+Batch 7
+30322
+	13278 documents will be analyze. alpha is 398.34.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+batch 8 time diff secs-kdd-gibbsSampling= 25
+maxPredLabel=1259
+outlier=25, non-outlier=1871,=maxPredLabel=1301
+high_entropy_words=302, total words=2878
+batch 8 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 25 13074
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 8 time diff secs-customGibbsSampling= 0
+batch 8 time diff millisecs-out-dic_semanticSims= 13.183
+batch 8 time diff millisecs-out-dic_semanticSims= 12.988
+batch 8 time diff millisecs-out-dic_semanticSims= 13.031
+batch 8 time diff millisecs-out-dic_semanticSims= 13.006
+batch 8 time diff millisecs-out-dic_semanticSims= 13.072
+batch 8 time diff millisecs-out-dic_semanticSims= 13.053
+batch 8 time diff millisecs-out-dic_semanticSims= 13.024
+batch 8 time diff millisecs-out-dic_semanticSims= 13.063
+batch 8 time diff millisecs-out-dic_semanticSims= 13.043
+batch 8 time diff millisecs-out-dic_semanticSims= 13.213
+batch 8 time diff millisecs-out-dic_semanticSims= 13.087
+batch 8 time diff millisecs-out-dic_semanticSims= 12.977
+batch 8 time diff millisecs-out-dic_semanticSims= 12.983
+batch 8 time diff millisecs-out-dic_semanticSims= 13.015
+batch 8 time diff millisecs-out-dic_semanticSims= 13.006
+batch 8 time diff millisecs-out-dic_semanticSims= 13.044
+batch 8 time diff millisecs-out-dic_semanticSims= 13.075
+batch 8 time diff millisecs-out-dic_semanticSims= 13.047
+batch 8 time diff millisecs-out-dic_semanticSims= 13.065
+batch 8 time diff millisecs-out-dic_semanticSims= 13.057
+batch 8 time diff millisecs-out-dic_semanticSims= 13.024
+batch 8 time diff millisecs-out-dic_semanticSims= 13.008
+batch 8 time diff millisecs-out-dic_semanticSims= 13.002
+batch 8 time diff millisecs-out-dic_semanticSims= 13.018
+batch 8 time diff millisecs-out-dic_semanticSims= 13.013
+batch 8 time diff secs-assign outlier= 0
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Tweets-TK0iterNum7SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch7/
+start doc=11381, end doc=13278
+total texts=13278, total clusters=259
+	Saving successful!
+Batch 8
+30322
+	15175 documents will be analyze. alpha is 455.25.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+batch 9 time diff secs-kdd-gibbsSampling= 25
+maxPredLabel=1334
+outlier=29, non-outlier=1868,=maxPredLabel=1395
+high_entropy_words=332, total words=2997
+batch 9 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 29 14942
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 9 time diff secs-customGibbsSampling= 0
+batch 9 time diff millisecs-out-dic_semanticSims= 14.221
+batch 9 time diff millisecs-out-dic_semanticSims= 14.134
+batch 9 time diff millisecs-out-dic_semanticSims= 14.05
+batch 9 time diff millisecs-out-dic_semanticSims= 14.098
+batch 9 time diff millisecs-out-dic_semanticSims= 14.097
+batch 9 time diff millisecs-out-dic_semanticSims= 14.114
+batch 9 time diff millisecs-out-dic_semanticSims= 14.225
+batch 9 time diff millisecs-out-dic_semanticSims= 14.098
+batch 9 time diff millisecs-out-dic_semanticSims= 14.157
+batch 9 time diff millisecs-out-dic_semanticSims= 14.21
+batch 9 time diff millisecs-out-dic_semanticSims= 14.166
+batch 9 time diff millisecs-out-dic_semanticSims= 14.077
+batch 9 time diff millisecs-out-dic_semanticSims= 14.056
+batch 9 time diff millisecs-out-dic_semanticSims= 14.079
+batch 9 time diff millisecs-out-dic_semanticSims= 14.039
+batch 9 time diff millisecs-out-dic_semanticSims= 14.113
+batch 9 time diff millisecs-out-dic_semanticSims= 14.079
+batch 9 time diff millisecs-out-dic_semanticSims= 14.058
+batch 9 time diff millisecs-out-dic_semanticSims= 14.105
+batch 9 time diff millisecs-out-dic_semanticSims= 14.173
+batch 9 time diff millisecs-out-dic_semanticSims= 14.083
+batch 9 time diff millisecs-out-dic_semanticSims= 13.977
+batch 9 time diff millisecs-out-dic_semanticSims= 14.312
+batch 9 time diff millisecs-out-dic_semanticSims= 14.169
+batch 9 time diff millisecs-out-dic_semanticSims= 14.069
+batch 9 time diff millisecs-out-dic_semanticSims= 14.032
+batch 9 time diff millisecs-out-dic_semanticSims= 14.065
+batch 9 time diff millisecs-out-dic_semanticSims= 14.136
+batch 9 time diff millisecs-out-dic_semanticSims= 14.058
+batch 9 time diff secs-assign outlier= 0
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Tweets-TK0iterNum7SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch8/
+start doc=13278, end doc=15175
+total texts=15175, total clusters=277
+	Saving successful!
+Batch 9
+30322
+	17072 documents will be analyze. alpha is 512.16.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+batch 10 time diff secs-kdd-gibbsSampling= 24
+maxPredLabel=1396
+outlier=31, non-outlier=1866,=maxPredLabel=1434
+high_entropy_words=249, total words=2619
+batch 10 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 31 16808
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 10 time diff secs-customGibbsSampling= 0
+batch 10 time diff millisecs-out-dic_semanticSims= 14.52
+batch 10 time diff millisecs-out-dic_semanticSims= 14.442
+batch 10 time diff millisecs-out-dic_semanticSims= 14.344
+batch 10 time diff millisecs-out-dic_semanticSims= 14.359
+batch 10 time diff millisecs-out-dic_semanticSims= 14.375
+batch 10 time diff millisecs-out-dic_semanticSims= 14.39
+batch 10 time diff millisecs-out-dic_semanticSims= 14.476
+batch 10 time diff millisecs-out-dic_semanticSims= 14.402
+batch 10 time diff millisecs-out-dic_semanticSims= 14.362
+batch 10 time diff millisecs-out-dic_semanticSims= 14.326
+batch 10 time diff millisecs-out-dic_semanticSims= 14.36
+batch 10 time diff millisecs-out-dic_semanticSims= 14.42
+batch 10 time diff millisecs-out-dic_semanticSims= 14.482
+batch 10 time diff millisecs-out-dic_semanticSims= 14.429
+batch 10 time diff millisecs-out-dic_semanticSims= 14.307
+batch 10 time diff millisecs-out-dic_semanticSims= 14.291
+batch 10 time diff millisecs-out-dic_semanticSims= 14.364
+batch 10 time diff millisecs-out-dic_semanticSims= 14.339
+batch 10 time diff millisecs-out-dic_semanticSims= 14.351
+batch 10 time diff millisecs-out-dic_semanticSims= 14.436
+batch 10 time diff millisecs-out-dic_semanticSims= 14.375
+batch 10 time diff millisecs-out-dic_semanticSims= 14.513
+batch 10 time diff millisecs-out-dic_semanticSims= 14.375
+batch 10 time diff millisecs-out-dic_semanticSims= 14.517
+batch 10 time diff millisecs-out-dic_semanticSims= 14.439
+batch 10 time diff millisecs-out-dic_semanticSims= 14.417
+batch 10 time diff millisecs-out-dic_semanticSims= 14.423
+batch 10 time diff millisecs-out-dic_semanticSims= 14.379
+batch 10 time diff millisecs-out-dic_semanticSims= 14.384
+batch 10 time diff millisecs-out-dic_semanticSims= 14.363
+batch 10 time diff millisecs-out-dic_semanticSims= 14.413
+batch 10 time diff secs-assign outlier= 0
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Tweets-TK0iterNum7SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch9/
+start doc=15175, end doc=17072
+total texts=17072, total clusters=287
+	Saving successful!
+Batch 10
+30322
+	18969 documents will be analyze. alpha is 569.07.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+batch 11 time diff secs-kdd-gibbsSampling= 28
+maxPredLabel=1500
+outlier=24, non-outlier=1873,=maxPredLabel=1536
+high_entropy_words=368, total words=2477
+batch 11 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 24 18681
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 11 time diff secs-customGibbsSampling= 0
+batch 11 time diff millisecs-out-dic_semanticSims= 15.173
+batch 11 time diff millisecs-out-dic_semanticSims= 15.043
+batch 11 time diff millisecs-out-dic_semanticSims= 14.983
+batch 11 time diff millisecs-out-dic_semanticSims= 15.083
+batch 11 time diff millisecs-out-dic_semanticSims= 15.055
+batch 11 time diff millisecs-out-dic_semanticSims= 14.99
+batch 11 time diff millisecs-out-dic_semanticSims= 14.986
+batch 11 time diff millisecs-out-dic_semanticSims= 14.957
+batch 11 time diff millisecs-out-dic_semanticSims= 15.064
+batch 11 time diff millisecs-out-dic_semanticSims= 14.97
+batch 11 time diff millisecs-out-dic_semanticSims= 14.998
+batch 11 time diff millisecs-out-dic_semanticSims= 14.967
+batch 11 time diff millisecs-out-dic_semanticSims= 14.922
+batch 11 time diff millisecs-out-dic_semanticSims= 15.003
+batch 11 time diff millisecs-out-dic_semanticSims= 14.961
+batch 11 time diff millisecs-out-dic_semanticSims= 15.152
+batch 11 time diff millisecs-out-dic_semanticSims= 15.173
+batch 11 time diff millisecs-out-dic_semanticSims= 15.095
+batch 11 time diff millisecs-out-dic_semanticSims= 14.984
+batch 11 time diff millisecs-out-dic_semanticSims= 15.045
+batch 11 time diff millisecs-out-dic_semanticSims= 15.054
+batch 11 time diff millisecs-out-dic_semanticSims= 15.057
+batch 11 time diff millisecs-out-dic_semanticSims= 15.006
+batch 11 time diff millisecs-out-dic_semanticSims= 15.045
+batch 11 time diff secs-assign outlier= 0
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Tweets-TK0iterNum7SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch10/
+start doc=17072, end doc=18969
+total texts=18969, total clusters=304
+	Saving successful!
+Batch 11
+30322
+	20866 documents will be analyze. alpha is 625.98.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+batch 12 time diff secs-kdd-gibbsSampling= 28
+maxPredLabel=1612
+outlier=30, non-outlier=1867,=maxPredLabel=1651
+high_entropy_words=240, total words=2671
+batch 12 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 30 20548
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 12 time diff secs-customGibbsSampling= 0
+batch 12 time diff millisecs-out-dic_semanticSims= 15.525
+batch 12 time diff millisecs-out-dic_semanticSims= 15.372
+batch 12 time diff millisecs-out-dic_semanticSims= 15.293
+batch 12 time diff millisecs-out-dic_semanticSims= 15.34
+batch 12 time diff millisecs-out-dic_semanticSims= 15.469
+batch 12 time diff millisecs-out-dic_semanticSims= 15.367
+batch 12 time diff millisecs-out-dic_semanticSims= 15.293
+batch 12 time diff millisecs-out-dic_semanticSims= 15.301
+batch 12 time diff millisecs-out-dic_semanticSims= 15.297
+batch 12 time diff millisecs-out-dic_semanticSims= 15.324
+batch 12 time diff millisecs-out-dic_semanticSims= 15.408
+batch 12 time diff millisecs-out-dic_semanticSims= 15.323
+batch 12 time diff millisecs-out-dic_semanticSims= 15.385
+batch 12 time diff millisecs-out-dic_semanticSims= 15.35
+batch 12 time diff millisecs-out-dic_semanticSims= 15.262
+batch 12 time diff millisecs-out-dic_semanticSims= 15.285
+batch 12 time diff millisecs-out-dic_semanticSims= 15.225
+batch 12 time diff millisecs-out-dic_semanticSims= 15.295
+batch 12 time diff millisecs-out-dic_semanticSims= 15.274
+batch 12 time diff millisecs-out-dic_semanticSims= 15.23
+batch 12 time diff millisecs-out-dic_semanticSims= 15.288
+batch 12 time diff millisecs-out-dic_semanticSims= 15.324
+batch 12 time diff millisecs-out-dic_semanticSims= 15.26
+batch 12 time diff millisecs-out-dic_semanticSims= 15.322
+batch 12 time diff millisecs-out-dic_semanticSims= 15.334
+batch 12 time diff millisecs-out-dic_semanticSims= 15.335
+batch 12 time diff millisecs-out-dic_semanticSims= 15.278
+batch 12 time diff millisecs-out-dic_semanticSims= 15.305
+batch 12 time diff millisecs-out-dic_semanticSims= 15.331
+batch 12 time diff millisecs-out-dic_semanticSims= 15.318
+batch 12 time diff secs-assign outlier= 0
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Tweets-TK0iterNum7SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch11/
+start doc=18969, end doc=20866
+total texts=20866, total clusters=320
+	Saving successful!
+Batch 12
+30322
+	22763 documents will be analyze. alpha is 682.89.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+batch 13 time diff secs-kdd-gibbsSampling= 30
+maxPredLabel=1671
+outlier=14, non-outlier=1883,=maxPredLabel=1712
+high_entropy_words=268, total words=2834
+batch 13 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 14 22431
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 13 time diff secs-customGibbsSampling= 0
+batch 13 time diff millisecs-out-dic_semanticSims= 16.171
+batch 13 time diff millisecs-out-dic_semanticSims= 16.019
+batch 13 time diff millisecs-out-dic_semanticSims= 15.973
+batch 13 time diff millisecs-out-dic_semanticSims= 16.01
+batch 13 time diff millisecs-out-dic_semanticSims= 15.963
+batch 13 time diff millisecs-out-dic_semanticSims= 15.935
+batch 13 time diff millisecs-out-dic_semanticSims= 15.99
+batch 13 time diff millisecs-out-dic_semanticSims= 16.043
+batch 13 time diff millisecs-out-dic_semanticSims= 15.989
+batch 13 time diff millisecs-out-dic_semanticSims= 16.238
+batch 13 time diff millisecs-out-dic_semanticSims= 15.975
+batch 13 time diff millisecs-out-dic_semanticSims= 15.919
+batch 13 time diff millisecs-out-dic_semanticSims= 15.966
+batch 13 time diff millisecs-out-dic_semanticSims= 15.986
+batch 13 time diff secs-assign outlier= 0
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Tweets-TK0iterNum7SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch12/
+start doc=20866, end doc=22763
+total texts=22763, total clusters=336
+	Saving successful!
+Batch 13
+30322
+	24660 documents will be analyze. alpha is 739.80.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+batch 14 time diff secs-kdd-gibbsSampling= 32
+maxPredLabel=1779
+outlier=30, non-outlier=1867,=maxPredLabel=1829
+high_entropy_words=244, total words=2476
+batch 14 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 30 24298
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 14 time diff secs-customGibbsSampling= 0
+batch 14 time diff millisecs-out-dic_semanticSims= 17.07
+batch 14 time diff millisecs-out-dic_semanticSims= 16.87
+batch 14 time diff millisecs-out-dic_semanticSims= 16.837
+batch 14 time diff millisecs-out-dic_semanticSims= 16.901
+batch 14 time diff millisecs-out-dic_semanticSims= 16.967
+batch 14 time diff millisecs-out-dic_semanticSims= 16.779
+batch 14 time diff millisecs-out-dic_semanticSims= 16.851
+batch 14 time diff millisecs-out-dic_semanticSims= 16.81
+batch 14 time diff millisecs-out-dic_semanticSims= 16.786
+batch 14 time diff millisecs-out-dic_semanticSims= 16.828
+batch 14 time diff millisecs-out-dic_semanticSims= 16.734
+batch 14 time diff millisecs-out-dic_semanticSims= 16.783
+batch 14 time diff millisecs-out-dic_semanticSims= 16.797
+batch 14 time diff millisecs-out-dic_semanticSims= 16.766
+batch 14 time diff millisecs-out-dic_semanticSims= 16.833
+batch 14 time diff millisecs-out-dic_semanticSims= 16.812
+batch 14 time diff millisecs-out-dic_semanticSims= 16.9
+batch 14 time diff millisecs-out-dic_semanticSims= 16.831
+batch 14 time diff millisecs-out-dic_semanticSims= 16.988
+batch 14 time diff millisecs-out-dic_semanticSims= 16.94
+batch 14 time diff millisecs-out-dic_semanticSims= 16.915
+batch 14 time diff millisecs-out-dic_semanticSims= 16.833
+batch 14 time diff millisecs-out-dic_semanticSims= 16.823
+batch 14 time diff millisecs-out-dic_semanticSims= 16.803
+batch 14 time diff millisecs-out-dic_semanticSims= 16.846
+batch 14 time diff millisecs-out-dic_semanticSims= 16.767
+batch 14 time diff millisecs-out-dic_semanticSims= 16.899
+batch 14 time diff millisecs-out-dic_semanticSims= 16.839
+batch 14 time diff millisecs-out-dic_semanticSims= 16.802
+batch 14 time diff millisecs-out-dic_semanticSims= 16.85
+batch 14 time diff secs-assign outlier= 0
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Tweets-TK0iterNum7SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch13/
+start doc=22763, end doc=24660
+total texts=24660, total clusters=358
+	Saving successful!
+Batch 14
+30322
+	26557 documents will be analyze. alpha is 796.71.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+batch 15 time diff secs-kdd-gibbsSampling= 38
+maxPredLabel=2037
+outlier=79, non-outlier=1818,=maxPredLabel=2114
+high_entropy_words=319, total words=3014
+batch 15 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 79 26116
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 15 time diff secs-customGibbsSampling= 1
+batch 15 time diff millisecs-out-dic_semanticSims= 18.212
+batch 15 time diff millisecs-out-dic_semanticSims= 18.038
+batch 15 time diff millisecs-out-dic_semanticSims= 17.922
+batch 15 time diff millisecs-out-dic_semanticSims= 17.933
+batch 15 time diff millisecs-out-dic_semanticSims= 17.94
+batch 15 time diff millisecs-out-dic_semanticSims= 18.019
+batch 15 time diff millisecs-out-dic_semanticSims= 18.304
+batch 15 time diff millisecs-out-dic_semanticSims= 17.94
+batch 15 time diff millisecs-out-dic_semanticSims= 18.063
+batch 15 time diff millisecs-out-dic_semanticSims= 18.05
+batch 15 time diff millisecs-out-dic_semanticSims= 17.897
+batch 15 time diff millisecs-out-dic_semanticSims= 17.905
+batch 15 time diff millisecs-out-dic_semanticSims= 17.911
+batch 15 time diff millisecs-out-dic_semanticSims= 17.976
+batch 15 time diff millisecs-out-dic_semanticSims= 18.031
+batch 15 time diff millisecs-out-dic_semanticSims= 17.94
+batch 15 time diff millisecs-out-dic_semanticSims= 17.932
+batch 15 time diff millisecs-out-dic_semanticSims= 18.011
+batch 15 time diff millisecs-out-dic_semanticSims= 17.965
+batch 15 time diff millisecs-out-dic_semanticSims= 17.984
+batch 15 time diff millisecs-out-dic_semanticSims= 17.996
+batch 15 time diff millisecs-out-dic_semanticSims= 17.995
+batch 15 time diff millisecs-out-dic_semanticSims= 18.064
+batch 15 time diff millisecs-out-dic_semanticSims= 18.075
+batch 15 time diff millisecs-out-dic_semanticSims= 18.4
+batch 15 time diff millisecs-out-dic_semanticSims= 18.198
+batch 15 time diff millisecs-out-dic_semanticSims= 17.961
+batch 15 time diff millisecs-out-dic_semanticSims= 17.968
+batch 15 time diff millisecs-out-dic_semanticSims= 18.076
+batch 15 time diff millisecs-out-dic_semanticSims= 17.974
+batch 15 time diff millisecs-out-dic_semanticSims= 17.98
+batch 15 time diff millisecs-out-dic_semanticSims= 17.98
+batch 15 time diff millisecs-out-dic_semanticSims= 17.984
+batch 15 time diff millisecs-out-dic_semanticSims= 17.939
+batch 15 time diff millisecs-out-dic_semanticSims= 17.954
+batch 15 time diff millisecs-out-dic_semanticSims= 17.947
+batch 15 time diff millisecs-out-dic_semanticSims= 18.066
+batch 15 time diff millisecs-out-dic_semanticSims= 17.878
+batch 15 time diff millisecs-out-dic_semanticSims= 17.898
+batch 15 time diff millisecs-out-dic_semanticSims= 17.994
+batch 15 time diff millisecs-out-dic_semanticSims= 17.868
+batch 15 time diff millisecs-out-dic_semanticSims= 18.028
+batch 15 time diff millisecs-out-dic_semanticSims= 17.994
+batch 15 time diff millisecs-out-dic_semanticSims= 17.988
+batch 15 time diff millisecs-out-dic_semanticSims= 17.991
+batch 15 time diff millisecs-out-dic_semanticSims= 17.907
+batch 15 time diff millisecs-out-dic_semanticSims= 17.939
+batch 15 time diff millisecs-out-dic_semanticSims= 17.993
+batch 15 time diff millisecs-out-dic_semanticSims= 17.933
+batch 15 time diff millisecs-out-dic_semanticSims= 17.984
+batch 15 time diff millisecs-out-dic_semanticSims= 18.076
+batch 15 time diff millisecs-out-dic_semanticSims= 17.905
+batch 15 time diff millisecs-out-dic_semanticSims= 17.985
+batch 15 time diff millisecs-out-dic_semanticSims= 17.919
+batch 15 time diff millisecs-out-dic_semanticSims= 17.892
+batch 15 time diff millisecs-out-dic_semanticSims= 17.925
+batch 15 time diff millisecs-out-dic_semanticSims= 17.904
+batch 15 time diff millisecs-out-dic_semanticSims= 17.917
+batch 15 time diff millisecs-out-dic_semanticSims= 17.902
+batch 15 time diff millisecs-out-dic_semanticSims= 17.949
+batch 15 time diff millisecs-out-dic_semanticSims= 18.055
+batch 15 time diff millisecs-out-dic_semanticSims= 18.002
+batch 15 time diff millisecs-out-dic_semanticSims= 17.957
+batch 15 time diff millisecs-out-dic_semanticSims= 18.049
+batch 15 time diff millisecs-out-dic_semanticSims= 18.031
+batch 15 time diff millisecs-out-dic_semanticSims= 17.934
+batch 15 time diff millisecs-out-dic_semanticSims= 17.857
+batch 15 time diff millisecs-out-dic_semanticSims= 17.955
+batch 15 time diff millisecs-out-dic_semanticSims= 17.953
+batch 15 time diff millisecs-out-dic_semanticSims= 18.008
+batch 15 time diff millisecs-out-dic_semanticSims= 17.939
+batch 15 time diff millisecs-out-dic_semanticSims= 17.906
+batch 15 time diff millisecs-out-dic_semanticSims= 17.951
+batch 15 time diff millisecs-out-dic_semanticSims= 17.895
+batch 15 time diff millisecs-out-dic_semanticSims= 17.928
+batch 15 time diff millisecs-out-dic_semanticSims= 18.014
+batch 15 time diff millisecs-out-dic_semanticSims= 17.967
+batch 15 time diff millisecs-out-dic_semanticSims= 18.102
+batch 15 time diff millisecs-out-dic_semanticSims= 18.068
+batch 15 time diff secs-assign outlier= 1
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Tweets-TK0iterNum7SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch14/
+start doc=24660, end doc=26557
+total texts=26557, total clusters=402
+	Saving successful!
+Batch 15
+30322
+	28454 documents will be analyze. alpha is 853.62.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+batch 16 time diff secs-kdd-gibbsSampling= 38
+maxPredLabel=2271
+outlier=79, non-outlier=1818,=maxPredLabel=2364
+high_entropy_words=303, total words=2837
+batch 16 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 79 27934
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 16 time diff secs-customGibbsSampling= 1
+batch 16 time diff millisecs-out-dic_semanticSims= 20.293
+batch 16 time diff millisecs-out-dic_semanticSims= 20.146
+batch 16 time diff millisecs-out-dic_semanticSims= 19.843
+batch 16 time diff millisecs-out-dic_semanticSims= 19.544
+batch 16 time diff millisecs-out-dic_semanticSims= 19.917
+batch 16 time diff millisecs-out-dic_semanticSims= 19.816
+batch 16 time diff millisecs-out-dic_semanticSims= 19.731
+batch 16 time diff millisecs-out-dic_semanticSims= 19.632
+batch 16 time diff millisecs-out-dic_semanticSims= 19.618
+batch 16 time diff millisecs-out-dic_semanticSims= 19.624
+batch 16 time diff millisecs-out-dic_semanticSims= 19.628
+batch 16 time diff millisecs-out-dic_semanticSims= 19.548
+batch 16 time diff millisecs-out-dic_semanticSims= 19.598
+batch 16 time diff millisecs-out-dic_semanticSims= 19.593
+batch 16 time diff millisecs-out-dic_semanticSims= 19.565
+batch 16 time diff millisecs-out-dic_semanticSims= 19.614
+batch 16 time diff millisecs-out-dic_semanticSims= 19.645
+batch 16 time diff millisecs-out-dic_semanticSims= 19.726
+batch 16 time diff millisecs-out-dic_semanticSims= 19.654
+batch 16 time diff millisecs-out-dic_semanticSims= 19.603
+batch 16 time diff millisecs-out-dic_semanticSims= 19.65
+batch 16 time diff millisecs-out-dic_semanticSims= 19.692
+batch 16 time diff millisecs-out-dic_semanticSims= 19.699
+batch 16 time diff millisecs-out-dic_semanticSims= 19.896
+batch 16 time diff millisecs-out-dic_semanticSims= 20.109
+batch 16 time diff millisecs-out-dic_semanticSims= 20.074
+batch 16 time diff millisecs-out-dic_semanticSims= 20.154
+batch 16 time diff millisecs-out-dic_semanticSims= 20.1
+batch 16 time diff millisecs-out-dic_semanticSims= 20.097
+batch 16 time diff millisecs-out-dic_semanticSims= 20.076
+batch 16 time diff millisecs-out-dic_semanticSims= 19.761
+batch 16 time diff millisecs-out-dic_semanticSims= 19.627
+batch 16 time diff millisecs-out-dic_semanticSims= 19.606
+batch 16 time diff millisecs-out-dic_semanticSims= 19.547
+batch 16 time diff millisecs-out-dic_semanticSims= 19.62
+batch 16 time diff millisecs-out-dic_semanticSims= 19.604
+batch 16 time diff millisecs-out-dic_semanticSims= 19.582
+batch 16 time diff millisecs-out-dic_semanticSims= 19.597
+batch 16 time diff millisecs-out-dic_semanticSims= 19.618
+batch 16 time diff millisecs-out-dic_semanticSims= 19.563
+batch 16 time diff millisecs-out-dic_semanticSims= 19.556
+batch 16 time diff millisecs-out-dic_semanticSims= 19.624
+batch 16 time diff millisecs-out-dic_semanticSims= 19.745
+batch 16 time diff millisecs-out-dic_semanticSims= 19.643
+batch 16 time diff millisecs-out-dic_semanticSims= 19.644
+batch 16 time diff millisecs-out-dic_semanticSims= 19.591
+batch 16 time diff millisecs-out-dic_semanticSims= 19.642
+batch 16 time diff millisecs-out-dic_semanticSims= 19.635
+batch 16 time diff millisecs-out-dic_semanticSims= 19.63
+batch 16 time diff millisecs-out-dic_semanticSims= 19.584
+batch 16 time diff millisecs-out-dic_semanticSims= 19.533
+batch 16 time diff millisecs-out-dic_semanticSims= 19.573
+batch 16 time diff millisecs-out-dic_semanticSims= 19.548
+batch 16 time diff millisecs-out-dic_semanticSims= 19.525
+batch 16 time diff millisecs-out-dic_semanticSims= 19.602
+batch 16 time diff millisecs-out-dic_semanticSims= 19.777
+batch 16 time diff millisecs-out-dic_semanticSims= 19.492
+batch 16 time diff millisecs-out-dic_semanticSims= 19.621
+batch 16 time diff millisecs-out-dic_semanticSims= 19.609
+batch 16 time diff millisecs-out-dic_semanticSims= 19.639
+batch 16 time diff millisecs-out-dic_semanticSims= 19.597
+batch 16 time diff millisecs-out-dic_semanticSims= 19.634
+batch 16 time diff millisecs-out-dic_semanticSims= 19.652
+batch 16 time diff millisecs-out-dic_semanticSims= 19.591
+batch 16 time diff millisecs-out-dic_semanticSims= 19.59
+batch 16 time diff millisecs-out-dic_semanticSims= 19.646
+batch 16 time diff millisecs-out-dic_semanticSims= 19.651
+batch 16 time diff millisecs-out-dic_semanticSims= 19.706
+batch 16 time diff millisecs-out-dic_semanticSims= 19.823
+batch 16 time diff millisecs-out-dic_semanticSims= 19.583
+batch 16 time diff millisecs-out-dic_semanticSims= 19.647
+batch 16 time diff millisecs-out-dic_semanticSims= 19.697
+batch 16 time diff millisecs-out-dic_semanticSims= 19.628
+batch 16 time diff millisecs-out-dic_semanticSims= 19.618
+batch 16 time diff millisecs-out-dic_semanticSims= 19.658
+batch 16 time diff millisecs-out-dic_semanticSims= 19.66
+batch 16 time diff millisecs-out-dic_semanticSims= 19.652
+batch 16 time diff millisecs-out-dic_semanticSims= 19.627
+batch 16 time diff millisecs-out-dic_semanticSims= 19.675
+batch 16 time diff secs-assign outlier= 1
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Tweets-TK0iterNum7SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch15/
+start doc=26557, end doc=28454
+total texts=28454, total clusters=444
+	Saving successful!
+Batch 16
+30322
+	30322 documents will be analyze. alpha is 909.66.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+batch 17 time diff secs-kdd-gibbsSampling= 35
+maxPredLabel=2438
+outlier=49, non-outlier=1819,=maxPredLabel=2477
+high_entropy_words=184, total words=1204
+batch 17 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 49 29753
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 17 time diff secs-customGibbsSampling= 1
+batch 17 time diff millisecs-out-dic_semanticSims= 20.364
+batch 17 time diff millisecs-out-dic_semanticSims= 20.343
+batch 17 time diff millisecs-out-dic_semanticSims= 20.192
+batch 17 time diff millisecs-out-dic_semanticSims= 20.068
+batch 17 time diff millisecs-out-dic_semanticSims= 20.084
+batch 17 time diff millisecs-out-dic_semanticSims= 20.191
+batch 17 time diff millisecs-out-dic_semanticSims= 20.113
+batch 17 time diff millisecs-out-dic_semanticSims= 20.053
+batch 17 time diff millisecs-out-dic_semanticSims= 20.338
+batch 17 time diff millisecs-out-dic_semanticSims= 20.131
+batch 17 time diff millisecs-out-dic_semanticSims= 20.05
+batch 17 time diff millisecs-out-dic_semanticSims= 20.06
+batch 17 time diff millisecs-out-dic_semanticSims= 20.017
+batch 17 time diff millisecs-out-dic_semanticSims= 20.1
+batch 17 time diff millisecs-out-dic_semanticSims= 20.213
+batch 17 time diff millisecs-out-dic_semanticSims= 20.132
+batch 17 time diff millisecs-out-dic_semanticSims= 20.141
+batch 17 time diff millisecs-out-dic_semanticSims= 20.093
+batch 17 time diff millisecs-out-dic_semanticSims= 20.028
+batch 17 time diff millisecs-out-dic_semanticSims= 20.036
+batch 17 time diff millisecs-out-dic_semanticSims= 20.15
+batch 17 time diff millisecs-out-dic_semanticSims= 19.991
+batch 17 time diff millisecs-out-dic_semanticSims= 20.141
+batch 17 time diff millisecs-out-dic_semanticSims= 20.101
+batch 17 time diff millisecs-out-dic_semanticSims= 20.142
+batch 17 time diff millisecs-out-dic_semanticSims= 20.143
+batch 17 time diff millisecs-out-dic_semanticSims= 20.262
+batch 17 time diff millisecs-out-dic_semanticSims= 20.081
+batch 17 time diff millisecs-out-dic_semanticSims= 20.08
+batch 17 time diff millisecs-out-dic_semanticSims= 20.088
+batch 17 time diff millisecs-out-dic_semanticSims= 20.028
+batch 17 time diff millisecs-out-dic_semanticSims= 20.149
+batch 17 time diff millisecs-out-dic_semanticSims= 20.12
+batch 17 time diff millisecs-out-dic_semanticSims= 20.089
+batch 17 time diff millisecs-out-dic_semanticSims= 20.071
+batch 17 time diff millisecs-out-dic_semanticSims= 20.035
+batch 17 time diff millisecs-out-dic_semanticSims= 20.153
+batch 17 time diff millisecs-out-dic_semanticSims= 20.142
+batch 17 time diff millisecs-out-dic_semanticSims= 20.195
+batch 17 time diff millisecs-out-dic_semanticSims= 20.131
+batch 17 time diff millisecs-out-dic_semanticSims= 20.068
+batch 17 time diff millisecs-out-dic_semanticSims= 20.227
+batch 17 time diff millisecs-out-dic_semanticSims= 20.098
+batch 17 time diff millisecs-out-dic_semanticSims= 20.081
+batch 17 time diff millisecs-out-dic_semanticSims= 20.098
+batch 17 time diff millisecs-out-dic_semanticSims= 20.132
+batch 17 time diff millisecs-out-dic_semanticSims= 20.128
+batch 17 time diff millisecs-out-dic_semanticSims= 20.144
+batch 17 time diff millisecs-out-dic_semanticSims= 20.095
+batch 17 time diff secs-assign outlier= 0
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Tweets-TK0iterNum7SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch16/
+start doc=28454, end doc=30322
+total texts=30322, total clusters=464
+	Saving successful!
+time diff secs= 480
+pred_true_text_file name=result/mstr-enh
+evaluate total texts=30321
+homogeneity_score-whole-data:   0.84112457
+completeness_score-whole-data:   0.84353528
+nmi_score-whole-data:   0.84232820
+pred clusters=698, true clusters=269
+purity majority whole data=0.7279773094554929
+pred_true_text_file name=result/NewsPredTueTextMStream_WordArr.txt
+evaluate total texts=30322
+homogeneity_score-whole-data:   0.83233214
+completeness_score-whole-data:   0.84331309
+nmi_score-whole-data:   0.83778664
+pred clusters=430, true clusters=269
+purity majority whole data=0.7197414418573973

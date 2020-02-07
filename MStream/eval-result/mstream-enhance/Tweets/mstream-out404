@@ -1,0 +1,582 @@
+number of documents is  30322
+self.V=all the words in all documents
+12301
+SampleNo:1
+result/
+K0iterNum1SampleNum1alpha0.03beta0.03BatchNum64BatchSaved64
+No timefil!
+before call run_MStream, self.K=0,self.iterNum=1, self.V=12301
+batchNum2tweetID is  {1: 475, 2: 950, 3: 1425, 4: 1900, 5: 2375, 6: 2850, 7: 3325, 8: 3800, 9: 4275, 10: 4750, 11: 5225, 12: 5700, 13: 6175, 14: 6650, 15: 7125, 16: 7600, 17: 8075, 18: 8550, 19: 9025, 20: 9500, 21: 9975, 22: 10450, 23: 10925, 24: 11400, 25: 11875, 26: 12350, 27: 12825, 28: 13300, 29: 13775, 30: 14250, 31: 14725, 32: 15200, 33: 15675, 34: 16150, 35: 16625, 36: 17100, 37: 17575, 38: 18050, 39: 18525, 40: 19000, 41: 19475, 42: 19950, 43: 20425, 44: 20900, 45: 21375, 46: 21850, 47: 22325, 48: 22800, 49: 23275, 50: 23750, 51: 24225, 52: 24700, 53: 25175, 54: 25650, 55: 26125, 56: 26600, 57: 27075, 58: 27550, 59: 28025, 60: 28500, 61: 28975, 62: 29450, 63: 29925, 64: -1}
+Batch 1
+30322
+	474 documents will be analyze. alpha is 14.22.
+	Initialization.
+	iter is  1
+maxPredLabel=124
+outlier=3, non-outlier=471,=maxPredLabel=220
+	Gibbs sampling successful! Start to saving results.
+start doc=0, end doc=474
+total texts=474, total clusters=97
+	Saving successful!
+Batch 2
+30322
+	949 documents will be analyze. alpha is 28.47.
+	Initialization.
+	iter is  1
+maxPredLabel=166
+outlier=17, non-outlier=458,=maxPredLabel=255
+	Gibbs sampling successful! Start to saving results.
+start doc=474, end doc=949
+total texts=949, total clusters=119
+	Saving successful!
+Batch 3
+30322
+	1424 documents will be analyze. alpha is 42.72.
+	Initialization.
+	iter is  1
+maxPredLabel=192
+outlier=20, non-outlier=455,=maxPredLabel=287
+	Gibbs sampling successful! Start to saving results.
+start doc=949, end doc=1424
+total texts=1424, total clusters=139
+	Saving successful!
+Batch 4
+30322
+	1899 documents will be analyze. alpha is 56.97.
+	Initialization.
+	iter is  1
+maxPredLabel=215
+outlier=16, non-outlier=459,=maxPredLabel=314
+	Gibbs sampling successful! Start to saving results.
+start doc=1424, end doc=1899
+total texts=1899, total clusters=152
+	Saving successful!
+Batch 5
+30322
+	2374 documents will be analyze. alpha is 71.22.
+	Initialization.
+	iter is  1
+maxPredLabel=234
+outlier=17, non-outlier=458,=maxPredLabel=326
+	Gibbs sampling successful! Start to saving results.
+start doc=1899, end doc=2374
+total texts=2374, total clusters=172
+	Saving successful!
+Batch 6
+30322
+	2849 documents will be analyze. alpha is 85.47.
+	Initialization.
+	iter is  1
+maxPredLabel=248
+outlier=14, non-outlier=461,=maxPredLabel=336
+	Gibbs sampling successful! Start to saving results.
+start doc=2374, end doc=2849
+total texts=2849, total clusters=181
+	Saving successful!
+Batch 7
+30322
+	3324 documents will be analyze. alpha is 99.72.
+	Initialization.
+	iter is  1
+maxPredLabel=264
+outlier=15, non-outlier=460,=maxPredLabel=354
+	Gibbs sampling successful! Start to saving results.
+start doc=2849, end doc=3324
+total texts=3324, total clusters=192
+	Saving successful!
+Batch 8
+30322
+	3799 documents will be analyze. alpha is 113.97.
+	Initialization.
+	iter is  1
+maxPredLabel=272
+outlier=17, non-outlier=458,=maxPredLabel=363
+	Gibbs sampling successful! Start to saving results.
+start doc=3324, end doc=3799
+total texts=3799, total clusters=198
+	Saving successful!
+Batch 9
+30322
+	4274 documents will be analyze. alpha is 128.22.
+	Initialization.
+	iter is  1
+maxPredLabel=289
+outlier=16, non-outlier=459,=maxPredLabel=386
+	Gibbs sampling successful! Start to saving results.
+start doc=3799, end doc=4274
+total texts=4274, total clusters=207
+	Saving successful!
+Batch 10
+30322
+	4749 documents will be analyze. alpha is 142.47.
+	Initialization.
+	iter is  1
+maxPredLabel=311
+outlier=19, non-outlier=456,=maxPredLabel=415
+	Gibbs sampling successful! Start to saving results.
+start doc=4274, end doc=4749
+total texts=4749, total clusters=223
+	Saving successful!
+Batch 11
+30322
+	5224 documents will be analyze. alpha is 156.72.
+	Initialization.
+	iter is  1
+maxPredLabel=338
+outlier=26, non-outlier=449,=maxPredLabel=448
+	Gibbs sampling successful! Start to saving results.
+start doc=4749, end doc=5224
+total texts=5224, total clusters=237
+	Saving successful!
+Batch 12
+30322
+	5699 documents will be analyze. alpha is 170.97.
+	Initialization.
+	iter is  1
+maxPredLabel=359
+outlier=21, non-outlier=454,=maxPredLabel=455
+	Gibbs sampling successful! Start to saving results.
+start doc=5224, end doc=5699
+total texts=5699, total clusters=249
+	Saving successful!
+Batch 13
+30322
+	6174 documents will be analyze. alpha is 185.22.
+	Initialization.
+	iter is  1
+maxPredLabel=384
+outlier=21, non-outlier=454,=maxPredLabel=499
+	Gibbs sampling successful! Start to saving results.
+start doc=5699, end doc=6174
+total texts=6174, total clusters=262
+	Saving successful!
+Batch 14
+30322
+	6649 documents will be analyze. alpha is 199.47.
+	Initialization.
+	iter is  1
+maxPredLabel=402
+outlier=20, non-outlier=455,=maxPredLabel=512
+	Gibbs sampling successful! Start to saving results.
+start doc=6174, end doc=6649
+total texts=6649, total clusters=276
+	Saving successful!
+Batch 15
+30322
+	7124 documents will be analyze. alpha is 213.72.
+	Initialization.
+	iter is  1
+maxPredLabel=418
+outlier=14, non-outlier=461,=maxPredLabel=515
+	Gibbs sampling successful! Start to saving results.
+start doc=6649, end doc=7124
+total texts=7124, total clusters=291
+	Saving successful!
+Batch 16
+30322
+	7599 documents will be analyze. alpha is 227.97.
+	Initialization.
+	iter is  1
+maxPredLabel=429
+outlier=12, non-outlier=463,=maxPredLabel=497
+	Gibbs sampling successful! Start to saving results.
+start doc=7124, end doc=7599
+total texts=7599, total clusters=299
+	Saving successful!
+Batch 17
+30322
+	8074 documents will be analyze. alpha is 242.22.
+	Initialization.
+	iter is  1
+maxPredLabel=462
+outlier=12, non-outlier=463,=maxPredLabel=562
+	Gibbs sampling successful! Start to saving results.
+start doc=7599, end doc=8074
+total texts=8074, total clusters=317
+	Saving successful!
+Batch 18
+30322
+	8549 documents will be analyze. alpha is 256.47.
+	Initialization.
+	iter is  1
+maxPredLabel=483
+outlier=1, non-outlier=474,=maxPredLabel=530
+	Gibbs sampling successful! Start to saving results.
+start doc=8074, end doc=8549
+total texts=8549, total clusters=331
+	Saving successful!
+Batch 19
+30322
+	9024 documents will be analyze. alpha is 270.72.
+	Initialization.
+	iter is  1
+maxPredLabel=528
+outlier=3, non-outlier=472,=maxPredLabel=621
+	Gibbs sampling successful! Start to saving results.
+start doc=8549, end doc=9024
+total texts=9024, total clusters=361
+	Saving successful!
+Batch 20
+30322
+	9499 documents will be analyze. alpha is 284.97.
+	Initialization.
+	iter is  1
+maxPredLabel=563
+outlier=5, non-outlier=470,=maxPredLabel=659
+	Gibbs sampling successful! Start to saving results.
+start doc=9024, end doc=9499
+total texts=9499, total clusters=384
+	Saving successful!
+Batch 21
+30322
+	9974 documents will be analyze. alpha is 299.22.
+	Initialization.
+	iter is  1
+maxPredLabel=594
+outlier=4, non-outlier=471,=maxPredLabel=669
+	Gibbs sampling successful! Start to saving results.
+start doc=9499, end doc=9974
+total texts=9974, total clusters=401
+	Saving successful!
+Batch 22
+30322
+	10449 documents will be analyze. alpha is 313.47.
+	Initialization.
+	iter is  1
+maxPredLabel=621
+outlier=4, non-outlier=471,=maxPredLabel=708
+	Gibbs sampling successful! Start to saving results.
+start doc=9974, end doc=10449
+total texts=10449, total clusters=418
+	Saving successful!
+Batch 23
+30322
+	10924 documents will be analyze. alpha is 327.72.
+	Initialization.
+	iter is  1
+maxPredLabel=644
+outlier=6, non-outlier=469,=maxPredLabel=733
+	Gibbs sampling successful! Start to saving results.
+start doc=10449, end doc=10924
+total texts=10924, total clusters=434
+	Saving successful!
+Batch 24
+30322
+	11399 documents will be analyze. alpha is 341.97.
+	Initialization.
+	iter is  1
+maxPredLabel=672
+outlier=5, non-outlier=470,=maxPredLabel=762
+	Gibbs sampling successful! Start to saving results.
+start doc=10924, end doc=11399
+total texts=11399, total clusters=452
+	Saving successful!
+Batch 25
+30322
+	11874 documents will be analyze. alpha is 356.22.
+	Initialization.
+	iter is  1
+maxPredLabel=691
+outlier=4, non-outlier=471,=maxPredLabel=765
+	Gibbs sampling successful! Start to saving results.
+start doc=11399, end doc=11874
+total texts=11874, total clusters=463
+	Saving successful!
+Batch 26
+30322
+	12349 documents will be analyze. alpha is 370.47.
+	Initialization.
+	iter is  1
+maxPredLabel=705
+outlier=4, non-outlier=471,=maxPredLabel=774
+	Gibbs sampling successful! Start to saving results.
+start doc=11874, end doc=12349
+total texts=12349, total clusters=473
+	Saving successful!
+Batch 27
+30322
+	12824 documents will be analyze. alpha is 384.72.
+	Initialization.
+	iter is  1
+maxPredLabel=727
+outlier=5, non-outlier=470,=maxPredLabel=795
+	Gibbs sampling successful! Start to saving results.
+start doc=12349, end doc=12824
+total texts=12824, total clusters=486
+	Saving successful!
+Batch 28
+30322
+	13299 documents will be analyze. alpha is 398.97.
+	Initialization.
+	iter is  1
+maxPredLabel=737
+outlier=1, non-outlier=474,=maxPredLabel=784
+	Gibbs sampling successful! Start to saving results.
+start doc=12824, end doc=13299
+total texts=13299, total clusters=492
+	Saving successful!
+Batch 29
+30322
+	13774 documents will be analyze. alpha is 413.22.
+	Initialization.
+	iter is  1
+maxPredLabel=755
+outlier=2, non-outlier=473,=maxPredLabel=823
+	Gibbs sampling successful! Start to saving results.
+start doc=13299, end doc=13774
+total texts=13774, total clusters=502
+	Saving successful!
+Batch 30
+30322
+	14249 documents will be analyze. alpha is 427.47.
+	Initialization.
+	iter is  1
+maxPredLabel=785
+outlier=9, non-outlier=466,=maxPredLabel=885
+	Gibbs sampling successful! Start to saving results.
+start doc=13774, end doc=14249
+total texts=14249, total clusters=520
+	Saving successful!
+Batch 31
+30322
+	14724 documents will be analyze. alpha is 441.72.
+	Initialization.
+	iter is  1
+maxPredLabel=797
+outlier=7, non-outlier=468,=maxPredLabel=889
+	Gibbs sampling successful! Start to saving results.
+start doc=14249, end doc=14724
+total texts=14724, total clusters=527
+	Saving successful!
+Batch 32
+30322
+	15199 documents will be analyze. alpha is 455.97.
+	Initialization.
+	iter is  1
+maxPredLabel=831
+outlier=5, non-outlier=470,=maxPredLabel=944
+	Gibbs sampling successful! Start to saving results.
+start doc=14724, end doc=15199
+total texts=15199, total clusters=546
+	Saving successful!
+Batch 33
+30322
+	15674 documents will be analyze. alpha is 470.22.
+	Initialization.
+	iter is  1
+maxPredLabel=844
+outlier=3, non-outlier=472,=maxPredLabel=913
+	Gibbs sampling successful! Start to saving results.
+start doc=15199, end doc=15674
+total texts=15674, total clusters=553
+	Saving successful!
+Batch 34
+30322
+	16149 documents will be analyze. alpha is 484.47.
+	Initialization.
+	iter is  1
+maxPredLabel=859
+outlier=6, non-outlier=469,=maxPredLabel=950
+	Gibbs sampling successful! Start to saving results.
+start doc=15674, end doc=16149
+total texts=16149, total clusters=562
+	Saving successful!
+Batch 35
+30322
+	16624 documents will be analyze. alpha is 498.72.
+	Initialization.
+	iter is  1
+maxPredLabel=890
+outlier=9, non-outlier=466,=maxPredLabel=1003
+	Gibbs sampling successful! Start to saving results.
+start doc=16149, end doc=16624
+total texts=16624, total clusters=577
+	Saving successful!
+Batch 36
+30322
+	17099 documents will be analyze. alpha is 512.97.
+	Initialization.
+	iter is  1
+maxPredLabel=910
+outlier=3, non-outlier=472,=maxPredLabel=988
+	Gibbs sampling successful! Start to saving results.
+start doc=16624, end doc=17099
+total texts=17099, total clusters=588
+	Saving successful!
+Batch 37
+30322
+	17574 documents will be analyze. alpha is 527.22.
+	Initialization.
+	iter is  1
+maxPredLabel=920
+outlier=3, non-outlier=472,=maxPredLabel=982
+	Gibbs sampling successful! Start to saving results.
+start doc=17099, end doc=17574
+total texts=17574, total clusters=594
+	Saving successful!
+Batch 38
+30322
+	18049 documents will be analyze. alpha is 541.47.
+	Initialization.
+	iter is  1
+maxPredLabel=932
+outlier=3, non-outlier=472,=maxPredLabel=993
+	Gibbs sampling successful! Start to saving results.
+start doc=17574, end doc=18049
+total texts=18049, total clusters=600
+	Saving successful!
+Batch 39
+30322
+	18524 documents will be analyze. alpha is 555.72.
+	Initialization.
+	iter is  1
+maxPredLabel=949
+outlier=4, non-outlier=471,=maxPredLabel=1037
+	Gibbs sampling successful! Start to saving results.
+start doc=18049, end doc=18524
+total texts=18524, total clusters=613
+	Saving successful!
+Batch 40
+30322
+	18999 documents will be analyze. alpha is 569.97.
+	Initialization.
+	iter is  1
+maxPredLabel=980
+outlier=7, non-outlier=468,=maxPredLabel=1087
+	Gibbs sampling successful! Start to saving results.
+start doc=18524, end doc=18999
+total texts=18999, total clusters=629
+	Saving successful!
+Batch 41
+30322
+	19474 documents will be analyze. alpha is 584.22.
+	Initialization.
+	iter is  1
+maxPredLabel=994
+outlier=5, non-outlier=470,=maxPredLabel=1073
+	Gibbs sampling successful! Start to saving results.
+start doc=18999, end doc=19474
+total texts=19474, total clusters=637
+	Saving successful!
+Batch 42
+30322
+	19949 documents will be analyze. alpha is 598.47.
+	Initialization.
+	iter is  1
+maxPredLabel=1025
+outlier=4, non-outlier=471,=maxPredLabel=1118
+	Gibbs sampling successful! Start to saving results.
+start doc=19474, end doc=19949
+total texts=19949, total clusters=654
+	Saving successful!
+Batch 43
+30322
+	20424 documents will be analyze. alpha is 612.72.
+	Initialization.
+	iter is  1
+maxPredLabel=1034
+outlier=1, non-outlier=474,=maxPredLabel=1115
+	Gibbs sampling successful! Start to saving results.
+start doc=19949, end doc=20424
+total texts=20424, total clusters=660
+	Saving successful!
+Batch 44
+30322
+	20899 documents will be analyze. alpha is 626.97.
+	Initialization.
+	iter is  1
+maxPredLabel=1051
+outlier=2, non-outlier=473,=maxPredLabel=1145
+	Gibbs sampling successful! Start to saving results.
+start doc=20424, end doc=20899
+total texts=20899, total clusters=668
+	Saving successful!
+Batch 45
+30322
+	21374 documents will be analyze. alpha is 641.22.
+	Initialization.
+	iter is  1
+maxPredLabel=1068
+outlier=3, non-outlier=472,=maxPredLabel=1165
+	Gibbs sampling successful! Start to saving results.
+start doc=20899, end doc=21374
+total texts=21374, total clusters=678
+	Saving successful!
+Batch 46
+30322
+	21849 documents will be analyze. alpha is 655.47.
+	Initialization.
+	iter is  1
+maxPredLabel=1092
+outlier=4, non-outlier=471,=maxPredLabel=1194
+	Gibbs sampling successful! Start to saving results.
+start doc=21374, end doc=21849
+total texts=21849, total clusters=692
+	Saving successful!
+Batch 47
+30322
+	22324 documents will be analyze. alpha is 669.72.
+	Initialization.
+	iter is  1
+maxPredLabel=1103
+outlier=6, non-outlier=469,=maxPredLabel=1175
+	Gibbs sampling successful! Start to saving results.
+start doc=21849, end doc=22324
+total texts=22324, total clusters=699
+	Saving successful!
+Batch 48
+30322
+	22799 documents will be analyze. alpha is 683.97.
+	Initialization.
+	iter is  1
+maxPredLabel=1117
+outlier=1, non-outlier=474,=maxPredLabel=1181
+	Gibbs sampling successful! Start to saving results.
+start doc=22324, end doc=22799
+total texts=22799, total clusters=706
+	Saving successful!
+Batch 49
+30322
+	23274 documents will be analyze. alpha is 698.22.
+	Initialization.
+	iter is  1
+maxPredLabel=1138
+outlier=5, non-outlier=470,=maxPredLabel=1221
+	Gibbs sampling successful! Start to saving results.
+start doc=22799, end doc=23274
+total texts=23274, total clusters=716
+	Saving successful!
+Batch 50
+30322
+	23749 documents will be analyze. alpha is 712.47.
+	Initialization.
+	iter is  1
+maxPredLabel=1169
+outlier=2, non-outlier=473,=maxPredLabel=1256
+	Gibbs sampling successful! Start to saving results.
+start doc=23274, end doc=23749
+total texts=23749, total clusters=732
+	Saving successful!
+Batch 51
+30322
+	24224 documents will be analyze. alpha is 726.72.
+	Initialization.
+	iter is  1
+maxPredLabel=1246
+outlier=6, non-outlier=469,=maxPredLabel=1368
+	Gibbs sampling successful! Start to saving results.
+start doc=23749, end doc=24224
+total texts=24224, total clusters=779
+	Saving successful!
+Batch 52
+30322
+	24699 documents will be analyze. alpha is 740.97.
+	Initialization.
+	iter is  1
+maxPredLabel=1304
+outlier=1, non-outlier=474,=maxPredLabel=1413
+	Gibbs sampling successful! Start to saving results.
+start doc=24224, end doc=24699
+total texts=24699, total clusters=817
+	Saving successful!
+Batch

@@ -1,0 +1,530 @@
+news-t-remove 20 words for entropy 
+100000
+200000
+300000
+400000
+500000
+600000
+700000
+800000
+900000
+1000000
+1100000
+1200000
+1300000
+1400000
+1500000
+1600000
+1700000
+1800000
+1900000
+wordVectorsDic length 1917494
+number of documents is  11109
+self.V=all the words in all documents
+8110
+SampleNo:1
+result/
+K0iterNum1SampleNum1alpha0.03beta0.03BatchNum1BatchSaved1
+No timefil!
+before call run_MStream, self.K=0,self.iterNum=1, self.V=8110
+batchNum2tweetID is  {1: -1}
+Batch 1
+11109
+	11109 documents will be analyze. alpha is 333.27.
+	Initialization.
+	iter is  1
+maxPredLabel=457
+before remove outlier
+evaluate total texts=11109
+homogeneity_score-whole-data:   0.8545
+completeness_score-whole-data:   0.8382
+v_measure_score-whole-data:   0.8463
+nmi_score-whole-data:   0.8463
+adjusted_mutual_info_score-whole-data:   0.8075
+adjusted_rand_score-whole-data:   0.6307
+pred clusters=248, true clusters=152
+purity majority whole data=0.7559636330902871
+high_entropy_words=552, total words=8105
+#m-stream-cleaned
+evaluate total texts=11103
+homogeneity_score-whole-data:   0.8559
+completeness_score-whole-data:   0.8387
+v_measure_score-whole-data:   0.8472
+nmi_score-whole-data:   0.8472
+adjusted_mutual_info_score-whole-data:   0.8079
+adjusted_rand_score-whole-data:   0.6311
+pred clusters=258, true clusters=152
+purity majority whole data=0.7584436638746285
+minPred, maxPred, minTrue, maxTrue=(pred_true_texts_to_cluster)
+0 364 1 152
+minPred, maxPred, minTrue, maxTrue=(pred_true_texts_to_not_cluster)
+2 673 1 151
+#clusters=20
+#not clusters=238
+this clustering with embedding DCT
+#update clusters=218
+Start generating sentence DCT vecs for multiple sentences...
+4484
+len(wordVecs)==0
+thanksgivukkah 0
+len(wordVecs)==0
+thanksgivukkah 0
+len(wordVecs)==0
+thanksgivukkah 0
+#hr-ward-DCT
+0 217
+evaluate total texts=4481
+homogeneity_score-whole-data:   0.8834
+completeness_score-whole-data:   0.5777
+v_measure_score-whole-data:   0.6986
+nmi_score-whole-data:   0.6986
+adjusted_mutual_info_score-whole-data:   0.5028
+adjusted_rand_score-whole-data:   0.1968
+pred clusters=218, true clusters=75
+purity majority whole data=0.8777058692256193
+evaluate total texts=11100
+homogeneity_score-whole-data:   0.8770
+completeness_score-whole-data:   0.7183
+v_measure_score-whole-data:   0.7898
+nmi_score-whole-data:   0.7898
+adjusted_mutual_info_score-whole-data:   0.6358
+adjusted_rand_score-whole-data:   0.3553
+pred clusters=456, true clusters=152
+purity majority whole data=0.8102702702702703
+Start generating sentence vecs for multiple sentences...
+4484
+missing Word Count=1, original len=6
+missing Word Count=1, original len=6
+missing Word Count=1, original len=7
+missing Word Count=1, original len=9
+missing Word Count=1, original len=7
+missing Word Count=1, original len=9
+missing Word Count=1, original len=9
+missing Word Count=1, original len=9
+missing Word Count=1, original len=7
+missing Word Count=1, original len=8
+missing Word Count=1, original len=7
+missing Word Count=1, original len=5
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=1, original len=3
+missing Word Count=1, original len=2
+missing Word Count=2, original len=8
+missing Word Count=1, original len=2
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=1, original len=2
+missing Word Count=1, original len=6
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=5
+missing Word Count=1, original len=1
+missing Word Count=1, original len=5
+missing Word Count=1, original len=7
+missing Word Count=1, original len=4
+missing Word Count=1, original len=1
+missing Word Count=1, original len=2
+missing Word Count=1, original len=2
+missing Word Count=1, original len=6
+missing Word Count=1, original len=4
+missing Word Count=1, original len=1
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=1, original len=2
+missing Word Count=1, original len=6
+missing Word Count=1, original len=5
+missing Word Count=1, original len=3
+missing Word Count=2, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=2
+missing Word Count=1, original len=5
+missing Word Count=1, original len=5
+missing Word Count=1, original len=3
+missing Word Count=1, original len=6
+missing Word Count=1, original len=6
+missing Word Count=1, original len=6
+missing Word Count=1, original len=4
+missing Word Count=1, original len=2
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=1, original len=3
+missing Word Count=1, original len=2
+missing Word Count=1, original len=2
+missing Word Count=1, original len=2
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=5
+missing Word Count=1, original len=2
+missing Word Count=1, original len=5
+missing Word Count=1, original len=7
+missing Word Count=1, original len=2
+missing Word Count=1, original len=4
+missing Word Count=1, original len=7
+missing Word Count=1, original len=4
+missing Word Count=1, original len=6
+missing Word Count=1, original len=3
+missing Word Count=1, original len=6
+missing Word Count=1, original len=4
+missing Word Count=1, original len=5
+missing Word Count=1, original len=6
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=5
+missing Word Count=2, original len=5
+missing Word Count=1, original len=5
+missing Word Count=1, original len=2
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=1, original len=5
+missing Word Count=1, original len=7
+missing Word Count=1, original len=5
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=7
+missing Word Count=1, original len=5
+missing Word Count=1, original len=7
+missing Word Count=1, original len=7
+missing Word Count=1, original len=4
+missing Word Count=1, original len=3
+missing Word Count=1, original len=5
+missing Word Count=1, original len=5
+missing Word Count=1, original len=8
+missing Word Count=1, original len=6
+missing Word Count=1, original len=6
+missing Word Count=1, original len=8
+missing Word Count=1, original len=5
+missing Word Count=1, original len=7
+missing Word Count=1, original len=3
+missing Word Count=1, original len=5
+#hr-ward-AVG
+0 217
+evaluate total texts=4484
+homogeneity_score-whole-data:   0.9304
+completeness_score-whole-data:   0.6158
+v_measure_score-whole-data:   0.7411
+nmi_score-whole-data:   0.7411
+adjusted_mutual_info_score-whole-data:   0.5489
+adjusted_rand_score-whole-data:   0.2449
+pred clusters=218, true clusters=75
+purity majority whole data=0.9174843889384479
+evaluate total texts=11103
+homogeneity_score-whole-data:   0.8911
+completeness_score-whole-data:   0.7330
+v_measure_score-whole-data:   0.8043
+nmi_score-whole-data:   0.8043
+adjusted_mutual_info_score-whole-data:   0.6557
+adjusted_rand_score-whole-data:   0.3748
+pred clusters=456, true clusters=152
+purity majority whole data=0.8263532378636405
+#spectral-avg
+evaluate total texts=4484
+homogeneity_score-whole-data:   0.9127
+completeness_score-whole-data:   0.6650
+v_measure_score-whole-data:   0.7694
+nmi_score-whole-data:   0.7694
+adjusted_mutual_info_score-whole-data:   0.6118
+adjusted_rand_score-whole-data:   0.4034
+pred clusters=214, true clusters=75
+purity majority whole data=0.9141391614629795
+evaluate total texts=11103
+homogeneity_score-whole-data:   0.8858
+completeness_score-whole-data:   0.7543
+v_measure_score-whole-data:   0.8148
+nmi_score-whole-data:   0.8148
+adjusted_mutual_info_score-whole-data:   0.6882
+adjusted_rand_score-whole-data:   0.4409
+pred clusters=452, true clusters=152
+purity majority whole data=0.8250022516436999
+#brc-avg
+evaluate total texts=4484
+homogeneity_score-whole-data:   0.9346
+completeness_score-whole-data:   0.6194
+v_measure_score-whole-data:   0.7451
+nmi_score-whole-data:   0.7451
+adjusted_mutual_info_score-whole-data:   0.5530
+adjusted_rand_score-whole-data:   0.2565
+pred clusters=218, true clusters=75
+purity majority whole data=0.9165923282783229
+evaluate total texts=11103
+homogeneity_score-whole-data:   0.8924
+completeness_score-whole-data:   0.7344
+v_measure_score-whole-data:   0.8057
+nmi_score-whole-data:   0.8057
+adjusted_mutual_info_score-whole-data:   0.6575
+adjusted_rand_score-whole-data:   0.3795
+pred clusters=456, true clusters=152
+purity majority whole data=0.8259929748716563
+#gmm-avg
+evaluate total texts=4484
+homogeneity_score-whole-data:   0.9285
+completeness_score-whole-data:   0.6106
+v_measure_score-whole-data:   0.7367
+nmi_score-whole-data:   0.7367
+adjusted_mutual_info_score-whole-data:   0.5425
+adjusted_rand_score-whole-data:   0.2272
+pred clusters=218, true clusters=75
+purity majority whole data=0.9168153434433541
+evaluate total texts=11103
+homogeneity_score-whole-data:   0.8905
+completeness_score-whole-data:   0.7307
+v_measure_score-whole-data:   0.8028
+nmi_score-whole-data:   0.8028
+adjusted_mutual_info_score-whole-data:   0.6524
+adjusted_rand_score-whole-data:   0.3678
+pred clusters=456, true clusters=152
+purity majority whole data=0.8260830406196523
+
+	Gibbs sampling successful! Start to saving results.
+start doc=0, end doc=11109
+total texts=11109, total clusters=248
+	Saving successful!
+final dic len=248
+cluster id=34, items=102
+cluster id=38, items=38
+cluster id=2, items=67
+cluster id=3, items=50
+cluster id=5, items=177
+cluster id=6, items=27
+cluster id=8, items=3
+cluster id=50, items=55
+cluster id=70, items=87
+cluster id=24, items=26
+cluster id=18, items=20
+cluster id=32, items=24
+cluster id=20, items=18
+cluster id=12, items=25
+cluster id=22, items=72
+cluster id=0, items=158
+cluster id=23, items=5
+cluster id=46, items=50
+cluster id=28, items=38
+cluster id=29, items=29
+cluster id=14, items=56
+cluster id=31, items=26
+cluster id=142, items=54
+cluster id=7, items=3
+cluster id=79, items=100
+cluster id=43, items=3
+cluster id=158, items=166
+cluster id=84, items=70
+cluster id=47, items=23
+cluster id=48, items=15
+cluster id=80, items=32
+cluster id=119, items=1
+cluster id=408, items=1
+cluster id=381, items=28
+cluster id=216, items=90
+cluster id=257, items=77
+cluster id=62, items=63
+cluster id=228, items=70
+cluster id=74, items=53
+cluster id=78, items=1
+cluster id=35, items=4
+cluster id=75, items=15
+cluster id=88, items=42
+cluster id=365, items=54
+cluster id=91, items=132
+cluster id=85, items=67
+cluster id=212, items=31
+cluster id=98, items=5
+cluster id=90, items=52
+cluster id=101, items=2
+cluster id=27, items=2
+cluster id=102, items=17
+cluster id=49, items=2
+cluster id=13, items=4
+cluster id=409, items=1
+cluster id=410, items=1
+cluster id=411, items=1
+cluster id=153, items=138
+cluster id=121, items=3
+cluster id=144, items=170
+cluster id=60, items=42
+cluster id=126, items=105
+cluster id=127, items=22
+cluster id=128, items=106
+cluster id=130, items=109
+cluster id=106, items=129
+cluster id=133, items=54
+cluster id=135, items=28
+cluster id=412, items=1
+cluster id=171, items=49
+cluster id=139, items=10
+cluster id=132, items=2
+cluster id=113, items=106
+cluster id=145, items=53
+cluster id=147, items=35
+cluster id=236, items=70
+cluster id=149, items=3
+cluster id=233, items=73
+cluster id=114, items=34
+cluster id=64, items=4
+cluster id=17, items=51
+cluster id=162, items=85
+cluster id=163, items=3
+cluster id=68, items=11
+cluster id=143, items=3
+cluster id=138, items=14
+cluster id=166, items=2
+cluster id=168, items=4
+cluster id=140, items=61
+cluster id=413, items=1
+cluster id=172, items=1
+cluster id=192, items=27
+cluster id=303, items=185
+cluster id=180, items=2
+cluster id=256, items=52
+cluster id=184, items=93
+cluster id=300, items=20
+cluster id=152, items=89
+cluster id=414, items=1
+cluster id=190, items=3
+cluster id=58, items=96
+cluster id=282, items=109
+cluster id=61, items=83
+cluster id=195, items=42
+cluster id=201, items=96
+cluster id=197, items=4
+cluster id=198, items=156
+cluster id=199, items=11
+cluster id=196, items=41
+cluster id=33, items=5
+cluster id=214, items=440
+cluster id=237, items=31
+cluster id=56, items=216
+cluster id=383, items=29
+cluster id=185, items=1
+cluster id=217, items=3
+cluster id=160, items=15
+cluster id=229, items=397
+cluster id=215, items=153
+cluster id=234, items=41
+cluster id=232, items=101
+cluster id=203, items=87
+cluster id=415, items=1
+cluster id=416, items=1
+cluster id=241, items=81
+cluster id=156, items=2
+cluster id=284, items=15
+cluster id=243, items=2
+cluster id=151, items=97
+cluster id=105, items=173
+cluster id=191, items=4
+cluster id=337, items=63
+cluster id=265, items=63
+cluster id=251, items=57
+cluster id=255, items=326
+cluster id=95, items=190
+cluster id=250, items=2
+cluster id=10, items=23
+cluster id=252, items=43
+cluster id=125, items=183
+cluster id=261, items=8
+cluster id=417, items=1
+cluster id=30, items=6
+cluster id=225, items=18
+cluster id=264, items=9
+cluster id=258, items=3
+cluster id=288, items=67
+cluster id=266, items=4
+cluster id=253, items=36
+cluster id=418, items=1
+cluster id=419, items=1
+cluster id=420, items=1
+cluster id=421, items=1
+cluster id=273, items=83
+cluster id=339, items=104
+cluster id=422, items=1
+cluster id=202, items=287
+cluster id=423, items=1
+cluster id=294, items=17
+cluster id=321, items=165
+cluster id=293, items=107
+cluster id=310, items=176
+cluster id=175, items=30
+cluster id=295, items=36
+cluster id=296, items=23
+cluster id=389, items=6
+cluster id=204, items=41
+cluster id=129, items=3
+cluster id=424, items=1
+cluster id=343, items=34
+cluster id=39, items=211
+cluster id=301, items=56
+cluster id=97, items=19
+cluster id=305, items=3
+cluster id=211, items=2
+cluster id=267, items=1
+cluster id=150, items=23
+cluster id=309, items=389
+cluster id=315, items=110
+cluster id=311, items=13
+cluster id=425, items=1
+cluster id=426, items=1
+cluster id=427, items=1
+cluster id=428, items=1
+cluster id=322, items=26
+cluster id=213, items=15
+cluster id=327, items=4
+cluster id=429, items=1
+cluster id=93, items=2
+cluster id=430, items=1
+cluster id=431, items=1
+cluster id=73, items=11
+cluster id=432, items=1
+cluster id=433, items=1
+cluster id=107, items=27
+cluster id=40, items=16
+cluster id=338, items=134
+cluster id=206, items=6
+cluster id=341, items=8
+cluster id=434, items=1
+cluster id=349, items=15
+cluster id=77, items=126
+cluster id=382, items=2
+cluster id=120, items=109
+cluster id=218, items=29
+cluster id=351, items=82
+cluster id=76, items=105
+cluster id=435, items=1
+cluster id=362, items=2
+cluster id=364, items=166
+cluster id=366, items=12
+cluster id=436, items=1
+cluster id=369, items=10
+cluster id=374, items=2
+cluster id=437, items=1
+cluster id=438, items=1
+cluster id=439, items=1
+cluster id=53, items=10
+cluster id=188, items=7
+cluster id=66, items=1
+cluster id=440, items=1
+cluster id=134, items=18
+cluster id=441, items=1
+cluster id=387, items=3
+cluster id=442, items=1
+cluster id=443, items=1
+cluster id=444, items=1
+cluster id=445, items=1
+cluster id=391, items=27
+cluster id=446, items=1
+cluster id=112, items=2
+cluster id=179, items=3
+cluster id=447, items=1
+cluster id=4, items=5
+cluster id=448, items=1
+cluster id=449, items=1
+cluster id=210, items=2
+cluster id=450, items=1
+cluster id=451, items=1
+cluster id=452, items=1
+cluster id=453, items=1
+cluster id=454, items=1
+cluster id=455, items=1
+cluster id=402, items=2
+cluster id=404, items=4
+cluster id=314, items=13
+cluster id=456, items=1
+cluster id=457, items=1

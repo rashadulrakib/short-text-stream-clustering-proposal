@@ -1,0 +1,328 @@
+number of documents is  30322
+self.V=all the words in all documents
+12301
+SampleNo:1
+result/
+K0iterNum10SampleNum1alpha0.03beta0.03BatchNum32BatchSaved32
+No timefil!
+before call run_MStream, self.K=0,self.iterNum=10, self.V=12301
+batchNum2tweetID is  {1: 949, 2: 1898, 3: 2847, 4: 3796, 5: 4745, 6: 5694, 7: 6643, 8: 7592, 9: 8541, 10: 9490, 11: 10439, 12: 11388, 13: 12337, 14: 13286, 15: 14235, 16: 15184, 17: 16133, 18: 17082, 19: 18031, 20: 18980, 21: 19929, 22: 20878, 23: 21827, 24: 22776, 25: 23725, 26: 24674, 27: 25623, 28: 26572, 29: 27521, 30: 28470, 31: 29419, 32: -1}
+Batch 1
+30322
+	948 documents will be analyze. alpha is 28.44.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+maxPredLabel=345
+outlier=0, non-outlier=948,=maxPredLabel=454
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/TweetsK0iterNum10SampleNum1alpha0.03beta0.03BatchNum32BatchSaved32Batch1/
+start doc=0, end doc=948
+total texts=948, total clusters=109
+	Saving successful!
+Batch 2
+30322
+	1897 documents will be analyze. alpha is 56.91.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+maxPredLabel=495
+outlier=19, non-outlier=930,=maxPredLabel=604
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/TweetsK0iterNum10SampleNum1alpha0.03beta0.03BatchNum32BatchSaved32Batch2/
+start doc=948, end doc=1897
+total texts=1897, total clusters=142
+	Saving successful!
+Batch 3
+30322
+	2846 documents will be analyze. alpha is 85.38.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+maxPredLabel=609
+outlier=19, non-outlier=930,=maxPredLabel=717
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/TweetsK0iterNum10SampleNum1alpha0.03beta0.03BatchNum32BatchSaved32Batch3/
+start doc=1897, end doc=2846
+total texts=2846, total clusters=164
+	Saving successful!
+Batch 4
+30322
+	3795 documents will be analyze. alpha is 113.85.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+maxPredLabel=685
+outlier=28, non-outlier=921,=maxPredLabel=780
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/TweetsK0iterNum10SampleNum1alpha0.03beta0.03BatchNum32BatchSaved32Batch4/
+start doc=2846, end doc=3795
+total texts=3795, total clusters=172
+	Saving successful!
+Batch 5
+30322
+	4744 documents will be analyze. alpha is 142.32.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+maxPredLabel=768
+outlier=25, non-outlier=924,=maxPredLabel=861
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/TweetsK0iterNum10SampleNum1alpha0.03beta0.03BatchNum32BatchSaved32Batch5/
+start doc=3795, end doc=4744
+total texts=4744, total clusters=185
+	Saving successful!
+Batch 6
+30322
+	5693 documents will be analyze. alpha is 170.79.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+maxPredLabel=884
+outlier=30, non-outlier=919,=maxPredLabel=992
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/TweetsK0iterNum10SampleNum1alpha0.03beta0.03BatchNum32BatchSaved32Batch6/
+start doc=4744, end doc=5693
+total texts=5693, total clusters=208
+	Saving successful!
+Batch 7
+30322
+	6642 documents will be analyze. alpha is 199.26.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+maxPredLabel=989
+outlier=30, non-outlier=919,=maxPredLabel=1101
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/TweetsK0iterNum10SampleNum1alpha0.03beta0.03BatchNum32BatchSaved32Batch7/
+start doc=5693, end doc=6642
+total texts=6642, total clusters=226
+	Saving successful!
+Batch 8
+30322
+	7591 documents will be analyze. alpha is 227.73.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+maxPredLabel=1063
+outlier=24, non-outlier=925,=maxPredLabel=1152
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/TweetsK0iterNum10SampleNum1alpha0.03beta0.03BatchNum32BatchSaved32Batch8/
+start doc=6642, end doc=7591
+total texts=7591, total clusters=237
+	Saving successful!
+Batch 9
+30322
+	8540 documents will be analyze. alpha is 256.20.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+maxPredLabel=1197
+outlier=20, non-outlier=929,=maxPredLabel=1300
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/TweetsK0iterNum10SampleNum1alpha0.03beta0.03BatchNum32BatchSaved32Batch9/
+start doc=7591, end doc=8540
+total texts=8540, total clusters=268
+	Saving successful!
+Batch 10
+30322
+	9489 documents will be analyze. alpha is 284.67.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+maxPredLabel=1383
+outlier=16, non-outlier=933,=maxPredLabel=1492
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/TweetsK0iterNum10SampleNum1alpha0.03beta0.03BatchNum32BatchSaved32Batch10/
+start doc=8540, end doc=9489
+total texts=9489, total clusters=297
+	Saving successful!
+Batch 11
+30322
+	10438 documents will be analyze. alpha is 313.14.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+maxPredLabel=1516
+outlier=4, non-outlier=945,=maxPredLabel=1621
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/TweetsK0iterNum10SampleNum1alpha0.03beta0.03BatchNum32BatchSaved32Batch11/
+start doc=9489, end doc=10438
+total texts=10438, total clusters=326
+	Saving successful!
+Batch 12
+30322
+	11387 documents will be analyze. alpha is 341.61.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+maxPredLabel=1642
+outlier=13, non-outlier=936,=maxPredLabel=1746
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/TweetsK0iterNum10SampleNum1alpha0.03beta0.03BatchNum32BatchSaved32Batch12/
+start doc=10438, end doc=11387
+total texts=11387, total clusters=345
+	Saving successful!
+Batch 13
+30322
+	12336 documents will be analyze. alpha is 370.08.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+maxPredLabel=1757
+outlier=11, non-outlier=938,=maxPredLabel=1847
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/TweetsK0iterNum10SampleNum1alpha0.03beta0.03BatchNum32BatchSaved32Batch13/
+start doc=11387, end doc=12336
+total texts=12336, total clusters=360
+	Saving successful!
+Batch 14
+30322
+	13285 documents will be analyze. alpha is 398.55.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+maxPredLabel=1841
+outlier=6, non-outlier=943,=maxPredLabel=1915
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/TweetsK0iterNum10SampleNum1alpha0.03beta0.03BatchNum32BatchSaved32Batch14/
+start doc=12336, end doc=13285
+total texts=13285, total clusters=373
+	Saving successful!
+Batch 15
+30322
+	14234 documents will be analyze. alpha is 427.02.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+maxPredLabel=1989
+outlier=8, non-outlier=941,=maxPredLabel=2106
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/TweetsK0iterNum10SampleNum1alpha0.03beta0.03BatchNum32BatchSaved32Batch15/
+start doc=13285, end doc=14234
+total texts=14234, total clusters=396
+	Saving successful!
+Batch 16
+30322
+	15183 documents will be analyze. alpha is 455.49.
+	Initialization.

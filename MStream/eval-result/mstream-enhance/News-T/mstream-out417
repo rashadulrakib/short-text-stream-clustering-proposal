@@ -1,0 +1,749 @@
+number of documents is  11109
+self.V=all the words in all documents
+8110
+SampleNo:1
+result/
+K0iterNum1SampleNum1alpha0.03beta0.03BatchNum24BatchSaved24
+No timefil!
+before call run_MStream, self.K=0,self.iterNum=1, self.V=8110
+batchNum2tweetID is  {1: 8436, 2: 7581, 3: 2346, 4: 7887, 5: 4621, 6: 3650, 7: 7866, 8: 2847, 9: 7530, 10: 7352, 11: 6847, 12: 2856, 13: 6522, 14: 3435, 15: 3787, 16: 9490, 17: 3662, 18: 2133, 19: 6871, 20: 505, 21: 5924, 22: 1003, 23: 4545, 24: -1}
+Batch 1
+11109
+	463 documents will be analyze. alpha is 13.89.
+	Initialization.
+	iter is  1
+maxPredLabel=68
+outlier=1, non-outlier=462,=maxPredLabel=118
+	Gibbs sampling successful! Start to saving results.
+start doc=0, end doc=463
+total texts=463, total clusters=49
+	Saving successful!
+Batch 2
+11109
+	927 documents will be analyze. alpha is 27.81.
+	Initialization.
+	iter is  1
+maxPredLabel=103
+outlier=4, non-outlier=460,=maxPredLabel=163
+	Gibbs sampling successful! Start to saving results.
+start doc=463, end doc=927
+total texts=927, total clusters=72
+	Saving successful!
+Batch 3
+11109
+	1391 documents will be analyze. alpha is 41.73.
+	Initialization.
+	iter is  1
+maxPredLabel=139
+outlier=1, non-outlier=463,=maxPredLabel=184
+	Gibbs sampling successful! Start to saving results.
+start doc=927, end doc=1391
+total texts=1391, total clusters=95
+	Saving successful!
+Batch 4
+11109
+	1855 documents will be analyze. alpha is 55.65.
+	Initialization.
+	iter is  1
+maxPredLabel=165
+outlier=0, non-outlier=464,=maxPredLabel=199
+	Gibbs sampling successful! Start to saving results.
+start doc=1391, end doc=1855
+total texts=1855, total clusters=111
+	Saving successful!
+Batch 5
+11109
+	2319 documents will be analyze. alpha is 69.57.
+	Initialization.
+	iter is  1
+maxPredLabel=186
+outlier=3, non-outlier=461,=maxPredLabel=229
+	Gibbs sampling successful! Start to saving results.
+start doc=1855, end doc=2319
+total texts=2319, total clusters=126
+	Saving successful!
+Batch 6
+11109
+	2783 documents will be analyze. alpha is 83.49.
+	Initialization.
+	iter is  1
+maxPredLabel=201
+outlier=0, non-outlier=464,=maxPredLabel=234
+	Gibbs sampling successful! Start to saving results.
+start doc=2319, end doc=2783
+total texts=2783, total clusters=138
+	Saving successful!
+Batch 7
+11109
+	3247 documents will be analyze. alpha is 97.41.
+	Initialization.
+	iter is  1
+maxPredLabel=230
+outlier=5, non-outlier=459,=maxPredLabel=276
+	Gibbs sampling successful! Start to saving results.
+start doc=2783, end doc=3247
+total texts=3247, total clusters=154
+	Saving successful!
+Batch 8
+11109
+	3711 documents will be analyze. alpha is 111.33.
+	Initialization.
+	iter is  1
+maxPredLabel=253
+outlier=4, non-outlier=460,=maxPredLabel=301
+	Gibbs sampling successful! Start to saving results.
+start doc=3247, end doc=3711
+total texts=3711, total clusters=170
+	Saving successful!
+Batch 9
+11109
+	4175 documents will be analyze. alpha is 125.25.
+	Initialization.
+	iter is  1
+maxPredLabel=273
+outlier=0, non-outlier=464,=maxPredLabel=302
+	Gibbs sampling successful! Start to saving results.
+start doc=3711, end doc=4175
+total texts=4175, total clusters=183
+	Saving successful!
+Batch 10
+11109
+	4639 documents will be analyze. alpha is 139.17.
+	Initialization.
+	iter is  1
+maxPredLabel=296
+outlier=0, non-outlier=464,=maxPredLabel=327
+	Gibbs sampling successful! Start to saving results.
+start doc=4175, end doc=4639
+total texts=4639, total clusters=200
+	Saving successful!
+Batch 11
+11109
+	5103 documents will be analyze. alpha is 153.09.
+	Initialization.
+	iter is  1
+maxPredLabel=316
+outlier=1, non-outlier=463,=maxPredLabel=357
+	Gibbs sampling successful! Start to saving results.
+start doc=4639, end doc=5103
+total texts=5103, total clusters=215
+	Saving successful!
+Batch 12
+11109
+	5567 documents will be analyze. alpha is 167.01.
+	Initialization.
+	iter is  1
+maxPredLabel=335
+outlier=1, non-outlier=463,=maxPredLabel=360
+	Gibbs sampling successful! Start to saving results.
+start doc=5103, end doc=5567
+total texts=5567, total clusters=227
+	Saving successful!
+Batch 13
+11109
+	6031 documents will be analyze. alpha is 180.93.
+	Initialization.
+	iter is  1
+maxPredLabel=359
+outlier=0, non-outlier=464,=maxPredLabel=384
+	Gibbs sampling successful! Start to saving results.
+start doc=5567, end doc=6031
+total texts=6031, total clusters=243
+	Saving successful!
+Batch 14
+11109
+	6495 documents will be analyze. alpha is 194.85.
+	Initialization.
+	iter is  1
+maxPredLabel=377
+outlier=1, non-outlier=463,=maxPredLabel=407
+	Gibbs sampling successful! Start to saving results.
+start doc=6031, end doc=6495
+total texts=6495, total clusters=252
+	Saving successful!
+Batch 15
+11109
+	6959 documents will be analyze. alpha is 208.77.
+	Initialization.
+	iter is  1
+maxPredLabel=408
+outlier=4, non-outlier=460,=maxPredLabel=452
+	Gibbs sampling successful! Start to saving results.
+start doc=6495, end doc=6959
+total texts=6959, total clusters=271
+	Saving successful!
+Batch 16
+11109
+	7423 documents will be analyze. alpha is 222.69.
+	Initialization.
+	iter is  1
+maxPredLabel=447
+outlier=0, non-outlier=464,=maxPredLabel=496
+	Gibbs sampling successful! Start to saving results.
+start doc=6959, end doc=7423
+total texts=7423, total clusters=289
+	Saving successful!
+Batch 17
+11109
+	7887 documents will be analyze. alpha is 236.61.
+	Initialization.
+	iter is  1
+maxPredLabel=484
+outlier=6, non-outlier=458,=maxPredLabel=540
+	Gibbs sampling successful! Start to saving results.
+start doc=7423, end doc=7887
+total texts=7887, total clusters=305
+	Saving successful!
+Batch 18
+11109
+	8351 documents will be analyze. alpha is 250.53.
+	Initialization.
+	iter is  1
+maxPredLabel=529
+outlier=1, non-outlier=463,=maxPredLabel=589
+	Gibbs sampling successful! Start to saving results.
+start doc=7887, end doc=8351
+total texts=8351, total clusters=333
+	Saving successful!
+Batch 19
+11109
+	8815 documents will be analyze. alpha is 264.45.
+	Initialization.
+	iter is  1
+maxPredLabel=577
+outlier=4, non-outlier=460,=maxPredLabel=630
+	Gibbs sampling successful! Start to saving results.
+start doc=8351, end doc=8815
+total texts=8815, total clusters=357
+	Saving successful!
+Batch 20
+11109
+	9279 documents will be analyze. alpha is 278.37.
+	Initialization.
+	iter is  1
+maxPredLabel=636
+outlier=4, non-outlier=460,=maxPredLabel=710
+	Gibbs sampling successful! Start to saving results.
+start doc=8815, end doc=9279
+total texts=9279, total clusters=395
+	Saving successful!
+Batch 21
+11109
+	9743 documents will be analyze. alpha is 292.29.
+	Initialization.
+	iter is  1
+maxPredLabel=676
+outlier=0, non-outlier=464,=maxPredLabel=740
+	Gibbs sampling successful! Start to saving results.
+start doc=9279, end doc=9743
+total texts=9743, total clusters=417
+	Saving successful!
+Batch 22
+11109
+	10207 documents will be analyze. alpha is 306.21.
+	Initialization.
+	iter is  1
+maxPredLabel=730
+outlier=6, non-outlier=458,=maxPredLabel=803
+	Gibbs sampling successful! Start to saving results.
+start doc=9743, end doc=10207
+total texts=10207, total clusters=445
+	Saving successful!
+Batch 23
+11109
+	10671 documents will be analyze. alpha is 320.13.
+	Initialization.
+	iter is  1
+maxPredLabel=766
+outlier=3, non-outlier=461,=maxPredLabel=846
+	Gibbs sampling successful! Start to saving results.
+start doc=10207, end doc=10671
+total texts=10671, total clusters=469
+	Saving successful!
+Batch 24
+11109
+	11109 documents will be analyze. alpha is 333.27.
+	Initialization.
+	iter is  1
+maxPredLabel=777
+outlier=0, non-outlier=438,=maxPredLabel=819
+	Gibbs sampling successful! Start to saving results.
+start doc=10671, end doc=11109
+total texts=11109, total clusters=475
+	Saving successful!
+final dic len=475
+cluster id=0, items=24
+cluster id=7, items=40
+cluster id=2, items=60
+cluster id=3, items=23
+cluster id=4, items=69
+cluster id=5, items=159
+cluster id=8, items=10
+cluster id=23, items=12
+cluster id=10, items=82
+cluster id=12, items=92
+cluster id=13, items=27
+cluster id=47, items=4
+cluster id=50, items=52
+cluster id=16, items=59
+cluster id=17, items=24
+cluster id=32, items=21
+cluster id=34, items=63
+cluster id=6, items=12
+cluster id=19, items=26
+cluster id=18, items=22
+cluster id=21, items=34
+cluster id=51, items=22
+cluster id=24, items=101
+cluster id=25, items=14
+cluster id=52, items=156
+cluster id=53, items=1
+cluster id=96, items=4
+cluster id=54, items=14
+cluster id=55, items=26
+cluster id=29, items=35
+cluster id=30, items=20
+cluster id=56, items=32
+cluster id=20, items=21
+cluster id=57, items=1
+cluster id=41, items=7
+cluster id=43, items=1
+cluster id=31, items=19
+cluster id=58, items=17
+cluster id=59, items=1
+cluster id=60, items=66
+cluster id=61, items=56
+cluster id=49, items=14
+cluster id=62, items=106
+cluster id=63, items=20
+cluster id=64, items=1
+cluster id=65, items=51
+cluster id=66, items=23
+cluster id=67, items=40
+cluster id=68, items=47
+cluster id=87, items=1
+cluster id=88, items=1
+cluster id=89, items=1
+cluster id=90, items=1
+cluster id=91, items=1
+cluster id=92, items=102
+cluster id=134, items=3
+cluster id=93, items=6
+cluster id=71, items=160
+cluster id=74, items=24
+cluster id=75, items=6
+cluster id=76, items=50
+cluster id=77, items=107
+cluster id=94, items=2
+cluster id=95, items=1
+cluster id=97, items=24
+cluster id=98, items=1
+cluster id=99, items=2
+cluster id=84, items=82
+cluster id=100, items=1
+cluster id=101, items=1
+cluster id=102, items=6
+cluster id=103, items=31
+cluster id=121, items=1
+cluster id=122, items=1
+cluster id=152, items=6
+cluster id=123, items=413
+cluster id=124, items=38
+cluster id=125, items=90
+cluster id=126, items=21
+cluster id=156, items=6
+cluster id=127, items=41
+cluster id=128, items=10
+cluster id=112, items=9
+cluster id=129, items=1
+cluster id=130, items=1
+cluster id=131, items=6
+cluster id=132, items=1
+cluster id=105, items=95
+cluster id=133, items=1
+cluster id=135, items=1
+cluster id=136, items=1
+cluster id=137, items=1
+cluster id=138, items=14
+cluster id=171, items=2
+cluster id=139, items=35
+cluster id=142, items=110
+cluster id=141, items=117
+cluster id=140, items=158
+cluster id=153, items=2
+cluster id=154, items=1
+cluster id=155, items=44
+cluster id=157, items=2
+cluster id=145, items=3
+cluster id=158, items=166
+cluster id=159, items=1
+cluster id=160, items=1
+cluster id=161, items=73
+cluster id=162, items=28
+cluster id=163, items=1
+cluster id=164, items=1
+cluster id=165, items=1
+cluster id=177, items=1
+cluster id=169, items=135
+cluster id=167, items=51
+cluster id=178, items=68
+cluster id=179, items=1
+cluster id=180, items=82
+cluster id=168, items=102
+cluster id=181, items=17
+cluster id=182, items=1
+cluster id=173, items=15
+cluster id=174, items=11
+cluster id=183, items=2
+cluster id=184, items=1
+cluster id=185, items=49
+cluster id=186, items=10
+cluster id=187, items=80
+cluster id=192, items=12
+cluster id=193, items=1
+cluster id=194, items=5
+cluster id=195, items=1
+cluster id=196, items=1
+cluster id=197, items=1
+cluster id=190, items=21
+cluster id=198, items=1
+cluster id=199, items=2
+cluster id=200, items=7
+cluster id=201, items=54
+cluster id=203, items=226
+cluster id=205, items=157
+cluster id=207, items=188
+cluster id=208, items=3
+cluster id=220, items=123
+cluster id=211, items=24
+cluster id=221, items=1
+cluster id=222, items=1
+cluster id=223, items=16
+cluster id=224, items=99
+cluster id=225, items=1
+cluster id=226, items=1
+cluster id=227, items=1
+cluster id=228, items=1
+cluster id=229, items=18
+cluster id=230, items=1
+cluster id=240, items=1
+cluster id=241, items=1
+cluster id=242, items=1
+cluster id=243, items=1
+cluster id=244, items=1
+cluster id=245, items=1
+cluster id=246, items=1
+cluster id=247, items=1
+cluster id=248, items=7
+cluster id=238, items=49
+cluster id=249, items=1
+cluster id=250, items=1
+cluster id=237, items=168
+cluster id=251, items=1
+cluster id=252, items=1
+cluster id=253, items=1
+cluster id=263, items=1
+cluster id=264, items=3
+cluster id=265, items=102
+cluster id=257, items=155
+cluster id=255, items=34
+cluster id=266, items=1
+cluster id=267, items=38
+cluster id=268, items=1
+cluster id=269, items=1
+cluster id=270, items=1
+cluster id=271, items=5
+cluster id=272, items=103
+cluster id=273, items=57
+cluster id=277, items=61
+cluster id=274, items=17
+cluster id=275, items=6
+cluster id=276, items=15
+cluster id=282, items=22
+cluster id=278, items=16
+cluster id=279, items=34
+cluster id=288, items=1
+cluster id=280, items=17
+cluster id=289, items=1
+cluster id=290, items=8
+cluster id=291, items=1
+cluster id=292, items=5
+cluster id=293, items=18
+cluster id=294, items=2
+cluster id=295, items=33
+cluster id=296, items=9
+cluster id=309, items=1
+cluster id=297, items=2
+cluster id=310, items=42
+cluster id=311, items=116
+cluster id=312, items=1
+cluster id=300, items=56
+cluster id=301, items=140
+cluster id=302, items=170
+cluster id=303, items=75
+cluster id=304, items=109
+cluster id=305, items=3
+cluster id=313, items=3
+cluster id=314, items=1
+cluster id=315, items=1
+cluster id=316, items=1
+cluster id=326, items=1
+cluster id=327, items=1
+cluster id=328, items=1
+cluster id=329, items=1
+cluster id=330, items=1
+cluster id=331, items=1
+cluster id=322, items=261
+cluster id=332, items=33
+cluster id=324, items=174
+cluster id=333, items=1
+cluster id=334, items=2
+cluster id=335, items=4
+cluster id=336, items=110
+cluster id=337, items=77
+cluster id=349, items=1
+cluster id=340, items=77
+cluster id=350, items=1
+cluster id=342, items=9
+cluster id=351, items=1
+cluster id=344, items=33
+cluster id=352, items=1
+cluster id=353, items=167
+cluster id=354, items=98
+cluster id=355, items=1
+cluster id=356, items=1
+cluster id=357, items=1
+cluster id=358, items=3
+cluster id=359, items=1
+cluster id=364, items=130
+cluster id=363, items=75
+cluster id=365, items=98
+cluster id=367, items=35
+cluster id=366, items=160
+cluster id=374, items=1
+cluster id=375, items=1
+cluster id=376, items=1
+cluster id=377, items=1
+cluster id=390, items=1
+cluster id=391, items=35
+cluster id=392, items=1
+cluster id=393, items=1
+cluster id=394, items=1
+cluster id=395, items=1
+cluster id=396, items=1
+cluster id=397, items=1
+cluster id=398, items=1
+cluster id=399, items=1
+cluster id=400, items=1
+cluster id=401, items=106
+cluster id=402, items=79
+cluster id=403, items=52
+cluster id=404, items=29
+cluster id=405, items=12
+cluster id=406, items=14
+cluster id=407, items=40
+cluster id=408, items=5
+cluster id=438, items=5
+cluster id=409, items=149
+cluster id=410, items=77
+cluster id=411, items=43
+cluster id=419, items=5
+cluster id=439, items=1
+cluster id=432, items=2
+cluster id=421, items=78
+cluster id=422, items=31
+cluster id=440, items=1
+cluster id=424, items=1
+cluster id=441, items=1
+cluster id=442, items=1
+cluster id=443, items=11
+cluster id=444, items=1
+cluster id=445, items=1
+cluster id=446, items=1
+cluster id=447, items=1
+cluster id=470, items=1
+cluster id=471, items=18
+cluster id=472, items=1
+cluster id=473, items=1
+cluster id=474, items=1
+cluster id=475, items=1
+cluster id=476, items=1
+cluster id=468, items=27
+cluster id=477, items=1
+cluster id=478, items=1
+cluster id=479, items=1
+cluster id=480, items=1
+cluster id=481, items=2
+cluster id=482, items=1
+cluster id=483, items=1
+cluster id=484, items=1
+cluster id=505, items=1
+cluster id=506, items=1
+cluster id=507, items=1
+cluster id=508, items=66
+cluster id=509, items=1
+cluster id=510, items=1
+cluster id=511, items=1
+cluster id=512, items=2
+cluster id=513, items=1
+cluster id=514, items=1
+cluster id=515, items=1
+cluster id=516, items=1
+cluster id=517, items=1
+cluster id=518, items=1
+cluster id=495, items=2
+cluster id=519, items=1
+cluster id=520, items=4
+cluster id=521, items=1
+cluster id=522, items=1
+cluster id=523, items=2
+cluster id=524, items=2
+cluster id=525, items=44
+cluster id=526, items=1
+cluster id=504, items=43
+cluster id=527, items=1
+cluster id=503, items=120
+cluster id=528, items=21
+cluster id=529, items=117
+cluster id=530, items=78
+cluster id=534, items=24
+cluster id=557, items=1
+cluster id=558, items=1
+cluster id=559, items=1
+cluster id=560, items=2
+cluster id=561, items=1
+cluster id=562, items=1
+cluster id=543, items=3
+cluster id=563, items=1
+cluster id=564, items=1
+cluster id=565, items=1
+cluster id=566, items=1
+cluster id=567, items=1
+cluster id=568, items=2
+cluster id=569, items=1
+cluster id=570, items=1
+cluster id=571, items=1
+cluster id=572, items=1
+cluster id=573, items=1
+cluster id=574, items=1
+cluster id=575, items=1
+cluster id=576, items=1
+cluster id=577, items=51
+cluster id=617, items=1
+cluster id=618, items=1
+cluster id=619, items=1
+cluster id=620, items=1
+cluster id=621, items=1
+cluster id=622, items=1
+cluster id=623, items=1
+cluster id=624, items=1
+cluster id=625, items=1
+cluster id=585, items=81
+cluster id=594, items=50
+cluster id=587, items=22
+cluster id=600, items=16
+cluster id=626, items=27
+cluster id=590, items=49
+cluster id=591, items=28
+cluster id=627, items=1
+cluster id=595, items=25
+cluster id=596, items=52
+cluster id=599, items=33
+cluster id=604, items=7
+cluster id=602, items=7
+cluster id=611, items=9
+cluster id=605, items=26
+cluster id=628, items=1
+cluster id=629, items=8
+cluster id=578, items=16
+cluster id=630, items=1
+cluster id=683, items=8
+cluster id=607, items=2
+cluster id=631, items=2
+cluster id=612, items=1
+cluster id=603, items=4
+cluster id=632, items=1
+cluster id=633, items=1
+cluster id=634, items=2
+cluster id=635, items=1
+cluster id=636, items=7
+cluster id=657, items=1
+cluster id=658, items=1
+cluster id=659, items=1
+cluster id=660, items=1
+cluster id=661, items=1
+cluster id=643, items=2
+cluster id=662, items=1
+cluster id=663, items=1
+cluster id=664, items=1
+cluster id=665, items=1
+cluster id=666, items=3
+cluster id=667, items=1
+cluster id=668, items=1
+cluster id=669, items=3
+cluster id=670, items=1
+cluster id=653, items=27
+cluster id=671, items=1
+cluster id=672, items=1
+cluster id=673, items=1
+cluster id=674, items=1
+cluster id=675, items=1
+cluster id=676, items=11
+cluster id=677, items=3
+cluster id=679, items=10
+cluster id=681, items=10
+cluster id=682, items=7
+cluster id=713, items=1
+cluster id=696, items=2
+cluster id=684, items=23
+cluster id=687, items=15
+cluster id=714, items=1
+cluster id=715, items=1
+cluster id=716, items=1
+cluster id=717, items=1
+cluster id=718, items=1
+cluster id=694, items=4
+cluster id=719, items=1
+cluster id=720, items=1
+cluster id=698, items=4
+cluster id=721, items=1
+cluster id=722, items=1
+cluster id=723, items=1
+cluster id=724, items=1
+cluster id=705, items=2
+cluster id=725, items=1
+cluster id=726, items=1
+cluster id=727, items=1
+cluster id=728, items=1
+cluster id=729, items=1
+cluster id=730, items=1
+cluster id=751, items=1
+cluster id=752, items=1
+cluster id=753, items=1
+cluster id=754, items=1
+cluster id=755, items=1
+cluster id=756, items=1
+cluster id=757, items=1
+cluster id=758, items=1
+cluster id=759, items=1
+cluster id=760, items=1
+cluster id=761, items=1
+cluster id=742, items=34
+cluster id=744, items=29
+cluster id=737, items=3
+cluster id=762, items=1
+cluster id=739, items=30
+cluster id=773, items=3
+cluster id=763, items=1
+cluster id=764, items=1
+cluster id=743, items=11
+cluster id=747, items=10
+cluster id=765, items=1
+cluster id=749, items=6
+cluster id=766, items=1
+cluster id=771, items=1
+cluster id=772, items=1
+cluster id=774, items=1
+cluster id=775, items=1
+cluster id=776, items=1
+cluster id=777, items=1

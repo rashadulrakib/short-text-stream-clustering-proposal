@@ -1,0 +1,1724 @@
+biomedical
+100000
+200000
+300000
+400000
+500000
+600000
+700000
+800000
+900000
+1000000
+1100000
+1200000
+1300000
+1400000
+1500000
+1600000
+1700000
+1800000
+1900000
+wordVectorsDic length 1917494
+number of documents is  20000
+self.V=all the words in all documents
+18888
+SampleNo:1
+result/
+K0iterNum1SampleNum1alpha0.03beta0.03BatchNum1BatchSaved1
+No timefil!
+before call run_MStream, self.K=0,self.iterNum=1, self.V=18888
+batchNum2tweetID is  {1: -1}
+Batch 1
+20000
+	20000 documents will be analyze. alpha is 600.00.
+	Initialization.
+	iter is  1
+maxPredLabel=181
+before remove outlier
+evaluate total texts=20000
+homogeneity_score-whole-data:   0.3002
+completeness_score-whole-data:   0.2787
+v_measure_score-whole-data:   0.2890
+nmi_score-whole-data:   0.2890
+adjusted_mutual_info_score-whole-data:   0.2730
+adjusted_rand_score-whole-data:   0.1650
+pred clusters=72, true clusters=20
+purity majority whole data=0.34475
+high_entropy_words=1281, total words=18887
+#m-stream-cleaned
+evaluate total texts=19998
+homogeneity_score-whole-data:   0.3002
+completeness_score-whole-data:   0.2787
+v_measure_score-whole-data:   0.2890
+nmi_score-whole-data:   0.2890
+adjusted_mutual_info_score-whole-data:   0.2730
+adjusted_rand_score-whole-data:   0.1650
+pred clusters=72, true clusters=20
+purity majority whole data=0.34478447844784477
+minPred, maxPred, minTrue, maxTrue=(pred_true_texts_to_cluster)
+8 81 1 20
+minPred, maxPred, minTrue, maxTrue=(pred_true_texts_to_not_cluster)
+0 181 1 20
+#clusters=5
+#not clusters=67
+this clustering with embedding DCT
+#update clusters=62
+Start generating sentence DCT vecs for multiple sentences...
+8695
+len(wordVecs)==0
+triethy 0
+len(wordVecs)==0
+sporangiospores actinoplanes 0
+len(wordVecs)==0
+phlei 0
+len(wordVecs)==0
+spirochaeta stenostrepta 0
+len(wordVecs)==0
+parabiotic 0
+len(wordVecs)==0
+ 0
+len(wordVecs)==0
+alkoxylipids 0
+len(wordVecs)==0
+pyrogenes isoenzyne 0
+len(wordVecs)==0
+enolases 0
+len(wordVecs)==0
+infarcting 0
+len(wordVecs)==0
+nialamide 0
+len(wordVecs)==0
+4dihydroxyphenethylamine 0
+len(wordVecs)==0
+bydministration 0
+len(wordVecs)==0
+dihydroxytryptamine intracisternally 0
+len(wordVecs)==0
+triphenylmethylmorpholine 0
+len(wordVecs)==0
+chalones 0
+len(wordVecs)==0
+deoxyribonucleases 0
+len(wordVecs)==0
+galactokinase 0
+len(wordVecs)==0
+antibiodies 0
+len(wordVecs)==0
+asparatate 0
+len(wordVecs)==0
+acetylcolletotrichin 0
+len(wordVecs)==0
+lactalbumins 0
+len(wordVecs)==0
+halofenate halofenate 0
+len(wordVecs)==0
+radiosulfate radiosulfate 0
+len(wordVecs)==0
+ 0
+len(wordVecs)==0
+monomethylcarbamates 0
+len(wordVecs)==0
+crotoxin 0
+len(wordVecs)==0
+angiotensinase 0
+len(wordVecs)==0
+ 0
+len(wordVecs)==0
+isoamylase 0
+len(wordVecs)==0
+ribitol guillermondii 0
+len(wordVecs)==0
+echoviruses 0
+len(wordVecs)==0
+cysteinyldopa glutathionedopa 0
+len(wordVecs)==0
+leucogenenol 0
+len(wordVecs)==0
+acatalasic 0
+len(wordVecs)==0
+keratohyalin 0
+len(wordVecs)==0
+fucosidase 0
+len(wordVecs)==0
+keratohyalin 0
+len(wordVecs)==0
+ 0
+len(wordVecs)==0
+fragi 0
+len(wordVecs)==0
+mimeae 0
+len(wordVecs)==0
+ 0
+len(wordVecs)==0
+ 0
+len(wordVecs)==0
+myelomatosis 0
+len(wordVecs)==0
+pathomorphology 0
+len(wordVecs)==0
+ 0
+len(wordVecs)==0
+hypersplenic 0
+len(wordVecs)==0
+beggiatoa 0
+len(wordVecs)==0
+stereologic 0
+len(wordVecs)==0
+quinestrol 0
+len(wordVecs)==0
+diphosphoglycerate 0
+len(wordVecs)==0
+ 0
+len(wordVecs)==0
+sebotrophic 0
+len(wordVecs)==0
+hypernatraemia 0
+len(wordVecs)==0
+monsodium 0
+len(wordVecs)==0
+acetylsalicyclic 0
+len(wordVecs)==0
+colanic 0
+len(wordVecs)==0
+atebrin 0
+#hr-ward-DCT
+0 61
+evaluate total texts=8637
+homogeneity_score-whole-data:   0.2953
+completeness_score-whole-data:   0.2156
+v_measure_score-whole-data:   0.2492
+nmi_score-whole-data:   0.2492
+adjusted_mutual_info_score-whole-data:   0.2009
+adjusted_rand_score-whole-data:   0.0791
+pred clusters=62, true clusters=20
+purity majority whole data=0.39377098529582033
+evaluate total texts=19940
+homogeneity_score-whole-data:   0.3226
+completeness_score-whole-data:   0.2301
+v_measure_score-whole-data:   0.2686
+nmi_score-whole-data:   0.2686
+adjusted_mutual_info_score-whole-data:   0.2200
+adjusted_rand_score-whole-data:   0.1085
+pred clusters=129, true clusters=20
+purity majority whole data=0.3821965897693079
+Start generating sentence vecs for multiple sentences...
+8695
+missing Word Count=1, original len=6
+missing Word Count=1, original len=3
+missing Word Count=1, original len=2
+missing Word Count=1, original len=2
+missing Word Count=1, original len=4
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=2
+missing Word Count=1, original len=2
+missing Word Count=1, original len=2
+missing Word Count=2, original len=5
+missing Word Count=1, original len=3
+missing Word Count=1, original len=2
+missing Word Count=1, original len=2
+missing Word Count=2, original len=8
+missing Word Count=1, original len=4
+missing Word Count=2, original len=3
+missing Word Count=1, original len=4
+missing Word Count=1, original len=3
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=2, original len=3
+missing Word Count=2, original len=5
+missing Word Count=1, original len=3
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=2, original len=6
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=1, original len=5
+missing Word Count=3, original len=7
+missing Word Count=1, original len=8
+missing Word Count=2, original len=5
+missing Word Count=2, original len=4
+missing Word Count=2, original len=6
+missing Word Count=2, original len=6
+missing Word Count=1, original len=1
+missing Word Count=1, original len=2
+missing Word Count=1, original len=2
+missing Word Count=1, original len=2
+missing Word Count=1, original len=6
+missing Word Count=1, original len=5
+missing Word Count=1, original len=2
+missing Word Count=1, original len=7
+missing Word Count=2, original len=5
+missing Word Count=1, original len=3
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=1, original len=9
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=1, original len=3
+missing Word Count=2, original len=6
+missing Word Count=2, original len=5
+missing Word Count=1, original len=3
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=1, original len=2
+missing Word Count=1, original len=2
+missing Word Count=2, original len=2
+missing Word Count=1, original len=3
+missing Word Count=1, original len=5
+missing Word Count=1, original len=6
+missing Word Count=1, original len=5
+missing Word Count=1, original len=2
+missing Word Count=1, original len=1
+missing Word Count=1, original len=5
+missing Word Count=1, original len=5
+missing Word Count=1, original len=3
+missing Word Count=2, original len=10
+missing Word Count=1, original len=3
+missing Word Count=1, original len=5
+missing Word Count=1, original len=6
+missing Word Count=1, original len=5
+missing Word Count=2, original len=2
+missing Word Count=1, original len=4
+missing Word Count=1, original len=2
+missing Word Count=1, original len=3
+missing Word Count=2, original len=7
+missing Word Count=1, original len=3
+missing Word Count=1, original len=3
+missing Word Count=1, original len=2
+missing Word Count=1, original len=6
+missing Word Count=1, original len=3
+missing Word Count=1, original len=2
+missing Word Count=1, original len=7
+missing Word Count=1, original len=6
+missing Word Count=1, original len=4
+missing Word Count=1, original len=7
+missing Word Count=1, original len=3
+missing Word Count=2, original len=6
+missing Word Count=1, original len=8
+missing Word Count=1, original len=4
+missing Word Count=1, original len=7
+missing Word Count=1, original len=6
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=2
+missing Word Count=1, original len=6
+missing Word Count=1, original len=2
+missing Word Count=1, original len=9
+missing Word Count=1, original len=6
+missing Word Count=1, original len=6
+missing Word Count=1, original len=6
+missing Word Count=1, original len=3
+missing Word Count=1, original len=5
+missing Word Count=1, original len=6
+missing Word Count=1, original len=7
+missing Word Count=1, original len=3
+missing Word Count=1, original len=8
+missing Word Count=1, original len=7
+missing Word Count=1, original len=3
+missing Word Count=1, original len=5
+missing Word Count=1, original len=5
+missing Word Count=1, original len=5
+missing Word Count=1, original len=6
+missing Word Count=1, original len=6
+missing Word Count=1, original len=11
+missing Word Count=1, original len=6
+missing Word Count=1, original len=1
+missing Word Count=2, original len=10
+missing Word Count=1, original len=7
+missing Word Count=1, original len=6
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=10
+missing Word Count=1, original len=6
+missing Word Count=1, original len=7
+missing Word Count=2, original len=11
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=3, original len=6
+missing Word Count=1, original len=4
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=1, original len=2
+missing Word Count=1, original len=2
+missing Word Count=1, original len=4
+missing Word Count=4, original len=8
+missing Word Count=1, original len=3
+missing Word Count=1, original len=2
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=7
+missing Word Count=1, original len=3
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=1, original len=5
+missing Word Count=2, original len=13
+missing Word Count=1, original len=4
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=1, original len=5
+missing Word Count=1, original len=6
+missing Word Count=1, original len=3
+missing Word Count=1, original len=3
+missing Word Count=1, original len=3
+missing Word Count=1, original len=3
+missing Word Count=1, original len=2
+missing Word Count=1, original len=2
+missing Word Count=1, original len=1
+missing Word Count=1, original len=2
+missing Word Count=3, original len=9
+missing Word Count=1, original len=2
+missing Word Count=1, original len=2
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=1, original len=7
+missing Word Count=2, original len=3
+missing Word Count=1, original len=2
+missing Word Count=1, original len=3
+missing Word Count=1, original len=2
+missing Word Count=1, original len=2
+missing Word Count=1, original len=6
+missing Word Count=1, original len=5
+missing Word Count=1, original len=5
+missing Word Count=1, original len=9
+missing Word Count=2, original len=2
+missing Word Count=1, original len=6
+missing Word Count=1, original len=10
+missing Word Count=1, original len=5
+missing Word Count=1, original len=2
+missing Word Count=1, original len=3
+missing Word Count=1, original len=2
+missing Word Count=1, original len=3
+missing Word Count=1, original len=5
+missing Word Count=1, original len=1
+missing Word Count=1, original len=9
+missing Word Count=1, original len=5
+missing Word Count=1, original len=1
+missing Word Count=1, original len=2
+missing Word Count=1, original len=8
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=1, original len=7
+missing Word Count=2, original len=6
+missing Word Count=1, original len=15
+missing Word Count=2, original len=4
+missing Word Count=1, original len=6
+missing Word Count=1, original len=1
+missing Word Count=1, original len=1
+missing Word Count=1, original len=3
+missing Word Count=1, original len=5
+missing Word Count=1, original len=3
+missing Word Count=1, original len=6
+missing Word Count=1, original len=8
+missing Word Count=1, original len=5
+missing Word Count=2, original len=6
+missing Word Count=1, original len=5
+missing Word Count=2, original len=6
+missing Word Count=2, original len=3
+missing Word Count=1, original len=1
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=1, original len=3
+missing Word Count=2, original len=7
+missing Word Count=1, original len=3
+missing Word Count=2, original len=5
+missing Word Count=1, original len=2
+missing Word Count=1, original len=3
+missing Word Count=3, original len=5
+missing Word Count=1, original len=6
+missing Word Count=1, original len=2
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=1, original len=6
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=1, original len=8
+missing Word Count=1, original len=2
+missing Word Count=1, original len=4
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=1, original len=3
+missing Word Count=3, original len=11
+missing Word Count=1, original len=5
+missing Word Count=2, original len=2
+missing Word Count=1, original len=2
+missing Word Count=1, original len=2
+missing Word Count=1, original len=2
+missing Word Count=2, original len=6
+missing Word Count=1, original len=3
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=1, original len=6
+missing Word Count=1, original len=3
+missing Word Count=2, original len=11
+missing Word Count=1, original len=6
+missing Word Count=1, original len=7
+missing Word Count=2, original len=7
+missing Word Count=1, original len=5
+missing Word Count=1, original len=1
+missing Word Count=1, original len=4
+missing Word Count=1, original len=7
+missing Word Count=1, original len=3
+missing Word Count=1, original len=6
+missing Word Count=1, original len=3
+missing Word Count=1, original len=5
+missing Word Count=1, original len=2
+missing Word Count=1, original len=5
+missing Word Count=1, original len=13
+missing Word Count=1, original len=2
+missing Word Count=1, original len=6
+missing Word Count=2, original len=4
+missing Word Count=1, original len=1
+missing Word Count=1, original len=9
+missing Word Count=1, original len=3
+missing Word Count=2, original len=9
+missing Word Count=1, original len=2
+missing Word Count=1, original len=4
+missing Word Count=2, original len=5
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=1, original len=1
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=1, original len=2
+missing Word Count=1, original len=2
+missing Word Count=1, original len=6
+missing Word Count=2, original len=5
+missing Word Count=1, original len=3
+missing Word Count=1, original len=2
+missing Word Count=1, original len=1
+missing Word Count=1, original len=4
+missing Word Count=1, original len=1
+missing Word Count=1, original len=4
+missing Word Count=1, original len=6
+missing Word Count=2, original len=4
+missing Word Count=2, original len=7
+missing Word Count=1, original len=2
+missing Word Count=1, original len=10
+missing Word Count=1, original len=6
+missing Word Count=1, original len=7
+missing Word Count=1, original len=1
+missing Word Count=1, original len=2
+missing Word Count=1, original len=1
+missing Word Count=2, original len=3
+missing Word Count=1, original len=6
+missing Word Count=1, original len=1
+missing Word Count=1, original len=4
+missing Word Count=1, original len=2
+missing Word Count=1, original len=3
+missing Word Count=2, original len=2
+missing Word Count=1, original len=5
+missing Word Count=2, original len=2
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=1, original len=7
+missing Word Count=1, original len=6
+missing Word Count=1, original len=3
+missing Word Count=1, original len=6
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=1, original len=3
+missing Word Count=1, original len=5
+missing Word Count=1, original len=2
+missing Word Count=1, original len=4
+missing Word Count=2, original len=6
+missing Word Count=1, original len=6
+missing Word Count=1, original len=4
+missing Word Count=1, original len=5
+missing Word Count=2, original len=5
+missing Word Count=1, original len=6
+missing Word Count=2, original len=5
+missing Word Count=1, original len=8
+missing Word Count=1, original len=5
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=5
+missing Word Count=1, original len=3
+missing Word Count=1, original len=5
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=5
+missing Word Count=1, original len=5
+missing Word Count=2, original len=5
+missing Word Count=1, original len=3
+missing Word Count=1, original len=3
+missing Word Count=2, original len=5
+missing Word Count=1, original len=3
+missing Word Count=1, original len=5
+missing Word Count=1, original len=3
+missing Word Count=1, original len=5
+missing Word Count=1, original len=2
+missing Word Count=4, original len=8
+missing Word Count=1, original len=8
+missing Word Count=1, original len=2
+missing Word Count=2, original len=7
+missing Word Count=2, original len=5
+missing Word Count=1, original len=3
+missing Word Count=2, original len=5
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=2, original len=4
+missing Word Count=1, original len=2
+missing Word Count=1, original len=2
+missing Word Count=1, original len=5
+missing Word Count=1, original len=2
+missing Word Count=1, original len=6
+missing Word Count=1, original len=6
+missing Word Count=1, original len=1
+missing Word Count=1, original len=2
+missing Word Count=1, original len=5
+missing Word Count=1, original len=3
+missing Word Count=1, original len=2
+missing Word Count=1, original len=3
+missing Word Count=1, original len=3
+missing Word Count=1, original len=2
+missing Word Count=1, original len=3
+missing Word Count=1, original len=2
+missing Word Count=1, original len=3
+missing Word Count=1, original len=5
+missing Word Count=1, original len=2
+missing Word Count=1, original len=4
+missing Word Count=1, original len=7
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=2, original len=3
+missing Word Count=1, original len=9
+missing Word Count=1, original len=3
+missing Word Count=1, original len=6
+missing Word Count=1, original len=1
+missing Word Count=2, original len=5
+missing Word Count=2, original len=5
+missing Word Count=2, original len=8
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=1, original len=8
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=1, original len=2
+missing Word Count=1, original len=11
+missing Word Count=1, original len=5
+missing Word Count=1, original len=2
+missing Word Count=1, original len=4
+missing Word Count=1, original len=6
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=2, original len=9
+missing Word Count=1, original len=1
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=1, original len=2
+missing Word Count=1, original len=3
+missing Word Count=1, original len=2
+missing Word Count=1, original len=4
+missing Word Count=1, original len=3
+missing Word Count=3, original len=7
+missing Word Count=1, original len=5
+missing Word Count=1, original len=3
+missing Word Count=1, original len=7
+missing Word Count=1, original len=3
+missing Word Count=1, original len=2
+missing Word Count=1, original len=2
+missing Word Count=1, original len=9
+missing Word Count=1, original len=3
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=1, original len=1
+missing Word Count=1, original len=3
+missing Word Count=1, original len=2
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=3
+missing Word Count=2, original len=4
+missing Word Count=1, original len=4
+missing Word Count=2, original len=6
+missing Word Count=1, original len=4
+missing Word Count=1, original len=2
+missing Word Count=1, original len=3
+missing Word Count=1, original len=8
+missing Word Count=1, original len=7
+missing Word Count=1, original len=6
+missing Word Count=1, original len=3
+missing Word Count=1, original len=6
+missing Word Count=1, original len=7
+missing Word Count=1, original len=7
+missing Word Count=1, original len=2
+missing Word Count=1, original len=4
+missing Word Count=1, original len=5
+missing Word Count=1, original len=5
+missing Word Count=2, original len=2
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=5
+missing Word Count=1, original len=5
+missing Word Count=1, original len=7
+missing Word Count=1, original len=12
+missing Word Count=1, original len=8
+missing Word Count=1, original len=7
+missing Word Count=2, original len=7
+missing Word Count=1, original len=1
+missing Word Count=1, original len=4
+missing Word Count=1, original len=6
+missing Word Count=1, original len=3
+missing Word Count=1, original len=5
+missing Word Count=1, original len=2
+missing Word Count=1, original len=5
+missing Word Count=1, original len=5
+missing Word Count=1, original len=2
+missing Word Count=1, original len=6
+missing Word Count=1, original len=7
+missing Word Count=1, original len=4
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=2, original len=2
+missing Word Count=1, original len=6
+missing Word Count=1, original len=5
+missing Word Count=1, original len=5
+missing Word Count=1, original len=9
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=1, original len=1
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=3
+missing Word Count=1, original len=6
+missing Word Count=1, original len=4
+missing Word Count=1, original len=7
+missing Word Count=1, original len=7
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=3
+missing Word Count=1, original len=6
+missing Word Count=1, original len=7
+missing Word Count=2, original len=6
+missing Word Count=1, original len=4
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=3
+missing Word Count=1, original len=10
+missing Word Count=3, original len=5
+missing Word Count=1, original len=11
+missing Word Count=1, original len=10
+missing Word Count=2, original len=8
+missing Word Count=1, original len=4
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=2
+missing Word Count=1, original len=4
+missing Word Count=1, original len=2
+missing Word Count=1, original len=4
+missing Word Count=1, original len=3
+missing Word Count=2, original len=7
+missing Word Count=1, original len=4
+missing Word Count=1, original len=9
+missing Word Count=1, original len=3
+missing Word Count=1, original len=7
+missing Word Count=1, original len=3
+missing Word Count=1, original len=6
+missing Word Count=1, original len=3
+missing Word Count=1, original len=1
+missing Word Count=1, original len=3
+missing Word Count=2, original len=5
+missing Word Count=1, original len=2
+missing Word Count=1, original len=3
+missing Word Count=1, original len=3
+missing Word Count=1, original len=1
+missing Word Count=1, original len=2
+missing Word Count=1, original len=2
+missing Word Count=2, original len=5
+missing Word Count=1, original len=1
+missing Word Count=1, original len=3
+missing Word Count=1, original len=9
+missing Word Count=1, original len=4
+missing Word Count=1, original len=5
+missing Word Count=1, original len=5
+missing Word Count=1, original len=2
+missing Word Count=2, original len=7
+missing Word Count=1, original len=8
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=2
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=1, original len=1
+missing Word Count=1, original len=5
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=3
+missing Word Count=1, original len=6
+missing Word Count=1, original len=4
+missing Word Count=1, original len=5
+missing Word Count=1, original len=9
+missing Word Count=1, original len=5
+missing Word Count=1, original len=6
+missing Word Count=2, original len=7
+missing Word Count=1, original len=4
+missing Word Count=1, original len=5
+missing Word Count=1, original len=2
+missing Word Count=1, original len=3
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=2, original len=7
+missing Word Count=1, original len=5
+missing Word Count=1, original len=6
+missing Word Count=1, original len=9
+missing Word Count=1, original len=5
+missing Word Count=1, original len=2
+missing Word Count=1, original len=3
+missing Word Count=1, original len=3
+missing Word Count=1, original len=6
+missing Word Count=1, original len=6
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=8
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=1, original len=3
+missing Word Count=1, original len=5
+missing Word Count=1, original len=2
+missing Word Count=2, original len=9
+missing Word Count=4, original len=11
+missing Word Count=1, original len=2
+missing Word Count=1, original len=4
+missing Word Count=1, original len=2
+missing Word Count=1, original len=1
+missing Word Count=1, original len=2
+missing Word Count=1, original len=4
+missing Word Count=2, original len=4
+missing Word Count=1, original len=5
+missing Word Count=2, original len=6
+missing Word Count=2, original len=8
+missing Word Count=1, original len=4
+missing Word Count=1, original len=3
+missing Word Count=1, original len=8
+missing Word Count=1, original len=3
+missing Word Count=1, original len=5
+missing Word Count=1, original len=6
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=1, original len=5
+missing Word Count=1, original len=3
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=1, original len=5
+missing Word Count=1, original len=6
+missing Word Count=1, original len=2
+missing Word Count=1, original len=5
+missing Word Count=1, original len=7
+missing Word Count=1, original len=6
+missing Word Count=1, original len=9
+missing Word Count=1, original len=6
+missing Word Count=1, original len=4
+missing Word Count=1, original len=3
+missing Word Count=1, original len=3
+missing Word Count=2, original len=5
+missing Word Count=1, original len=6
+missing Word Count=1, original len=4
+missing Word Count=1, original len=3
+missing Word Count=2, original len=5
+missing Word Count=1, original len=5
+missing Word Count=1, original len=3
+missing Word Count=2, original len=6
+missing Word Count=1, original len=5
+missing Word Count=1, original len=1
+missing Word Count=1, original len=4
+missing Word Count=1, original len=5
+missing Word Count=1, original len=2
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=3
+missing Word Count=2, original len=8
+missing Word Count=1, original len=3
+missing Word Count=1, original len=3
+missing Word Count=1, original len=9
+missing Word Count=1, original len=6
+missing Word Count=2, original len=5
+missing Word Count=1, original len=2
+missing Word Count=2, original len=6
+missing Word Count=1, original len=6
+missing Word Count=1, original len=3
+missing Word Count=1, original len=5
+missing Word Count=1, original len=5
+missing Word Count=1, original len=2
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=1, original len=7
+missing Word Count=1, original len=3
+missing Word Count=1, original len=5
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=2, original len=5
+missing Word Count=1, original len=6
+missing Word Count=1, original len=6
+missing Word Count=1, original len=5
+missing Word Count=1, original len=6
+missing Word Count=1, original len=6
+missing Word Count=1, original len=4
+missing Word Count=1, original len=6
+missing Word Count=1, original len=3
+missing Word Count=1, original len=6
+missing Word Count=1, original len=7
+missing Word Count=1, original len=2
+missing Word Count=1, original len=2
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=6
+missing Word Count=1, original len=8
+missing Word Count=1, original len=2
+missing Word Count=1, original len=8
+missing Word Count=2, original len=5
+missing Word Count=1, original len=8
+missing Word Count=1, original len=7
+missing Word Count=1, original len=4
+missing Word Count=1, original len=3
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=1, original len=5
+missing Word Count=1, original len=6
+missing Word Count=1, original len=5
+missing Word Count=1, original len=2
+missing Word Count=1, original len=4
+missing Word Count=1, original len=5
+missing Word Count=1, original len=9
+missing Word Count=1, original len=4
+missing Word Count=1, original len=9
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=1, original len=6
+missing Word Count=1, original len=3
+missing Word Count=1, original len=9
+missing Word Count=1, original len=2
+missing Word Count=1, original len=2
+missing Word Count=2, original len=7
+missing Word Count=2, original len=4
+missing Word Count=1, original len=5
+missing Word Count=1, original len=3
+missing Word Count=1, original len=3
+missing Word Count=1, original len=5
+missing Word Count=1, original len=5
+missing Word Count=1, original len=7
+missing Word Count=1, original len=6
+missing Word Count=1, original len=5
+missing Word Count=2, original len=7
+missing Word Count=1, original len=6
+missing Word Count=1, original len=5
+missing Word Count=1, original len=5
+missing Word Count=1, original len=2
+missing Word Count=1, original len=6
+missing Word Count=1, original len=6
+missing Word Count=1, original len=5
+missing Word Count=1, original len=6
+missing Word Count=1, original len=8
+missing Word Count=1, original len=7
+missing Word Count=1, original len=6
+missing Word Count=1, original len=4
+missing Word Count=1, original len=2
+missing Word Count=1, original len=3
+missing Word Count=1, original len=8
+missing Word Count=1, original len=5
+missing Word Count=1, original len=5
+missing Word Count=1, original len=8
+missing Word Count=1, original len=10
+missing Word Count=1, original len=7
+missing Word Count=1, original len=10
+missing Word Count=1, original len=6
+missing Word Count=1, original len=4
+missing Word Count=2, original len=9
+missing Word Count=1, original len=2
+missing Word Count=1, original len=7
+missing Word Count=1, original len=6
+missing Word Count=1, original len=7
+missing Word Count=1, original len=6
+missing Word Count=2, original len=5
+missing Word Count=1, original len=8
+missing Word Count=2, original len=7
+missing Word Count=1, original len=5
+missing Word Count=2, original len=4
+missing Word Count=1, original len=7
+missing Word Count=1, original len=5
+missing Word Count=1, original len=7
+missing Word Count=1, original len=5
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=9
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=7
+missing Word Count=1, original len=4
+missing Word Count=1, original len=9
+missing Word Count=1, original len=3
+missing Word Count=1, original len=6
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=2, original len=8
+missing Word Count=1, original len=6
+missing Word Count=1, original len=2
+missing Word Count=1, original len=4
+missing Word Count=1, original len=7
+missing Word Count=1, original len=5
+missing Word Count=1, original len=6
+missing Word Count=1, original len=4
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=8
+missing Word Count=2, original len=11
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=1, original len=2
+missing Word Count=1, original len=3
+missing Word Count=1, original len=1
+missing Word Count=1, original len=5
+missing Word Count=1, original len=3
+missing Word Count=1, original len=6
+missing Word Count=1, original len=3
+missing Word Count=1, original len=2
+missing Word Count=1, original len=9
+missing Word Count=1, original len=5
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=2, original len=7
+missing Word Count=1, original len=8
+missing Word Count=2, original len=9
+missing Word Count=3, original len=7
+missing Word Count=1, original len=2
+missing Word Count=1, original len=2
+missing Word Count=2, original len=3
+missing Word Count=1, original len=7
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=2, original len=8
+missing Word Count=1, original len=7
+missing Word Count=1, original len=10
+missing Word Count=2, original len=8
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=1, original len=5
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=1, original len=5
+missing Word Count=1, original len=7
+missing Word Count=1, original len=7
+missing Word Count=1, original len=8
+missing Word Count=1, original len=8
+missing Word Count=1, original len=2
+missing Word Count=1, original len=9
+missing Word Count=1, original len=7
+missing Word Count=1, original len=6
+missing Word Count=1, original len=4
+missing Word Count=2, original len=6
+missing Word Count=1, original len=5
+missing Word Count=1, original len=12
+missing Word Count=1, original len=6
+missing Word Count=1, original len=15
+missing Word Count=1, original len=12
+missing Word Count=1, original len=6
+missing Word Count=1, original len=4
+missing Word Count=1, original len=3
+missing Word Count=1, original len=8
+missing Word Count=2, original len=9
+missing Word Count=1, original len=9
+missing Word Count=1, original len=7
+missing Word Count=1, original len=6
+missing Word Count=1, original len=1
+missing Word Count=2, original len=7
+missing Word Count=2, original len=10
+missing Word Count=1, original len=7
+missing Word Count=1, original len=3
+missing Word Count=1, original len=6
+missing Word Count=1, original len=5
+missing Word Count=1, original len=7
+missing Word Count=1, original len=5
+missing Word Count=1, original len=7
+missing Word Count=1, original len=3
+missing Word Count=2, original len=9
+missing Word Count=1, original len=7
+missing Word Count=1, original len=14
+missing Word Count=1, original len=9
+missing Word Count=1, original len=5
+missing Word Count=2, original len=5
+missing Word Count=1, original len=5
+missing Word Count=1, original len=8
+missing Word Count=2, original len=12
+missing Word Count=1, original len=8
+missing Word Count=1, original len=11
+missing Word Count=1, original len=4
+missing Word Count=1, original len=11
+missing Word Count=1, original len=5
+missing Word Count=1, original len=14
+missing Word Count=1, original len=11
+missing Word Count=1, original len=6
+missing Word Count=1, original len=7
+missing Word Count=1, original len=6
+missing Word Count=2, original len=7
+missing Word Count=1, original len=7
+missing Word Count=1, original len=4
+missing Word Count=2, original len=6
+missing Word Count=1, original len=8
+missing Word Count=2, original len=12
+missing Word Count=1, original len=5
+missing Word Count=1, original len=6
+missing Word Count=1, original len=9
+missing Word Count=1, original len=9
+missing Word Count=1, original len=10
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=5
+missing Word Count=1, original len=7
+missing Word Count=1, original len=3
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=2
+missing Word Count=1, original len=6
+missing Word Count=1, original len=4
+missing Word Count=1, original len=8
+missing Word Count=1, original len=3
+missing Word Count=1, original len=2
+missing Word Count=1, original len=5
+missing Word Count=1, original len=3
+missing Word Count=1, original len=6
+missing Word Count=1, original len=2
+missing Word Count=1, original len=4
+missing Word Count=1, original len=3
+missing Word Count=2, original len=9
+missing Word Count=1, original len=3
+missing Word Count=1, original len=10
+missing Word Count=1, original len=3
+missing Word Count=2, original len=3
+missing Word Count=1, original len=2
+missing Word Count=1, original len=7
+missing Word Count=1, original len=4
+missing Word Count=1, original len=9
+missing Word Count=1, original len=3
+missing Word Count=1, original len=3
+missing Word Count=1, original len=1
+missing Word Count=1, original len=2
+missing Word Count=2, original len=5
+missing Word Count=1, original len=1
+missing Word Count=2, original len=5
+missing Word Count=1, original len=7
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=2, original len=4
+missing Word Count=1, original len=3
+missing Word Count=1, original len=6
+missing Word Count=1, original len=4
+missing Word Count=1, original len=9
+missing Word Count=2, original len=7
+missing Word Count=1, original len=2
+missing Word Count=1, original len=5
+missing Word Count=1, original len=6
+missing Word Count=1, original len=2
+missing Word Count=1, original len=4
+missing Word Count=1, original len=6
+missing Word Count=1, original len=3
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=2, original len=6
+missing Word Count=2, original len=7
+missing Word Count=1, original len=10
+missing Word Count=1, original len=4
+missing Word Count=1, original len=7
+missing Word Count=1, original len=5
+missing Word Count=1, original len=7
+missing Word Count=1, original len=5
+missing Word Count=1, original len=8
+missing Word Count=1, original len=8
+missing Word Count=1, original len=7
+missing Word Count=1, original len=5
+missing Word Count=1, original len=8
+missing Word Count=1, original len=6
+missing Word Count=1, original len=10
+missing Word Count=1, original len=6
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=3, original len=11
+missing Word Count=1, original len=6
+missing Word Count=1, original len=2
+missing Word Count=1, original len=2
+missing Word Count=1, original len=2
+missing Word Count=1, original len=3
+missing Word Count=2, original len=8
+missing Word Count=1, original len=3
+missing Word Count=1, original len=6
+missing Word Count=1, original len=1
+missing Word Count=1, original len=1
+missing Word Count=1, original len=2
+missing Word Count=1, original len=4
+missing Word Count=1, original len=3
+missing Word Count=1, original len=6
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=1, original len=3
+missing Word Count=1, original len=3
+missing Word Count=1, original len=5
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=3, original len=5
+missing Word Count=1, original len=2
+missing Word Count=1, original len=5
+missing Word Count=1, original len=3
+missing Word Count=1, original len=3
+missing Word Count=1, original len=3
+missing Word Count=1, original len=2
+missing Word Count=1, original len=5
+missing Word Count=1, original len=3
+missing Word Count=1, original len=1
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=1, original len=3
+missing Word Count=1, original len=6
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=1, original len=3
+missing Word Count=1, original len=5
+missing Word Count=1, original len=7
+missing Word Count=1, original len=3
+missing Word Count=1, original len=3
+missing Word Count=1, original len=5
+missing Word Count=1, original len=3
+missing Word Count=1, original len=2
+missing Word Count=1, original len=1
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=1
+missing Word Count=1, original len=1
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=5
+missing Word Count=1, original len=9
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=2, original len=7
+missing Word Count=1, original len=6
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=1, original len=6
+missing Word Count=1, original len=10
+missing Word Count=1, original len=8
+missing Word Count=1, original len=6
+missing Word Count=4, original len=10
+missing Word Count=1, original len=7
+missing Word Count=1, original len=8
+missing Word Count=1, original len=6
+missing Word Count=1, original len=6
+missing Word Count=1, original len=6
+missing Word Count=1, original len=4
+missing Word Count=1, original len=9
+missing Word Count=1, original len=5
+missing Word Count=1, original len=10
+missing Word Count=2, original len=5
+missing Word Count=1, original len=2
+missing Word Count=1, original len=3
+missing Word Count=2, original len=4
+missing Word Count=2, original len=8
+missing Word Count=1, original len=7
+missing Word Count=1, original len=7
+missing Word Count=1, original len=4
+missing Word Count=1, original len=2
+missing Word Count=1, original len=6
+missing Word Count=1, original len=3
+missing Word Count=1, original len=7
+missing Word Count=2, original len=5
+missing Word Count=1, original len=8
+missing Word Count=1, original len=6
+missing Word Count=1, original len=6
+missing Word Count=1, original len=8
+missing Word Count=1, original len=2
+missing Word Count=1, original len=9
+missing Word Count=1, original len=5
+missing Word Count=1, original len=2
+missing Word Count=1, original len=10
+missing Word Count=1, original len=3
+missing Word Count=1, original len=3
+missing Word Count=1, original len=3
+missing Word Count=1, original len=2
+missing Word Count=1, original len=1
+missing Word Count=1, original len=2
+missing Word Count=1, original len=3
+missing Word Count=1, original len=5
+missing Word Count=2, original len=4
+missing Word Count=2, original len=8
+missing Word Count=1, original len=6
+missing Word Count=1, original len=2
+missing Word Count=1, original len=8
+missing Word Count=1, original len=4
+missing Word Count=1, original len=2
+missing Word Count=3, original len=9
+missing Word Count=1, original len=4
+missing Word Count=1, original len=2
+missing Word Count=1, original len=8
+missing Word Count=1, original len=9
+missing Word Count=2, original len=4
+missing Word Count=1, original len=3
+missing Word Count=2, original len=6
+missing Word Count=1, original len=4
+missing Word Count=1, original len=7
+missing Word Count=1, original len=4
+missing Word Count=1, original len=5
+missing Word Count=1, original len=6
+missing Word Count=1, original len=12
+missing Word Count=1, original len=5
+missing Word Count=1, original len=2
+missing Word Count=1, original len=4
+missing Word Count=1, original len=4
+missing Word Count=1, original len=5
+missing Word Count=1, original len=3
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=6
+missing Word Count=3, original len=8
+missing Word Count=1, original len=7
+missing Word Count=1, original len=3
+missing Word Count=1, original len=7
+missing Word Count=1, original len=6
+missing Word Count=1, original len=1
+missing Word Count=4, original len=10
+missing Word Count=1, original len=5
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=6
+missing Word Count=2, original len=9
+missing Word Count=1, original len=4
+missing Word Count=1, original len=1
+missing Word Count=2, original len=4
+missing Word Count=1, original len=5
+missing Word Count=1, original len=7
+missing Word Count=1, original len=5
+missing Word Count=1, original len=5
+missing Word Count=1, original len=5
+missing Word Count=1, original len=7
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=5
+missing Word Count=1, original len=6
+missing Word Count=2, original len=12
+missing Word Count=1, original len=6
+missing Word Count=1, original len=4
+missing Word Count=2, original len=8
+missing Word Count=2, original len=9
+missing Word Count=1, original len=6
+missing Word Count=2, original len=7
+missing Word Count=1, original len=6
+missing Word Count=1, original len=9
+missing Word Count=1, original len=7
+missing Word Count=1, original len=8
+missing Word Count=1, original len=7
+missing Word Count=1, original len=8
+missing Word Count=1, original len=7
+missing Word Count=1, original len=9
+missing Word Count=1, original len=6
+missing Word Count=1, original len=6
+missing Word Count=1, original len=6
+missing Word Count=1, original len=8
+missing Word Count=1, original len=8
+missing Word Count=2, original len=11
+missing Word Count=1, original len=6
+missing Word Count=1, original len=8
+missing Word Count=1, original len=3
+missing Word Count=1, original len=5
+missing Word Count=2, original len=10
+missing Word Count=1, original len=9
+missing Word Count=1, original len=6
+missing Word Count=1, original len=9
+missing Word Count=1, original len=7
+missing Word Count=2, original len=7
+missing Word Count=1, original len=10
+missing Word Count=2, original len=10
+missing Word Count=1, original len=6
+missing Word Count=2, original len=10
+missing Word Count=1, original len=7
+missing Word Count=1, original len=7
+missing Word Count=1, original len=8
+missing Word Count=1, original len=6
+missing Word Count=1, original len=12
+missing Word Count=1, original len=5
+missing Word Count=1, original len=6
+missing Word Count=1, original len=5
+missing Word Count=2, original len=7
+missing Word Count=1, original len=4
+missing Word Count=1, original len=6
+missing Word Count=1, original len=5
+missing Word Count=1, original len=9
+missing Word Count=1, original len=9
+missing Word Count=1, original len=5
+missing Word Count=1, original len=7
+missing Word Count=2, original len=8
+missing Word Count=2, original len=7
+missing Word Count=2, original len=7
+missing Word Count=2, original len=7
+missing Word Count=1, original len=5
+missing Word Count=2, original len=7
+missing Word Count=1, original len=11
+missing Word Count=1, original len=7
+missing Word Count=2, original len=8
+missing Word Count=1, original len=8
+missing Word Count=1, original len=10
+missing Word Count=1, original len=4
+missing Word Count=3, original len=6
+missing Word Count=1, original len=8
+missing Word Count=1, original len=4
+missing Word Count=1, original len=6
+missing Word Count=1, original len=4
+missing Word Count=1, original len=9
+missing Word Count=2, original len=6
+missing Word Count=1, original len=4
+missing Word Count=2, original len=6
+missing Word Count=1, original len=4
+missing Word Count=1, original len=10
+missing Word Count=2, original len=10
+missing Word Count=1, original len=6
+missing Word Count=3, original len=18
+missing Word Count=1, original len=6
+missing Word Count=1, original len=7
+missing Word Count=2, original len=6
+missing Word Count=1, original len=8
+missing Word Count=1, original len=5
+missing Word Count=1, original len=6
+missing Word Count=1, original len=6
+missing Word Count=1, original len=6
+missing Word Count=1, original len=7
+missing Word Count=2, original len=7
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=10
+missing Word Count=1, original len=6
+missing Word Count=2, original len=8
+missing Word Count=1, original len=7
+missing Word Count=2, original len=7
+missing Word Count=1, original len=4
+missing Word Count=1, original len=8
+missing Word Count=3, original len=8
+missing Word Count=1, original len=7
+missing Word Count=1, original len=5
+missing Word Count=1, original len=6
+missing Word Count=1, original len=6
+missing Word Count=1, original len=5
+missing Word Count=1, original len=8
+missing Word Count=3, original len=7
+missing Word Count=2, original len=7
+missing Word Count=1, original len=9
+missing Word Count=1, original len=7
+missing Word Count=2, original len=7
+missing Word Count=1, original len=8
+missing Word Count=1, original len=4
+missing Word Count=2, original len=5
+missing Word Count=1, original len=12
+missing Word Count=1, original len=6
+missing Word Count=1, original len=9
+missing Word Count=1, original len=7
+missing Word Count=1, original len=9
+missing Word Count=1, original len=7
+missing Word Count=1, original len=7
+missing Word Count=2, original len=7
+missing Word Count=2, original len=7
+missing Word Count=1, original len=9
+missing Word Count=1, original len=5
+missing Word Count=1, original len=5
+missing Word Count=1, original len=7
+missing Word Count=2, original len=13
+missing Word Count=2, original len=14
+missing Word Count=1, original len=8
+missing Word Count=1, original len=4
+missing Word Count=1, original len=6
+missing Word Count=1, original len=10
+missing Word Count=1, original len=7
+missing Word Count=2, original len=7
+missing Word Count=1, original len=7
+missing Word Count=1, original len=6
+missing Word Count=1, original len=8
+missing Word Count=1, original len=5
+missing Word Count=1, original len=5
+missing Word Count=1, original len=5
+missing Word Count=1, original len=9
+missing Word Count=1, original len=10
+missing Word Count=2, original len=7
+missing Word Count=1, original len=9
+missing Word Count=1, original len=7
+missing Word Count=1, original len=9
+missing Word Count=1, original len=6
+missing Word Count=1, original len=7
+missing Word Count=1, original len=9
+missing Word Count=1, original len=7
+missing Word Count=1, original len=9
+missing Word Count=1, original len=6
+missing Word Count=1, original len=6
+missing Word Count=1, original len=4
+missing Word Count=1, original len=8
+missing Word Count=1, original len=10
+missing Word Count=1, original len=7
+missing Word Count=1, original len=7
+missing Word Count=1, original len=5
+missing Word Count=1, original len=7
+missing Word Count=1, original len=12
+missing Word Count=1, original len=6
+missing Word Count=1, original len=12
+missing Word Count=1, original len=8
+missing Word Count=2, original len=7
+missing Word Count=1, original len=9
+missing Word Count=2, original len=5
+missing Word Count=3, original len=7
+missing Word Count=2, original len=6
+missing Word Count=1, original len=8
+missing Word Count=1, original len=8
+missing Word Count=1, original len=3
+missing Word Count=1, original len=7
+missing Word Count=1, original len=6
+missing Word Count=1, original len=8
+missing Word Count=1, original len=6
+missing Word Count=1, original len=8
+missing Word Count=1, original len=7
+missing Word Count=1, original len=11
+missing Word Count=1, original len=8
+missing Word Count=1, original len=9
+missing Word Count=2, original len=10
+missing Word Count=1, original len=7
+missing Word Count=1, original len=12
+missing Word Count=2, original len=7
+missing Word Count=1, original len=8
+missing Word Count=1, original len=5
+missing Word Count=1, original len=5
+missing Word Count=1, original len=5
+missing Word Count=1, original len=10
+missing Word Count=1, original len=5
+missing Word Count=1, original len=14
+missing Word Count=1, original len=5
+missing Word Count=1, original len=7
+missing Word Count=2, original len=9
+missing Word Count=1, original len=7
+missing Word Count=1, original len=8
+missing Word Count=2, original len=11
+missing Word Count=1, original len=7
+missing Word Count=1, original len=9
+missing Word Count=1, original len=12
+missing Word Count=1, original len=14
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=5
+missing Word Count=1, original len=7
+missing Word Count=1, original len=3
+missing Word Count=2, original len=8
+missing Word Count=1, original len=6
+missing Word Count=2, original len=7
+missing Word Count=1, original len=5
+missing Word Count=1, original len=6
+missing Word Count=1, original len=8
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=1, original len=8
+missing Word Count=1, original len=8
+missing Word Count=1, original len=10
+missing Word Count=1, original len=5
+missing Word Count=2, original len=11
+missing Word Count=2, original len=10
+missing Word Count=1, original len=4
+missing Word Count=1, original len=6
+missing Word Count=2, original len=8
+missing Word Count=1, original len=6
+missing Word Count=1, original len=7
+missing Word Count=1, original len=9
+missing Word Count=1, original len=10
+missing Word Count=1, original len=6
+missing Word Count=1, original len=5
+missing Word Count=1, original len=6
+missing Word Count=1, original len=12
+missing Word Count=1, original len=4
+missing Word Count=1, original len=7
+missing Word Count=1, original len=5
+missing Word Count=1, original len=9
+missing Word Count=2, original len=14
+missing Word Count=1, original len=10
+missing Word Count=1, original len=3
+missing Word Count=1, original len=7
+missing Word Count=2, original len=6
+missing Word Count=1, original len=9
+missing Word Count=1, original len=9
+missing Word Count=1, original len=4
+missing Word Count=1, original len=10
+missing Word Count=1, original len=4
+missing Word Count=2, original len=9
+missing Word Count=1, original len=12
+missing Word Count=1, original len=7
+missing Word Count=2, original len=11
+missing Word Count=1, original len=6
+missing Word Count=1, original len=5
+missing Word Count=1, original len=5
+missing Word Count=1, original len=10
+missing Word Count=1, original len=6
+missing Word Count=2, original len=7
+missing Word Count=2, original len=11
+missing Word Count=1, original len=8
+missing Word Count=1, original len=7
+missing Word Count=1, original len=8
+missing Word Count=1, original len=8
+missing Word Count=2, original len=10
+missing Word Count=1, original len=7
+missing Word Count=1, original len=6
+missing Word Count=1, original len=6
+missing Word Count=1, original len=4
+missing Word Count=1, original len=9
+missing Word Count=2, original len=5
+missing Word Count=1, original len=7
+missing Word Count=1, original len=15
+missing Word Count=2, original len=7
+missing Word Count=1, original len=7
+missing Word Count=1, original len=11
+missing Word Count=1, original len=5
+missing Word Count=1, original len=7
+missing Word Count=1, original len=8
+missing Word Count=1, original len=6
+missing Word Count=2, original len=9
+missing Word Count=1, original len=7
+missing Word Count=1, original len=5
+missing Word Count=1, original len=2
+missing Word Count=1, original len=5
+missing Word Count=1, original len=6
+missing Word Count=1, original len=5
+missing Word Count=1, original len=3
+missing Word Count=2, original len=5
+missing Word Count=1, original len=8
+missing Word Count=1, original len=3
+missing Word Count=2, original len=3
+missing Word Count=1, original len=7
+missing Word Count=1, original len=5
+missing Word Count=2, original len=4
+missing Word Count=1, original len=2
+missing Word Count=1, original len=6
+missing Word Count=1, original len=3
+missing Word Count=3, original len=7
+missing Word Count=1, original len=3
+missing Word Count=1, original len=4
+missing Word Count=1, original len=5
+missing Word Count=1, original len=5
+missing Word Count=1, original len=5
+missing Word Count=1, original len=4
+missing Word Count=2, original len=5
+missing Word Count=2, original len=3
+missing Word Count=1, original len=5
+#hr-ward-AVG
+0 61
+evaluate total texts=8695
+homogeneity_score-whole-data:   0.3490
+completeness_score-whole-data:   0.2496
+v_measure_score-whole-data:   0.2911
+nmi_score-whole-data:   0.2911
+adjusted_mutual_info_score-whole-data:   0.2360
+adjusted_rand_score-whole-data:   0.1434
+pred clusters=62, true clusters=20
+purity majority whole data=0.43047728579643474
+evaluate total texts=19998
+homogeneity_score-whole-data:   0.3443
+completeness_score-whole-data:   0.2435
+v_measure_score-whole-data:   0.2853
+nmi_score-whole-data:   0.2853
+adjusted_mutual_info_score-whole-data:   0.2337
+adjusted_rand_score-whole-data:   0.1239
+pred clusters=129, true clusters=20
+purity majority whole data=0.3981898189818982
+
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Biomedical-mstreamK0iterNum1SampleNum1alpha0.03beta0.03BatchNum1BatchSaved1Batch1/
+start doc=0, end doc=20000
+total texts=20000, total clusters=72
+	Saving successful!
+final dic len=72
+cluster id=14, items=218
+cluster id=55, items=413
+cluster id=70, items=1039
+cluster id=4, items=196
+cluster id=27, items=2067
+cluster id=6, items=131
+cluster id=7, items=296
+cluster id=8, items=1993
+cluster id=31, items=1673
+cluster id=10, items=387
+cluster id=13, items=4
+cluster id=9, items=132
+cluster id=58, items=383
+cluster id=20, items=193
+cluster id=46, items=602
+cluster id=0, items=761
+cluster id=26, items=20
+cluster id=1, items=966
+cluster id=22, items=1727
+cluster id=30, items=431
+cluster id=19, items=958
+cluster id=33, items=191
+cluster id=34, items=466
+cluster id=17, items=404
+cluster id=49, items=146
+cluster id=18, items=485
+cluster id=11, items=107
+cluster id=62, items=287
+cluster id=47, items=153
+cluster id=48, items=47
+cluster id=40, items=439
+cluster id=53, items=371
+cluster id=59, items=148
+cluster id=42, items=87
+cluster id=28, items=140
+cluster id=3, items=389
+cluster id=25, items=4
+cluster id=16, items=10
+cluster id=76, items=58
+cluster id=79, items=4
+cluster id=29, items=116
+cluster id=54, items=54
+cluster id=32, items=16
+cluster id=43, items=22
+cluster id=81, items=1235
+cluster id=101, items=1
+cluster id=68, items=1
+cluster id=159, items=1
+cluster id=160, items=1
+cluster id=161, items=1
+cluster id=131, items=5
+cluster id=162, items=1
+cluster id=39, items=1
+cluster id=163, items=1
+cluster id=164, items=1
+cluster id=165, items=1
+cluster id=166, items=1
+cluster id=167, items=1
+cluster id=168, items=1
+cluster id=169, items=1
+cluster id=170, items=1
+cluster id=171, items=1
+cluster id=172, items=1
+cluster id=173, items=1
+cluster id=174, items=1
+cluster id=175, items=1
+cluster id=176, items=1
+cluster id=177, items=1
+cluster id=178, items=1
+cluster id=179, items=1
+cluster id=180, items=1
+cluster id=181, items=1

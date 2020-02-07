@@ -1,0 +1,933 @@
+number of documents is  11109
+SampleNo:1
+K0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16
+No timefil!
+batchNum2tweetID is  {1: 8372, 2: 2346, 3: 10882, 4: 3650, 5: 2924, 6: 7530, 7: 10808, 8: 2856, 9: 4395, 10: 3787, 11: 5551, 12: 2133, 13: 955, 14: 5924, 15: 4084, 16: -1}
+Batch 1
+11109
+	695 documents will be analyze. alpha is 20.85.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/News-TK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch1/
+start doc=0, end doc=695
+total texts=695, total clusters=54
+dic len=54
+#docsToBeReclassified=25, #otherDocsToKeepAsItIs=670
+#docsPerClusterToBeUsedForTraining=29
+#wordsPerClusterToBeUsedForTraining=29
+/home/owner/PhD/dr.norbert/dataset/shorttext/glove.42B.300d/glove.42B.300d.txt
+100000
+200000
+300000
+400000
+500000
+600000
+700000
+800000
+900000
+1000000
+1100000
+1200000
+1300000
+1400000
+1500000
+1600000
+1700000
+1800000
+1900000
+Finish loading #word embeddings=1917494
+classifyBySimilarity l2MinDistance=3.671186059126579, doc new predLabel=40
+classifyBySimilarity l2MinDistance=3.69805752815489, doc new predLabel=47
+classifyBySimilarity l2MinDistance=3.351583034829653, doc new predLabel=12
+classifyBySimilarity l2MinDistance=2.1500290352604456, doc new predLabel=2
+classifyBySimilarity l2MinDistance=3.985560283484432, doc new predLabel=10
+classifyBySimilarity l2MinDistance=2.5053508563995392, doc new predLabel=26
+classifyBySimilarity l2MinDistance=2.9089564906609633, doc new predLabel=2
+classifyBySimilarity l2MinDistance=2.5736769087295697, doc new predLabel=38
+classifyBySimilarity l2MinDistance=2.2788746243748785, doc new predLabel=13
+classifyBySimilarity l2MinDistance=3.2061211458522725, doc new predLabel=57
+classifyBySimilarity l2MinDistance=3.2624356114591144, doc new predLabel=2
+classifyBySimilarity l2MinDistance=2.6951507218512134, doc new predLabel=25
+classifyBySimilarity l2MinDistance=2.3114159080117336, doc new predLabel=17
+classifyBySimilarity l2MinDistance=4.017206144306357, doc new predLabel=17
+classifyBySimilarity l2MinDistance=2.29702643664747, doc new predLabel=25
+classifyBySimilarity l2MinDistance=3.6825254964545078, doc new predLabel=2
+classifyBySimilarity l2MinDistance=2.512482880160262, doc new predLabel=31
+classifyBySimilarity l2MinDistance=3.3019830099467704, doc new predLabel=7
+classifyBySimilarity l2MinDistance=3.0859899566070728, doc new predLabel=31
+classifyBySimilarity l2MinDistance=2.560672063814292, doc new predLabel=31
+classifyBySimilarity l2MinDistance=3.0050368146077933, doc new predLabel=40
+classifyBySimilarity l2MinDistance=5.164434205791405, doc new predLabel=2
+classifyBySimilarity l2MinDistance=3.0039999312455787, doc new predLabel=17
+classifyBySimilarity l2MinDistance=3.2377740033504345, doc new predLabel=0
+classifyBySimilarity l2MinDistance=2.0321344182975696, doc new predLabel=12
+	Saving successful!
+Batch 2
+11109
+	1391 documents will be analyze. alpha is 41.73.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/News-TK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch2/
+start doc=695, end doc=1391
+total texts=1391, total clusters=83
+dic len=83
+#docsToBeReclassified=13, #otherDocsToKeepAsItIs=683
+#docsPerClusterToBeUsedForTraining=51
+#wordsPerClusterToBeUsedForTraining=51
+classifyBySimilarity l2MinDistance=2.724030492441868, doc new predLabel=149
+classifyBySimilarity l2MinDistance=2.980749190434926, doc new predLabel=145
+classifyBySimilarity l2MinDistance=2.3092278789620084, doc new predLabel=13
+classifyBySimilarity l2MinDistance=2.0490358449288375, doc new predLabel=145
+classifyBySimilarity l2MinDistance=3.3269661359646525, doc new predLabel=154
+classifyBySimilarity l2MinDistance=2.579759182235491, doc new predLabel=46
+classifyBySimilarity l2MinDistance=4.962671515789581, doc new predLabel=97
+classifyBySimilarity l2MinDistance=2.7399850697411163, doc new predLabel=154
+classifyBySimilarity l2MinDistance=2.6072356621110773, doc new predLabel=10
+classifyBySimilarity l2MinDistance=2.722227918731045, doc new predLabel=148
+classifyBySimilarity l2MinDistance=3.0033358664058847, doc new predLabel=155
+classifyBySimilarity l2MinDistance=2.522004240282289, doc new predLabel=169
+classifyBySimilarity l2MinDistance=3.101822572798109, doc new predLabel=32
+	Saving successful!
+Batch 3
+11109
+	2087 documents will be analyze. alpha is 62.61.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/News-TK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch3/
+start doc=1391, end doc=2087
+total texts=2087, total clusters=100
+dic len=100
+#docsToBeReclassified=13, #otherDocsToKeepAsItIs=683
+#docsPerClusterToBeUsedForTraining=61
+#wordsPerClusterToBeUsedForTraining=61
+classifyBySimilarity l2MinDistance=2.7378764476958652, doc new predLabel=133
+classifyBySimilarity l2MinDistance=2.381336247082025, doc new predLabel=247
+classifyBySimilarity l2MinDistance=2.240646241952984, doc new predLabel=243
+classifyBySimilarity l2MinDistance=2.5722531903354167, doc new predLabel=187
+classifyBySimilarity l2MinDistance=2.775081862116537, doc new predLabel=187
+classifyBySimilarity l2MinDistance=3.3612325240994285, doc new predLabel=247
+classifyBySimilarity l2MinDistance=2.4969180151518597, doc new predLabel=243
+classifyBySimilarity l2MinDistance=2.4585957922086243, doc new predLabel=187
+classifyBySimilarity l2MinDistance=2.6005548367277727, doc new predLabel=187
+classifyBySimilarity l2MinDistance=2.4122858205672153, doc new predLabel=157
+classifyBySimilarity l2MinDistance=3.0884533488360795, doc new predLabel=144
+classifyBySimilarity l2MinDistance=3.858889370123122, doc new predLabel=244
+classifyBySimilarity l2MinDistance=2.759313946645005, doc new predLabel=151
+	Saving successful!
+Batch 4
+11109
+	2783 documents will be analyze. alpha is 83.49.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/News-TK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch4/
+start doc=2087, end doc=2783
+total texts=2783, total clusters=120
+dic len=120
+#docsToBeReclassified=14, #otherDocsToKeepAsItIs=682
+#docsPerClusterToBeUsedForTraining=72
+#wordsPerClusterToBeUsedForTraining=72
+classifyBySimilarity l2MinDistance=2.347918853999847, doc new predLabel=126
+classifyBySimilarity l2MinDistance=3.295605492177374, doc new predLabel=144
+classifyBySimilarity l2MinDistance=3.5164420705569, doc new predLabel=144
+classifyBySimilarity l2MinDistance=2.992028829533958, doc new predLabel=322
+classifyBySimilarity l2MinDistance=4.489100020709595, doc new predLabel=140
+classifyBySimilarity l2MinDistance=2.7574757330978734, doc new predLabel=233
+classifyBySimilarity l2MinDistance=3.2043990942540796, doc new predLabel=233
+classifyBySimilarity l2MinDistance=2.3459793859742213, doc new predLabel=315
+classifyBySimilarity l2MinDistance=2.786538522993119, doc new predLabel=138
+classifyBySimilarity l2MinDistance=3.532688114309308, doc new predLabel=144
+classifyBySimilarity l2MinDistance=3.2766569709159774, doc new predLabel=315
+classifyBySimilarity l2MinDistance=5.3150161114568615, doc new predLabel=9
+classifyBySimilarity l2MinDistance=3.0565282205323308, doc new predLabel=315
+classifyBySimilarity l2MinDistance=4.088438284037985, doc new predLabel=248
+	Saving successful!
+Batch 5
+11109
+	3479 documents will be analyze. alpha is 104.37.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/News-TK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch5/
+start doc=2783, end doc=3479
+total texts=3479, total clusters=136
+dic len=136
+#docsToBeReclassified=12, #otherDocsToKeepAsItIs=684
+#docsPerClusterToBeUsedForTraining=83
+#wordsPerClusterToBeUsedForTraining=83
+classifyBySimilarity l2MinDistance=2.716432142311593, doc new predLabel=322
+classifyBySimilarity l2MinDistance=2.76433656808889, doc new predLabel=311
+classifyBySimilarity l2MinDistance=2.331076749532036, doc new predLabel=126
+classifyBySimilarity l2MinDistance=2.590170648266611, doc new predLabel=132
+classifyBySimilarity l2MinDistance=3.0403811238658522, doc new predLabel=187
+classifyBySimilarity l2MinDistance=4.899739095497662, doc new predLabel=247
+classifyBySimilarity l2MinDistance=2.4780436737952956, doc new predLabel=387
+classifyBySimilarity l2MinDistance=4.996394400016021, doc new predLabel=133
+classifyBySimilarity l2MinDistance=3.5609788107180087, doc new predLabel=144
+classifyBySimilarity l2MinDistance=3.184778243871439, doc new predLabel=315
+classifyBySimilarity l2MinDistance=2.566353922492182, doc new predLabel=187
+classifyBySimilarity l2MinDistance=3.4426901749421592, doc new predLabel=379
+	Saving successful!
+Batch 6
+11109
+	4175 documents will be analyze. alpha is 125.25.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/News-TK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch6/
+start doc=3479, end doc=4175
+total texts=4175, total clusters=143
+dic len=143
+#docsToBeReclassified=5, #otherDocsToKeepAsItIs=691
+#docsPerClusterToBeUsedForTraining=89
+#wordsPerClusterToBeUsedForTraining=89
+classifyBySimilarity l2MinDistance=2.557189226005769, doc new predLabel=319
+classifyBySimilarity l2MinDistance=3.780730170419156, doc new predLabel=312
+classifyBySimilarity l2MinDistance=2.356394293727146, doc new predLabel=312
+classifyBySimilarity l2MinDistance=2.545329111933883, doc new predLabel=125
+classifyBySimilarity l2MinDistance=3.424075140886161, doc new predLabel=144
+	Saving successful!
+Batch 7
+11109
+	4871 documents will be analyze. alpha is 146.13.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/News-TK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch7/
+start doc=4175, end doc=4871
+total texts=4871, total clusters=159
+dic len=159
+#docsToBeReclassified=7, #otherDocsToKeepAsItIs=689
+#docsPerClusterToBeUsedForTraining=104
+#wordsPerClusterToBeUsedForTraining=104
+classifyBySimilarity l2MinDistance=2.2654815878236816, doc new predLabel=456
+classifyBySimilarity l2MinDistance=2.636123590435209, doc new predLabel=460
+classifyBySimilarity l2MinDistance=3.4552805006898524, doc new predLabel=249
+classifyBySimilarity l2MinDistance=4.125413005707957, doc new predLabel=379
+classifyBySimilarity l2MinDistance=4.873042676610134, doc new predLabel=160
+classifyBySimilarity l2MinDistance=2.928749169304935, doc new predLabel=4
+classifyBySimilarity l2MinDistance=4.270809992821618, doc new predLabel=32
+	Saving successful!
+Batch 8
+11109
+	5567 documents will be analyze. alpha is 167.01.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/News-TK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch8/
+start doc=4871, end doc=5567
+total texts=5567, total clusters=171
+dic len=171
+#docsToBeReclassified=8, #otherDocsToKeepAsItIs=688
+#docsPerClusterToBeUsedForTraining=111
+#wordsPerClusterToBeUsedForTraining=111
+classifyBySimilarity l2MinDistance=2.5264588191184565, doc new predLabel=540
+classifyBySimilarity l2MinDistance=2.61498901342121, doc new predLabel=555
+classifyBySimilarity l2MinDistance=2.8149171924228873, doc new predLabel=494
+classifyBySimilarity l2MinDistance=2.2321856915310674, doc new predLabel=494
+classifyBySimilarity l2MinDistance=3.3238432668003948, doc new predLabel=530
+classifyBySimilarity l2MinDistance=2.5319680734316674, doc new predLabel=540
+classifyBySimilarity l2MinDistance=2.448332119172503, doc new predLabel=540
+classifyBySimilarity l2MinDistance=2.1107547053540006, doc new predLabel=169
+	Saving successful!
+Batch 9
+11109
+	6263 documents will be analyze. alpha is 187.89.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/News-TK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch9/
+start doc=5567, end doc=6263
+total texts=6263, total clusters=184
+dic len=184
+#docsToBeReclassified=10, #otherDocsToKeepAsItIs=686
+#docsPerClusterToBeUsedForTraining=117
+#wordsPerClusterToBeUsedForTraining=117
+classifyBySimilarity l2MinDistance=2.944684690787913, doc new predLabel=571
+classifyBySimilarity l2MinDistance=3.8647286951725337, doc new predLabel=547
+classifyBySimilarity l2MinDistance=2.7148321315819643, doc new predLabel=160
+classifyBySimilarity l2MinDistance=2.0738946821258324, doc new predLabel=555
+classifyBySimilarity l2MinDistance=3.955009474172295, doc new predLabel=496
+classifyBySimilarity l2MinDistance=2.056352513702456, doc new predLabel=544
+classifyBySimilarity l2MinDistance=3.270965572306077, doc new predLabel=450
+classifyBySimilarity l2MinDistance=2.393772129592866, doc new predLabel=571
+classifyBySimilarity l2MinDistance=3.3457017520551693, doc new predLabel=538
+classifyBySimilarity l2MinDistance=2.71420555498857, doc new predLabel=136
+	Saving successful!
+Batch 10
+11109
+	6959 documents will be analyze. alpha is 208.77.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/News-TK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch10/
+start doc=6263, end doc=6959
+total texts=6959, total clusters=207
+dic len=207
+#docsToBeReclassified=21, #otherDocsToKeepAsItIs=675
+#docsPerClusterToBeUsedForTraining=123
+#wordsPerClusterToBeUsedForTraining=123
+classifyBySimilarity l2MinDistance=2.9812043297048443, doc new predLabel=133
+classifyBySimilarity l2MinDistance=2.553346125832509, doc new predLabel=530
+classifyBySimilarity l2MinDistance=3.1023562018786692, doc new predLabel=615
+classifyBySimilarity l2MinDistance=2.975013309580515, doc new predLabel=530
+classifyBySimilarity l2MinDistance=2.8234506205719416, doc new predLabel=615
+classifyBySimilarity l2MinDistance=3.2629968312271624, doc new predLabel=587
+classifyBySimilarity l2MinDistance=4.00413499894722, doc new predLabel=449
+classifyBySimilarity l2MinDistance=3.4411091969237178, doc new predLabel=247
+classifyBySimilarity l2MinDistance=3.094995543940761, doc new predLabel=613
+classifyBySimilarity l2MinDistance=3.157709669025854, doc new predLabel=449
+classifyBySimilarity l2MinDistance=2.4119617392347563, doc new predLabel=587
+classifyBySimilarity l2MinDistance=4.575782739072681, doc new predLabel=613
+classifyBySimilarity l2MinDistance=2.474624141705664, doc new predLabel=547
+classifyBySimilarity l2MinDistance=2.811950828924549, doc new predLabel=494
+classifyBySimilarity l2MinDistance=3.486022380643511, doc new predLabel=547
+classifyBySimilarity l2MinDistance=2.354538459712008, doc new predLabel=494
+classifyBySimilarity l2MinDistance=3.3056832254554616, doc new predLabel=547
+classifyBySimilarity l2MinDistance=2.7249881605426514, doc new predLabel=547
+classifyBySimilarity l2MinDistance=3.075804840062373, doc new predLabel=451
+classifyBySimilarity l2MinDistance=2.6917631039160423, doc new predLabel=451
+classifyBySimilarity l2MinDistance=3.4804052001528283, doc new predLabel=380
+	Saving successful!
+Batch 11
+11109
+	7655 documents will be analyze. alpha is 229.65.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/News-TK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch11/
+start doc=6959, end doc=7655
+total texts=7655, total clusters=234
+dic len=234
+#docsToBeReclassified=20, #otherDocsToKeepAsItIs=676
+#docsPerClusterToBeUsedForTraining=140
+#wordsPerClusterToBeUsedForTraining=140
+classifyBySimilarity l2MinDistance=4.059685114400964, doc new predLabel=696
+classifyBySimilarity l2MinDistance=2.553127816549992, doc new predLabel=540
+classifyBySimilarity l2MinDistance=3.4433790860689886, doc new predLabel=379
+classifyBySimilarity l2MinDistance=2.463539239553825, doc new predLabel=697
+classifyBySimilarity l2MinDistance=3.731760206159209, doc new predLabel=495
+classifyBySimilarity l2MinDistance=2.2676792451889454, doc new predLabel=500
+classifyBySimilarity l2MinDistance=3.01639555146399, doc new predLabel=450
+classifyBySimilarity l2MinDistance=3.304048712022598, doc new predLabel=696
+classifyBySimilarity l2MinDistance=2.759459323094493, doc new predLabel=136
+classifyBySimilarity l2MinDistance=3.8738901205198255, doc new predLabel=696
+classifyBySimilarity l2MinDistance=4.016584023814779, doc new predLabel=697
+classifyBySimilarity l2MinDistance=2.478776597422636, doc new predLabel=539
+classifyBySimilarity l2MinDistance=3.577278758082556, doc new predLabel=144
+classifyBySimilarity l2MinDistance=2.562344073268104, doc new predLabel=526
+classifyBySimilarity l2MinDistance=3.1796522928738136, doc new predLabel=697
+classifyBySimilarity l2MinDistance=2.9961387966070823, doc new predLabel=38
+classifyBySimilarity l2MinDistance=2.419201289185476, doc new predLabel=731
+classifyBySimilarity l2MinDistance=2.4098427138302823, doc new predLabel=731
+classifyBySimilarity l2MinDistance=2.0328210011381826, doc new predLabel=305
+classifyBySimilarity l2MinDistance=2.98756860424972, doc new predLabel=305
+	Saving successful!
+Batch 12
+11109
+	8351 documents will be analyze. alpha is 250.53.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/News-TK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch12/
+start doc=7655, end doc=8351
+total texts=8351, total clusters=253
+dic len=253
+#docsToBeReclassified=16, #otherDocsToKeepAsItIs=680
+#docsPerClusterToBeUsedForTraining=151
+#wordsPerClusterToBeUsedForTraining=151
+classifyBySimilarity l2MinDistance=3.410423548395137, doc new predLabel=495
+classifyBySimilarity l2MinDistance=3.6292710739072036, doc new predLabel=696
+classifyBySimilarity l2MinDistance=3.025583037394041, doc new predLabel=731
+classifyBySimilarity l2MinDistance=3.882486210739283, doc new predLabel=801
+classifyBySimilarity l2MinDistance=2.400312798096821, doc new predLabel=17
+classifyBySimilarity l2MinDistance=2.512137921761783, doc new predLabel=801
+classifyBySimilarity l2MinDistance=4.1668190961481315, doc new predLabel=571
+classifyBySimilarity l2MinDistance=3.6649997581054925, doc new predLabel=240
+classifyBySimilarity l2MinDistance=3.3820672825250435, doc new predLabel=801
+classifyBySimilarity l2MinDistance=2.527416458785912, doc new predLabel=699
+classifyBySimilarity l2MinDistance=2.804105749194088, doc new predLabel=804
+classifyBySimilarity l2MinDistance=2.834638523383395, doc new predLabel=547
+classifyBySimilarity l2MinDistance=2.9956559486872996, doc new predLabel=491
+classifyBySimilarity l2MinDistance=3.4037924330726255, doc new predLabel=693
+classifyBySimilarity l2MinDistance=2.934736235170235, doc new predLabel=305
+classifyBySimilarity l2MinDistance=2.534848504124844, doc new predLabel=695
+	Saving successful!
+Batch 13
+11109
+	9047 documents will be analyze. alpha is 271.41.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/News-TK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch13/
+start doc=8351, end doc=9047
+total texts=9047, total clusters=288
+dic len=288
+#docsToBeReclassified=30, #otherDocsToKeepAsItIs=666
+#docsPerClusterToBeUsedForTraining=159
+#wordsPerClusterToBeUsedForTraining=159
+classifyBySimilarity l2MinDistance=2.5153448384461536, doc new predLabel=606
+classifyBySimilarity l2MinDistance=2.631601546815023, doc new predLabel=233
+classifyBySimilarity l2MinDistance=3.053109920271846, doc new predLabel=699
+classifyBySimilarity l2MinDistance=1.931634555538064, doc new predLabel=890
+classifyBySimilarity l2MinDistance=2.839703148332008, doc new predLabel=144
+classifyBySimilarity l2MinDistance=2.2825886691032506, doc new predLabel=890
+classifyBySimilarity l2MinDistance=2.17827870730902, doc new predLabel=860
+classifyBySimilarity l2MinDistance=4.1900127972028915, doc new predLabel=576
+classifyBySimilarity l2MinDistance=2.9472992493547063, doc new predLabel=469
+classifyBySimilarity l2MinDistance=4.10714239312799, doc new predLabel=860
+classifyBySimilarity l2MinDistance=3.210523520875546, doc new predLabel=888
+classifyBySimilarity l2MinDistance=2.3144305976672555, doc new predLabel=888
+classifyBySimilarity l2MinDistance=2.048259655698014, doc new predLabel=890
+classifyBySimilarity l2MinDistance=3.360986865030034, doc new predLabel=453
+classifyBySimilarity l2MinDistance=2.3502136545541052, doc new predLabel=451
+classifyBySimilarity l2MinDistance=2.839087061358602, doc new predLabel=802
+classifyBySimilarity l2MinDistance=2.8479484604113456, doc new predLabel=494
+classifyBySimilarity l2MinDistance=2.9566432441573975, doc new predLabel=804
+classifyBySimilarity l2MinDistance=3.070377588682341, doc new predLabel=244
+classifyBySimilarity l2MinDistance=2.690077960139977, doc new predLabel=888
+classifyBySimilarity l2MinDistance=2.925286839524763, doc new predLabel=157
+classifyBySimilarity l2MinDistance=3.357481448024232, doc new predLabel=243
+classifyBySimilarity l2MinDistance=2.817839930943045, doc new predLabel=243
+classifyBySimilarity l2MinDistance=3.08792221230932, doc new predLabel=153
+classifyBySimilarity l2MinDistance=3.1364978110453228, doc new predLabel=451
+classifyBySimilarity l2MinDistance=3.1067500773308416, doc new predLabel=12
+classifyBySimilarity l2MinDistance=3.1152852952018355, doc new predLabel=322
+classifyBySimilarity l2MinDistance=2.539665090040574, doc new predLabel=860
+classifyBySimilarity l2MinDistance=3.6285070406445397, doc new predLabel=243
+classifyBySimilarity l2MinDistance=2.78303042619794, doc new predLabel=587
+	Saving successful!
+Batch 14
+11109
+	9743 documents will be analyze. alpha is 292.29.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/News-TK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch14/
+start doc=9047, end doc=9743
+total texts=9743, total clusters=319
+dic len=319
+#docsToBeReclassified=24, #otherDocsToKeepAsItIs=672
+#docsPerClusterToBeUsedForTraining=180
+#wordsPerClusterToBeUsedForTraining=180
+classifyBySimilarity l2MinDistance=2.5360231550214136, doc new predLabel=243
+classifyBySimilarity l2MinDistance=3.694781565107455, doc new predLabel=142
+classifyBySimilarity l2MinDistance=2.205216115355713, doc new predLabel=860
+classifyBySimilarity l2MinDistance=2.8567053077016293, doc new predLabel=804
+classifyBySimilarity l2MinDistance=2.89543863255961, doc new predLabel=540
+classifyBySimilarity l2MinDistance=2.907536674834749, doc new predLabel=456
+classifyBySimilarity l2MinDistance=2.2897192469562837, doc new predLabel=460
+classifyBySimilarity l2MinDistance=3.211717585523502, doc new predLabel=938
+classifyBySimilarity l2MinDistance=2.321911698794823, doc new predLabel=1013
+classifyBySimilarity l2MinDistance=2.9309689877672853, doc new predLabel=128
+classifyBySimilarity l2MinDistance=2.8607731573057493, doc new predLabel=128
+classifyBySimilarity l2MinDistance=2.5044735272781278, doc new predLabel=508
+classifyBySimilarity l2MinDistance=2.7055682532071526, doc new predLabel=156
+classifyBySimilarity l2MinDistance=2.569483828377855, doc new predLabel=860
+classifyBySimilarity l2MinDistance=3.1949513254459743, doc new predLabel=133
+classifyBySimilarity l2MinDistance=2.9646075278808217, doc new predLabel=566
+classifyBySimilarity l2MinDistance=3.56279177427496, doc new predLabel=187
+classifyBySimilarity l2MinDistance=4.633222299351867, doc new predLabel=450
+classifyBySimilarity l2MinDistance=3.6099005192357967, doc new predLabel=160
+classifyBySimilarity l2MinDistance=2.498898470020887, doc new predLabel=587
+classifyBySimilarity l2MinDistance=5.0807372932749155, doc new predLabel=160
+classifyBySimilarity l2MinDistance=2.639164398237365, doc new predLabel=243
+classifyBySimilarity l2MinDistance=2.9243070122759147, doc new predLabel=243
+classifyBySimilarity l2MinDistance=2.716309465694434, doc new predLabel=790
+	Saving successful!
+Batch 15
+11109
+	10439 documents will be analyze. alpha is 313.17.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/News-TK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch15/
+start doc=9743, end doc=10439
+total texts=10439, total clusters=352
+dic len=352
+#docsToBeReclassified=27, #otherDocsToKeepAsItIs=669
+#docsPerClusterToBeUsedForTraining=191
+#wordsPerClusterToBeUsedForTraining=191
+classifyBySimilarity l2MinDistance=2.3653770411386668, doc new predLabel=502
+classifyBySimilarity l2MinDistance=2.8056320426991603, doc new predLabel=688
+classifyBySimilarity l2MinDistance=3.22596342752106, doc new predLabel=450
+classifyBySimilarity l2MinDistance=1.8756107261786905, doc new predLabel=243
+classifyBySimilarity l2MinDistance=3.2114564837815527, doc new predLabel=1115
+classifyBySimilarity l2MinDistance=2.276055171025754, doc new predLabel=1106
+classifyBySimilarity l2MinDistance=3.3023024501499263, doc new predLabel=25
+classifyBySimilarity l2MinDistance=2.0988975302598827, doc new predLabel=1112
+classifyBySimilarity l2MinDistance=2.5007437891265973, doc new predLabel=1113
+classifyBySimilarity l2MinDistance=3.7805410602313083, doc new predLabel=1106
+classifyBySimilarity l2MinDistance=3.255530597013913, doc new predLabel=566
+classifyBySimilarity l2MinDistance=2.617482915479321, doc new predLabel=860
+classifyBySimilarity l2MinDistance=3.369043466982035, doc new predLabel=801
+classifyBySimilarity l2MinDistance=2.168293457987383, doc new predLabel=731
+classifyBySimilarity l2MinDistance=2.9919616830308384, doc new predLabel=587
+classifyBySimilarity l2MinDistance=4.411041663735217, doc new predLabel=387
+classifyBySimilarity l2MinDistance=2.7449158842748997, doc new predLabel=684
+classifyBySimilarity l2MinDistance=2.630529521522971, doc new predLabel=160
+classifyBySimilarity l2MinDistance=2.684625201200692, doc new predLabel=450
+classifyBySimilarity l2MinDistance=2.6118159136973227, doc new predLabel=1117
+classifyBySimilarity l2MinDistance=3.1226421215337847, doc new predLabel=493
+classifyBySimilarity l2MinDistance=2.067031646545759, doc new predLabel=1112
+classifyBySimilarity l2MinDistance=3.2554208317662408, doc new predLabel=538
+classifyBySimilarity l2MinDistance=2.878425547256297, doc new predLabel=142
+classifyBySimilarity l2MinDistance=2.485621653524079, doc new predLabel=544
+classifyBySimilarity l2MinDistance=2.392048465639008, doc new predLabel=248
+classifyBySimilarity l2MinDistance=2.753796740876926, doc new predLabel=128
+	Saving successful!
+Batch 16
+11109
+	11109 documents will be analyze. alpha is 333.27.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/News-TK0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16Batch16/
+start doc=10439, end doc=11109
+total texts=11109, total clusters=364
+dic len=364
+#docsToBeReclassified=9, #otherDocsToKeepAsItIs=661
+#docsPerClusterToBeUsedForTraining=200
+#wordsPerClusterToBeUsedForTraining=200
+classifyBySimilarity l2MinDistance=2.174803931438923, doc new predLabel=244
+classifyBySimilarity l2MinDistance=4.8389119204826985, doc new predLabel=1013
+classifyBySimilarity l2MinDistance=3.2102963795836676, doc new predLabel=613
+classifyBySimilarity l2MinDistance=2.114444641866269, doc new predLabel=469
+classifyBySimilarity l2MinDistance=2.7158543271220466, doc new predLabel=305
+classifyBySimilarity l2MinDistance=2.4304412587057924, doc new predLabel=544
+classifyBySimilarity l2MinDistance=3.1794123615993937, doc new predLabel=469
+classifyBySimilarity l2MinDistance=2.2559173926672833, doc new predLabel=684
+classifyBySimilarity l2MinDistance=2.6860214882276776, doc new predLabel=153
+	Saving successful!
+final dic len=364
+cluster id=0, items=22
+cluster id=7, items=43
+cluster id=2, items=63
+cluster id=3, items=33
+cluster id=4, items=16
+cluster id=12, items=151
+cluster id=8, items=10
+cluster id=25, items=66
+cluster id=125, items=30
+cluster id=13, items=67
+cluster id=126, items=80
+cluster id=17, items=27
+cluster id=26, items=25
+cluster id=20, items=52
+cluster id=6, items=8
+cluster id=21, items=25
+cluster id=23, items=29
+cluster id=40, items=12
+cluster id=14, items=20
+cluster id=10, items=35
+cluster id=31, items=25
+cluster id=127, items=1
+cluster id=128, items=58
+cluster id=24, items=39
+cluster id=32, items=15
+cluster id=129, items=1
+cluster id=130, items=1
+cluster id=38, items=42
+cluster id=131, items=1
+cluster id=97, items=20
+cluster id=43, items=15
+cluster id=47, items=8
+cluster id=46, items=38
+cluster id=132, items=174
+cluster id=133, items=25
+cluster id=9, items=24
+cluster id=116, items=1
+cluster id=57, items=22
+cluster id=134, items=1
+cluster id=135, items=1
+cluster id=119, items=2
+cluster id=136, items=80
+cluster id=137, items=107
+cluster id=138, items=67
+cluster id=139, items=4
+cluster id=140, items=9
+cluster id=141, items=1
+cluster id=142, items=71
+cluster id=143, items=1
+cluster id=144, items=446
+cluster id=145, items=125
+cluster id=146, items=1
+cluster id=147, items=79
+cluster id=148, items=56
+cluster id=149, items=65
+cluster id=164, items=4
+cluster id=151, items=116
+cluster id=152, items=36
+cluster id=153, items=108
+cluster id=226, items=2
+cluster id=156, items=160
+cluster id=157, items=40
+cluster id=155, items=67
+cluster id=232, items=39
+cluster id=154, items=147
+cluster id=161, items=8
+cluster id=159, items=15
+cluster id=233, items=158
+cluster id=160, items=18
+cluster id=150, items=5
+cluster id=169, items=202
+cluster id=234, items=1
+cluster id=235, items=1
+cluster id=236, items=6
+cluster id=237, items=1
+cluster id=238, items=1
+cluster id=239, items=10
+cluster id=240, items=18
+cluster id=241, items=1
+cluster id=242, items=1
+cluster id=243, items=98
+cluster id=187, items=107
+cluster id=244, items=86
+cluster id=248, items=96
+cluster id=247, items=159
+cluster id=249, items=140
+cluster id=305, items=95
+cluster id=306, items=1
+cluster id=252, items=1
+cluster id=307, items=1
+cluster id=308, items=1
+cluster id=268, items=2
+cluster id=309, items=1
+cluster id=310, items=1
+cluster id=311, items=18
+cluster id=312, items=270
+cluster id=313, items=1
+cluster id=314, items=5
+cluster id=315, items=104
+cluster id=316, items=8
+cluster id=322, items=37
+cluster id=318, items=29
+cluster id=319, items=17
+cluster id=355, items=4
+cluster id=366, items=1
+cluster id=348, items=4
+cluster id=367, items=32
+cluster id=368, items=1
+cluster id=369, items=35
+cluster id=370, items=2
+cluster id=371, items=13
+cluster id=325, items=2
+cluster id=372, items=1
+cluster id=373, items=1
+cluster id=374, items=1
+cluster id=375, items=1
+cluster id=376, items=19
+cluster id=377, items=1
+cluster id=378, items=1
+cluster id=379, items=57
+cluster id=380, items=210
+cluster id=449, items=11
+cluster id=384, items=3
+cluster id=387, items=19
+cluster id=450, items=251
+cluster id=388, items=12
+cluster id=451, items=71
+cluster id=452, items=1
+cluster id=453, items=32
+cluster id=454, items=1
+cluster id=455, items=1
+cluster id=456, items=39
+cluster id=457, items=1
+cluster id=458, items=4
+cluster id=459, items=1
+cluster id=460, items=91
+cluster id=493, items=71
+cluster id=465, items=95
+cluster id=494, items=145
+cluster id=469, items=142
+cluster id=495, items=36
+cluster id=491, items=9
+cluster id=496, items=107
+cluster id=501, items=31
+cluster id=497, items=30
+cluster id=499, items=6
+cluster id=500, items=79
+cluster id=502, items=16
+cluster id=503, items=17
+cluster id=533, items=31
+cluster id=534, items=1
+cluster id=508, items=27
+cluster id=535, items=1
+cluster id=536, items=1
+cluster id=530, items=200
+cluster id=537, items=1
+cluster id=526, items=56
+cluster id=538, items=13
+cluster id=539, items=117
+cluster id=540, items=115
+cluster id=547, items=59
+cluster id=555, items=6
+cluster id=565, items=1
+cluster id=566, items=34
+cluster id=567, items=1
+cluster id=568, items=1
+cluster id=569, items=33
+cluster id=544, items=159
+cluster id=570, items=26
+cluster id=571, items=79
+cluster id=572, items=2
+cluster id=573, items=110
+cluster id=605, items=1
+cluster id=576, items=8
+cluster id=606, items=88
+cluster id=607, items=1
+cluster id=608, items=5
+cluster id=587, items=242
+cluster id=609, items=1
+cluster id=610, items=1
+cluster id=611, items=1
+cluster id=612, items=1
+cluster id=613, items=98
+cluster id=614, items=1
+cluster id=615, items=148
+cluster id=616, items=47
+cluster id=682, items=1
+cluster id=683, items=1
+cluster id=684, items=170
+cluster id=685, items=1
+cluster id=686, items=1
+cluster id=687, items=1
+cluster id=688, items=51
+cluster id=689, items=1
+cluster id=690, items=1
+cluster id=691, items=1
+cluster id=692, items=1
+cluster id=693, items=45
+cluster id=694, items=25
+cluster id=695, items=106
+cluster id=696, items=64
+cluster id=697, items=144
+cluster id=698, items=29
+cluster id=699, items=37
+cluster id=700, items=1
+cluster id=701, items=47
+cluster id=702, items=1
+cluster id=703, items=51
+cluster id=785, items=1
+cluster id=705, items=143
+cluster id=786, items=1
+cluster id=787, items=1
+cluster id=720, items=58
+cluster id=715, items=17
+cluster id=716, items=30
+cluster id=788, items=1
+cluster id=789, items=1
+cluster id=790, items=66
+cluster id=722, items=76
+cluster id=791, items=1
+cluster id=792, items=1
+cluster id=793, items=1
+cluster id=794, items=1
+cluster id=795, items=1
+cluster id=796, items=1
+cluster id=797, items=1
+cluster id=798, items=1
+cluster id=799, items=1
+cluster id=731, items=152
+cluster id=800, items=38
+cluster id=801, items=38
+cluster id=802, items=140
+cluster id=803, items=1
+cluster id=804, items=31
+cluster id=874, items=1
+cluster id=805, items=50
+cluster id=875, items=1
+cluster id=876, items=1
+cluster id=877, items=1
+cluster id=878, items=1
+cluster id=879, items=1
+cluster id=880, items=1
+cluster id=881, items=1
+cluster id=882, items=1
+cluster id=883, items=1
+cluster id=884, items=1
+cluster id=885, items=1
+cluster id=886, items=1
+cluster id=887, items=1
+cluster id=846, items=78
+cluster id=888, items=126
+cluster id=860, items=118
+cluster id=889, items=21
+cluster id=890, items=82
+cluster id=894, items=17
+cluster id=975, items=1
+cluster id=976, items=1
+cluster id=977, items=1
+cluster id=938, items=18
+cluster id=978, items=1
+cluster id=904, items=2
+cluster id=979, items=1
+cluster id=980, items=1
+cluster id=981, items=2
+cluster id=982, items=1
+cluster id=983, items=1
+cluster id=984, items=1
+cluster id=985, items=1
+cluster id=986, items=1
+cluster id=987, items=1
+cluster id=988, items=1
+cluster id=989, items=1
+cluster id=990, items=1
+cluster id=991, items=1
+cluster id=992, items=1
+cluster id=993, items=1
+cluster id=994, items=1
+cluster id=995, items=83
+cluster id=996, items=1
+cluster id=997, items=19
+cluster id=998, items=27
+cluster id=999, items=1
+cluster id=1000, items=16
+cluster id=1001, items=1
+cluster id=1002, items=40
+cluster id=1003, items=49
+cluster id=1004, items=29
+cluster id=1005, items=4
+cluster id=1006, items=10
+cluster id=1090, items=1
+cluster id=1011, items=34
+cluster id=1013, items=8
+cluster id=1020, items=25
+cluster id=1091, items=1
+cluster id=1092, items=1
+cluster id=1093, items=1
+cluster id=1025, items=8
+cluster id=1094, items=1
+cluster id=1095, items=1
+cluster id=1096, items=1
+cluster id=1097, items=1
+cluster id=1082, items=2
+cluster id=1098, items=1
+cluster id=1099, items=1
+cluster id=1100, items=1
+cluster id=1101, items=1
+cluster id=1102, items=1
+cluster id=1103, items=1
+cluster id=1104, items=1
+cluster id=1105, items=24
+cluster id=1106, items=10
+cluster id=1089, items=27
+cluster id=1107, items=1
+cluster id=1108, items=1
+cluster id=1109, items=1
+cluster id=1110, items=1
+cluster id=1111, items=1
+cluster id=1112, items=39
+cluster id=1113, items=9
+cluster id=1114, items=2
+cluster id=1115, items=4
+cluster id=1117, items=53
+cluster id=1208, items=1
+cluster id=1209, items=1
+cluster id=1210, items=1
+cluster id=1211, items=1
+cluster id=1125, items=4
+cluster id=1212, items=1
+cluster id=1213, items=1
+cluster id=1181, items=2
+cluster id=1214, items=1
+cluster id=1215, items=1
+cluster id=1123, items=2
+cluster id=1216, items=1
+cluster id=1217, items=1
+cluster id=1218, items=23
+cluster id=1219, items=1
+cluster id=1220, items=1
+cluster id=1221, items=1
+cluster id=1222, items=1
+cluster id=1223, items=1
+cluster id=1224, items=1
+cluster id=1225, items=1
+cluster id=1226, items=1
+cluster id=1227, items=1
+cluster id=1228, items=1
+cluster id=1229, items=1
+cluster id=1230, items=7
+cluster id=1231, items=1
+cluster id=1232, items=1
+cluster id=1233, items=1
+cluster id=1234, items=2
+cluster id=1241, items=29
+cluster id=1242, items=17
+cluster id=1243, items=2
+cluster id=1273, items=1
+cluster id=1248, items=5
+cluster id=1274, items=1
+cluster id=1275, items=1
+cluster id=1276, items=1
+cluster id=1277, items=1
+cluster id=1278, items=1
+cluster id=1279, items=1
+cluster id=1280, items=1

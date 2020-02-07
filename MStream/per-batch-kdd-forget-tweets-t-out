@@ -1,0 +1,2077 @@
+number of documents is  30322
+self.V=all the words in all documents
+12301
+SampleNo:1
+No timefil!
+batchNum2tweetID is  {1: 1897, 2: 3794, 3: 5691, 4: 7588, 5: 9485, 6: 11382, 7: 13279, 8: 15176, 9: 17073, 10: 18970, 11: 20867, 12: 22764, 13: 24661, 14: 26558, 15: 28455, 16: -1}
+Batch 1
+	1896 documents will be analyze. alpha is 56.88.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Tweets-TK0iterNum10SampleNum5alpha0.03beta0.03BatchNum16BatchSaved2Batch1/
+start doc=0, end doc=1896
+Evaluate-kdd 2
+pred_true_text_file name=result/batchId_PredTrueText1
+evaluate total texts=1896
+homogeneity_score-whole-data:   0.96035056
+completeness_score-whole-data:   0.76504540
+nmi_score-whole-data:   0.85164426
+pred clusters=101, true clusters=33
+purity majority whole data=0.9630801687763713
+total texts=0, total clusters=0
+	Saving successful!
+Batch 2
+	3793 documents will be analyze. alpha is 113.79.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Tweets-TK0iterNum10SampleNum5alpha0.03beta0.03BatchNum16BatchSaved2Batch2/
+start doc=1896, end doc=3793
+Evaluate-kdd 3
+pred_true_text_file name=result/batchId_PredTrueText2
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.90849069
+completeness_score-whole-data:   0.71234790
+nmi_score-whole-data:   0.79855137
+pred clusters=91, true clusters=34
+purity majority whole data=0.9114391143911439
+total texts=0, total clusters=0
+	Saving successful!
+Batch 3
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Tweets-TK0iterNum10SampleNum5alpha0.03beta0.03BatchNum16BatchSaved2Batch3/
+start doc=3793, end doc=5690
+Evaluate-kdd 4
+pred_true_text_file name=result/batchId_PredTrueText3
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.93121799
+completeness_score-whole-data:   0.76267339
+nmi_score-whole-data:   0.83856048
+pred clusters=56, true clusters=22
+purity majority whole data=0.9478123352662098
+total texts=0, total clusters=0
+	Saving successful!
+Batch 4
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Tweets-TK0iterNum10SampleNum5alpha0.03beta0.03BatchNum16BatchSaved2Batch4/
+start doc=5690, end doc=7587
+Evaluate-kdd 5
+pred_true_text_file name=result/batchId_PredTrueText4
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.87496543
+completeness_score-whole-data:   0.82543635
+nmi_score-whole-data:   0.84947955
+pred clusters=52, true clusters=25
+purity majority whole data=0.8882445967316817
+total texts=0, total clusters=0
+	Saving successful!
+Batch 5
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Tweets-TK0iterNum10SampleNum5alpha0.03beta0.03BatchNum16BatchSaved2Batch5/
+start doc=7587, end doc=9484
+Evaluate-kdd 6
+pred_true_text_file name=result/batchId_PredTrueText5
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.90615343
+completeness_score-whole-data:   0.82122128
+nmi_score-whole-data:   0.86159936
+pred clusters=55, true clusters=31
+purity majority whole data=0.9146020031628888
+total texts=0, total clusters=0
+	Saving successful!
+Batch 6
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Tweets-TK0iterNum10SampleNum5alpha0.03beta0.03BatchNum16BatchSaved2Batch6/
+start doc=9484, end doc=11381
+Evaluate-kdd 7
+pred_true_text_file name=result/batchId_PredTrueText6
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.98179338
+completeness_score-whole-data:   0.80575179
+nmi_score-whole-data:   0.88510409
+pred clusters=39, true clusters=18
+purity majority whole data=0.9905113336847654
+total texts=0, total clusters=0
+	Saving successful!
+Batch 7
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Tweets-TK0iterNum10SampleNum5alpha0.03beta0.03BatchNum16BatchSaved2Batch7/
+start doc=11381, end doc=13278
+Evaluate-kdd 8
+pred_true_text_file name=result/batchId_PredTrueText7
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.96582808
+completeness_score-whole-data:   0.94430422
+nmi_score-whole-data:   0.95494488
+pred clusters=35, true clusters=23
+purity majority whole data=0.9731154454401687
+total texts=0, total clusters=0
+	Saving successful!
+Batch 8
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Tweets-TK0iterNum10SampleNum5alpha0.03beta0.03BatchNum16BatchSaved2Batch8/
+start doc=13278, end doc=15175
+Evaluate-kdd 9
+pred_true_text_file name=result/batchId_PredTrueText8
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.93641857
+completeness_score-whole-data:   0.86302906
+nmi_score-whole-data:   0.89822724
+pred clusters=42, true clusters=28
+purity majority whole data=0.9309435951502372
+total texts=0, total clusters=0
+	Saving successful!
+Batch 9
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Tweets-TK0iterNum10SampleNum5alpha0.03beta0.03BatchNum16BatchSaved2Batch9/
+start doc=15175, end doc=17072
+Evaluate-kdd 10
+pred_true_text_file name=result/batchId_PredTrueText9
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.96715398
+completeness_score-whole-data:   0.88882062
+nmi_score-whole-data:   0.92633423
+pred clusters=33, true clusters=23
+purity majority whole data=0.9836584080126516
+total texts=0, total clusters=0
+	Saving successful!
+Batch 10
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Tweets-TK0iterNum10SampleNum5alpha0.03beta0.03BatchNum16BatchSaved2Batch10/
+start doc=17072, end doc=18969
+Evaluate-kdd 11
+pred_true_text_file name=result/batchId_PredTrueText10
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.98406268
+completeness_score-whole-data:   0.95935686
+nmi_score-whole-data:   0.97155273
+pred clusters=35, true clusters=24
+purity majority whole data=0.9836584080126516
+total texts=0, total clusters=0
+	Saving successful!
+Batch 11
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Tweets-TK0iterNum10SampleNum5alpha0.03beta0.03BatchNum16BatchSaved2Batch11/
+start doc=18969, end doc=20866
+Evaluate-kdd 12
+pred_true_text_file name=result/batchId_PredTrueText11
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.95779216
+completeness_score-whole-data:   0.86117618
+nmi_score-whole-data:   0.90691825
+pred clusters=34, true clusters=20
+purity majority whole data=0.9646810753821824
+total texts=0, total clusters=0
+	Saving successful!
+Batch 12
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Tweets-TK0iterNum10SampleNum5alpha0.03beta0.03BatchNum16BatchSaved2Batch12/
+start doc=20866, end doc=22763
+Evaluate-kdd 13
+pred_true_text_file name=result/batchId_PredTrueText12
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.99181358
+completeness_score-whole-data:   0.91569014
+nmi_score-whole-data:   0.95223291
+pred clusters=25, true clusters=15
+purity majority whole data=0.9931470743278862
+total texts=0, total clusters=0
+	Saving successful!
+Batch 13
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Tweets-TK0iterNum10SampleNum5alpha0.03beta0.03BatchNum16BatchSaved2Batch13/
+start doc=22763, end doc=24660
+Evaluate-kdd 14
+pred_true_text_file name=result/batchId_PredTrueText13
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.98146459
+completeness_score-whole-data:   0.87916162
+nmi_score-whole-data:   0.92750064
+pred clusters=26, true clusters=18
+purity majority whole data=0.9884027411702688
+total texts=0, total clusters=0
+	Saving successful!
+Batch 14
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Tweets-TK0iterNum10SampleNum5alpha0.03beta0.03BatchNum16BatchSaved2Batch14/
+start doc=24660, end doc=26557
+Evaluate-kdd 15
+pred_true_text_file name=result/batchId_PredTrueText14
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.91503526
+completeness_score-whole-data:   0.79254866
+nmi_score-whole-data:   0.84939892
+pred clusters=55, true clusters=29
+purity majority whole data=0.9530838165524512
+total texts=0, total clusters=0
+	Saving successful!
+Batch 15
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Tweets-TK0iterNum10SampleNum5alpha0.03beta0.03BatchNum16BatchSaved2Batch15/
+start doc=26557, end doc=28454
+Evaluate-kdd 16
+pred_true_text_file name=result/batchId_PredTrueText15
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.91784060
+completeness_score-whole-data:   0.72661848
+nmi_score-whole-data:   0.81111163
+pred clusters=47, true clusters=21
+purity majority whole data=0.9441222983658408
+total texts=0, total clusters=0
+	Saving successful!
+Batch 16
+	3765 documents will be analyze. alpha is 112.95.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+	Create directory: result/Tweets-TK0iterNum10SampleNum5alpha0.03beta0.03BatchNum16BatchSaved2Batch16/
+start doc=28454, end doc=30322
+Evaluate-kdd 17
+pred_true_text_file name=result/batchId_PredTrueText16
+evaluate total texts=1868
+homogeneity_score-whole-data:   0.90835792
+completeness_score-whole-data:   0.49008991
+nmi_score-whole-data:   0.63667309
+pred clusters=29, true clusters=8
+purity majority whole data=0.9748394004282656
+total texts=0, total clusters=0
+	Saving successful!
+time diff secs= 243
+pred_true_text_file name=result/NewsPredTueTextMStream_WordArr.txt
+evaluate total texts=30322
+homogeneity_score-whole-data:   0.88458303
+completeness_score-whole-data:   0.89504192
+nmi_score-whole-data:   0.88978174
+pred clusters=393, true clusters=269
+purity majority whole data=0.799386583998417
+SampleNo:2
+No timefil!
+batchNum2tweetID is  {1: 1897, 2: 3794, 3: 5691, 4: 7588, 5: 9485, 6: 11382, 7: 13279, 8: 15176, 9: 17073, 10: 18970, 11: 20867, 12: 22764, 13: 24661, 14: 26558, 15: 28455, 16: -1}
+Batch 1
+	1896 documents will be analyze. alpha is 56.88.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=0, end doc=1896
+Evaluate-kdd 2
+pred_true_text_file name=result/batchId_PredTrueText1
+evaluate total texts=1896
+homogeneity_score-whole-data:   0.95272839
+completeness_score-whole-data:   0.76249856
+nmi_score-whole-data:   0.84706461
+pred clusters=99, true clusters=33
+purity majority whole data=0.9546413502109705
+total texts=0, total clusters=0
+	Saving successful!
+Batch 2
+	3793 documents will be analyze. alpha is 113.79.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=1896, end doc=3793
+Evaluate-kdd 3
+pred_true_text_file name=result/batchId_PredTrueText2
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.92241934
+completeness_score-whole-data:   0.72450384
+nmi_score-whole-data:   0.81156955
+pred clusters=88, true clusters=34
+purity majority whole data=0.9309435951502372
+total texts=0, total clusters=0
+	Saving successful!
+Batch 3
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=3793, end doc=5690
+Evaluate-kdd 4
+pred_true_text_file name=result/batchId_PredTrueText3
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.93236564
+completeness_score-whole-data:   0.75168220
+nmi_score-whole-data:   0.83233105
+pred clusters=51, true clusters=22
+purity majority whole data=0.9467580390089615
+total texts=0, total clusters=0
+	Saving successful!
+Batch 4
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=5690, end doc=7587
+Evaluate-kdd 5
+pred_true_text_file name=result/batchId_PredTrueText4
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.85625898
+completeness_score-whole-data:   0.77873549
+nmi_score-whole-data:   0.81565934
+pred clusters=49, true clusters=25
+purity majority whole data=0.8555614127569847
+total texts=0, total clusters=0
+	Saving successful!
+Batch 5
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=7587, end doc=9484
+Evaluate-kdd 6
+pred_true_text_file name=result/batchId_PredTrueText5
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.92017358
+completeness_score-whole-data:   0.81367139
+nmi_score-whole-data:   0.86365151
+pred clusters=54, true clusters=31
+purity majority whole data=0.922509225092251
+total texts=0, total clusters=0
+	Saving successful!
+Batch 6
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=9484, end doc=11381
+Evaluate-kdd 7
+pred_true_text_file name=result/batchId_PredTrueText6
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.98207797
+completeness_score-whole-data:   0.80567976
+nmi_score-whole-data:   0.88517625
+pred clusters=30, true clusters=18
+purity majority whole data=0.9899841855561413
+total texts=0, total clusters=0
+	Saving successful!
+Batch 7
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=11381, end doc=13278
+Evaluate-kdd 8
+pred_true_text_file name=result/batchId_PredTrueText7
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.97798311
+completeness_score-whole-data:   0.95138710
+nmi_score-whole-data:   0.96450180
+pred clusters=36, true clusters=23
+purity majority whole data=0.9884027411702688
+total texts=0, total clusters=0
+	Saving successful!
+Batch 8
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=13278, end doc=15175
+Evaluate-kdd 9
+pred_true_text_file name=result/batchId_PredTrueText8
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.97799114
+completeness_score-whole-data:   0.89886419
+nmi_score-whole-data:   0.93675970
+pred clusters=41, true clusters=28
+purity majority whole data=0.9789140748550342
+total texts=0, total clusters=0
+	Saving successful!
+Batch 9
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=15175, end doc=17072
+Evaluate-kdd 10
+pred_true_text_file name=result/batchId_PredTrueText9
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.98742692
+completeness_score-whole-data:   0.91801169
+nmi_score-whole-data:   0.95145491
+pred clusters=35, true clusters=23
+purity majority whole data=0.9936742224565103
+total texts=0, total clusters=0
+	Saving successful!
+Batch 10
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=17072, end doc=18969
+Evaluate-kdd 11
+pred_true_text_file name=result/batchId_PredTrueText10
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.96343393
+completeness_score-whole-data:   0.96103787
+nmi_score-whole-data:   0.96223441
+pred clusters=31, true clusters=24
+purity majority whole data=0.9704797047970479
+total texts=0, total clusters=0
+	Saving successful!
+Batch 11
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=18969, end doc=20866
+Evaluate-kdd 12
+pred_true_text_file name=result/batchId_PredTrueText11
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.98550255
+completeness_score-whole-data:   0.91213625
+nmi_score-whole-data:   0.94740116
+pred clusters=33, true clusters=20
+purity majority whole data=0.9868212967843965
+total texts=0, total clusters=0
+	Saving successful!
+Batch 12
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=20866, end doc=22763
+Evaluate-kdd 13
+pred_true_text_file name=result/batchId_PredTrueText12
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.99528254
+completeness_score-whole-data:   0.92035423
+nmi_score-whole-data:   0.95635301
+pred clusters=24, true clusters=15
+purity majority whole data=0.9952556668423828
+total texts=0, total clusters=0
+	Saving successful!
+Batch 13
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=22763, end doc=24660
+Evaluate-kdd 14
+pred_true_text_file name=result/batchId_PredTrueText13
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.99183825
+completeness_score-whole-data:   0.84317250
+nmi_score-whole-data:   0.91148320
+pred clusters=31, true clusters=18
+purity majority whole data=0.9957828149710068
+total texts=0, total clusters=0
+	Saving successful!
+Batch 14
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=24660, end doc=26557
+Evaluate-kdd 15
+pred_true_text_file name=result/batchId_PredTrueText14
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.92510218
+completeness_score-whole-data:   0.79134107
+nmi_score-whole-data:   0.85300967
+pred clusters=54, true clusters=29
+purity majority whole data=0.955719557195572
+total texts=0, total clusters=0
+	Saving successful!
+Batch 15
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=26557, end doc=28454
+Evaluate-kdd 16
+pred_true_text_file name=result/batchId_PredTrueText15
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.85934771
+completeness_score-whole-data:   0.70707517
+nmi_score-whole-data:   0.77581021
+pred clusters=50, true clusters=21
+purity majority whole data=0.9003690036900369
+total texts=0, total clusters=0
+	Saving successful!
+Batch 16
+	3765 documents will be analyze. alpha is 112.95.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=28454, end doc=30322
+Evaluate-kdd 17
+pred_true_text_file name=result/batchId_PredTrueText16
+evaluate total texts=1868
+homogeneity_score-whole-data:   0.91410673
+completeness_score-whole-data:   0.44305554
+nmi_score-whole-data:   0.59683364
+pred clusters=33, true clusters=8
+purity majority whole data=0.978051391862955
+total texts=0, total clusters=0
+	Output Phi Words Wrong!
+	Saving successful!
+time diff secs= 244
+pred_true_text_file name=result/NewsPredTueTextMStream_WordArr.txt
+evaluate total texts=30322
+homogeneity_score-whole-data:   0.87309168
+completeness_score-whole-data:   0.89080985
+nmi_score-whole-data:   0.88186178
+pred clusters=372, true clusters=269
+purity majority whole data=0.7761361387771255
+SampleNo:3
+No timefil!
+batchNum2tweetID is  {1: 1897, 2: 3794, 3: 5691, 4: 7588, 5: 9485, 6: 11382, 7: 13279, 8: 15176, 9: 17073, 10: 18970, 11: 20867, 12: 22764, 13: 24661, 14: 26558, 15: 28455, 16: -1}
+Batch 1
+	1896 documents will be analyze. alpha is 56.88.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=0, end doc=1896
+Evaluate-kdd 2
+pred_true_text_file name=result/batchId_PredTrueText1
+evaluate total texts=1896
+homogeneity_score-whole-data:   0.95749040
+completeness_score-whole-data:   0.75991764
+nmi_score-whole-data:   0.84733951
+pred clusters=98, true clusters=33
+purity majority whole data=0.9620253164556962
+total texts=0, total clusters=0
+	Saving successful!
+Batch 2
+	3793 documents will be analyze. alpha is 113.79.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=1896, end doc=3793
+Evaluate-kdd 3
+pred_true_text_file name=result/batchId_PredTrueText2
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.93291449
+completeness_score-whole-data:   0.71443208
+nmi_score-whole-data:   0.80918497
+pred clusters=90, true clusters=34
+purity majority whole data=0.9356879283078545
+total texts=0, total clusters=0
+	Saving successful!
+Batch 3
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=3793, end doc=5690
+Evaluate-kdd 4
+pred_true_text_file name=result/batchId_PredTrueText3
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.92979725
+completeness_score-whole-data:   0.75431878
+nmi_score-whole-data:   0.83291592
+pred clusters=53, true clusters=22
+purity majority whole data=0.9467580390089615
+total texts=0, total clusters=0
+	Saving successful!
+Batch 4
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=5690, end doc=7587
+Evaluate-kdd 5
+pred_true_text_file name=result/batchId_PredTrueText4
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.88154065
+completeness_score-whole-data:   0.81113373
+nmi_score-whole-data:   0.84487290
+pred clusters=62, true clusters=25
+purity majority whole data=0.889826041117554
+total texts=0, total clusters=0
+	Saving successful!
+Batch 5
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=7587, end doc=9484
+Evaluate-kdd 6
+pred_true_text_file name=result/batchId_PredTrueText5
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.90861210
+completeness_score-whole-data:   0.74390178
+nmi_score-whole-data:   0.81804838
+pred clusters=60, true clusters=31
+purity majority whole data=0.9182920400632578
+total texts=0, total clusters=0
+	Saving successful!
+Batch 6
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=9484, end doc=11381
+Evaluate-kdd 7
+pred_true_text_file name=result/batchId_PredTrueText6
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.98532559
+completeness_score-whole-data:   0.81192148
+nmi_score-whole-data:   0.89025824
+pred clusters=34, true clusters=18
+purity majority whole data=0.9920927780706379
+total texts=0, total clusters=0
+	Saving successful!
+Batch 7
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=11381, end doc=13278
+Evaluate-kdd 8
+pred_true_text_file name=result/batchId_PredTrueText7
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.95875519
+completeness_score-whole-data:   0.90754836
+nmi_score-whole-data:   0.93244928
+pred clusters=39, true clusters=23
+purity majority whole data=0.9462308908803374
+total texts=0, total clusters=0
+	Saving successful!
+Batch 8
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=13278, end doc=15175
+Evaluate-kdd 9
+pred_true_text_file name=result/batchId_PredTrueText8
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.97391386
+completeness_score-whole-data:   0.88287207
+nmi_score-whole-data:   0.92616099
+pred clusters=49, true clusters=28
+purity majority whole data=0.9820769636267791
+total texts=0, total clusters=0
+	Saving successful!
+Batch 9
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=15175, end doc=17072
+Evaluate-kdd 10
+pred_true_text_file name=result/batchId_PredTrueText9
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.98226909
+completeness_score-whole-data:   0.87822168
+nmi_score-whole-data:   0.92733598
+pred clusters=31, true clusters=23
+purity majority whole data=0.9910384818133896
+total texts=0, total clusters=0
+	Saving successful!
+Batch 10
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=17072, end doc=18969
+Evaluate-kdd 11
+pred_true_text_file name=result/batchId_PredTrueText10
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.98446560
+completeness_score-whole-data:   0.94843614
+nmi_score-whole-data:   0.96611507
+pred clusters=33, true clusters=24
+purity majority whole data=0.9836584080126516
+total texts=0, total clusters=0
+	Saving successful!
+Batch 11
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=18969, end doc=20866
+Evaluate-kdd 12
+pred_true_text_file name=result/batchId_PredTrueText11
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.89147556
+completeness_score-whole-data:   0.91919077
+nmi_score-whole-data:   0.90512105
+pred clusters=32, true clusters=20
+purity majority whole data=0.8634686346863468
+total texts=0, total clusters=0
+	Saving successful!
+Batch 12
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=20866, end doc=22763
+Evaluate-kdd 13
+pred_true_text_file name=result/batchId_PredTrueText12
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.99293122
+completeness_score-whole-data:   0.93669731
+nmi_score-whole-data:   0.96399487
+pred clusters=23, true clusters=15
+purity majority whole data=0.9968371112282551
+total texts=0, total clusters=0
+	Saving successful!
+Batch 13
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=22763, end doc=24660
+Evaluate-kdd 14
+pred_true_text_file name=result/batchId_PredTrueText13
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.98019956
+completeness_score-whole-data:   0.85612741
+nmi_score-whole-data:   0.91397199
+pred clusters=33, true clusters=18
+purity majority whole data=0.9868212967843965
+total texts=0, total clusters=0
+	Saving successful!
+Batch 14
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=24660, end doc=26557
+Evaluate-kdd 15
+pred_true_text_file name=result/batchId_PredTrueText14
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.93594575
+completeness_score-whole-data:   0.77050043
+nmi_score-whole-data:   0.84520287
+pred clusters=48, true clusters=29
+purity majority whole data=0.9604638903531892
+total texts=0, total clusters=0
+	Saving successful!
+Batch 15
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=26557, end doc=28454
+Evaluate-kdd 16
+pred_true_text_file name=result/batchId_PredTrueText15
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.85105328
+completeness_score-whole-data:   0.67683873
+nmi_score-whole-data:   0.75401379
+pred clusters=48, true clusters=21
+purity majority whole data=0.882445967316816
+total texts=0, total clusters=0
+	Saving successful!
+Batch 16
+	3765 documents will be analyze. alpha is 112.95.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=28454, end doc=30322
+Evaluate-kdd 17
+pred_true_text_file name=result/batchId_PredTrueText16
+evaluate total texts=1868
+homogeneity_score-whole-data:   0.94699479
+completeness_score-whole-data:   0.50282366
+nmi_score-whole-data:   0.65687037
+pred clusters=34, true clusters=8
+purity majority whole data=0.9828693790149893
+total texts=0, total clusters=0
+	Output Phi Words Wrong!
+	Saving successful!
+time diff secs= 247
+pred_true_text_file name=result/NewsPredTueTextMStream_WordArr.txt
+evaluate total texts=30322
+homogeneity_score-whole-data:   0.88084592
+completeness_score-whole-data:   0.88753785
+nmi_score-whole-data:   0.88417923
+pred clusters=387, true clusters=269
+purity majority whole data=0.7956599168920256
+SampleNo:4
+No timefil!
+batchNum2tweetID is  {1: 1897, 2: 3794, 3: 5691, 4: 7588, 5: 9485, 6: 11382, 7: 13279, 8: 15176, 9: 17073, 10: 18970, 11: 20867, 12: 22764, 13: 24661, 14: 26558, 15: 28455, 16: -1}
+Batch 1
+	1896 documents will be analyze. alpha is 56.88.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=0, end doc=1896
+Evaluate-kdd 2
+pred_true_text_file name=result/batchId_PredTrueText1
+evaluate total texts=1896
+homogeneity_score-whole-data:   0.95485686
+completeness_score-whole-data:   0.76633892
+nmi_score-whole-data:   0.85027396
+pred clusters=103, true clusters=33
+purity majority whole data=0.9578059071729957
+total texts=0, total clusters=0
+	Saving successful!
+Batch 2
+	3793 documents will be analyze. alpha is 113.79.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=1896, end doc=3793
+Evaluate-kdd 3
+pred_true_text_file name=result/batchId_PredTrueText2
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.91781272
+completeness_score-whole-data:   0.72991337
+nmi_score-whole-data:   0.81314945
+pred clusters=86, true clusters=34
+purity majority whole data=0.926726410121244
+total texts=0, total clusters=0
+	Saving successful!
+Batch 3
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=3793, end doc=5690
+Evaluate-kdd 4
+pred_true_text_file name=result/batchId_PredTrueText3
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.91661129
+completeness_score-whole-data:   0.75784560
+nmi_score-whole-data:   0.82970166
+pred clusters=53, true clusters=22
+purity majority whole data=0.922509225092251
+total texts=0, total clusters=0
+	Saving successful!
+Batch 4
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=5690, end doc=7587
+Evaluate-kdd 5
+pred_true_text_file name=result/batchId_PredTrueText4
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.90857294
+completeness_score-whole-data:   0.79529360
+nmi_score-whole-data:   0.84816766
+pred clusters=58, true clusters=25
+purity majority whole data=0.9193463363205061
+total texts=0, total clusters=0
+	Saving successful!
+Batch 5
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=7587, end doc=9484
+Evaluate-kdd 6
+pred_true_text_file name=result/batchId_PredTrueText5
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.91466135
+completeness_score-whole-data:   0.78920455
+nmi_score-whole-data:   0.84731421
+pred clusters=57, true clusters=31
+purity majority whole data=0.9193463363205061
+total texts=0, total clusters=0
+	Saving successful!
+Batch 6
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=9484, end doc=11381
+Evaluate-kdd 7
+pred_true_text_file name=result/batchId_PredTrueText6
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.98580808
+completeness_score-whole-data:   0.77165205
+nmi_score-whole-data:   0.86568203
+pred clusters=37, true clusters=18
+purity majority whole data=0.9910384818133896
+total texts=0, total clusters=0
+	Saving successful!
+Batch 7
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=11381, end doc=13278
+Evaluate-kdd 8
+pred_true_text_file name=result/batchId_PredTrueText7
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.94313301
+completeness_score-whole-data:   0.92876957
+nmi_score-whole-data:   0.93589619
+pred clusters=37, true clusters=23
+purity majority whole data=0.9362150764364786
+total texts=0, total clusters=0
+	Saving successful!
+Batch 8
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=13278, end doc=15175
+Evaluate-kdd 9
+pred_true_text_file name=result/batchId_PredTrueText8
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.97312597
+completeness_score-whole-data:   0.86788930
+nmi_score-whole-data:   0.91749985
+pred clusters=41, true clusters=28
+purity majority whole data=0.9804955192409067
+total texts=0, total clusters=0
+	Saving successful!
+Batch 9
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=15175, end doc=17072
+Evaluate-kdd 10
+pred_true_text_file name=result/batchId_PredTrueText9
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.98100440
+completeness_score-whole-data:   0.91249550
+nmi_score-whole-data:   0.94551058
+pred clusters=34, true clusters=23
+purity majority whole data=0.985239852398524
+total texts=0, total clusters=0
+	Saving successful!
+Batch 10
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=17072, end doc=18969
+Evaluate-kdd 11
+pred_true_text_file name=result/batchId_PredTrueText10
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.93625438
+completeness_score-whole-data:   0.94393246
+nmi_score-whole-data:   0.94007774
+pred clusters=34, true clusters=24
+purity majority whole data=0.9288350026357406
+total texts=0, total clusters=0
+	Saving successful!
+Batch 11
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=18969, end doc=20866
+Evaluate-kdd 12
+pred_true_text_file name=result/batchId_PredTrueText11
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.90370115
+completeness_score-whole-data:   0.87564107
+nmi_score-whole-data:   0.88944986
+pred clusters=34, true clusters=20
+purity majority whole data=0.8597785977859779
+total texts=0, total clusters=0
+	Saving successful!
+Batch 12
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=20866, end doc=22763
+Evaluate-kdd 13
+pred_true_text_file name=result/batchId_PredTrueText12
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.95104772
+completeness_score-whole-data:   0.90729064
+nmi_score-whole-data:   0.92865402
+pred clusters=25, true clusters=15
+purity majority whole data=0.9609910384818134
+total texts=0, total clusters=0
+	Saving successful!
+Batch 13
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=22763, end doc=24660
+Evaluate-kdd 14
+pred_true_text_file name=result/batchId_PredTrueText13
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.98819964
+completeness_score-whole-data:   0.88098523
+nmi_score-whole-data:   0.93151758
+pred clusters=29, true clusters=18
+purity majority whole data=0.9936742224565103
+total texts=0, total clusters=0
+	Saving successful!
+Batch 14
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=24660, end doc=26557
+Evaluate-kdd 15
+pred_true_text_file name=result/batchId_PredTrueText14
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.92962129
+completeness_score-whole-data:   0.78230991
+nmi_score-whole-data:   0.84962754
+pred clusters=55, true clusters=29
+purity majority whole data=0.9652082235108065
+total texts=0, total clusters=0
+	Saving successful!
+Batch 15
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=26557, end doc=28454
+Evaluate-kdd 16
+pred_true_text_file name=result/batchId_PredTrueText15
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.88182105
+completeness_score-whole-data:   0.69528370
+nmi_score-whole-data:   0.77752071
+pred clusters=55, true clusters=21
+purity majority whole data=0.9246178176067475
+total texts=0, total clusters=0
+	Saving successful!
+Batch 16
+	3765 documents will be analyze. alpha is 112.95.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=28454, end doc=30322
+Evaluate-kdd 17
+pred_true_text_file name=result/batchId_PredTrueText16
+evaluate total texts=1868
+homogeneity_score-whole-data:   0.91413924
+completeness_score-whole-data:   0.49529078
+nmi_score-whole-data:   0.64247920
+pred clusters=30, true clusters=8
+purity majority whole data=0.9737687366167024
+total texts=0, total clusters=0
+	Output Phi Words Wrong!
+	Saving successful!
+time diff secs= 249
+pred_true_text_file name=result/NewsPredTueTextMStream_WordArr.txt
+evaluate total texts=30322
+homogeneity_score-whole-data:   0.87986244
+completeness_score-whole-data:   0.89027293
+nmi_score-whole-data:   0.88503707
+pred clusters=387, true clusters=269
+purity majority whole data=0.7872501813864521
+SampleNo:5
+No timefil!
+batchNum2tweetID is  {1: 1897, 2: 3794, 3: 5691, 4: 7588, 5: 9485, 6: 11382, 7: 13279, 8: 15176, 9: 17073, 10: 18970, 11: 20867, 12: 22764, 13: 24661, 14: 26558, 15: 28455, 16: -1}
+Batch 1
+	1896 documents will be analyze. alpha is 56.88.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=0, end doc=1896
+Evaluate-kdd 2
+pred_true_text_file name=result/batchId_PredTrueText1
+evaluate total texts=1896
+homogeneity_score-whole-data:   0.95957741
+completeness_score-whole-data:   0.77658251
+nmi_score-whole-data:   0.85843593
+pred clusters=99, true clusters=33
+purity majority whole data=0.9630801687763713
+total texts=0, total clusters=0
+	Saving successful!
+Batch 2
+	3793 documents will be analyze. alpha is 113.79.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=1896, end doc=3793
+Evaluate-kdd 3
+pred_true_text_file name=result/batchId_PredTrueText2
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.91120194
+completeness_score-whole-data:   0.72842836
+nmi_score-whole-data:   0.80962804
+pred clusters=86, true clusters=34
+purity majority whole data=0.9130205587770164
+total texts=0, total clusters=0
+	Saving successful!
+Batch 3
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=3793, end doc=5690
+Evaluate-kdd 4
+pred_true_text_file name=result/batchId_PredTrueText3
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.92444671
+completeness_score-whole-data:   0.73050002
+nmi_score-whole-data:   0.81610885
+pred clusters=51, true clusters=22
+purity majority whole data=0.9367422245651028
+total texts=0, total clusters=0
+	Saving successful!
+Batch 4
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=5690, end doc=7587
+Evaluate-kdd 5
+pred_true_text_file name=result/batchId_PredTrueText4
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.88549778
+completeness_score-whole-data:   0.79864639
+nmi_score-whole-data:   0.83983262
+pred clusters=56, true clusters=25
+purity majority whole data=0.8914074855034264
+total texts=0, total clusters=0
+	Saving successful!
+Batch 5
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=7587, end doc=9484
+Evaluate-kdd 6
+pred_true_text_file name=result/batchId_PredTrueText5
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.92488912
+completeness_score-whole-data:   0.80273118
+nmi_score-whole-data:   0.85949133
+pred clusters=58, true clusters=31
+purity majority whole data=0.9256721138639958
+total texts=0, total clusters=0
+	Saving successful!
+Batch 6
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=9484, end doc=11381
+Evaluate-kdd 7
+pred_true_text_file name=result/batchId_PredTrueText6
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.98102718
+completeness_score-whole-data:   0.78554131
+nmi_score-whole-data:   0.87246816
+pred clusters=32, true clusters=18
+purity majority whole data=0.9899841855561413
+total texts=0, total clusters=0
+	Saving successful!
+Batch 7
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=11381, end doc=13278
+Evaluate-kdd 8
+pred_true_text_file name=result/batchId_PredTrueText7
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.94671182
+completeness_score-whole-data:   0.93806519
+nmi_score-whole-data:   0.94236867
+pred clusters=33, true clusters=23
+purity majority whole data=0.9567738534528203
+total texts=0, total clusters=0
+	Saving successful!
+Batch 8
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=13278, end doc=15175
+Evaluate-kdd 9
+pred_true_text_file name=result/batchId_PredTrueText8
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.97651636
+completeness_score-whole-data:   0.91627944
+nmi_score-whole-data:   0.94543940
+pred clusters=38, true clusters=28
+purity majority whole data=0.9826041117554033
+total texts=0, total clusters=0
+	Saving successful!
+Batch 9
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=15175, end doc=17072
+Evaluate-kdd 10
+pred_true_text_file name=result/batchId_PredTrueText9
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.92467245
+completeness_score-whole-data:   0.91568535
+nmi_score-whole-data:   0.92015696
+pred clusters=31, true clusters=23
+purity majority whole data=0.9256721138639958
+total texts=0, total clusters=0
+	Saving successful!
+Batch 10
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=17072, end doc=18969
+Evaluate-kdd 11
+pred_true_text_file name=result/batchId_PredTrueText10
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.95877363
+completeness_score-whole-data:   0.95263733
+nmi_score-whole-data:   0.95569563
+pred clusters=29, true clusters=24
+purity majority whole data=0.955719557195572
+total texts=0, total clusters=0
+	Saving successful!
+Batch 11
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=18969, end doc=20866
+Evaluate-kdd 12
+pred_true_text_file name=result/batchId_PredTrueText11
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.98240047
+completeness_score-whole-data:   0.92392664
+nmi_score-whole-data:   0.95226675
+pred clusters=31, true clusters=20
+purity majority whole data=0.9915656299420137
+total texts=0, total clusters=0
+	Saving successful!
+Batch 12
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=20866, end doc=22763
+Evaluate-kdd 13
+pred_true_text_file name=result/batchId_PredTrueText12
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.98743343
+completeness_score-whole-data:   0.90338924
+nmi_score-whole-data:   0.94354352
+pred clusters=25, true clusters=15
+purity majority whole data=0.9931470743278862
+total texts=0, total clusters=0
+	Saving successful!
+Batch 13
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=22763, end doc=24660
+Evaluate-kdd 14
+pred_true_text_file name=result/batchId_PredTrueText13
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.97744640
+completeness_score-whole-data:   0.87043009
+nmi_score-whole-data:   0.92083942
+pred clusters=28, true clusters=18
+purity majority whole data=0.9810226673695308
+total texts=0, total clusters=0
+	Saving successful!
+Batch 14
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=24660, end doc=26557
+Evaluate-kdd 15
+pred_true_text_file name=result/batchId_PredTrueText14
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.92970185
+completeness_score-whole-data:   0.80858368
+nmi_score-whole-data:   0.86492320
+pred clusters=54, true clusters=29
+purity majority whole data=0.9567738534528203
+total texts=0, total clusters=0
+	Saving successful!
+Batch 15
+	3794 documents will be analyze. alpha is 113.82.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=26557, end doc=28454
+Evaluate-kdd 16
+pred_true_text_file name=result/batchId_PredTrueText15
+evaluate total texts=1897
+homogeneity_score-whole-data:   0.90225448
+completeness_score-whole-data:   0.71163272
+nmi_score-whole-data:   0.79568610
+pred clusters=49, true clusters=21
+purity majority whole data=0.9314707432788614
+total texts=0, total clusters=0
+	Saving successful!
+Batch 16
+	3765 documents will be analyze. alpha is 112.95.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+	Gibbs sampling successful! Start to saving results.
+start doc=28454, end doc=30322
+Evaluate-kdd 17
+pred_true_text_file name=result/batchId_PredTrueText16
+evaluate total texts=1868
+homogeneity_score-whole-data:   0.94461687
+completeness_score-whole-data:   0.57785298
+nmi_score-whole-data:   0.71705811
+pred clusters=33, true clusters=8
+purity majority whole data=0.9850107066381156
+total texts=0, total clusters=0
+	Saving successful!
+time diff secs= 242
+pred_true_text_file name=result/NewsPredTueTextMStream_WordArr.txt
+evaluate total texts=30322
+homogeneity_score-whole-data:   0.87874526
+completeness_score-whole-data:   0.89809695
+nmi_score-whole-data:   0.88831573
+pred clusters=364, true clusters=269
+purity majority whole data=0.7917353736560913

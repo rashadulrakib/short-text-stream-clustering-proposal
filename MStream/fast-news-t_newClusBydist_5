@@ -1,0 +1,1436 @@
+100000
+200000
+300000
+400000
+500000
+600000
+700000
+800000
+900000
+1000000
+1100000
+1200000
+1300000
+1400000
+1500000
+1600000
+1700000
+1800000
+1900000
+wordVectorsDic length 1917494
+number of documents is  11109
+self.V=all the words in all documents
+8110
+SampleNo:1
+K0iterNum5SampleNum1alpha0.03beta0.03BatchNum16BatchSaved16
+No timefil!
+before call run_MStream, self.K=0,self.iterNum=5, self.V=8110
+batchNum2tweetID is  {1: 8372, 2: 2346, 3: 10882, 4: 3650, 5: 2924, 6: 7530, 7: 10808, 8: 2856, 9: 4395, 10: 3787, 11: 5551, 12: 2133, 13: 955, 14: 5924, 15: 4084, 16: -1}
+Batch 1
+11109
+	695 documents will be analyze. alpha is 20.85.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 2 time diff secs-kdd-gibbsSampling= 1
+maxPredLabel=220
+batch 2 time diff secs-out-connected= 0
+outlier=29, non-outlier=666,=maxPredLabel=248
+high_entropy_words=144, total words=915
+batch 2 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 29 666
+[17, 38, 64, 25, 17, 157, 9, 8, 9, 61, 12, 27, 24, 26, 10, 5, 28, 49, 28, 6, 4, 3, 9, 9, 2, 12, 3, 4]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 2 time diff secs-customGibbsSampling= 0
+batch 2 time diff millisecs-out-dic_semanticSims= 2.285
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 2 time diff millisecs-out-dic_semanticSims= 2.221
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 2 time diff millisecs-out-dic_semanticSims= 2.227
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 2 time diff millisecs-out-dic_semanticSims= 2.424
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 2 time diff millisecs-out-dic_semanticSims= 2.266
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 2 time diff millisecs-out-dic_semanticSims= 2.354
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+oldPredLabel not cluster=old197, cluster=487
+batch 2 time diff millisecs-out-dic_semanticSims= 2.304
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 2 time diff millisecs-out-dic_semanticSims= 2.484
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+oldPredLabel not cluster=old199, cluster=489
+batch 2 time diff millisecs-out-dic_semanticSims= 2.47
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+oldPredLabel not cluster=old200, cluster=490
+batch 2 time diff millisecs-out-dic_semanticSims= 2.405
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+oldPredLabel not cluster=old201, cluster=491
+batch 2 time diff millisecs-out-dic_semanticSims= 2.223
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+oldPredLabel not cluster=old202, cluster=492
+batch 2 time diff millisecs-out-dic_semanticSims= 2.184
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+oldPredLabel not cluster=old203, cluster=493
+batch 2 time diff millisecs-out-dic_semanticSims= 2.938
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+oldPredLabel not cluster=old204, cluster=494
+batch 2 time diff millisecs-out-dic_semanticSims= 2.285
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 2 time diff millisecs-out-dic_semanticSims= 2.297
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 2 time diff millisecs-out-dic_semanticSims= 2.229
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+oldPredLabel not cluster=old207, cluster=497
+batch 2 time diff millisecs-out-dic_semanticSims= 2.334
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+oldPredLabel not cluster=old208, cluster=498
+batch 2 time diff millisecs-out-dic_semanticSims= 2.226
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 2 time diff millisecs-out-dic_semanticSims= 2.302
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 2 time diff millisecs-out-dic_semanticSims= 2.221
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+oldPredLabel not cluster=old211, cluster=501
+batch 2 time diff millisecs-out-dic_semanticSims= 2.26
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+oldPredLabel not cluster=old212, cluster=502
+batch 2 time diff millisecs-out-dic_semanticSims= 2.257
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 2 time diff millisecs-out-dic_semanticSims= 2.226
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+oldPredLabel not cluster=old214, cluster=504
+batch 2 time diff millisecs-out-dic_semanticSims= 2.29
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 2 time diff millisecs-out-dic_semanticSims= 2.229
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 2 time diff millisecs-out-dic_semanticSims= 2.23
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+oldPredLabel not cluster=old217, cluster=507
+batch 2 time diff millisecs-out-dic_semanticSims= 2.236
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 2 time diff millisecs-out-dic_semanticSims= 2.219
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+oldPredLabel not cluster=old219, cluster=509
+batch 2 time diff millisecs-out-dic_semanticSims= 2.232
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+oldPredLabel not cluster=old220, cluster=510
+batch 2 time diff secs-assign outlier= 0
+	Gibbs sampling successful! Start to saving results.
+start doc=0, end doc=695
+total texts=695, total clusters=57
+	Saving successful!
+Batch 2
+11109
+	1391 documents will be analyze. alpha is 41.73.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 3 time diff secs-kdd-gibbsSampling= 1
+maxPredLabel=644
+batch 3 time diff secs-out-connected= 0
+outlier=18, non-outlier=678,=maxPredLabel=670
+high_entropy_words=170, total words=1078
+batch 3 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 18 1344
+[17, 38, 64, 25, 17, 157, 9, 8, 9, 61, 12, 27, 24, 26, 18, 5, 28, 49, 28, 35, 4, 12, 9, 9, 2, 14, 3, 4, 52, 21, 7, 61, 68, 8, 39, 10, 115, 2, 61, 70, 54, 19, 14, 6, 6, 3, 3, 5, 4, 2]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 3 time diff secs-customGibbsSampling= 0
+batch 3 time diff millisecs-out-dic_semanticSims= 4.086
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 3 time diff millisecs-out-dic_semanticSims= 4.047
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 3 time diff millisecs-out-dic_semanticSims= 4.039
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 3 time diff millisecs-out-dic_semanticSims= 4.02
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 3 time diff millisecs-out-dic_semanticSims= 4.034
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 3 time diff millisecs-out-dic_semanticSims= 4.026
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 3 time diff millisecs-out-dic_semanticSims= 4.014
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 3 time diff millisecs-out-dic_semanticSims= 4.03
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 3 time diff millisecs-out-dic_semanticSims= 4.036
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 3 time diff millisecs-out-dic_semanticSims= 4.017
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 3 time diff millisecs-out-dic_semanticSims= 4.025
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 3 time diff millisecs-out-dic_semanticSims= 4.025
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 3 time diff millisecs-out-dic_semanticSims= 4.041
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 3 time diff millisecs-out-dic_semanticSims= 4.026
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 3 time diff millisecs-out-dic_semanticSims= 4.032
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 3 time diff millisecs-out-dic_semanticSims= 4.056
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 3 time diff millisecs-out-dic_semanticSims= 4.024
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 3 time diff millisecs-out-dic_semanticSims= 4.04
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 3 time diff secs-assign outlier= 0
+	Gibbs sampling successful! Start to saving results.
+start doc=695, end doc=1391
+total texts=1391, total clusters=96
+	Saving successful!
+Batch 3
+11109
+	2087 documents will be analyze. alpha is 62.61.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 4 time diff secs-kdd-gibbsSampling= 2
+maxPredLabel=749
+batch 4 time diff secs-out-connected= 0
+outlier=23, non-outlier=673,=maxPredLabel=765
+high_entropy_words=151, total words=1078
+batch 4 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 23 2017
+[128, 38, 64, 25, 17, 157, 9, 8, 45, 61, 12, 27, 24, 26, 18, 5, 28, 49, 28, 35, 4, 12, 9, 9, 2, 14, 3, 4, 52, 21, 7, 61, 70, 10, 40, 10, 115, 2, 61, 71, 54, 19, 77, 8, 6, 3, 3, 5, 4, 107, 92, 32, 159, 7, 14, 18, 28]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 4 time diff secs-customGibbsSampling= 0
+batch 4 time diff millisecs-out-dic_semanticSims= 4.664
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 4 time diff millisecs-out-dic_semanticSims= 4.605
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 4 time diff millisecs-out-dic_semanticSims= 4.595
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 4 time diff millisecs-out-dic_semanticSims= 4.584
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 4 time diff millisecs-out-dic_semanticSims= 4.598
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 4 time diff millisecs-out-dic_semanticSims= 4.63
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 4 time diff millisecs-out-dic_semanticSims= 4.604
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 4 time diff millisecs-out-dic_semanticSims= 4.608
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 4 time diff millisecs-out-dic_semanticSims= 4.61
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 4 time diff millisecs-out-dic_semanticSims= 4.601
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 4 time diff millisecs-out-dic_semanticSims= 4.655
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 4 time diff millisecs-out-dic_semanticSims= 4.563
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 4 time diff millisecs-out-dic_semanticSims= 4.716
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 4 time diff millisecs-out-dic_semanticSims= 4.604
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 4 time diff millisecs-out-dic_semanticSims= 4.597
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 4 time diff millisecs-out-dic_semanticSims= 4.678
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 4 time diff millisecs-out-dic_semanticSims= 4.542
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 4 time diff millisecs-out-dic_semanticSims= 4.688
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 4 time diff millisecs-out-dic_semanticSims= 4.703
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 4 time diff millisecs-out-dic_semanticSims= 4.609
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 4 time diff millisecs-out-dic_semanticSims= 4.699
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 4 time diff millisecs-out-dic_semanticSims= 4.632
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 4 time diff millisecs-out-dic_semanticSims= 4.673
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 4 time diff secs-assign outlier= 0
+	Gibbs sampling successful! Start to saving results.
+start doc=1391, end doc=2087
+total texts=2087, total clusters=118
+	Saving successful!
+Batch 4
+11109
+	2783 documents will be analyze. alpha is 83.49.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 5 time diff secs-kdd-gibbsSampling= 2
+maxPredLabel=841
+batch 5 time diff secs-out-connected= 0
+outlier=22, non-outlier=674,=maxPredLabel=861
+high_entropy_words=139, total words=968
+batch 5 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 22 2691
+[128, 38, 64, 25, 17, 157, 9, 22, 45, 65, 12, 27, 24, 26, 18, 5, 28, 49, 28, 35, 4, 12, 9, 9, 2, 14, 3, 4, 52, 31, 7, 61, 70, 12, 40, 12, 115, 2, 61, 71, 54, 83, 77, 8, 6, 3, 3, 5, 4, 107, 92, 32, 159, 7, 14, 21, 323, 99, 9, 100, 42, 15, 2, 2, 4, 2, 5]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 5 time diff secs-customGibbsSampling= 0
+batch 5 time diff millisecs-out-dic_semanticSims= 5.227
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 5 time diff millisecs-out-dic_semanticSims= 5.122
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 5 time diff millisecs-out-dic_semanticSims= 5.133
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 5 time diff millisecs-out-dic_semanticSims= 5.127
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 5 time diff millisecs-out-dic_semanticSims= 5.127
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 5 time diff millisecs-out-dic_semanticSims= 5.155
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 5 time diff millisecs-out-dic_semanticSims= 5.125
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 5 time diff millisecs-out-dic_semanticSims= 5.12
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 5 time diff millisecs-out-dic_semanticSims= 5.143
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 5 time diff millisecs-out-dic_semanticSims= 5.121
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 5 time diff millisecs-out-dic_semanticSims= 5.124
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 5 time diff millisecs-out-dic_semanticSims= 5.376
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 5 time diff millisecs-out-dic_semanticSims= 5.348
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 5 time diff millisecs-out-dic_semanticSims= 5.346
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 5 time diff millisecs-out-dic_semanticSims= 5.358
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 5 time diff millisecs-out-dic_semanticSims= 5.357
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 5 time diff millisecs-out-dic_semanticSims= 5.34
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 5 time diff millisecs-out-dic_semanticSims= 5.373
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 5 time diff millisecs-out-dic_semanticSims= 5.347
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 5 time diff millisecs-out-dic_semanticSims= 5.368
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 5 time diff millisecs-out-dic_semanticSims= 5.36
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 5 time diff millisecs-out-dic_semanticSims= 5.364
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 5 time diff secs-assign outlier= 0
+	Gibbs sampling successful! Start to saving results.
+start doc=2087, end doc=2783
+total texts=2783, total clusters=139
+	Saving successful!
+Batch 5
+11109
+	3479 documents will be analyze. alpha is 104.37.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 6 time diff secs-kdd-gibbsSampling= 3
+maxPredLabel=953
+batch 6 time diff secs-out-connected= 0
+outlier=28, non-outlier=668,=maxPredLabel=982
+high_entropy_words=182, total words=1118
+batch 6 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 28 3359
+[128, 38, 64, 25, 17, 157, 9, 96, 45, 65, 12, 27, 24, 26, 41, 5, 28, 49, 28, 35, 4, 12, 9, 9, 2, 14, 3, 4, 54, 31, 7, 61, 72, 12, 40, 12, 115, 2, 61, 71, 54, 84, 77, 8, 6, 3, 3, 5, 4, 107, 92, 32, 159, 7, 17, 23, 413, 99, 83, 173, 43, 15, 2, 2, 4, 2, 5, 52, 37, 33, 41, 11, 61, 14, 4, 25, 4, 5, 18, 6, 5, 3, 2, 2]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 6 time diff secs-customGibbsSampling= 0
+batch 6 time diff millisecs-out-dic_semanticSims= 6.688
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 6 time diff millisecs-out-dic_semanticSims= 6.609
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 6 time diff millisecs-out-dic_semanticSims= 6.643
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 6 time diff millisecs-out-dic_semanticSims= 6.598
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 6 time diff millisecs-out-dic_semanticSims= 6.639
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 6 time diff millisecs-out-dic_semanticSims= 6.78
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 6 time diff millisecs-out-dic_semanticSims= 6.746
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 6 time diff millisecs-out-dic_semanticSims= 6.645
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 6 time diff millisecs-out-dic_semanticSims= 6.706
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 6 time diff millisecs-out-dic_semanticSims= 6.626
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 6 time diff millisecs-out-dic_semanticSims= 6.638
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 6 time diff millisecs-out-dic_semanticSims= 6.627
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 6 time diff millisecs-out-dic_semanticSims= 6.683
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 6 time diff millisecs-out-dic_semanticSims= 6.667
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 6 time diff millisecs-out-dic_semanticSims= 6.639
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 6 time diff millisecs-out-dic_semanticSims= 6.66
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 6 time diff millisecs-out-dic_semanticSims= 6.673
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 6 time diff millisecs-out-dic_semanticSims= 6.63
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 6 time diff millisecs-out-dic_semanticSims= 6.628
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 6 time diff millisecs-out-dic_semanticSims= 6.616
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 6 time diff millisecs-out-dic_semanticSims= 6.631
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 6 time diff millisecs-out-dic_semanticSims= 6.614
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 6 time diff millisecs-out-dic_semanticSims= 6.638
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 6 time diff millisecs-out-dic_semanticSims= 6.655
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 6 time diff millisecs-out-dic_semanticSims= 6.624
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 6 time diff millisecs-out-dic_semanticSims= 6.768
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 6 time diff millisecs-out-dic_semanticSims= 6.642
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 6 time diff millisecs-out-dic_semanticSims= 6.598
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 6 time diff secs-assign outlier= 0
+	Gibbs sampling successful! Start to saving results.
+start doc=2783, end doc=3479
+total texts=3479, total clusters=169
+	Saving successful!
+Batch 6
+11109
+	4175 documents will be analyze. alpha is 125.25.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 7 time diff secs-kdd-gibbsSampling= 3
+maxPredLabel=985
+batch 7 time diff secs-out-connected= 0
+outlier=11, non-outlier=685,=maxPredLabel=997
+high_entropy_words=157, total words=911
+batch 7 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 11 4044
+[128, 38, 66, 25, 17, 157, 9, 96, 45, 65, 12, 27, 24, 26, 41, 5, 28, 49, 28, 35, 4, 12, 9, 9, 2, 14, 3, 4, 54, 31, 7, 61, 72, 12, 40, 12, 115, 2, 61, 71, 54, 84, 77, 8, 6, 3, 3, 5, 4, 107, 92, 32, 159, 7, 17, 23, 426, 99, 83, 173, 47, 15, 2, 2, 4, 2, 5, 52, 37, 133, 43, 11, 208, 48, 4, 25, 28, 5, 18, 6, 5, 3, 2, 2, 114, 111, 89, 45]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 7 time diff secs-customGibbsSampling= 0
+batch 7 time diff millisecs-out-dic_semanticSims= 7.126
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 7 time diff millisecs-out-dic_semanticSims= 7.062
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 7 time diff millisecs-out-dic_semanticSims= 7.027
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 7 time diff millisecs-out-dic_semanticSims= 7.036
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 7 time diff millisecs-out-dic_semanticSims= 7.134
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 7 time diff millisecs-out-dic_semanticSims= 7.091
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 7 time diff millisecs-out-dic_semanticSims= 7.106
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 7 time diff millisecs-out-dic_semanticSims= 7.059
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 7 time diff millisecs-out-dic_semanticSims= 7.068
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 7 time diff millisecs-out-dic_semanticSims= 7.056
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 7 time diff millisecs-out-dic_semanticSims= 7.059
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 7 time diff secs-assign outlier= 0
+	Gibbs sampling successful! Start to saving results.
+start doc=3479, end doc=4175
+total texts=4175, total clusters=176
+	Saving successful!
+Batch 7
+11109
+	4871 documents will be analyze. alpha is 146.13.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 8 time diff secs-kdd-gibbsSampling= 3
+maxPredLabel=1069
+batch 8 time diff secs-out-connected= 0
+outlier=18, non-outlier=678,=maxPredLabel=1092
+high_entropy_words=152, total words=987
+batch 8 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 18 4722
+[128, 38, 66, 25, 17, 157, 9, 96, 45, 65, 12, 27, 24, 26, 41, 5, 28, 49, 28, 35, 4, 12, 9, 9, 2, 14, 3, 4, 54, 31, 7, 61, 72, 12, 40, 12, 115, 2, 61, 71, 54, 84, 77, 31, 6, 3, 3, 5, 4, 107, 92, 32, 159, 7, 17, 23, 428, 99, 83, 173, 47, 15, 2, 2, 4, 2, 5, 55, 37, 142, 175, 11, 209, 48, 4, 25, 28, 5, 18, 6, 5, 3, 2, 2, 276, 130, 89, 97, 65, 12, 71, 30, 6, 15, 15, 35, 17, 2, 3, 2, 2]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 8 time diff secs-customGibbsSampling= 0
+batch 8 time diff millisecs-out-dic_semanticSims= 8.094
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 8 time diff millisecs-out-dic_semanticSims= 8.008
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 8 time diff millisecs-out-dic_semanticSims= 7.94
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 8 time diff millisecs-out-dic_semanticSims= 8.178
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 8 time diff millisecs-out-dic_semanticSims= 8.037
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 8 time diff millisecs-out-dic_semanticSims= 7.929
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 8 time diff millisecs-out-dic_semanticSims= 8.051
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 8 time diff millisecs-out-dic_semanticSims= 7.956
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 8 time diff millisecs-out-dic_semanticSims= 7.922
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 8 time diff millisecs-out-dic_semanticSims= 7.983
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 8 time diff millisecs-out-dic_semanticSims= 8.16
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 8 time diff millisecs-out-dic_semanticSims= 7.98
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 8 time diff millisecs-out-dic_semanticSims= 8.016
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 8 time diff millisecs-out-dic_semanticSims= 7.969
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 8 time diff millisecs-out-dic_semanticSims= 7.991
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 8 time diff millisecs-out-dic_semanticSims= 7.966
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 8 time diff millisecs-out-dic_semanticSims= 7.964
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 8 time diff millisecs-out-dic_semanticSims= 7.98
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 8 time diff secs-assign outlier= 0
+	Gibbs sampling successful! Start to saving results.
+start doc=4175, end doc=4871
+total texts=4871, total clusters=199
+	Saving successful!
+Batch 8
+11109
+	5567 documents will be analyze. alpha is 167.01.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 9 time diff secs-kdd-gibbsSampling= 4
+maxPredLabel=1128
+batch 9 time diff secs-out-connected= 0
+outlier=13, non-outlier=683,=maxPredLabel=1141
+high_entropy_words=95, total words=880
+batch 9 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 13 5405
+[128, 38, 66, 25, 17, 157, 9, 96, 45, 65, 12, 27, 24, 26, 41, 5, 28, 49, 28, 35, 4, 12, 9, 9, 2, 14, 3, 4, 54, 38, 7, 61, 72, 12, 40, 12, 115, 2, 61, 71, 54, 84, 77, 31, 6, 3, 3, 5, 4, 107, 92, 32, 159, 7, 17, 23, 428, 99, 83, 173, 47, 15, 2, 2, 4, 2, 5, 55, 37, 142, 175, 11, 209, 48, 4, 25, 28, 5, 18, 6, 5, 3, 2, 2, 276, 130, 89, 97, 65, 12, 101, 30, 6, 15, 15, 35, 17, 2, 208, 55, 142, 89, 74, 57, 2, 16, 3, 4, 3]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 9 time diff secs-customGibbsSampling= 0
+batch 9 time diff millisecs-out-dic_semanticSims= 8.612
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 9 time diff millisecs-out-dic_semanticSims= 8.566
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 9 time diff millisecs-out-dic_semanticSims= 8.503
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 9 time diff millisecs-out-dic_semanticSims= 8.497
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 9 time diff millisecs-out-dic_semanticSims= 8.52
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 9 time diff millisecs-out-dic_semanticSims= 8.516
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 9 time diff millisecs-out-dic_semanticSims= 8.564
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 9 time diff millisecs-out-dic_semanticSims= 8.559
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 9 time diff millisecs-out-dic_semanticSims= 8.519
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 9 time diff millisecs-out-dic_semanticSims= 8.564
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 9 time diff millisecs-out-dic_semanticSims= 8.504
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 9 time diff millisecs-out-dic_semanticSims= 8.471
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 9 time diff millisecs-out-dic_semanticSims= 8.512
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 9 time diff secs-assign outlier= 0
+	Gibbs sampling successful! Start to saving results.
+start doc=4871, end doc=5567
+total texts=5567, total clusters=213
+	Saving successful!
+Batch 9
+11109
+	6263 documents will be analyze. alpha is 187.89.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 10 time diff secs-kdd-gibbsSampling= 4
+maxPredLabel=1211
+batch 10 time diff secs-out-connected= 0
+outlier=15, non-outlier=681,=maxPredLabel=1223
+high_entropy_words=90, total words=847
+batch 10 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 15 6086
+[128, 38, 66, 25, 17, 157, 9, 96, 45, 65, 12, 27, 24, 26, 41, 5, 28, 49, 28, 35, 4, 12, 9, 9, 2, 14, 3, 4, 54, 40, 7, 61, 72, 12, 40, 12, 115, 2, 61, 71, 54, 84, 77, 31, 6, 3, 3, 5, 4, 107, 92, 32, 159, 7, 17, 23, 428, 99, 83, 173, 47, 15, 2, 2, 4, 2, 5, 55, 37, 142, 175, 11, 209, 48, 4, 25, 28, 5, 18, 6, 5, 3, 2, 2, 276, 130, 89, 97, 65, 12, 101, 30, 6, 15, 15, 35, 17, 2, 208, 55, 142, 89, 74, 100, 2, 16, 3, 236, 159, 20, 110, 83, 11, 2, 9, 11, 2]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 10 time diff secs-customGibbsSampling= 0
+batch 10 time diff millisecs-out-dic_semanticSims= 9.308
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 10 time diff millisecs-out-dic_semanticSims= 9.255
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 10 time diff millisecs-out-dic_semanticSims= 9.15
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 10 time diff millisecs-out-dic_semanticSims= 9.209
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 10 time diff millisecs-out-dic_semanticSims= 9.216
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 10 time diff millisecs-out-dic_semanticSims= 9.346
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 10 time diff millisecs-out-dic_semanticSims= 9.187
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 10 time diff millisecs-out-dic_semanticSims= 9.117
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 10 time diff millisecs-out-dic_semanticSims= 9.086
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 10 time diff millisecs-out-dic_semanticSims= 8.964
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 10 time diff millisecs-out-dic_semanticSims= 9.022
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 10 time diff millisecs-out-dic_semanticSims= 8.937
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 10 time diff millisecs-out-dic_semanticSims= 8.998
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 10 time diff millisecs-out-dic_semanticSims= 8.947
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 10 time diff millisecs-out-dic_semanticSims= 9.029
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 10 time diff secs-assign outlier= 0
+	Gibbs sampling successful! Start to saving results.
+start doc=5567, end doc=6263
+total texts=6263, total clusters=231
+	Saving successful!
+Batch 10
+11109
+	6959 documents will be analyze. alpha is 208.77.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 11 time diff secs-kdd-gibbsSampling= 4
+maxPredLabel=1348
+batch 11 time diff secs-out-connected= 0
+outlier=27, non-outlier=669,=maxPredLabel=1365
+high_entropy_words=159, total words=1079
+batch 11 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 27 6755
+[128, 38, 66, 25, 17, 157, 9, 96, 45, 65, 12, 27, 24, 26, 41, 5, 28, 49, 28, 35, 4, 12, 9, 9, 2, 14, 3, 4, 54, 40, 7, 61, 72, 42, 40, 12, 115, 2, 61, 71, 54, 84, 77, 31, 6, 3, 3, 5, 4, 107, 92, 32, 159, 7, 17, 23, 428, 99, 83, 173, 47, 15, 2, 2, 4, 2, 5, 55, 37, 143, 175, 11, 209, 48, 4, 25, 28, 5, 18, 6, 5, 3, 2, 2, 276, 130, 89, 97, 65, 12, 101, 30, 6, 15, 15, 35, 17, 2, 208, 55, 142, 89, 74, 101, 2, 20, 3, 244, 159, 30, 110, 83, 11, 2, 9, 205, 100, 34, 40, 102, 35, 13, 54, 31, 12, 2]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 11 time diff secs-customGibbsSampling= 0
+batch 11 time diff millisecs-out-dic_semanticSims= 10.061
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 11 time diff millisecs-out-dic_semanticSims= 10.045
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 11 time diff millisecs-out-dic_semanticSims= 9.865
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 11 time diff millisecs-out-dic_semanticSims= 10.181
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 11 time diff millisecs-out-dic_semanticSims= 10.096
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 11 time diff millisecs-out-dic_semanticSims= 10.095
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 11 time diff millisecs-out-dic_semanticSims= 10.14
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 11 time diff millisecs-out-dic_semanticSims= 10.135
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 11 time diff millisecs-out-dic_semanticSims= 10.136
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 11 time diff millisecs-out-dic_semanticSims= 10.159
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 11 time diff millisecs-out-dic_semanticSims= 10.121
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 11 time diff millisecs-out-dic_semanticSims= 10.14
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 11 time diff millisecs-out-dic_semanticSims= 10.151
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 11 time diff millisecs-out-dic_semanticSims= 10.144
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 11 time diff millisecs-out-dic_semanticSims= 10.132
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 11 time diff millisecs-out-dic_semanticSims= 10.133
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 11 time diff millisecs-out-dic_semanticSims= 10.021
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 11 time diff millisecs-out-dic_semanticSims= 9.957
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 11 time diff millisecs-out-dic_semanticSims= 9.972
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 11 time diff millisecs-out-dic_semanticSims= 9.904
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 11 time diff millisecs-out-dic_semanticSims= 9.934
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 11 time diff millisecs-out-dic_semanticSims= 9.924
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 11 time diff millisecs-out-dic_semanticSims= 9.899
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 11 time diff millisecs-out-dic_semanticSims= 9.996
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 11 time diff millisecs-out-dic_semanticSims= 9.942
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 11 time diff millisecs-out-dic_semanticSims= 9.873
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 11 time diff millisecs-out-dic_semanticSims= 9.931
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 11 time diff secs-assign outlier= 0
+	Gibbs sampling successful! Start to saving results.
+start doc=6263, end doc=6959
+total texts=6959, total clusters=259
+	Saving successful!
+Batch 11
+11109
+	7655 documents will be analyze. alpha is 229.65.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 12 time diff secs-kdd-gibbsSampling= 5
+maxPredLabel=1490
+batch 12 time diff secs-out-connected= 0
+outlier=30, non-outlier=666,=maxPredLabel=1516
+high_entropy_words=166, total words=1085
+batch 12 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 30 7421
+[128, 38, 66, 25, 17, 157, 9, 96, 45, 68, 12, 27, 24, 26, 41, 5, 28, 49, 28, 35, 4, 12, 9, 9, 2, 14, 3, 4, 54, 40, 7, 61, 72, 42, 40, 12, 115, 2, 61, 71, 54, 84, 77, 31, 6, 3, 3, 5, 4, 107, 92, 32, 159, 7, 17, 23, 428, 99, 83, 173, 47, 15, 2, 2, 4, 2, 5, 55, 37, 143, 175, 11, 209, 48, 4, 25, 28, 5, 18, 6, 5, 3, 2, 2, 276, 130, 89, 97, 65, 12, 101, 30, 6, 15, 15, 35, 17, 2, 208, 55, 142, 89, 74, 101, 2, 20, 3, 247, 159, 30, 110, 83, 11, 2, 9, 255, 100, 51, 40, 102, 35, 31, 54, 31, 19, 2, 43, 75, 63, 7, 17, 30, 104, 83, 7, 39, 5, 20, 2, 8, 12, 27, 6, 14, 4, 2]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 12 time diff secs-customGibbsSampling= 0
+batch 12 time diff millisecs-out-dic_semanticSims= 11.131
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 12 time diff millisecs-out-dic_semanticSims= 11.008
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 12 time diff millisecs-out-dic_semanticSims= 11.006
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 12 time diff millisecs-out-dic_semanticSims= 10.982
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 12 time diff millisecs-out-dic_semanticSims= 11.139
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 12 time diff millisecs-out-dic_semanticSims= 11.238
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 12 time diff millisecs-out-dic_semanticSims= 11.031
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 12 time diff millisecs-out-dic_semanticSims= 11.101
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 12 time diff millisecs-out-dic_semanticSims= 11.022
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 12 time diff millisecs-out-dic_semanticSims= 10.958
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 12 time diff millisecs-out-dic_semanticSims= 11.018
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 12 time diff millisecs-out-dic_semanticSims= 11.027
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 12 time diff millisecs-out-dic_semanticSims= 11.016
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 12 time diff millisecs-out-dic_semanticSims= 11.009
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 12 time diff millisecs-out-dic_semanticSims= 11.028
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 12 time diff millisecs-out-dic_semanticSims= 11.044
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 12 time diff millisecs-out-dic_semanticSims= 10.961
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 12 time diff millisecs-out-dic_semanticSims= 10.969
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 12 time diff millisecs-out-dic_semanticSims= 11.613
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 12 time diff millisecs-out-dic_semanticSims= 11.456
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 12 time diff millisecs-out-dic_semanticSims= 11.487
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 12 time diff millisecs-out-dic_semanticSims= 11.558
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 12 time diff millisecs-out-dic_semanticSims= 11.608
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 12 time diff millisecs-out-dic_semanticSims= 11.52
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 12 time diff millisecs-out-dic_semanticSims= 11.635
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 12 time diff millisecs-out-dic_semanticSims= 11.538
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 12 time diff millisecs-out-dic_semanticSims= 11.675
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 12 time diff millisecs-out-dic_semanticSims= 11.658
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 12 time diff millisecs-out-dic_semanticSims= 11.638
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 12 time diff millisecs-out-dic_semanticSims= 11.505
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 12 time diff secs-assign outlier= 0
+	Gibbs sampling successful! Start to saving results.
+start doc=6959, end doc=7655
+total texts=7655, total clusters=293
+	Saving successful!
+Batch 12
+11109
+	8351 documents will be analyze. alpha is 250.53.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 13 time diff secs-kdd-gibbsSampling= 6
+maxPredLabel=1636
+batch 13 time diff secs-out-connected= 0
+outlier=41, non-outlier=655,=maxPredLabel=1664
+high_entropy_words=165, total words=1012
+batch 13 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 41 8076
+[128, 38, 66, 25, 20, 157, 9, 98, 45, 68, 12, 27, 24, 26, 41, 5, 28, 49, 28, 35, 4, 46, 9, 9, 2, 14, 3, 4, 54, 40, 7, 61, 72, 42, 40, 12, 115, 2, 61, 71, 54, 84, 77, 31, 6, 3, 3, 5, 4, 107, 92, 32, 159, 9, 17, 23, 431, 99, 83, 173, 47, 15, 2, 2, 4, 2, 5, 55, 37, 143, 175, 11, 209, 48, 4, 25, 28, 5, 18, 6, 5, 3, 2, 2, 276, 130, 89, 97, 65, 12, 101, 30, 6, 15, 15, 35, 17, 2, 208, 55, 142, 89, 74, 101, 2, 22, 3, 247, 159, 30, 110, 83, 11, 2, 9, 255, 100, 51, 40, 102, 35, 33, 54, 31, 19, 2, 44, 77, 64, 7, 17, 150, 132, 97, 10, 41, 5, 20, 2, 8, 12, 27, 6, 103, 4, 136, 116, 48, 35, 5, 2, 2, 3, 2]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 13 time diff secs-customGibbsSampling= 0
+batch 13 time diff millisecs-out-dic_semanticSims= 11.693
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 13 time diff millisecs-out-dic_semanticSims= 11.778
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 13 time diff millisecs-out-dic_semanticSims= 11.869
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 13 time diff millisecs-out-dic_semanticSims= 11.581
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 13 time diff millisecs-out-dic_semanticSims= 11.561
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 13 time diff millisecs-out-dic_semanticSims= 11.539
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 13 time diff millisecs-out-dic_semanticSims= 11.548
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 13 time diff millisecs-out-dic_semanticSims= 11.47
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 13 time diff millisecs-out-dic_semanticSims= 11.505
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 13 time diff millisecs-out-dic_semanticSims= 11.58
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 13 time diff millisecs-out-dic_semanticSims= 11.575
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 13 time diff millisecs-out-dic_semanticSims= 11.496
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 13 time diff millisecs-out-dic_semanticSims= 11.619
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 13 time diff millisecs-out-dic_semanticSims= 11.537
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 13 time diff millisecs-out-dic_semanticSims= 11.555
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 13 time diff millisecs-out-dic_semanticSims= 11.517
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 13 time diff millisecs-out-dic_semanticSims= 11.625
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 13 time diff millisecs-out-dic_semanticSims= 11.591
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 13 time diff millisecs-out-dic_semanticSims= 11.574
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 13 time diff millisecs-out-dic_semanticSims= 11.468
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 13 time diff millisecs-out-dic_semanticSims= 11.526
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 13 time diff millisecs-out-dic_semanticSims= 11.53
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 13 time diff millisecs-out-dic_semanticSims= 11.507
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 13 time diff millisecs-out-dic_semanticSims= 11.537
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 13 time diff millisecs-out-dic_semanticSims= 12.001
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 13 time diff millisecs-out-dic_semanticSims= 11.709
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 13 time diff millisecs-out-dic_semanticSims= 11.494
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 13 time diff millisecs-out-dic_semanticSims= 11.558
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 13 time diff millisecs-out-dic_semanticSims= 11.597
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 13 time diff millisecs-out-dic_semanticSims= 11.458
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 13 time diff millisecs-out-dic_semanticSims= 11.494
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 13 time diff millisecs-out-dic_semanticSims= 11.555
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 13 time diff millisecs-out-dic_semanticSims= 11.585
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 13 time diff millisecs-out-dic_semanticSims= 12.229
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 13 time diff millisecs-out-dic_semanticSims= 12.591
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 13 time diff millisecs-out-dic_semanticSims= 12.444
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 13 time diff millisecs-out-dic_semanticSims= 12.716
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 13 time diff millisecs-out-dic_semanticSims= 12.656
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 13 time diff millisecs-out-dic_semanticSims= 13.02
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 13 time diff millisecs-out-dic_semanticSims= 12.65
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 13 time diff millisecs-out-dic_semanticSims= 12.567
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 13 time diff secs-assign outlier= 0
+	Gibbs sampling successful! Start to saving results.
+start doc=7655, end doc=8351
+total texts=8351, total clusters=321
+	Saving successful!
+Batch 13
+11109
+	9047 documents will be analyze. alpha is 271.41.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 14 time diff secs-kdd-gibbsSampling= 6
+maxPredLabel=1860
+batch 14 time diff secs-out-connected= 0
+outlier=44, non-outlier=652,=maxPredLabel=1882
+high_entropy_words=151, total words=979
+batch 14 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 44 8728
+[128, 38, 66, 25, 20, 157, 9, 98, 45, 68, 12, 27, 24, 26, 41, 5, 28, 49, 28, 35, 4, 46, 9, 9, 2, 14, 3, 4, 73, 40, 11, 61, 72, 42, 40, 12, 117, 2, 61, 71, 54, 84, 77, 31, 6, 3, 3, 5, 4, 107, 92, 32, 159, 9, 17, 23, 433, 99, 83, 173, 47, 15, 2, 2, 4, 2, 5, 55, 37, 143, 175, 11, 209, 48, 4, 25, 28, 5, 18, 6, 5, 3, 2, 2, 276, 130, 89, 97, 65, 12, 101, 30, 6, 15, 15, 35, 17, 2, 208, 55, 142, 89, 74, 101, 2, 22, 3, 247, 159, 30, 110, 83, 11, 2, 9, 255, 100, 51, 40, 102, 35, 147, 54, 31, 19, 2, 44, 77, 98, 7, 19, 150, 132, 97, 169, 53, 5, 20, 2, 8, 12, 27, 6, 107, 4, 136, 186, 48, 35, 5, 2, 8, 49, 58, 89, 13, 10, 2, 2, 2, 2, 2]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 14 time diff secs-customGibbsSampling= 0
+batch 14 time diff millisecs-out-dic_semanticSims= 12.287
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 14 time diff millisecs-out-dic_semanticSims= 12.104
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 14 time diff millisecs-out-dic_semanticSims= 12.323
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 14 time diff millisecs-out-dic_semanticSims= 12.323
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 14 time diff millisecs-out-dic_semanticSims= 12.29
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 14 time diff millisecs-out-dic_semanticSims= 12.249
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 14 time diff millisecs-out-dic_semanticSims= 14.113
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 14 time diff millisecs-out-dic_semanticSims= 12.538
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 14 time diff millisecs-out-dic_semanticSims= 12.494
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 14 time diff millisecs-out-dic_semanticSims= 12.318
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 14 time diff millisecs-out-dic_semanticSims= 12.565
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 14 time diff millisecs-out-dic_semanticSims= 12.596
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 14 time diff millisecs-out-dic_semanticSims= 12.621
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 14 time diff millisecs-out-dic_semanticSims= 13.147
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 14 time diff millisecs-out-dic_semanticSims= 12.619
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 14 time diff millisecs-out-dic_semanticSims= 12.673
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 14 time diff millisecs-out-dic_semanticSims= 12.636
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 14 time diff millisecs-out-dic_semanticSims= 12.651
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 14 time diff millisecs-out-dic_semanticSims= 12.773
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 14 time diff millisecs-out-dic_semanticSims= 12.883
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 14 time diff millisecs-out-dic_semanticSims= 12.965
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 14 time diff millisecs-out-dic_semanticSims= 13.31
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 14 time diff millisecs-out-dic_semanticSims= 13.108
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 14 time diff millisecs-out-dic_semanticSims= 13.584
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 14 time diff millisecs-out-dic_semanticSims= 13.03
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 14 time diff millisecs-out-dic_semanticSims= 13.084
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 14 time diff millisecs-out-dic_semanticSims= 12.742
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 14 time diff millisecs-out-dic_semanticSims= 12.946
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 14 time diff millisecs-out-dic_semanticSims= 12.962
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 14 time diff millisecs-out-dic_semanticSims= 12.954
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 14 time diff millisecs-out-dic_semanticSims= 13.267
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 14 time diff millisecs-out-dic_semanticSims= 13.003
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 14 time diff millisecs-out-dic_semanticSims= 12.94
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 14 time diff millisecs-out-dic_semanticSims= 12.971
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 14 time diff millisecs-out-dic_semanticSims= 13.363
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 14 time diff millisecs-out-dic_semanticSims= 12.13
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 14 time diff millisecs-out-dic_semanticSims= 12.732
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 14 time diff millisecs-out-dic_semanticSims= 12.809
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 14 time diff millisecs-out-dic_semanticSims= 12.294
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 14 time diff millisecs-out-dic_semanticSims= 12.162
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 14 time diff millisecs-out-dic_semanticSims= 13.2
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 14 time diff millisecs-out-dic_semanticSims= 12.212
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 14 time diff millisecs-out-dic_semanticSims= 12.695
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 14 time diff millisecs-out-dic_semanticSims= 12.626
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 14 time diff secs-assign outlier= 0
+	Gibbs sampling successful! Start to saving results.
+start doc=8351, end doc=9047
+total texts=9047, total clusters=358
+	Saving successful!
+Batch 14
+11109
+	9743 documents will be analyze. alpha is 292.29.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 15 time diff secs-kdd-gibbsSampling= 7
+maxPredLabel=2071
+batch 15 time diff secs-out-connected= 0
+outlier=37, non-outlier=659,=maxPredLabel=2107
+high_entropy_words=170, total words=1107
+batch 15 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 37 9387
+[128, 38, 66, 25, 20, 157, 9, 98, 45, 68, 12, 27, 24, 26, 88, 5, 28, 49, 28, 35, 4, 46, 9, 9, 2, 14, 3, 4, 73, 40, 50, 62, 72, 42, 40, 12, 117, 2, 61, 71, 54, 84, 77, 31, 6, 3, 3, 5, 4, 107, 92, 32, 159, 9, 17, 23, 436, 99, 83, 173, 47, 15, 2, 2, 4, 2, 30, 55, 37, 143, 175, 11, 209, 48, 4, 25, 28, 5, 18, 6, 8, 3, 2, 2, 276, 130, 89, 97, 90, 12, 101, 30, 6, 15, 15, 35, 19, 2, 208, 55, 142, 89, 74, 101, 2, 22, 3, 247, 159, 30, 110, 84, 11, 2, 9, 255, 100, 51, 40, 114, 35, 147, 54, 31, 19, 2, 44, 77, 98, 7, 19, 150, 132, 97, 169, 53, 5, 20, 2, 8, 12, 27, 6, 107, 4, 136, 186, 48, 35, 5, 2, 8, 49, 117, 89, 13, 10, 2, 2, 2, 2, 81, 10, 33, 8, 32, 19, 48, 32, 15, 8, 20, 18, 18, 8, 26, 16, 12, 2, 17, 3, 4, 8, 2, 2, 2]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 15 time diff secs-customGibbsSampling= 0
+batch 15 time diff millisecs-out-dic_semanticSims= 15.517
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 15 time diff millisecs-out-dic_semanticSims= 15.314
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 15 time diff millisecs-out-dic_semanticSims= 15.349
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 15 time diff millisecs-out-dic_semanticSims= 15.454
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 15 time diff millisecs-out-dic_semanticSims= 15.502
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 15 time diff millisecs-out-dic_semanticSims= 15.229
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 15 time diff millisecs-out-dic_semanticSims= 15.674
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 15 time diff millisecs-out-dic_semanticSims= 15.758
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 15 time diff millisecs-out-dic_semanticSims= 15.775
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 15 time diff millisecs-out-dic_semanticSims= 15.653
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 15 time diff millisecs-out-dic_semanticSims= 15.119
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 15 time diff millisecs-out-dic_semanticSims= 15.639
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 15 time diff millisecs-out-dic_semanticSims= 15.169
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 15 time diff millisecs-out-dic_semanticSims= 16.058
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 15 time diff millisecs-out-dic_semanticSims= 15.611
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 15 time diff millisecs-out-dic_semanticSims= 15.4
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 15 time diff millisecs-out-dic_semanticSims= 16.006
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 15 time diff millisecs-out-dic_semanticSims= 16.099
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 15 time diff millisecs-out-dic_semanticSims= 15.769
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 15 time diff millisecs-out-dic_semanticSims= 15.241
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 15 time diff millisecs-out-dic_semanticSims= 15.878
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 15 time diff millisecs-out-dic_semanticSims= 15.724
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 15 time diff millisecs-out-dic_semanticSims= 15.704
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 15 time diff millisecs-out-dic_semanticSims= 15.914
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 15 time diff millisecs-out-dic_semanticSims= 15.252
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 15 time diff millisecs-out-dic_semanticSims= 15.664
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 15 time diff millisecs-out-dic_semanticSims= 16.108
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 15 time diff millisecs-out-dic_semanticSims= 15.73
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 15 time diff millisecs-out-dic_semanticSims= 15.346
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 15 time diff millisecs-out-dic_semanticSims= 15.701
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 15 time diff millisecs-out-dic_semanticSims= 15.773
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 15 time diff millisecs-out-dic_semanticSims= 15.698
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 15 time diff millisecs-out-dic_semanticSims= 15.675
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 15 time diff millisecs-out-dic_semanticSims= 15.442
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 15 time diff millisecs-out-dic_semanticSims= 15.485
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 15 time diff millisecs-out-dic_semanticSims= 15.169
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 15 time diff millisecs-out-dic_semanticSims= 15.363
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 15 time diff secs-assign outlier= 0
+	Gibbs sampling successful! Start to saving results.
+start doc=9047, end doc=9743
+total texts=9743, total clusters=405
+	Saving successful!
+Batch 15
+11109
+	10439 documents will be analyze. alpha is 313.17.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 16 time diff secs-kdd-gibbsSampling= 8
+maxPredLabel=2257
+batch 16 time diff secs-out-connected= 0
+outlier=48, non-outlier=648,=maxPredLabel=2302
+high_entropy_words=183, total words=1205
+batch 16 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 48 10035
+[128, 38, 66, 25, 22, 157, 9, 98, 45, 68, 12, 27, 24, 26, 88, 5, 28, 49, 28, 36, 4, 46, 9, 9, 2, 22, 3, 4, 73, 40, 50, 62, 72, 49, 40, 12, 117, 2, 61, 71, 54, 88, 77, 34, 6, 3, 3, 5, 4, 107, 97, 35, 159, 9, 17, 23, 438, 99, 83, 173, 47, 15, 2, 2, 4, 2, 58, 55, 37, 143, 175, 13, 209, 48, 4, 25, 28, 5, 18, 6, 93, 3, 2, 2, 276, 130, 89, 97, 90, 12, 102, 30, 6, 15, 15, 35, 148, 2, 208, 55, 142, 89, 74, 101, 2, 22, 3, 247, 159, 30, 110, 84, 11, 2, 9, 255, 100, 51, 40, 116, 35, 147, 54, 31, 19, 2, 44, 79, 98, 7, 19, 150, 132, 97, 169, 53, 5, 20, 2, 8, 12, 29, 6, 107, 4, 136, 186, 50, 35, 5, 2, 8, 49, 117, 89, 13, 10, 2, 2, 2, 2, 81, 10, 33, 8, 32, 19, 48, 35, 15, 8, 20, 18, 65, 8, 26, 16, 18, 2, 17, 3, 33, 8, 2, 27, 41, 2, 17, 3, 4, 21, 13, 48, 17, 6, 30, 22, 6, 8, 4, 4, 2, 2, 2]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 16 time diff secs-customGibbsSampling= 0
+batch 16 time diff millisecs-out-dic_semanticSims= 16.484
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 16.451
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 16.46
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 16.638
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 16.474
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 16.312
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 16.201
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 16.158
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 16.371
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 16.219
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 16.271
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 16.202
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 15.921
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 15.916
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 15.864
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 15.876
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 15.887
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 15.824
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 15.35
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 15.29
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 15.351
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 15.612
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 15.555
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 15.763
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 15.394
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 15.367
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 15.434
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 15.606
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 15.931
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 15.258
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 15.48
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 15.433
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 15.391
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 15.34
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 15.223
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 15.338
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 15.284
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 15.404
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 15.265
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 15.488
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 15.481
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 15.38
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 15.735
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 15.327
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 15.387
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 15.227
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 15.318
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff millisecs-out-dic_semanticSims= 15.299
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 16 time diff secs-assign outlier= 0
+	Gibbs sampling successful! Start to saving results.
+start doc=9743, end doc=10439
+total texts=10439, total clusters=443
+	Saving successful!
+Batch 16
+11109
+	11109 documents will be analyze. alpha is 333.27.
+	Initialization.
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+batch 17 time diff secs-kdd-gibbsSampling= 8
+maxPredLabel=2304
+batch 17 time diff secs-out-connected= 0
+outlier=21, non-outlier=649,=maxPredLabel=2324
+high_entropy_words=140, total words=1022
+batch 17 time diff secs-remove high entropy word= 0
+outsPerCluster.values(), nonOuts 21 10684
+[128, 38, 66, 25, 22, 157, 9, 98, 45, 68, 12, 27, 24, 26, 88, 5, 28, 49, 30, 36, 4, 46, 9, 9, 2, 22, 3, 4, 73, 40, 50, 62, 72, 49, 40, 12, 117, 2, 61, 71, 54, 158, 77, 103, 55, 3, 3, 5, 4, 107, 97, 94, 159, 9, 17, 23, 440, 99, 83, 173, 48, 15, 2, 2, 4, 2, 63, 55, 37, 143, 175, 13, 209, 48, 4, 25, 28, 5, 18, 6, 93, 3, 2, 2, 276, 130, 89, 97, 90, 12, 102, 30, 6, 15, 15, 35, 213, 2, 208, 55, 142, 89, 74, 101, 2, 22, 3, 247, 176, 30, 110, 84, 11, 2, 9, 255, 100, 51, 40, 201, 35, 147, 54, 31, 19, 2, 44, 79, 98, 7, 19, 150, 132, 97, 169, 53, 5, 20, 2, 8, 12, 29, 6, 107, 4, 136, 186, 50, 35, 5, 2, 8, 49, 117, 89, 13, 10, 2, 2, 2, 2, 81, 10, 33, 8, 32, 19, 48, 35, 15, 8, 20, 18, 65, 8, 26, 16, 18, 2, 17, 3, 33, 8, 2, 27, 41, 2, 17, 3, 4, 21, 13, 48, 17, 6, 30, 22, 6, 8, 4, 4, 2, 2, 50, 30, 66, 22, 37, 13, 2, 5, 2]
+	iter is  1
+	iter is  2
+	iter is  3
+	iter is  4
+	iter is  5
+	iter is  6
+	iter is  7
+	iter is  8
+	iter is  9
+	iter is  10
+batch 17 time diff secs-customGibbsSampling= 0
+batch 17 time diff millisecs-out-dic_semanticSims= 16.275
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 17 time diff millisecs-out-dic_semanticSims= 15.953
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 17 time diff millisecs-out-dic_semanticSims= 15.832
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 17 time diff millisecs-out-dic_semanticSims= 15.791
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 17 time diff millisecs-out-dic_semanticSims= 15.856
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 17 time diff millisecs-out-dic_semanticSims= 15.829
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 17 time diff millisecs-out-dic_semanticSims= 15.847
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 17 time diff millisecs-out-dic_semanticSims= 15.815
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 17 time diff millisecs-out-dic_semanticSims= 16.21
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 17 time diff millisecs-out-dic_semanticSims= 16.134
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 17 time diff millisecs-out-dic_semanticSims= 15.976
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 17 time diff millisecs-out-dic_semanticSims= 15.774
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 17 time diff millisecs-out-dic_semanticSims= 15.909
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 17 time diff millisecs-out-dic_semanticSims= 15.82
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 17 time diff millisecs-out-dic_semanticSims= 16.368
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 17 time diff millisecs-out-dic_semanticSims= 15.938
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 17 time diff millisecs-out-dic_semanticSims= 15.9
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 17 time diff millisecs-out-dic_semanticSims= 15.842
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 17 time diff millisecs-out-dic_semanticSims= 15.866
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 17 time diff millisecs-out-dic_semanticSims= 15.843
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 17 time diff millisecs-out-dic_semanticSims= 15.809
+TRUE: if intCenterLabel in self.centerFarthestDist.keys():
+batch 17 time diff secs-assign outlier= 0
+	Gibbs sampling successful! Start to saving results.
+start doc=10439, end doc=11109
+total texts=11109, total clusters=454
+	Saving successful!
+time diff secs= 106
+pred_true_text_file name=result/mstr-enh
+evaluate total texts=11109
+homogeneity_score-whole-data:   0.91015937
+completeness_score-whole-data:   0.85773997
+nmi_score-whole-data:   0.88317253
+pred clusters=404, true clusters=152
+purity majority whole data=0.8637141056800792
+pred_true_text_file name=result/NewsPredTueTextMStream_WordArr.txt
+evaluate total texts=11109
+homogeneity_score-whole-data:   0.90422216
+completeness_score-whole-data:   0.85901002
+nmi_score-whole-data:   0.88103643
+pred clusters=338, true clusters=152
+purity majority whole data=0.8599333873435953
