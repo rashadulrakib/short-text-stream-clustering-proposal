@@ -525,15 +525,20 @@ class Model:
     
     def populateNonOutliers(self,non_outlier_pred_true_text_ind_prevPreds):      
       self.flat_non_outs.extend(non_outlier_pred_true_text_ind_prevPreds)      
-      '''for pred_true_text_ind_prevPred in non_outlier_pred_true_text_ind_prevPreds:
-        pred=pred_true_text_ind_prevPred[0]	  
-        self.notOutsPerCluster.setdefault(pred, []).append(pred_true_text_ind_prevPred)'''
+
+    def populateNonOutliersAfterAssign(self, pred_true_text_ind_prevPreds):
+      for pred_true_text_ind_prevPred in pred_true_text_ind_prevPreds:
+        pred=pred_true_text_ind_prevPred[0]
+        self.docsPerCluster_nonoutlier_afterAssign.setdefault(pred, []).append(pred_true_text_ind_prevPred)		
      
     def populateOutliers(self,outlier_pred_true_text_ind_prevPreds):
       self.flat_outs.extend(outlier_pred_true_text_ind_prevPreds)
-      '''for pred_true_text_ind_prevPred in outlier_pred_true_text_ind_prevPreds:
-        pred=pred_true_text_ind_prevPred[0]	  
-        self.outsPerCluster.setdefault(pred, []).append(pred_true_text_ind_prevPred)'''
+
+
+    def populateOutliersAfterAssign(self, pred_true_text_ind_prevPreds):
+      for pred_true_text_ind_prevPred in pred_true_text_ind_prevPreds:
+        pred=pred_true_text_ind_prevPred[0]
+        self.docsPerCluster_outlier_afterAssign.setdefault(pred, []).append(pred_true_text_ind_prevPred)		
 
     def populateClusterCenters_AutoEncoder(self, pred_true_text_ind_prevPreds, documentSet, wordVectorsDic):
 	  #get number of clusters
@@ -1267,10 +1272,11 @@ class Model:
         t_diff = t12-t11
         print("batch", self.batchNum,"time diff secs-assign outlier=",t_diff.seconds)		
         appendResultFile(flat_outs, 'result/mstr-enh')
-        #self.outsPerCluster.clear()
+        self.populateOutliersAfterAssign(flat_outs)		
         self.flat_outs.clear() 		
 
       appendResultFile(non_outlier_pred_true_text_ind_prevPreds, 'result/mstr-enh')
+      self.populateNonOutliersAfterAssign(non_outlier_pred_true_text_ind_prevPreds)	    
       #print("Evaluate-enhance", self.batchNum)	  
       #Evaluate(non_outlier_pred_true_text_ind_prevPreds+flat_outs)	  
       		  
@@ -1482,7 +1488,30 @@ class Model:
 
         		
         		
-        		
+    def cluster_MStream(self, documentSet, wordVectorsDic, skStopWords, wordList, outputPath):
+      t11=datetime.now()			
+      self.intialize(documentSet, wordVectorsDic)
+      self.gibbsSampling(documentSet, wordVectorsDic)
+      t12=datetime.now()	  
+      t_diff = t12-t11
+      print("batch", self.batchNum,"time diff secs-kdd-gibbsSampling=",t_diff.seconds)	   			
+            			
+      self.detectOutlierAndEnhanceByEmbeddingSimProduct_Employee(documentSet, skStopWords, wordVectorsDic) 			
+      #self.detectOutlierAndEnhanceByEmbeddingSimProduct_ACL(documentSet, skStopWords, wordVectorsDic)	
+      #self.detectOutlierForgetEnhanceByEmbeddingSimProduct_ACL(documentSet, skStopWords, wordVectorsDic)
+
+            	
+      print("\tGibbs sampling successful! Start to saving results.")
+      self.output(documentSet, outputPath, wordList, self.batchNum - 1)
+      print("\tSaving successful!")
+
+    def cluster_EmployeeRecruitment(self, documentSet, wordVectorsDic, skStopWords, wordList, outputPath):
+      t11=datetime.now()			
+      self.intialize(documentSet, wordVectorsDic)
+      t12=datetime.now()	  
+      t_diff = t12-t11
+      print("batch", self.batchNum,"time diff subtruct=",t_diff.seconds)		
+      	
 	  
         		
       	  
@@ -1499,9 +1528,7 @@ class Model:
         # self.BatchSet = {} # No need to store information of each batch
         self.word_current = {} # Store word-IDs' list of each batch
         #rakib
-        self.docsPerCluster={}
-        #self.outsPerCluster={}
-        #self.notOutsPerCluster={}		
+        self.docsPerCluster={}		
         self.centerVecs={}
         self.centerFarthestDist={}
         self.centerclosestDist={}		
@@ -1511,8 +1538,8 @@ class Model:
         self.docsPerBatch={}
         self.flat_non_outs=[]
         self.flat_outs=[]
-        #self.docsPerCluster_outlier_afterAssign={}		
-        #self.docsPerCluster_nonoutlier_afterAssign={}		
+        self.docsPerCluster_outlier_afterAssign={}		
+        self.docsPerCluster_nonoutlier_afterAssign={}		
         #self.dic_ClusterGroups={} #dicWords and totalWCount for lexical similarity		
         #self.batchPerDocProbList={} #calculate the probability at runtime, not store the probs		
         #self.closetVecs={}
@@ -1538,37 +1565,11 @@ class Model:
             print("Batch", self.batchNum)
             if self.batchNum not in self.batchNum2tweetID:
                 break
-            print(len(documentSet.documents))
-            t11=datetime.now()			
-            self.intialize(documentSet, wordVectorsDic)
-            self.gibbsSampling(documentSet, wordVectorsDic)
-            t12=datetime.now()	  
-            t_diff = t12-t11
-            print("batch", self.batchNum,"time diff secs-kdd-gibbsSampling=",t_diff.seconds)	   			
+				
+            self.cluster_MStream(documentSet, wordVectorsDic, skStopWords, wordList, outputPath)
             			
-            #rakib			
-            #self.profileClusters(documentSet, wordVectorsDic)
-                        
-     		#self.detectOutlierAndEnhance(documentSet)
-            #self.detectOutlierAndEnhanceByEmbedding(documentSet, wordVectorsDic)
+            print(len(documentSet.documents))
             
-            #t11=datetime.now()	
-            self.detectOutlierAndEnhanceByEmbeddingSimProduct_Employee(documentSet, skStopWords, wordVectorsDic) 			
-            #self.detectOutlierAndEnhanceByEmbeddingSimProduct_ACL(documentSet, skStopWords, wordVectorsDic)	
-            #self.detectOutlierForgetEnhanceByEmbeddingSimProduct_ACL(documentSet, skStopWords, wordVectorsDic)
-
-            #self.detectOutlierAndEnhanceByEmbeddingSimProduct_COLING(documentSet, skStopWords, wordVectorsDic)	
-            #self.detectOutlierForgetEnhanceByEmbeddingSimProduct_DUAL(documentSet, skStopWords, wordVectorsDic) #not  work very well
-			
-            #self.detectOutlierAndEnhanceByEmbeddingSimProduct(documentSet, skStopWords, wordVectorsDic)		
-            #self.detectOutlierForgetEnhanceByEmbeddingSimProduct(documentSet, skStopWords, wordVectorsDic)
-            #t12=datetime.now()	  
-            #t_diff = t12-t11
-            #print("batch", self.batchNum,"time diff secs-whole detect=",t_diff.seconds) 
-			
-            print("\tGibbs sampling successful! Start to saving results.")
-            self.output(documentSet, outputPath, wordList, self.batchNum - 1)
-            print("\tSaving successful!")
         t2=datetime.now()
         t_diff = t2-t1
         print("time diff secs=",t_diff.seconds)
