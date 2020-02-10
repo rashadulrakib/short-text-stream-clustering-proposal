@@ -26,18 +26,18 @@ dataset = "News"
 
 timefil = "timefil"
 MaxBatch = 2 # The number of saved batches + 1
-AllBatchNum = 10 # The number of batches you want to devided the dataset to
+AllBatchNum = 16 # The number of batches you want to devided the dataset to
 alpha = 0.03
 beta = 0.03
-iterNum = 7
+iterNum = 5
 sampleNum = 1
 wordsInTopicNum = 5
 K = 0 
 
 gloveFile = "/home/owner/PhD/dr.norbert/dataset/shorttext/glove.42B.300d/glove.42B.300d.txt"
 
-#wordVectorsDic={}
-wordVectorsDic = extractAllWordVecs(gloveFile, 300)
+wordVectorsDic={}
+#wordVectorsDic = extractAllWordVecs(gloveFile, 300)
 
 def runMStreamF(K, MaxBatch, AllBatchNum, alpha, beta, iterNum, sampleNum, dataset, timefil, wordsInTopicNum):
     mstream = MStream(K, MaxBatch, AllBatchNum, alpha, beta, iterNum, sampleNum, dataset, timefil, wordsInTopicNum)

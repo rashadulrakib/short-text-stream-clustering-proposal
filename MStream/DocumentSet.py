@@ -1,5 +1,7 @@
 import json
 from Document import Document
+from textblob import TextBlob
+#from txt_process_util import detectNPPhrase
 
 class DocumentSet:
 
@@ -12,8 +14,14 @@ class DocumentSet:
             while line:
                 self.D += 1
                 obj = json.loads(line)
-                text = obj['textCleaned']	
-                clusterNo = obj['clusterNo']				
+                text = obj['textCleaned']
+                #process the text
+                '''oldText= text 				
+                text=detectNPPhrase(text)
+                			  
+                #end process the text'''
+                clusterNo = obj['clusterNo']
+                #print(oldText, ",", text, clusterNo) 				
                 document = Document(text, clusterNo, -1, wordToIdMap, wordList, int(obj['Id'])) #rakib
                 self.documents.append(document)
                 line = input.readline()

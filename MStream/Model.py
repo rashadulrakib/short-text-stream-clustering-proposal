@@ -42,6 +42,8 @@ from txt_process_util import getScikitLearn_StopWords
 from txt_process_util import processTextsRemoveStopWordTokenized
 from txt_process_util import processTxtRemoveStopWordTokenized
 from txt_process_util import getDocFreq
+from txt_process_util import detectNPPhrase
+
 
 from compute_util import computeTextSimCommonWord
 from compute_util import compute_sim_value
@@ -176,15 +178,15 @@ class Model:
         if str(newPredLabel)==str(newPredMaxLabel):          
           non_outliersInCluster_Index.append([oldPredLabel, trueLabel, word_arr, ind, oldPredLabel])
         else:
-          #print("newPredLabel="+str(newPredLabel)+","+str(new_pred_dict[str(newPredLabel)]))
-          if new_pred_dict[str(newPredLabel)]>1 or new_pred_dict[newPredLabel]>1:
-            #print("update model for="+text+", old="+str(oldPredLabel)+", true="+str(trueLabel))
+          '''if new_pred_dict[str(newPredLabel)]>1 or new_pred_dict[newPredLabel]>1: #uncommmented stable
             chngPredLabel=int(str(newPredLabel)) + int(str(maxPredLabel)) +1
             self.updateModelParametersForSingle(oldPredLabel, chngPredLabel, batchDocs[int(str(ind))])
             non_outliersInCluster_Index.append([str(chngPredLabel), trueLabel, word_arr, ind, oldPredLabel])			
-          else:	  
+          else:
             outliersInCluster_Index.append([oldPredLabel, trueLabel, word_arr, ind, oldPredLabel])
-            #self.updateModelParametersForSingleDelete(oldPredLabel, batchDocs[int(str(ind))])			
+            self.updateModelParametersForSingleDelete(oldPredLabel,  batchDocs[int(str(ind))]) #commmented stable'''	  
+          outliersInCluster_Index.append([oldPredLabel, trueLabel, word_arr, ind, oldPredLabel])
+          self.updateModelParametersForSingleDelete(oldPredLabel, batchDocs[int(str(ind))]) #commmented stable			
 
       #print(outliersInCluster_Index)	  
       maxPredLabel=int(str(maxPredLabel))+int(str(newPredMaxLabel))+1
@@ -523,6 +525,44 @@ class Model:
     
       return [outlier_pred_true_text_ind_prevPreds, non_outlier_pred_true_text_ind_prevPreds, avgItemsInCluster, maxPredLabel, len(dic_tupple_class)]	
     
+ 
+    def populateClusterMetadata(self, pred_true_text_ind_prevPreds):
+      #self.metadata_docsPerCluster =
+      #self.metadata_word_freq_perCluster=
+      #self.metadata_word_to_clusteFreqs= 
+      for pred_true_text_ind_prevPred in pred_true_text_ind_prevPreds:
+        pred=pred_true_text_ind_prevPred[0]
+        word_np_arr=pred_true_text_ind_prevPred[2]		
+        self.metadata_docsPerCluster.setdefault(pred, []).append(pred_true_text_ind_prevPred)
+ 
+        word_arr=[]
+        for token in word_np_arr:
+          token_arr=token.split('_')
+          word_arr.extend(token_arr)
+         
+        print(word_arr, word_np_arr)
+		
+        if pred not in self.metadata_word_freq_perCluster:
+          self.metadata_word_freq_perCluster[pred]={}  		
+        for word in word_arr:
+          if word not in self.metadata_word_freq_perCluster[pred]:
+            self.metadata_word_freq_perCluster[pred][word]=0
+          self.metadata_word_freq_perCluster[pred][word]+=1
+         
+          if word not in self.metadata_word_to_clusteFreqs:
+            self.metadata_word_to_clusteFreqs[word]={}            
+          if pred not in self.metadata_word_to_clusteFreqs[word]:
+            self.metadata_word_to_clusteFreqs[word][pred]=0
+          self.metadata_word_to_clusteFreqs[word][pred]+=1			
+      
+      #print(self.metadata_word_freq_perCluster)
+      #print(self.metadata_word_to_clusteFreqs)
+      #return out_with_owrd_arr	  
+        
+            		
+        		
+    	
+	
     def populateNonOutliers(self,non_outlier_pred_true_text_ind_prevPreds):      
       self.flat_non_outs.extend(non_outlier_pred_true_text_ind_prevPreds)      
 
@@ -646,6 +686,7 @@ class Model:
       batchDocs=[]##contains only the docs in a batch			
       maxPredLabel=-1000#we use maxPredLabel to increment new labels (newPredLabel=maxPredLabel+1)
       pred_true_text_inds=[]
+      pred_true_npText_inds=[]	  
       #processTxtRemoveStopWordTokenized(batchDoc.text,skStopWords)  	
       i=-1
       for d in range(self.startDoc, self.currentDoc):
@@ -659,11 +700,16 @@ class Model:
           maxPredLabel= cluster
         #print("batchDoc.text=",batchDoc.text)		  
         procText_wordArr=processTxtRemoveStopWordTokenized_wordArr(batchDoc.text,skStopWords)		  
-        pred_true_text_inds.append([str(cluster), str(batchDoc.clusterNo), procText_wordArr , i])		  
+        pred_true_text_inds.append([str(cluster), str(batchDoc.clusterNo), procText_wordArr , i])
+        compactText=processTxtRemoveStopWordTokenized(batchDoc.text,skStopWords)
+        compactText=detectNPPhrase(compactText)		
+        		
+        pred_true_npText_inds.append([str(cluster), str(batchDoc.clusterNo), compactText.split(' ') , i])
+		
         batchDocs.append(batchDoc)
   		
       print("maxPredLabel="+str(maxPredLabel))     
-      return [batchDocs, pred_true_text_inds, maxPredLabel]
+      return [batchDocs, pred_true_text_inds, maxPredLabel, pred_true_npText_inds]
 	 
       	
     def populateBatchDocs(self, documentSet):	  
@@ -1236,12 +1282,31 @@ class Model:
       #Evaluate(non_outlier_pred_true_text_ind_prevPreds+flat_outs)	 
 
     def detectOutlierAndEnhanceByEmbeddingSimProduct_Employee(self, documentSet, skStopWords, wordVectorsDic):
-      batchDocs, pred_true_text_inds, maxPredLabel=self.populateBatchDocs_wordArr(skStopWords, documentSet)	
-	  
+      batchDocs, pred_true_text_inds, maxPredLabel, pred_true_npText_inds=self.populateBatchDocs_wordArr(skStopWords, documentSet)	
+      initMaxPredLabel=maxPredLabel
+      print("------")  
       t11=datetime.now()
-      outlier_pred_true_text_ind_prevPreds, non_outlier_pred_true_text_ind_prevPreds, avgItemsInCluster, maxPredLabel, all_pred_clusters=self.removeOutlierConnectedComponentLexicalIndex(pred_true_text_inds, batchDocs, maxPredLabel)
+      '''outlier_pred_true_text_ind_prevPreds, non_outlier_pred_true_text_ind_prevPreds, avgItemsInCluster, maxPredLabel, all_pred_clusters=self.removeOutlierConnectedComponentLexicalIndex(pred_true_text_inds, batchDocs, maxPredLabel)
+      Evaluate(non_outlier_pred_true_text_ind_prevPreds)
+      print_by_group(non_outlier_pred_true_text_ind_prevPreds)
+      print("###")	  
+      print_by_group(outlier_pred_true_text_ind_prevPreds)'''
 
-      print("outlier="+str(len(outlier_pred_true_text_ind_prevPreds))+", non-outlier="+str(len(non_outlier_pred_true_text_ind_prevPreds))+",=maxPredLabel="+str(maxPredLabel))
+      
+      outlier_pred_true_text_ind_prevPreds, non_outlier_pred_true_text_ind_prevPreds, avgItemsInCluster, maxPredLabel, all_pred_clusters=self.removeOutlierConnectedComponentLexicalIndex(pred_true_npText_inds, batchDocs, initMaxPredLabel)
+      Evaluate(non_outlier_pred_true_text_ind_prevPreds)
+      #print_by_group(non_outlier_pred_true_text_ind_prevPreds)
+      #print("###")	  
+      #print_by_group(outlier_pred_true_text_ind_prevPreds)	
+
+      self.populateClusterMetadata(outlier_pred_true_text_ind_prevPreds)
+
+      #self.assignOutlierToClusterByKeyTerms(flat_outs)
+      #flat_outs=self.customGibbsSampling(outlier_pred_true_text_ind_prevPreds, documentSet, wordVectorsDic)
+
+      	  
+
+      '''print("outlier="+str(len(outlier_pred_true_text_ind_prevPreds))+", non-outlier="+str(len(non_outlier_pred_true_text_ind_prevPreds))+",=maxPredLabel="+str(maxPredLabel))
 
       t11=datetime.now()
       non_outlier_pred_true_text_ind_prevPreds=RemoveHighClusterEntropyWordsIndex(non_outlier_pred_true_text_ind_prevPreds)
@@ -1272,11 +1337,11 @@ class Model:
         t_diff = t12-t11
         print("batch", self.batchNum,"time diff secs-assign outlier=",t_diff.seconds)		
         appendResultFile(flat_outs, 'result/mstr-enh')
-        self.populateOutliersAfterAssign(flat_outs)		
+        #self.populateOutliersAfterAssign(flat_outs)		
         self.flat_outs.clear() 		
 
       appendResultFile(non_outlier_pred_true_text_ind_prevPreds, 'result/mstr-enh')
-      self.populateNonOutliersAfterAssign(non_outlier_pred_true_text_ind_prevPreds)	    
+      #self.populateNonOutliersAfterAssign(non_outlier_pred_true_text_ind_prevPreds)'''	    
       #print("Evaluate-enhance", self.batchNum)	  
       #Evaluate(non_outlier_pred_true_text_ind_prevPreds+flat_outs)	  
       		  
@@ -1534,12 +1599,15 @@ class Model:
         self.centerclosestDist={}		
         self.avgClusterSize=0
         self.stdClusterSize=0
-        self.outsNumberPerBatch={}
+        #self.outsNumberPerBatch={}
         self.docsPerBatch={}
         self.flat_non_outs=[]
         self.flat_outs=[]
-        self.docsPerCluster_outlier_afterAssign={}		
-        self.docsPerCluster_nonoutlier_afterAssign={}		
+        #self.docsPerCluster_outlier_afterAssign={}		
+        #self.docsPerCluster_nonoutlier_afterAssign={}
+        self.metadata_docsPerCluster={} #may be we do not need it later
+        self.metadata_word_freq_perCluster={}
+        self.metadata_word_to_clusteFreqs={} 	  		
         #self.dic_ClusterGroups={} #dicWords and totalWCount for lexical similarity		
         #self.batchPerDocProbList={} #calculate the probability at runtime, not store the probs		
         #self.closetVecs={}
@@ -1573,16 +1641,11 @@ class Model:
         t2=datetime.now()
         t_diff = t2-t1
         print("time diff secs=",t_diff.seconds)
-        listtuple_pred_true_text=ReadPredTrueText('result/mstr-enh')
-        Evaluate(listtuple_pred_true_text)
-        #print("listtuple_pred_true_text-final-enhance")		
-        #print_by_group(listtuple_pred_true_text)		
-        #listtuple_pred_true_text=ReadPredTrueText('result/mstr-enh-sd')
+        #listtuple_pred_true_text=ReadPredTrueText('result/mstr-enh')
         #Evaluate(listtuple_pred_true_text)
+     
         listtuple_pred_true_text=ReadPredTrueText('result/NewsPredTueTextMStream_WordArr.txt')
         Evaluate(listtuple_pred_true_text)
-        #print("listtuple_pred_true_text-final-kdd")		
-        #print_by_group(listtuple_pred_true_text)		
         		
 
     def run_MStreamF(self, documentSet, outputPath, wordList, AllBatchNum, wordVectorsDic):

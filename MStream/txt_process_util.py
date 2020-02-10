@@ -13,6 +13,22 @@ from general_util import extractBySingleIndex
 import itertools
 from collections import Counter
 import numpy as np
+from textblob import TextBlob
+
+def detectNPPhrase(text):
+  blob = TextBlob(text)
+  np_phrases=blob.noun_phrases
+  for np_ph in np_phrases:
+    np_ph_arr=np_ph.split(' ')
+    len_np_ph_arr=len(np_ph_arr)
+    if len_np_ph_arr==1:
+      continue				  
+    new_np=np_ph				  
+    if len_np_ph_arr>2:
+      new_np=np_ph_arr[0]+' '+np_ph_arr[1]
+    text=text.replace(new_np, new_np.replace(' ','_')) 
+
+  return text	
 
 def combineDocsToSingle(listStrs):
   comText=" ".join(listStrs)
