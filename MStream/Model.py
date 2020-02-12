@@ -178,15 +178,15 @@ class Model:
         if str(newPredLabel)==str(newPredMaxLabel):          
           non_outliersInCluster_Index.append([oldPredLabel, trueLabel, word_arr, ind, oldPredLabel])
         else:
-          '''if new_pred_dict[str(newPredLabel)]>1 or new_pred_dict[newPredLabel]>1: #uncommmented stable
+          if new_pred_dict[str(newPredLabel)]>1 or new_pred_dict[newPredLabel]>1: #uncommmented stable
             chngPredLabel=int(str(newPredLabel)) + int(str(maxPredLabel)) +1
             self.updateModelParametersForSingle(oldPredLabel, chngPredLabel, batchDocs[int(str(ind))])
             non_outliersInCluster_Index.append([str(chngPredLabel), trueLabel, word_arr, ind, oldPredLabel])			
           else:
             outliersInCluster_Index.append([oldPredLabel, trueLabel, word_arr, ind, oldPredLabel])
-            self.updateModelParametersForSingleDelete(oldPredLabel,  batchDocs[int(str(ind))]) #commmented stable'''	  
-          outliersInCluster_Index.append([oldPredLabel, trueLabel, word_arr, ind, oldPredLabel])
-          self.updateModelParametersForSingleDelete(oldPredLabel, batchDocs[int(str(ind))]) #commmented stable			
+            self.updateModelParametersForSingleDelete(oldPredLabel,  batchDocs[int(str(ind))]) #commmented stable	  
+          #outliersInCluster_Index.append([oldPredLabel, trueLabel, word_arr, ind, oldPredLabel])
+          #self.updateModelParametersForSingleDelete(oldPredLabel, batchDocs[int(str(ind))]) #commmented stable			
 
       #print(outliersInCluster_Index)	  
       maxPredLabel=int(str(maxPredLabel))+int(str(newPredMaxLabel))+1
@@ -528,26 +528,28 @@ class Model:
  
     def populateClusterMetadata(self, pred_true_text_ind_prevPreds):
       #self.metadata_docsPerCluster =
-      #self.metadata_word_freq_perCluster=
+      #self.metadata_cluster_to_wordfreqs=
       #self.metadata_word_to_clusteFreqs= 
+      #pred_true_wordArrr_ind_prevPreds=[]	  
       for pred_true_text_ind_prevPred in pred_true_text_ind_prevPreds:
         pred=pred_true_text_ind_prevPred[0]
         word_np_arr=pred_true_text_ind_prevPred[2]		
-        self.metadata_docsPerCluster.setdefault(pred, []).append(pred_true_text_ind_prevPred)
+        #self.metadata_docsPerCluster.setdefault(pred, []).append(pred_true_text_ind_prevPred)
  
-        word_arr=[]
-        for token in word_np_arr:
-          token_arr=token.split('_')
-          word_arr.extend(token_arr)
+        word_arr=word_np_arr
+        #for token in word_np_arr:
+        #  token_arr=token.split('_')
+        #  word_arr.extend(token_arr)
+        #pred_true_wordArrr_ind_prevPreds.append([pred_true_text_ind_prevPred[0], pred_true_text_ind_prevPred[1], word_arr, pred_true_text_ind_prevPred[3], pred_true_text_ind_prevPred[4]])		  
          
-        print(word_arr, word_np_arr)
+        #print(word_arr, word_np_arr)
 		
-        if pred not in self.metadata_word_freq_perCluster:
-          self.metadata_word_freq_perCluster[pred]={}  		
+        #if pred not in self.metadata_cluster_to_wordfreqs:
+        #  self.metadata_cluster_to_wordfreqs[pred]={}  		
         for word in word_arr:
-          if word not in self.metadata_word_freq_perCluster[pred]:
-            self.metadata_word_freq_perCluster[pred][word]=0
-          self.metadata_word_freq_perCluster[pred][word]+=1
+          #if word not in self.metadata_cluster_to_wordfreqs[pred]:
+          #  self.metadata_cluster_to_wordfreqs[pred][word]=0
+          #self.metadata_cluster_to_wordfreqs[pred][word]+=1
          
           if word not in self.metadata_word_to_clusteFreqs:
             self.metadata_word_to_clusteFreqs[word]={}            
@@ -555,9 +557,9 @@ class Model:
             self.metadata_word_to_clusteFreqs[word][pred]=0
           self.metadata_word_to_clusteFreqs[word][pred]+=1			
       
-      #print(self.metadata_word_freq_perCluster)
+      #print(self.metadata_cluster_to_wordfreqs)
       #print(self.metadata_word_to_clusteFreqs)
-      #return out_with_owrd_arr	  
+      #return pred_true_wordArrr_ind_prevPreds	  
         
             		
         		
@@ -686,7 +688,7 @@ class Model:
       batchDocs=[]##contains only the docs in a batch			
       maxPredLabel=-1000#we use maxPredLabel to increment new labels (newPredLabel=maxPredLabel+1)
       pred_true_text_inds=[]
-      pred_true_npText_inds=[]	  
+      #pred_true_npText_inds=[]	  
       #processTxtRemoveStopWordTokenized(batchDoc.text,skStopWords)  	
       i=-1
       for d in range(self.startDoc, self.currentDoc):
@@ -701,15 +703,15 @@ class Model:
         #print("batchDoc.text=",batchDoc.text)		  
         procText_wordArr=processTxtRemoveStopWordTokenized_wordArr(batchDoc.text,skStopWords)		  
         pred_true_text_inds.append([str(cluster), str(batchDoc.clusterNo), procText_wordArr , i])
-        compactText=processTxtRemoveStopWordTokenized(batchDoc.text,skStopWords)
-        compactText=detectNPPhrase(compactText)		
+        #compactText=processTxtRemoveStopWordTokenized(batchDoc.text,skStopWords)
+        #compactText=detectNPPhrase(compactText)		
         		
-        pred_true_npText_inds.append([str(cluster), str(batchDoc.clusterNo), compactText.split(' ') , i])
+        #pred_true_npText_inds.append([str(cluster), str(batchDoc.clusterNo), compactText.split(' ') , i])
 		
         batchDocs.append(batchDoc)
   		
       print("maxPredLabel="+str(maxPredLabel))     
-      return [batchDocs, pred_true_text_inds, maxPredLabel, pred_true_npText_inds]
+      return [batchDocs, pred_true_text_inds, maxPredLabel]
 	 
       	
     def populateBatchDocs(self, documentSet):	  
@@ -895,9 +897,12 @@ class Model:
           new_outs.append(pred_true_text_ind_prevPred)
           self.updateModelParametersList([pred_true_text_ind_prevPred], batchDocs)
         else:
-          maxPredLabel=int(str(maxPredLabel))+1	
-          pred_true_text_ind_prevPred[0]=str(maxPredLabel)		  
-          new_outs.append(pred_true_text_ind_prevPred)
+          ooouts, maxPredLabel=self.assignOutlierToClusterByKeyTerms([pred_true_text_ind_prevPred], maxPredLabel, batchDocs)  
+          #maxPredLabel=int(str(maxPredLabel))+1 #stable	 
+          #pred_true_text_ind_prevPred[0]=str(maxPredLabel)	#stable
+          #new_outs.append(pred_true_text_ind_prevPred) #stable
+          new_outs.append(ooouts[0])		  
+		  
         #working stable end 		  
 		
 
@@ -908,6 +913,80 @@ class Model:
         #print(maxPredLabel_product, maxSim_product)		
 
       return [new_outs, maxPredLabel]
+ 
+    def assignOutlierToClusterByKeyTerms(self, flat_outs, maxPredLabel, batchDocs):
+      #self.metadata_docsPerCluster =
+      #self.metadata_cluster_to_wordfreqs=
+      #self.metadata_word_to_clusteFreqs= 
+      flat_outs_new=[]       
+      for pred_true_text_ind_prevPred in flat_outs:
+        pred=pred_true_text_ind_prevPred[0]
+        true=pred_true_text_ind_prevPred[1]		
+        word_arr=pred_true_text_ind_prevPred[2]
+        ind=pred_true_text_ind_prevPred[3]		
+        label_sums={}
+        max_cl_label=0
+        max_l_cnt=0        
+        print("text=", word_arr, pred, true)		
+            
+        for w in word_arr:
+          if w in self.metadata_word_to_clusteFreqs:  		  
+            #print(w, self.metadata_word_to_clusteFreqs[w])		  
+            for cl_label, l_cnt in self.metadata_word_to_clusteFreqs[w].items():
+              if cl_label not in label_sums:
+                label_sums[cl_label]=0
+              label_sums[cl_label]+=l_cnt
+              if max_l_cnt<label_sums[cl_label]:
+                max_l_cnt=label_sums[cl_label]
+                max_cl_label=cl_label				  
+        print(label_sums, max_cl_label, max_l_cnt)
+		
+        if int(str(max_cl_label)) > int(str(maxPredLabel)):
+          maxPredLabel= int(str(max_cl_label))
+   
+        #find best label for the text
+        bestlabel=int(str(pred))
+
+        sums_list=list(label_sums.values())		
+        if len(sums_list)>1:
+          avg=statistics.mean(sums_list) 
+          std=statistics.stdev(sums_list)		
+          if max_l_cnt>3*(avg+std):
+            print("max_l_cnt", max_l_cnt, "avg+std", avg+std)		  
+            bestlabel=max_cl_label		
+          else: #assign to a new cluster
+            maxPredLabel=int(str(maxPredLabel))+1
+            bestlabel=maxPredLabel
+            self.updateModelParametersForSingleDelete(pred, batchDocs[ind])
+            for w in word_arr:
+              strBestlabel=str(bestlabel) 			
+              if w in self.metadata_word_to_clusteFreqs:
+                if pred in self.metadata_word_to_clusteFreqs[w]:
+                  if self.metadata_word_to_clusteFreqs[w][pred]>0:
+                    self.metadata_word_to_clusteFreqs[w][pred]-=1
+              
+              if w not in self.metadata_word_to_clusteFreqs:			  
+                self.metadata_word_to_clusteFreqs[w]={}  
+              if strBestlabel not in self.metadata_word_to_clusteFreqs[w]:
+                self.metadata_word_to_clusteFreqs[w][strBestlabel]=0
+              self.metadata_word_to_clusteFreqs[w][strBestlabel]+=1
+				
+               				  
+            			
+            #also update the metadata_docsPerCluster, ..., ...			
+			
+		
+        #end		
+           
+        new_pred_true_text_ind_prevPred=[str(bestlabel), true, word_arr, pred_true_text_ind_prevPred[3], pred_true_text_ind_prevPred[4]]
+        self.updateModelParametersList([new_pred_true_text_ind_prevPred], batchDocs)		
+		
+        flat_outs_new.append(new_pred_true_text_ind_prevPred)
+        
+		
+      return [flat_outs_new, maxPredLabel]		
+		
+        		  
  
     def detectOutlierAndEnhance(self, documentSet):
       batchDocs, pred_true_texts, maxPredLabel=self.populateBatchDocs(documentSet)      
@@ -1280,8 +1359,94 @@ class Model:
       appendResultFile(non_outlier_pred_true_text_ind_prevPreds, 'result/mstr-enh')
       #print("Evaluate-enhance", self.batchNum)	  
       #Evaluate(non_outlier_pred_true_text_ind_prevPreds+flat_outs)	 
-
     def detectOutlierAndEnhanceByEmbeddingSimProduct_Employee(self, documentSet, skStopWords, wordVectorsDic):
+      batchDocs, pred_true_text_inds, maxPredLabel=self.populateBatchDocs_wordArr(skStopWords, documentSet)	
+      initMaxPredLabel=maxPredLabel
+      print("------")  
+      t11=datetime.now()
+      outlier_pred_true_text_ind_prevPreds, non_outlier_pred_true_text_ind_prevPreds, avgItemsInCluster, maxPredLabel, all_pred_clusters=self.removeOutlierConnectedComponentLexicalIndex(pred_true_text_inds, batchDocs, maxPredLabel)  
+	  
+      '''new_out=[] 	  
+      for out in outlier_pred_true_text_ind_prevPreds:
+        word_arr=[]
+        for token in out[2]:
+          token_arr=token.split('_')
+          word_arr.extend(token_arr)	  
+        new_out.append([out[0],out[1], word_arr, out[3], out[4]])
+      outlier_pred_true_text_ind_prevPreds=new_out'''
+		
+        	  
+      '''new_non_out=[] 	  
+      for non_out in non_outlier_pred_true_text_ind_prevPreds:
+        word_arr=[]
+        for token in non_out[2]:
+          token_arr=token.split('_')
+          word_arr.extend(token_arr)	  
+        new_non_out.append([non_out[0],non_out[1], word_arr, non_out[3], non_out[4]])
+      non_outlier_pred_true_text_ind_prevPreds=new_non_out'''  		
+      print("outlier="+str(len(outlier_pred_true_text_ind_prevPreds))+", non-outlier="+str(len(non_outlier_pred_true_text_ind_prevPreds))+",=maxPredLabel="+str(maxPredLabel))	  
+
+      '''t11=datetime.now()
+      non_outlier_pred_true_text_ind_prevPreds=RemoveHighClusterEntropyWordsIndex(non_outlier_pred_true_text_ind_prevPreds)
+      t12=datetime.now()	  
+      t_diff = t12-t11
+      print("batch", self.batchNum,"time diff secs-remove high entropy word=",t_diff.seconds)
+
+      self.populateOutliers(outlier_pred_true_text_ind_prevPreds)
+      self.populateNonOutliers(non_outlier_pred_true_text_ind_prevPreds)
+      flat_non_outs=self.flat_non_outs
+      flat_outs=self.flat_outs
+
+      print("outsPerCluster.values(), nonOuts", len(flat_outs), len(flat_non_outs))
+	   	  
+      dic_ClusterGroups, dic_cluster_noTexts=self.populateClusterCenters(flat_non_outs, documentSet, wordVectorsDic)
+      #dic_ClusterGroups[clauter1]= [{word1_freq=3, word2_freq=2}, 5]
+
+      #if self.batchNum>0:
+      t11=datetime.now()
+      flat_outs=self.customGibbsSampling(flat_outs, documentSet, wordVectorsDic)
+      t12=datetime.now()	  
+      t_diff = t12-t11
+      print("batch", self.batchNum,"time diff secs-customGibbsSampling=",t_diff.seconds)    
+	
+      t11=datetime.now()		
+      flat_outs, maxPredLabel=self.assignOutlierToClusterEmbeddingCenterCalculated(flat_outs, documentSet, wordVectorsDic, dic_ClusterGroups, maxPredLabel, batchDocs, dic_cluster_noTexts)
+      t12=datetime.now()	  
+      t_diff = t12-t11
+      print("batch", self.batchNum,"time diff secs-assign outlier=",t_diff.seconds)		
+      
+      #self.populateOutliersAfterAssign(flat_outs)		
+      self.flat_outs.clear() 	
+
+      combined=non_outlier_pred_true_text_ind_prevPreds+flat_outs	  
+	  
+      #combined_nps= combined'''
+
+      '''for pred_true_text_ind_prevPred in combined:
+        pred = pred_true_text_ind_prevPred[0]
+        true = pred_true_text_ind_prevPred[1]		
+        compactText=detectNPPhrase(' '.join(pred_true_text_ind_prevPred[2]))	  
+        ind=pred_true_text_ind_prevPred[3]
+        prevPred=pred_true_text_ind_prevPred[4]				
+        combined_nps.append([pred, true, compactText.split(' '), ind, prevPred])'''
+		
+      #outlier_pred_true_text_ind_prevPreds, non_outlier_pred_true_text_ind_prevPreds, avgItemsInCluster, maxPredLabel, all_pred_clusters=self.removeOutlierConnectedComponentLexicalIndex(combined_nps, batchDocs, initMaxPredLabel)
+
+      self.populateClusterMetadata(non_outlier_pred_true_text_ind_prevPreds)
+
+      flat_outs, maxPredLabel=self.assignOutlierToClusterByKeyTerms(outlier_pred_true_text_ind_prevPreds, maxPredLabel, batchDocs)
+      #flat_outs=self.customGibbsSampling(flat_outs, documentSet, wordVectorsDic)	  
+
+      #combined=non_outlier_pred_true_text_ind_prevPreds+flat_outs	  
+
+      appendResultFile(non_outlier_pred_true_text_ind_prevPreds, 'result/mstr-enh')
+      appendResultFile(flat_outs, 'result/mstr-enh') 	  
+      #self.populateNonOutliersAfterAssign(non_outlier_pred_true_text_ind_prevPreds)	    
+      #print("Evaluate-enhance", self.batchNum)	  
+      #Evaluate(non_outlier_pred_true_text_ind_prevPreds+flat_outs)
+
+
+    def detectOutlierAndEnhanceByEmbeddingSimProduct_Employee_old(self, documentSet, skStopWords, wordVectorsDic):
       batchDocs, pred_true_text_inds, maxPredLabel, pred_true_npText_inds=self.populateBatchDocs_wordArr(skStopWords, documentSet)	
       initMaxPredLabel=maxPredLabel
       print("------")  
@@ -1294,14 +1459,14 @@ class Model:
 
       
       outlier_pred_true_text_ind_prevPreds, non_outlier_pred_true_text_ind_prevPreds, avgItemsInCluster, maxPredLabel, all_pred_clusters=self.removeOutlierConnectedComponentLexicalIndex(pred_true_npText_inds, batchDocs, initMaxPredLabel)
-      Evaluate(non_outlier_pred_true_text_ind_prevPreds)
+      #Evaluate(non_outlier_pred_true_text_ind_prevPreds)
       #print_by_group(non_outlier_pred_true_text_ind_prevPreds)
-      #print("###")	  
+      print("###")	  
       #print_by_group(outlier_pred_true_text_ind_prevPreds)	
 
-      self.populateClusterMetadata(outlier_pred_true_text_ind_prevPreds)
+      self.populateClusterMetadata(non_outlier_pred_true_text_ind_prevPreds)
 
-      #self.assignOutlierToClusterByKeyTerms(flat_outs)
+      flat_outs, maxPredLabel=self.assignOutlierToClusterByKeyTerms(outlier_pred_true_text_ind_prevPreds, maxPredLabel, batchDocs)
       #flat_outs=self.customGibbsSampling(outlier_pred_true_text_ind_prevPreds, documentSet, wordVectorsDic)
 
       	  
@@ -1338,10 +1503,10 @@ class Model:
         print("batch", self.batchNum,"time diff secs-assign outlier=",t_diff.seconds)		
         appendResultFile(flat_outs, 'result/mstr-enh')
         #self.populateOutliersAfterAssign(flat_outs)		
-        self.flat_outs.clear() 		
+        self.flat_outs.clear()''' 		
 
-      appendResultFile(non_outlier_pred_true_text_ind_prevPreds, 'result/mstr-enh')
-      #self.populateNonOutliersAfterAssign(non_outlier_pred_true_text_ind_prevPreds)'''	    
+      appendResultFile(non_outlier_pred_true_text_ind_prevPreds+flat_outs, 'result/mstr-enh')
+      #self.populateNonOutliersAfterAssign(non_outlier_pred_true_text_ind_prevPreds)	    
       #print("Evaluate-enhance", self.batchNum)	  
       #Evaluate(non_outlier_pred_true_text_ind_prevPreds+flat_outs)	  
       		  
@@ -1353,11 +1518,13 @@ class Model:
 
       print("outlier="+str(len(outlier_pred_true_text_ind_prevPreds))+", non-outlier="+str(len(non_outlier_pred_true_text_ind_prevPreds))+",=maxPredLabel="+str(maxPredLabel))
 
-      t11=datetime.now()
+      '''t11=datetime.now()
       non_outlier_pred_true_text_ind_prevPreds=RemoveHighClusterEntropyWordsIndex(non_outlier_pred_true_text_ind_prevPreds)
       t12=datetime.now()	  
       t_diff = t12-t11
-      print("batch", self.batchNum,"time diff secs-remove high entropy word=",t_diff.seconds)
+      print("batch", self.batchNum,"time diff secs-remove high entropy word=",t_diff.seconds)'''
+	  
+      self.populateClusterMetadata(non_outlier_pred_true_text_ind_prevPreds)	  
 
       self.populateOutliers(outlier_pred_true_text_ind_prevPreds)
       self.populateNonOutliers(non_outlier_pred_true_text_ind_prevPreds)
@@ -1371,7 +1538,7 @@ class Model:
 
       if self.batchNum>0:
         t11=datetime.now()
-        flat_outs=self.customGibbsSampling(flat_outs, documentSet, wordVectorsDic)
+        #flat_outs=self.customGibbsSampling(flat_outs, documentSet, wordVectorsDic)
         t12=datetime.now()	  
         t_diff = t12-t11
         print("batch", self.batchNum,"time diff secs-customGibbsSampling=",t_diff.seconds)    
@@ -1561,8 +1728,8 @@ class Model:
       t_diff = t12-t11
       print("batch", self.batchNum,"time diff secs-kdd-gibbsSampling=",t_diff.seconds)	   			
             			
-      self.detectOutlierAndEnhanceByEmbeddingSimProduct_Employee(documentSet, skStopWords, wordVectorsDic) 			
-      #self.detectOutlierAndEnhanceByEmbeddingSimProduct_ACL(documentSet, skStopWords, wordVectorsDic)	
+      #self.detectOutlierAndEnhanceByEmbeddingSimProduct_Employee(documentSet, skStopWords, wordVectorsDic) 			
+      self.detectOutlierAndEnhanceByEmbeddingSimProduct_ACL(documentSet, skStopWords, wordVectorsDic)	
       #self.detectOutlierForgetEnhanceByEmbeddingSimProduct_ACL(documentSet, skStopWords, wordVectorsDic)
 
             	
@@ -1605,8 +1772,8 @@ class Model:
         self.flat_outs=[]
         #self.docsPerCluster_outlier_afterAssign={}		
         #self.docsPerCluster_nonoutlier_afterAssign={}
-        self.metadata_docsPerCluster={} #may be we do not need it later
-        self.metadata_word_freq_perCluster={}
+        #self.metadata_docsPerCluster={} #may be we do not need it later
+        #self.metadata_cluster_to_wordfreqs={}
         self.metadata_word_to_clusteFreqs={} 	  		
         #self.dic_ClusterGroups={} #dicWords and totalWCount for lexical similarity		
         #self.batchPerDocProbList={} #calculate the probability at runtime, not store the probs		
@@ -1641,8 +1808,8 @@ class Model:
         t2=datetime.now()
         t_diff = t2-t1
         print("time diff secs=",t_diff.seconds)
-        #listtuple_pred_true_text=ReadPredTrueText('result/mstr-enh')
-        #Evaluate(listtuple_pred_true_text)
+        listtuple_pred_true_text=ReadPredTrueText('result/mstr-enh')
+        Evaluate(listtuple_pred_true_text)
      
         listtuple_pred_true_text=ReadPredTrueText('result/NewsPredTueTextMStream_WordArr.txt')
         Evaluate(listtuple_pred_true_text)
@@ -2030,6 +2197,9 @@ class Model:
                 valueOfRule2 *= (self.beta + j) / (self.beta0 + i)
                 i += 1
         prob[self.K] *= valueOfRule2
+        #rakib
+        		
+        		
         #rakib		
         '''if self.batchNum>1 and (self.batchNum%4==0)==0:
           for i in range(len(prob)):

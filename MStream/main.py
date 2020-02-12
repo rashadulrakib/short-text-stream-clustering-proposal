@@ -16,9 +16,9 @@ from word_vec_extractor import extractAllWordVecs
 dataDir = "data/"
 outputPath = "result/"
 
-#dataset = "Tweets"
+dataset = "Tweets"
 #dataset = "Tweets-T"
-dataset = "News"
+#dataset = "News"
 #dataset = "News-T"
 #dataset="Stackoverflow-mstream"
 #dataset="NTS-mstream"
@@ -29,7 +29,7 @@ MaxBatch = 2 # The number of saved batches + 1
 AllBatchNum = 16 # The number of batches you want to devided the dataset to
 alpha = 0.03
 beta = 0.03
-iterNum = 5
+iterNum = 6
 sampleNum = 1
 wordsInTopicNum = 5
 K = 0 
@@ -37,7 +37,7 @@ K = 0
 gloveFile = "/home/owner/PhD/dr.norbert/dataset/shorttext/glove.42B.300d/glove.42B.300d.txt"
 
 wordVectorsDic={}
-#wordVectorsDic = extractAllWordVecs(gloveFile, 300)
+wordVectorsDic = extractAllWordVecs(gloveFile, 300)
 
 def runMStreamF(K, MaxBatch, AllBatchNum, alpha, beta, iterNum, sampleNum, dataset, timefil, wordsInTopicNum):
     mstream = MStream(K, MaxBatch, AllBatchNum, alpha, beta, iterNum, sampleNum, dataset, timefil, wordsInTopicNum)
